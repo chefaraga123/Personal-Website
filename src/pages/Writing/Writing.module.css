@@ -1,0 +1,15 @@
+.writingContainer {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+}
