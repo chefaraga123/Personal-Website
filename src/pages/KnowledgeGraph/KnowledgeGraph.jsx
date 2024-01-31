@@ -1,19 +1,42 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
+import { ForceGraph2D } from 'react-force-graph';
 import styles from './KnowledgeGraph.module.css';
-// If using D3, import it
-// import * as d3 from 'd3';
+import Navigation from '../../components/Navigation/Navigation';
 
 const KnowledgeGraph = () => {
-    const graphContainer = useRef(null);
+    const [graphData, setGraphData] = useState({ nodes: [], links: [] });
 
     useEffect(() => {
-        // This is where you will use D3.js or another library to render the graph
-        // using the graphContainer ref as the anchor point in the DOM.
-    }, []);
+      // Fetch the graph data from the 'public' directory
+      fetch('/graph-data.json')
+        .then(response => response.json())
+        .then(data => {
+          // Set the graph data to state
+          setGraphData(data);
+        })
+        .catch(error => {
+          // Handle any errors in fetching or parsing the data
+          console.error('Error fetching graph data:', error);
+        });
+    }, []); // The empty dependency array ensures this effect runs only once after the initial render
+  
+    
+    // Create a ref to the container div
+    const graphContainer = useRef(null);
+
 
     return (
         <div className={styles.graphContainer} ref={graphContainer}>
-            {/* The graph will be rendered inside this container */}
+            <Navigation />
+
+            <ForceGraph2D
+                graphData={graphData}
+                nodeLabel="name"
+                nodeAutoColorBy="group"
+                linkDirectionalParticles="value"
+                linkDirectionalParticleWidth={link => Math.sqrt(link.value)}
+            />
+
         </div>
     );
 };
