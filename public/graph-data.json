@@ -1,15 +1,33 @@
 {
     "nodes": [
-      { "id": "1", "label": "Node 1", "group": 1 },
-      { "id": "2", "label": "Node 2", "group": 1 },
-      { "id": "3", "label": "Node 3", "group": 2 },
-      { "id": "4", "label": "Node 4", "group": 2 }
+        { "id": "1", "label": "Daily Routine", "group": 1, "url": "/notes/daily-routine.md" },
+        { "id": "2", "label": "Exercise", "group": 1, "url": "/notes/exercise.md" },
+      { "id": "3", "label": "Meditation", "group": 1 },
+      { "id": "4", "label": "Work", "group": 2 },
+      { "id": "5", "label": "Project A", "group": 2 },
+      { "id": "6", "label": "Project B", "group": 2 },
+      { "id": "7", "label": "Reading", "group": 3 },
+      { "id": "8", "label": "Fiction Books", "group": 3 },
+      { "id": "9", "label": "Non-Fiction Books", "group": 3 },
+      { "id": "10", "label": "Learning", "group": 4 },
+      { "id": "11", "label": "Languages", "group": 4 },
+      { "id": "12", "label": "Programming", "group": 4 }
     ],
     "links": [
       { "source": "1", "target": "2" },
-      { "source": "2", "target": "3" },
-      { "source": "3", "target": "4" },
-      { "source": "4", "target": "1" }
+      { "source": "1", "target": "3" },
+      { "source": "1", "target": "4" },
+      { "source": "4", "target": "5" },
+      { "source": "4", "target": "6" },
+      { "source": "7", "target": "8" },
+      { "source": "7", "target": "9" },
+      { "source": "10", "target": "11" },
+      { "source": "10", "target": "12" },
+      { "source": "2", "target": "10" },
+      { "source": "3", "target": "10" },
+      { "source": "11", "target": "12" },
+      { "source": "5", "target": "6" },
+      { "source": "8", "target": "9" }
     ]
   }
   

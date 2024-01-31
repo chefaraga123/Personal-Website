@@ -21,6 +21,16 @@ const KnowledgeGraph = () => {
     }, []); // The empty dependency array ensures this effect runs only once after the initial render
   
     
+    const handleNodeClick = (node) => {
+        // Assuming each node has a URL property
+        const url = node.url;
+        if (url) {
+        // If you're using React Router, you might use history.push(url)
+        window.location.href = url; // Or open the URL in a new tab with window.open(url, '_blank');
+        }
+    };
+
+    
     // Create a ref to the container div
     const graphContainer = useRef(null);
 
@@ -35,8 +45,8 @@ const KnowledgeGraph = () => {
                 nodeAutoColorBy="group"
                 linkDirectionalParticles="value"
                 linkDirectionalParticleWidth={link => Math.sqrt(link.value)}
+                onNodeClick={handleNodeClick}
             />
-
         </div>
     );
 };
