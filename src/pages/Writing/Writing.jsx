@@ -9,7 +9,7 @@ const Writing = () => {
 
     useEffect(() => {
         // Construct the URL to the Markdown file based on the articleId
-        const articleUrl = `/poop/pappoooy/articles/Urbanisation_Of_Virtual_worlds.md`;
+        const articleUrl = `/Personal-Website/articles/Urbanisation_Of_Virtual_worlds.md`;
 
         // Fetch the Markdown content
         fetch(articleUrl)
