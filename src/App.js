@@ -4,6 +4,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Writing from './pages/Writing/Writing';
 import KnowledgeGraph from './pages/KnowledgeGraph/KnowledgeGraph';
+import NoteViewer from './components/NoteViewer/NoteViewer';
 
 const App = () => {
   return (
@@ -13,6 +14,11 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/writing" element={<Writing />} /> 
         <Route path="/knowledge-graph" element={<KnowledgeGraph />} />
+        
+        <Route path="/notes/:noteId" render={({ match }) => (
+          <NoteViewer noteId={match.params.noteId} />
+        )} />
+        
       </Routes>
     </Router>
   );
