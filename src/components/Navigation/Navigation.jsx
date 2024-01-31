@@ -8,6 +8,7 @@ const Navigation = () => {
             <Link to="/" className={styles.navLink}>Home</Link>
             <Link to="/about" className={styles.navLink}>About</Link>
             <Link to="/writing" className={styles.navLink}>Writing</Link>
+            <Link to="/knowledge-graph" className={styles.navLink}>Knowledge Graph</Link>
         </div>
     );
 };
