@@ -1,7 +1,9 @@
 .navigationContainer {
     text-align: center;
     margin-top: 20px;
+
 }
+
 
 .navLink {
     display: inline-block;
@@ -9,10 +11,12 @@
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50px;
     transition: background-color 0.3s;
+    margin-right: 10px; /* Add space between the buttons */
+
 }
 
 .navLink:hover {
-    background-color: #0056b3;
+    background-color: #f700ff;
 }
