@@ -1,0 +1,19 @@
+/* Dropdown.css */
+.dropdown {
+    padding: 100px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .dropdown:focus {
+    outline: none;
+    border-color: #3a1421;
+  }
+  
+  .dropdown option {
+    padding: 10px;
+  }
+  

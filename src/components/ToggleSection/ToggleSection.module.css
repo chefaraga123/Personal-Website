@@ -1,0 +1,16 @@
+/* ToggleSection.css */
+.toggle-button {
+  padding: 10000px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background-color: #941616;
+  border: 1px solid #771717;
+  border-radius: 4px;
+}
+
+.content {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}

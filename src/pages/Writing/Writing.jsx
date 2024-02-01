@@ -2,7 +2,6 @@ import React, { useEffect, useState, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
 import styles from './Writing.module.css';
 import Navigation from '../../components/Navigation/Navigation';
-import Article from '../../components/Article/Article';
 
 const Writing = () => {
     const [articleContent, setArticleContent] = useState('');
@@ -58,10 +57,17 @@ const Writing = () => {
         <div className={styles.writingContainer}>
             <Navigation />
             <h1>My Writings</h1>
-            <p>Here you'll find my latest articles, essays, and musings on various topics.</p>
+            <p>I like writing about history, philosophy, economics, gaming, politics, systems theory and more</p>
             {/* Add more content and structure as needed */}
-            <ReactMarkdown>{articleContent}</ReactMarkdown> {/* Render the Markdown content */}
-            <ReactMarkdown>{articleContent2}</ReactMarkdown> {/* Render the Markdown content */}
+            <div className={styles.article}>
+                <h2>Test 1</h2>
+                <ReactMarkdown>{articleContent}</ReactMarkdown>
+            </div>
+
+            <div className={styles.article}>
+                <h2>Test 2</h2>
+                <ReactMarkdown>{articleContent2}</ReactMarkdown>
+            </div>
 
         </div>
     );
