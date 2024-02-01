@@ -27,10 +27,13 @@ const Books = () => {
             <h3>Video Games</h3>
             <li><strong>One Up: Global Business of the Games Industry</strong> by Joost Van Dreunen</li>
             <li><strong>Blood Sweat and Pixels</strong> by Jason Schreier</li>
-            <li><strong>Pyramid of Games Design</strong> by </li>
+            <li><strong>Pyramid of Games Design</strong> by Nicholas Lovell</li>
+            <li><strong>Hooked: How to build habit forming products</strong> by Nir Eyal</li>
 
             <h3>Entrepreneurship & Management</h3>
             <li><strong>The Lean Startup</strong> by Eric Ries</li>
+            <li><strong>Only the Paranoid Survive</strong> by Andrew Grove</li>
+            <li><strong>High Output Management</strong> by Andrew Grove</li>
 
 
             <h3>Economics</h3>
@@ -46,6 +49,14 @@ const Books = () => {
             <li><strong>The Great Illusion</strong> by Norman Angell</li>
             <li><strong>The Concept of the Political </strong> by Carl Schmitt</li>
             <li><strong>Land and Sea </strong> by Carl Schmitt</li>
+            <li><strong>Political Order and Political Decay </strong> by Francis Fukuyama</li>
+            <li><strong>The Blunders of our government </strong> by Ivor Crew, Anthony King</li>
+
+
+            <h3>Law</h3>
+            <li><strong>Rule of Law</strong> by Tom Bingham</li>
+            <li><strong>Legal systems very different from ours</strong> by David Friedman</li>
+            <li><strong>Blockchain and the Law: Rule of Code</strong> by Primavera De Filippi, Aaron Wright</li>
 
 
             <h3>Psychology</h3>
@@ -88,6 +99,7 @@ const Books = () => {
 
             <h3>Fiction</h3>
             <li><strong>Foundation</strong> by Isaac Asimov</li>
+            <li><strong>The Master and Margarita</strong> by Mikhail Bulgakov</li>
 
 
 
