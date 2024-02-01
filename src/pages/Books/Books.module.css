@@ -1,0 +1,13 @@
+/* Books.module.css */
+.bookslist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .book {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
