@@ -6,6 +6,7 @@ import Article from '../../components/Article/Article';
 
 const Writing = () => {
     const [articleContent, setArticleContent] = useState('');
+    const [articleContent2, setArticleContent2] = useState('');
 
     useEffect(() => {
         // Construct the URL to the Markdown file based on the articleId
@@ -29,6 +30,30 @@ const Writing = () => {
         });
     }); // Dependency array to re-run the effect if articleId changes
 
+
+    useEffect(() => {
+        // Construct the URL to the Markdown file based on the articleId
+        const articleUrl = `/Personal-Website/articles/test2.md`;
+
+        // Fetch the Markdown content
+        fetch(articleUrl)
+        .then(response => {
+            if (!response.ok) {
+            throw new Error(`Could not fetch article: ${response.statusText}`);
+            }
+            return response.text();
+        })
+        .then(text => {
+            // Set the fetched content to state
+            setArticleContent2(text);
+        })
+        .catch(error => {
+            console.error(error);
+            setArticleContent2('Error loading article.');
+        });
+    }); // Dependency array to re-run the effect if articleId changes
+
+
     return (
         <div className={styles.writingContainer}>
             <Navigation />
@@ -36,6 +61,7 @@ const Writing = () => {
             <p>Here you'll find my latest articles, essays, and musings on various topics.</p>
             {/* Add more content and structure as needed */}
             <ReactMarkdown>{articleContent}</ReactMarkdown> {/* Render the Markdown content */}
+            <ReactMarkdown>{articleContent2}</ReactMarkdown> {/* Render the Markdown content */}
 
         </div>
     );
