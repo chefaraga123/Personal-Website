@@ -8,7 +8,7 @@ const KnowledgeGraph = () => {
 
     useEffect(() => {
       // Fetch the graph data from the 'public' directory
-      fetch('/Personal-Website/graph-dummy-data.json')
+      fetch('/Personal-Website/obsidianGraph.json')
         .then(response => response.json())
         .then(data => {
           // Set the graph data to state
