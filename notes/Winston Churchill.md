@@ -1,0 +1,7 @@
+- Lived 1874 - 1965 
+- President of the Board of Trade in 1906, as part of the Liberal government
+- First Lord of the Admiralty
+- Prime Minister twice
+	- 1940 - 1945
+	- 1951 - 1955
+- Coined terms like "the special relationship", "the iron curtain "
