@@ -29,29 +29,18 @@ files.forEach(file => {
 
   // Add the current file as a node
   nodes.push({ 
+    "id": noteTitle,
     "label": noteTitle ,
     "group": 1,
-    "url": file
+    "url": `notes/${file}`
     });
 
-/**
- *       {
-        "id": "7",
-        "label": "Emergence",
-        "group": 1,
-        "url": "notes/Emergence.md"
-      },
-
-            { "source": "1", "target": "2" },
-
- */
-
-
   // Add links as edges
-  links.forEach(noteTitle => {
-    const targetId = files.find(f => f.startsWith(noteTitle));
-    if (targetId) {
-      edges.push({ source: noteTitle, target: path.basename(targetId, '.md') });
+  links.forEach(linkTitle => {
+    const targetFile = files.find(f => f.startsWith(linkTitle));
+    if (targetFile) {
+        const targetId = path.basename(targetFile, '.md');
+        edges.push({ source: noteTitle, target: path.basename(targetId, '.md') });
     }
   });
 });

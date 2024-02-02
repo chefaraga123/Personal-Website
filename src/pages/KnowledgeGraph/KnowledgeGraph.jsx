@@ -5,6 +5,8 @@ import Navigation from '../../components/Navigation/Navigation';
 
 const KnowledgeGraph = () => {
     const [graphData, setGraphData] = useState({ nodes: [], links: [] });
+    const [showLabels, setShowLabels] = useState(true); // State to track label visibility
+
 
     useEffect(() => {
       // Fetch the graph data from the 'public' directory
@@ -54,9 +56,16 @@ const KnowledgeGraph = () => {
         ctx.arc(node.x, node.y, 5, 0, 2 * Math.PI, false); // Draw a circle for the node
         ctx.fill();
         ctx.fillStyle = 'black'; // Label color
-        ctx.fillText(label, node.x, node.y + 15); // Position label below the node
+        if (showLabels) {
+          ctx.fillText(label, node.x, node.y + 15); // Position label below the node
+        }
       };
 
+    // Handler to toggle labels on and off
+    const toggleLabels = () => {
+      setShowLabels(!showLabels);
+    };
+      
     // Create a ref to the container div
     const graphContainer = useRef(null);
 
@@ -64,7 +73,7 @@ const KnowledgeGraph = () => {
     return (
         <div className={styles.graphContainer} ref={graphContainer}>
             <Navigation />
-
+            <button onClick={toggleLabels}>{showLabels ? 'Hide Labels' : 'Show Labels'}</button>
             <ForceGraph2D
                 graphData={graphData}
                 nodeLabel="name"
@@ -72,10 +81,8 @@ const KnowledgeGraph = () => {
                 linkDirectionalParticles="value"
                 linkDirectionalParticleWidth={link => Math.sqrt(link.value)}
                 onNodeClick={handleNodeClick}
-                //onZoom={handleZoom}
-                //zoom={zoomLevel}
                 nodeCanvasObject={renderNode}
-
+                nodeCanvasObjectMode={() => 'before'}
             />
         </div>
     );
