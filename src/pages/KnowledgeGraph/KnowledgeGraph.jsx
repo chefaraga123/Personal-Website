@@ -22,12 +22,15 @@ const KnowledgeGraph = () => {
   
     
     const handleNodeClick = (node) => {
-        // Assuming each node has a URL property
-        const url = node.url;
-        if (url) {
+      const baseURL = process.env.NODE_ENV === 'development'
+        ? 'http://localhost:3000/personal-website/'
+        : process.env.PUBLIC_URL;
+  
+        const notePath = node.url;
+        const fullPath = `${baseURL}${notePath}`;
+          
         // If you're using React Router, you might use history.push(url)
-        window.location.href = url; // Or open the URL in a new tab with window.open(url, '_blank');
-        }
+        window.location.href = fullPath; // Or open the URL in a new tab with window.open(url, '_blank');
     };
 
     /*
