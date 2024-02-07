@@ -73,7 +73,7 @@ const KnowledgeGraph = () => {
     return (
         <div className={styles.graphContainer} ref={graphContainer}>
             <Navigation />
-            <button onClick={toggleLabels}>{showLabels ? 'Hide Labels' : 'Show Labels'}</button>
+            <button style={styles.button} onClick={toggleLabels}>{showLabels ? 'Hide Labels' : 'Show Labels'}</button>
             <ForceGraph2D
                 graphData={graphData}
                 nodeLabel="name"

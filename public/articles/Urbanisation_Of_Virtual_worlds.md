@@ -1,10 +1,12 @@
-Introduction
+# The Urbanisation of Virtual Worlds
+
+## Introduction
 ‘True ownership’ and property rights are oft-referenced by Web3-evangelists as the cornerstone motivation for Web3. Web3 is touted as a system of enforceable property rights for digital assets. There are a couple of major issues with this framing: first property rights are a legal, not a technical, construct and even if one does have ‘true ownership’ how that differs from a mode of faux-ownership inherent to digital assets from the Before Crypto Era (BCE) is rarely usefully elucidated. 
 
 To be clear, I do think that the analogy of property rights does work! Those in Web3 are right to be excited about the idea of digitally-native property rights! Property rights are the transformational event for social organisation. Secure property rights & rule of law are core drivers of economic development and prosperity (a broadly ubiquitous perspective amongst development economists). Web3 provides a foundation for the emergence of a higher order of sophistication in games and virtual worlds. 
 
 My intention with this article is to use ideas from economics, sociology, law and systems theory to argue why and how Web3 represents a huge development for games and virtual worlds.
-Section 1: Social Organisation & Property Rights 
+## Section 1: Social Organisation & Property Rights 
 Urbanisation is the movement from agrarian to city-living. From the comparative analysis of agrarian vs city-living emerges a picture of the relationship between property rights and social organisation. 
 
 Let's call agrarian-living, community-living. In a community everyone knows each other (or at least has an idea of each other), everyone knows each other’s reputation: you have the village idiot and the priest, the butcher, the baker etc… In a city it's impossible for everyone to know each other. 
@@ -18,7 +20,7 @@ At their crux, property relies on recognition and enforcement. How property is r
 The scale of the city relies on this institution of impersonal property rights. Property is recognised by a broader ‘rule of law’ legal system, if property is stolen or damaged, enforcers (police, military) are obliged to try and  make whole the victim and sanction the culprit. In the knowledge that my rights should be enforced I can be secure in making investments and expect to benefit from any upside; I can go on holiday and expect my house to still be mine when I come back; I can lend my unused items and expect to be paid back. Property rights empower positive-sum coordination.
 
 To recap, property rights facilitate scaling coordination and for mankind property rights mean functional cities. Well, I wonder what the impact of digitally-native property rights are for virtual worlds. 
-Section 2: What Rule of Law Means for Virtual Worlds 
+## Section 2: What Rule of Law Means for Virtual Worlds 
 When thinking about property rights and the rule of law in the virtual world, we need to reflect on how law is applied to a virtual world, and what virtual property is. 
 
 Virtual worlds are embedded in the real world, and consequently inherit properties of real-world law. However these virtual worlds are for the most part microcosms of dictatorship and Rule by Law. 
@@ -30,7 +32,7 @@ The platform provider may be responsible for ensuring the good behaviour of mill
 EULAs are agreements between users and the virtual world operators, between the inhabitants and the government of the virtual world. The limitation of the EULA is that inhabitants have no legal code to rely on for disputes that are purely between each other, they can’t rely on the EULA due to the property of the privity of contract. 
 
 To Recap, EULAs are contracts between the operators of virtual worlds and users. This means that virtual worlds have a different legal framework to the real-world. 
-Section 3: Exploring virtual law: EVE Online, Second Life,  
+## Section 3: Exploring virtual law: EVE Online, Second Life,  
 The legal code of a virtual land is bound up in its EULA & Terms of Services, breaking the legal code comes at risk of temporary or permanent banishment, or even real-world consequences depending on the severity of the transgression.
  
 CCP Games, the operator and developer of EVE online, is quite explicit in its legal definition of its users as virtual serfs. 
@@ -62,7 +64,7 @@ Second Life is positioning their platform to interoperate the real-world of inte
 
 To recap, the biggest MMOs heavily limit their users’ rights over their items, and are motivated by the need to coexist with the law of the real world, however in spite of this users still form relatively sophisticated virtual communities. In Web2 games, enduring communities are the exception, not the rule. 
 
-Section 4: Property Rights in Web3 
+## Section 4: Property Rights in Web3 
 Blockchain is the cornerstone of digitally native property rights. The importance of blockchain and Web3 for the formation of digital societies is how  blockchain, like rule of law, systematically generates certainty. When a transaction is made the updated state is canon to that blockchain. When a legal decision is made the outcome is established as definitive and binding.  
 
 For a game provider, the power of being able to use blockchain  in an application is that asset-issuance necessarily means the creation of a digital good with a game-independent existence (even if it has limited functionality outside of the game). This digital good is controlled by the user who has an identity independent of individual applications.
@@ -75,7 +77,7 @@ The ability to permissionlessly use tokens in various applications means that us
 
 To Recap, blockchain serves a role in the virtual world that is functionally equivalent to the role played by law in the real world. Tokens and self-custody are new, functionally legal, primitives which changes the relationship between the users and the developer. 
 
-Section 5: Web3 means more sophisticated virtual institutions 
+## Section 5: Web3 means more sophisticated virtual institutions 
 The earlier discussion of the opposition between villages and cities, communities and societies, doesn’t map obviously to the virtual world. For one, virtual worlds have no intrinsic geographic constraints. However like the real-world, virtual worlds are composed of social networks, and coordination is primarily conducted on the basis of reputation rather than on some more impersonal basis 
 
 Recapping on section 1, Institutions are structures of rules and norms that affect behaviour. Property rights and rule of law facilitate the emergence of “impersonal institutions”, which predictably facilitate certain types of behaviour. The parallel between the functional role of Web3 technology in the virtual world and rule of law in the real world suggests that Web3 is the unlock to a similar shift in the scale of coordination. 
@@ -94,7 +96,7 @@ Within Web2, mod development faces significant challenges and disincentives. Spe
 
 To Recap, Smart Contracts facilitate the emergence of virtual institutions. Composability allows users to coordinate in interesting ways outside of the core game. The value of Web3 accrues most directly to modders and creators, those who add the most value to the ecosystem. 
 
-Conclusion: 
+## Conclusion: 
 Through this article it should be clear:
 Rule of law and property rights have historically been foundational for sophisticated social structures and institutions 
 Rule of law doesn’t currently exist in the virtual world (how and why)

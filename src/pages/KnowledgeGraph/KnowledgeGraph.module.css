@@ -4,3 +4,23 @@
     background-color: #f9f9f9; /* Just to visualize the container */
     /* Additional styles for your graph container */
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    background-color: #00408f;
+  }
+  
