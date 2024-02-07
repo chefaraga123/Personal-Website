@@ -5,7 +5,7 @@ import Navigation from '../../components/Navigation/Navigation';
 import MarkdownComponent from '../../components/MarkdownComponent/MarkdownComponent';
 
 const Writing = () => {
-  const markdownFiles = ["articles/Urbanisation_Of_Virtual_worlds.md", "articles/test2.md"]
+  const markdownFiles = ["Urbanisation_Of_Virtual_worlds.md", "test2.md"]
 
     return (
         <div className={styles.writingContainer}>
