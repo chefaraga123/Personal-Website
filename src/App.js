@@ -11,7 +11,6 @@ import KnowledgeGraph from './pages/KnowledgeGraph/KnowledgeGraph';
 
 /*Components*/
 import NoteViewer from './components/NoteViewer/NoteViewer';
-import Article from './components/Article/Article'
 
 const App = () => {
   return (
