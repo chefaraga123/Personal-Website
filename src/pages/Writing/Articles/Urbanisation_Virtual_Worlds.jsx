@@ -6,7 +6,7 @@ const Urbanisation = () => {
     return (
         <div>
             <Navigation />
-            <MarkdownComponent filePath={"/personal-website/articles/Urbanisation_Of_Virtual_worlds.md"} />
+            <MarkdownComponent filePath={"/Personal-Website/articles/Urbanisation_Of_Virtual_worlds.md"} />
         </div>
     );
 

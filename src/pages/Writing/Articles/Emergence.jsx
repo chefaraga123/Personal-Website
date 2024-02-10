@@ -6,7 +6,7 @@ const Emergence = () => {
     return (
         <div>
             <Navigation />
-            <MarkdownComponent filePath={"/personal-website/articles/Emergence.md"} />
+            <MarkdownComponent filePath={"/Personal-Website/articles/Emergence.md"} />
         </div>
     );
 
