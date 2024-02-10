@@ -26,7 +26,9 @@ const Writing = () => {
       id: 'section3',
       title: 'An Application of Zks in Gaming',
       date: '  | 14/02/2024',
-      url: "/articles/Introduction_Zks_Gaming.md"
+      url: "/Personal-Website/writing/introduction-zks-gaming",
+      markdownUrl: "/Personal-Website/articles/Introduction_Zks_Gaming.md"
+
     },
     {
       id: 'section4',

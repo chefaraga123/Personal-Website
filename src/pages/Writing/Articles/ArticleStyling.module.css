@@ -1,0 +1,27 @@
+/* MarkdownComponent.module.css */
+
+.markdownContainer {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 100px;
+  }
+  
+  .markdownContent {
+    /* Styles for Markdown content */
+  }
+  
+  .paragraph {
+    /* Styles for paragraphs */
+  }
+  
+  .heading1 {
+    /* Styles for heading level 1 */
+  }
+  
+  .heading2 {
+    /* Styles for heading level 2 */
+  }
+  
+  /* Add more styles as needed */
+  

@@ -25,7 +25,7 @@ const KnowledgeGraph = () => {
     
     const handleNodeClick = (node) => {
       const baseURL = process.env.NODE_ENV === 'development'
-        ? 'http://localhost:3000/personal-website/'
+        ? 'http://localhost:3000/Personal-Website/'
         : process.env.PUBLIC_URL;
   
         const notePath = node.url;
