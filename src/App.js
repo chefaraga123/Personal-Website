@@ -9,6 +9,10 @@ import Writing from './pages/Writing/Writing';
 import Books from './pages/Books/Books';
 import KnowledgeGraph from './pages/KnowledgeGraph/KnowledgeGraph';
 
+/*Pages: Articles */
+import Emergence from './pages/Writing/Articles/Emergence';
+import Urbanisation from './pages/Writing/Articles/Urbanisation_Virtual_Worlds';
+
 /*Components*/
 import NoteViewer from './components/NoteViewer/NoteViewer';
 
@@ -19,6 +23,10 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/writing" element={<Writing />} /> 
+        <Route path="/writing/emergence" element={<Emergence />} />
+        <Route path="/writing/Urbanisation-Virtual-Worlds" element={<Urbanisation />} />
+
+
         <Route path="/Books" element={<Books />} />
         <Route path="/knowledge-graph" element={<KnowledgeGraph />} />
         <Route path="/notes/:noteId" render={({ match }) => (

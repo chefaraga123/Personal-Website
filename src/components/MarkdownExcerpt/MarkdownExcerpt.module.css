@@ -1,0 +1,20 @@
+/* MarkdownExcerpt.module.css */
+
+.anchorContainer {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    display: block; /* Ensure the anchor tag behaves as a block element */
+  }
+
+.excerptContainer {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #8dbdf1;
+    margin-bottom: 20px; /* Add margin bottom to create gap */
+    border-radius: 10px; /* Add border radius for rounded edges */
+
+  }
+  

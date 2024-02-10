@@ -3,28 +3,30 @@ import styles from './Writing.module.css';
 import Navigation from '../../components/Navigation/Navigation';
 import MarkdownComponent from '../../components/MarkdownComponent/MarkdownComponent';
 import ContentsComponent from '../../components/Contents/Contents';
+import MarkdownExcerpt from '../../components/MarkdownExcerpt/MarkdownExcerpt';
 
 const Writing = () => {
-  const markdownFiles = [
-    "articles/Urbanisation_Of_Virtual_worlds.md",
-    "articles/Emergence.md",
-    "articles/Introduction_Zks_Gaming.md"]
-
   const sections = [
     {
       id: 'section1',
-      title: 'The Urbanisation of Virtual Worlds',
-      date: '  | 23/01/2024'
-    },
-    {
-      id: 'section2',
-      title: 'The Guide to Understanding Emergence',
-      date: '  | 07/02/2024'
+      title: 'The Definitive Introduction to Emergence',
+      date: '  | 07/02/2024',
+      url: "/personal-website/writing/Emergence",
+      markdownUrl: "/personal-website/articles/Emergence.md"
 
     },
     {
+      id: 'section2',
+      title: 'The Urbanisation of Virtual Worlds',
+      date: '  | 23/01/2024',
+      url: "/personal-website/writing/Urbanisation-Virtual-Worlds",
+      markdownUrl: "/personal-website/articles/Urbanisation_Of_Virtual_worlds.md"
+    },
+    {
       id: 'section3',
-      title: 'An Introduction to Zks in Gaming'
+      title: 'An Application of Zks in Gaming',
+      date: '  | 14/02/2024',
+      url: "/articles/Introduction_Zks_Gaming.md"
     },
     {
       id: 'section4',
@@ -37,14 +39,10 @@ const Writing = () => {
             <Navigation />
             <h1>My Writings</h1>
             <ContentsComponent sections={sections} />
-            {markdownFiles.map((filePath, index) => (
-              <div key={index}>
-                {index !== markdownFiles.length - 1 && <hr />} 
-                <MarkdownComponent filePath={filePath} />
-                {index !== markdownFiles.length - 1 && <hr />} 
 
-              </div>
-             ))}
+            {sections.map(section => (
+              <MarkdownExcerpt key={section.id} actualurl={section.url} url={section.markdownUrl}/>
+            ))}
 
             <div>
           </div>
