@@ -18,7 +18,7 @@ import NoteViewer from './components/NoteViewer/NoteViewer';
 
 const App = () => {
   return (
-    <Router basename="/personal-website">
+    <Router basename="/Personal-Website">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
