@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import styles from './MarkdownExcerpt.module.css'; // Import CSS module
 
-const MarkdownExcerpt = ({ actualurl, url, excerptLength = 200 }) => {
+const MarkdownExcerpt = ({ actualurl, url, excerptLength = 300 }) => {
   const [markdownContent, setMarkdownContent] = useState('');
 
   useEffect(() => {
