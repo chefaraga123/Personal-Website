@@ -13,6 +13,12 @@
       "url": "notes/0xParc.md"
     },
     {
+      "id": "A Hardware Description Language for R1CS",
+      "label": "A Hardware Description Language for R1CS",
+      "group": 1,
+      "url": "notes/A Hardware Description Language for R1CS.md"
+    },
+    {
       "id": "a mechanistic explanation of Ion Channels and their protein sub-units",
       "label": "a mechanistic explanation of Ion Channels and their protein sub-units",
       "group": 1,
@@ -59,6 +65,12 @@
       "label": "Adding Chakra UI",
       "group": 1,
       "url": "notes/Adding Chakra UI.md"
+    },
+    {
+      "id": "affine combinations of variables",
+      "label": "affine combinations of variables",
+      "group": 1,
+      "url": "notes/affine combinations of variables.md"
     },
     {
       "id": "Analytic Engine",
@@ -109,6 +121,12 @@
       "url": "notes/Architecture of Hardhat.md"
     },
     {
+      "id": "arithmetic circuits",
+      "label": "arithmetic circuits",
+      "group": 1,
+      "url": "notes/arithmetic circuits.md"
+    },
+    {
       "id": "Arrow Impossibility theorem",
       "label": "Arrow Impossibility theorem",
       "group": 1,
@@ -119,6 +137,12 @@
       "label": "Artifical Evolution",
       "group": 1,
       "url": "notes/Artifical Evolution.md"
+    },
+    {
+      "id": "Asymmetric Key Encryption",
+      "label": "Asymmetric Key Encryption",
+      "group": 1,
+      "url": "notes/Asymmetric Key Encryption.md"
     },
     {
       "id": "Asymptotic Stability",
@@ -181,6 +205,12 @@
       "url": "notes/Blockchain as Law.md"
     },
     {
+      "id": "boolean circuits",
+      "label": "boolean circuits",
+      "group": 1,
+      "url": "notes/boolean circuits.md"
+    },
+    {
       "id": "Boundary Maintenance",
       "label": "Boundary Maintenance",
       "group": 1,
@@ -221,6 +251,18 @@
       "label": "Charles I",
       "group": 1,
       "url": "notes/Charles I.md"
+    },
+    {
+      "id": "Chosen-plaintext attack",
+      "label": "Chosen-plaintext attack",
+      "group": 1,
+      "url": "notes/Chosen-plaintext attack.md"
+    },
+    {
+      "id": "Circom Sudoku Example",
+      "label": "Circom Sudoku Example",
+      "group": 1,
+      "url": "notes/Circom Sudoku Example.md"
     },
     {
       "id": "class based react components",
@@ -343,10 +385,28 @@
       "url": "notes/creating a script to prepare my data.md"
     },
     {
+      "id": "Creating drag and drop functionality for Web",
+      "label": "Creating drag and drop functionality for Web",
+      "group": 1,
+      "url": "notes/Creating drag and drop functionality for Web.md"
+    },
+    {
       "id": "Creationism",
       "label": "Creationism",
       "group": 1,
       "url": "notes/Creationism.md"
+    },
+    {
+      "id": "Cryptographic Proofs",
+      "label": "Cryptographic Proofs",
+      "group": 1,
+      "url": "notes/Cryptographic Proofs.md"
+    },
+    {
+      "id": "Cryptography",
+      "label": "Cryptography",
+      "group": 1,
+      "url": "notes/Cryptography.md"
     },
     {
       "id": "CSS for my first react project",
@@ -409,6 +469,12 @@
       "url": "notes/defence definition.md"
     },
     {
+      "id": "Defence Operating Model",
+      "label": "Defence Operating Model",
+      "group": 1,
+      "url": "notes/Defence Operating Model.md"
+    },
+    {
       "id": "Different ontological categories of entity & their compositional relation",
       "label": "Different ontological categories of entity & their compositional relation",
       "group": 1,
@@ -449,6 +515,18 @@
       "label": "Electronic Vacuum tubes",
       "group": 1,
       "url": "notes/Electronic Vacuum tubes.md"
+    },
+    {
+      "id": "element-wise product",
+      "label": "element-wise product",
+      "group": 1,
+      "url": "notes/element-wise product.md"
+    },
+    {
+      "id": "elliptic curve",
+      "label": "elliptic curve",
+      "group": 1,
+      "url": "notes/elliptic curve.md"
     },
     {
       "id": "Emergence",
@@ -661,6 +739,12 @@
       "url": "notes/function based react components.md"
     },
     {
+      "id": "Functional Commitment Scheme",
+      "label": "Functional Commitment Scheme",
+      "group": 1,
+      "url": "notes/Functional Commitment Scheme.md"
+    },
+    {
       "id": "Fundamentalism",
       "label": "Fundamentalism",
       "group": 1,
@@ -781,6 +865,12 @@
       "url": "notes/Hardhat for blockchain development.md"
     },
     {
+      "id": "Hardware Description Languages are very different to Programming Languages",
+      "label": "Hardware Description Languages are very different to Programming Languages",
+      "group": 1,
+      "url": "notes/Hardware Description Languages are very different to Programming Languages.md"
+    },
+    {
       "id": "Heterodox perspective on the issues of falsifiability",
       "label": "Heterodox perspective on the issues of falsifiability",
       "group": 1,
@@ -859,6 +949,12 @@
       "url": "notes/human adaptations.md"
     },
     {
+      "id": "iA study on 21st century defence policy",
+      "label": "iA study on 21st century defence policy",
+      "group": 1,
+      "url": "notes/iA study on 21st century defence policy.md"
+    },
+    {
       "id": "immunology",
       "label": "immunology",
       "group": 1,
@@ -883,16 +979,40 @@
       "url": "notes/Infinity in Mathematics.md"
     },
     {
+      "id": "Information theory as a theory of difference",
+      "label": "Information theory as a theory of difference",
+      "group": 1,
+      "url": "notes/Information theory as a theory of difference.md"
+    },
+    {
       "id": "Input Output Models of Systems",
       "label": "Input Output Models of Systems",
       "group": 1,
       "url": "notes/Input Output Models of Systems.md"
     },
     {
+      "id": "installing circom",
+      "label": "installing circom",
+      "group": 1,
+      "url": "notes/installing circom.md"
+    },
+    {
       "id": "instrumentalism",
       "label": "instrumentalism",
       "group": 1,
       "url": "notes/instrumentalism.md"
+    },
+    {
+      "id": "Interactive Proofs",
+      "label": "Interactive Proofs",
+      "group": 1,
+      "url": "notes/Interactive Proofs.md"
+    },
+    {
+      "id": "Introduction a national, UK, security strategy",
+      "label": "Introduction a national, UK, security strategy",
+      "group": 1,
+      "url": "notes/Introduction a national, UK, security strategy.md"
     },
     {
       "id": "Irish Revolutionary Period",
@@ -913,6 +1033,12 @@
       "url": "notes/Jupyter Notebook.md"
     },
     {
+      "id": "Kerchoffs Principle",
+      "label": "Kerchoffs Principle",
+      "group": 1,
+      "url": "notes/Kerchoffs Principle.md"
+    },
+    {
       "id": "Keynes & Gold Exchange Market",
       "label": "Keynes & Gold Exchange Market",
       "group": 1,
@@ -931,6 +1057,12 @@
       "url": "notes/Lamarckism.md"
     },
     {
+      "id": "Languages in Cryptography",
+      "label": "Languages in Cryptography",
+      "group": 1,
+      "url": "notes/Languages in Cryptography.md"
+    },
+    {
       "id": "Lattice",
       "label": "Lattice",
       "group": 1,
@@ -947,6 +1079,12 @@
       "label": "Learning to use Hugging Face",
       "group": 1,
       "url": "notes/Learning to use Hugging Face.md"
+    },
+    {
+      "id": "Left-vs-Right Style of Security Definition",
+      "label": "Left-vs-Right Style of Security Definition",
+      "group": 1,
+      "url": "notes/Left-vs-Right Style of Security Definition.md"
     },
     {
       "id": "Liberalism and Neoliberalism in Britain",
@@ -1063,6 +1201,12 @@
       "url": "notes/Mods.md"
     },
     {
+      "id": "modular arithmetic",
+      "label": "modular arithmetic",
+      "group": 1,
+      "url": "notes/modular arithmetic.md"
+    },
+    {
       "id": "Mont Pelerin Society",
       "label": "Mont Pelerin Society",
       "group": 1,
@@ -1085,6 +1229,12 @@
       "label": "MUD the fully-chain game engine",
       "group": 1,
       "url": "notes/MUD the fully-chain game engine.md"
+    },
+    {
+      "id": "NARK",
+      "label": "NARK",
+      "group": 1,
+      "url": "notes/NARK.md"
     },
     {
       "id": "national traditions of neoliberalism",
@@ -1141,6 +1291,12 @@
       "url": "notes/Non-linear systems.md"
     },
     {
+      "id": "NP Proofs",
+      "label": "NP Proofs",
+      "group": 1,
+      "url": "notes/NP Proofs.md"
+    },
+    {
       "id": "npx vs npm",
       "label": "npx vs npm",
       "group": 1,
@@ -1165,6 +1321,12 @@
       "url": "notes/Oliver Cromwell.md"
     },
     {
+      "id": "On-Chain Poker Texas Hold-em",
+      "label": "On-Chain Poker Texas Hold-em",
+      "group": 1,
+      "url": "notes/On-Chain Poker Texas Hold-em.md"
+    },
+    {
       "id": "Ontological reduction",
       "label": "Ontological reduction",
       "group": 1,
@@ -1181,6 +1343,12 @@
       "label": "open systems",
       "group": 1,
       "url": "notes/open systems.md"
+    },
+    {
+      "id": "Operational Closure",
+      "label": "Operational Closure",
+      "group": 1,
+      "url": "notes/Operational Closure.md"
     },
     {
       "id": "Ordinary matter",
@@ -1211,6 +1379,12 @@
       "label": "Phase transitions",
       "group": 1,
       "url": "notes/Phase transitions.md"
+    },
+    {
+      "id": "Philosophy",
+      "label": "Philosophy",
+      "group": 1,
+      "url": "notes/Philosophy.md"
     },
     {
       "id": "Physicalism",
@@ -1309,6 +1483,12 @@
       "url": "notes/Programming Paradigms.md"
     },
     {
+      "id": "Programming ZKPs",
+      "label": "Programming ZKPs",
+      "group": 1,
+      "url": "notes/Programming ZKPs.md"
+    },
+    {
       "id": "protons",
       "label": "protons",
       "group": 1,
@@ -1321,10 +1501,34 @@
       "url": "notes/PyTorch python library.md"
     },
     {
+      "id": "Quadratic residue",
+      "label": "Quadratic residue",
+      "group": 1,
+      "url": "notes/Quadratic residue.md"
+    },
+    {
+      "id": "R1CS Libraries",
+      "label": "R1CS Libraries",
+      "group": 1,
+      "url": "notes/R1CS Libraries.md"
+    },
+    {
+      "id": "Rank 1 Constraint Systems",
+      "label": "Rank 1 Constraint Systems",
+      "group": 1,
+      "url": "notes/Rank 1 Constraint Systems.md"
+    },
+    {
       "id": "React - making a list app",
       "label": "React - making a list app",
       "group": 1,
       "url": "notes/React - making a list app.md"
+    },
+    {
+      "id": "Real-vs-Randomness Style of Security Definition",
+      "label": "Real-vs-Randomness Style of Security Definition",
+      "group": 1,
+      "url": "notes/Real-vs-Randomness Style of Security Definition.md"
     },
     {
       "id": "reductionism",
@@ -1387,6 +1591,12 @@
       "url": "notes/Say's Law.md"
     },
     {
+      "id": "Schnorr Protocol",
+      "label": "Schnorr Protocol",
+      "group": 1,
+      "url": "notes/Schnorr Protocol.md"
+    },
+    {
       "id": "Science as a system",
       "label": "Science as a system",
       "group": 1,
@@ -1427,6 +1637,18 @@
       "label": "Second Life",
       "group": 1,
       "url": "notes/Second Life.md"
+    },
+    {
+      "id": "security definitions",
+      "label": "security definitions",
+      "group": 1,
+      "url": "notes/security definitions.md"
+    },
+    {
+      "id": "Self-Organisation & Autopoiesis",
+      "label": "Self-Organisation & Autopoiesis",
+      "group": 1,
+      "url": "notes/Self-Organisation & Autopoiesis.md"
     },
     {
       "id": "semantic anti-reductionism",
@@ -1487,6 +1709,12 @@
       "label": "Smart Contracts aren't contracts",
       "group": 1,
       "url": "notes/Smart Contracts aren't contracts.md"
+    },
+    {
+      "id": "SNARK",
+      "label": "SNARK",
+      "group": 1,
+      "url": "notes/SNARK.md"
     },
     {
       "id": "social choice theory",
@@ -1567,6 +1795,12 @@
       "url": "notes/sudo.md"
     },
     {
+      "id": "Symmetric-Key Encryption",
+      "label": "Symmetric-Key Encryption",
+      "group": 1,
+      "url": "notes/Symmetric-Key Encryption.md"
+    },
+    {
       "id": "System-Environment Paradigm",
       "label": "System-Environment Paradigm",
       "group": 1,
@@ -1595,6 +1829,12 @@
       "label": "Tables, store the data",
       "group": 1,
       "url": "notes/Tables, store the data.md"
+    },
+    {
+      "id": "Technical Machines",
+      "label": "Technical Machines",
+      "group": 1,
+      "url": "notes/Technical Machines.md"
     },
     {
       "id": "Temperature",
@@ -1777,6 +2017,12 @@
       "url": "notes/Thomas Hobbes.md"
     },
     {
+      "id": "three main security properties",
+      "label": "three main security properties",
+      "group": 1,
+      "url": "notes/three main security properties.md"
+    },
+    {
       "id": "Transcendental Theoretical Epistemology",
       "label": "Transcendental Theoretical Epistemology",
       "group": 1,
@@ -1801,10 +2047,52 @@
       "url": "notes/Transmutation.md"
     },
     {
+      "id": "Trivial vs Non-Trivial Machines",
+      "label": "Trivial vs Non-Trivial Machines",
+      "group": 1,
+      "url": "notes/Trivial vs Non-Trivial Machines.md"
+    },
+    {
+      "id": "trying the Footium front-end test",
+      "label": "trying the Footium front-end test",
+      "group": 1,
+      "url": "notes/trying the Footium front-end test.md"
+    },
+    {
+      "id": "Types of Cryptographic Proofs",
+      "label": "Types of Cryptographic Proofs",
+      "group": 1,
+      "url": "notes/Types of Cryptographic Proofs.md"
+    },
+    {
       "id": "Types of epistemology",
       "label": "Types of epistemology",
       "group": 1,
       "url": "notes/Types of epistemology.md"
+    },
+    {
+      "id": "Types of finite fields",
+      "label": "Types of finite fields",
+      "group": 1,
+      "url": "notes/Types of finite fields.md"
+    },
+    {
+      "id": "types of important functional commitments",
+      "label": "types of important functional commitments",
+      "group": 1,
+      "url": "notes/types of important functional commitments.md"
+    },
+    {
+      "id": "types of security definitions",
+      "label": "types of security definitions",
+      "group": 1,
+      "url": "notes/types of security definitions.md"
+    },
+    {
+      "id": "UK approach to strategy",
+      "label": "UK approach to strategy",
+      "group": 1,
+      "url": "notes/UK approach to strategy.md"
     },
     {
       "id": "UK Military Procurement",
@@ -1847,6 +2135,12 @@
       "label": "User-Generated Content",
       "group": 1,
       "url": "notes/User-Generated Content.md"
+    },
+    {
+      "id": "using circom for the first time",
+      "label": "using circom for the first time",
+      "group": 1,
+      "url": "notes/using circom for the first time.md"
     },
     {
       "id": "using React Props",
@@ -1907,12 +2201,52 @@
       "label": "Young Turk Revolution",
       "group": 1,
       "url": "notes/Young Turk Revolution.md"
+    },
+    {
+      "id": "Zero Knowledge Proofs",
+      "label": "Zero Knowledge Proofs",
+      "group": 1,
+      "url": "notes/Zero Knowledge Proofs.md"
+    },
+    {
+      "id": "ZK in Gaming",
+      "label": "ZK in Gaming",
+      "group": 1,
+      "url": "notes/ZK in Gaming.md"
+    },
+    {
+      "id": "zk-EVM",
+      "label": "zk-EVM",
+      "group": 1,
+      "url": "notes/zk-EVM.md"
+    },
+    {
+      "id": "ZK-SNARK",
+      "label": "ZK-SNARK",
+      "group": 1,
+      "url": "notes/ZK-SNARK.md"
     }
   ],
   "links": [
     {
       "source": "0xParc",
       "target": "Autonomous worlds"
+    },
+    {
+      "source": "A Hardware Description Language for R1CS",
+      "target": "Rank 1 Constraint Systems"
+    },
+    {
+      "source": "A Hardware Description Language for R1CS",
+      "target": "Hardware Description Languages are very different to Programming Languages"
+    },
+    {
+      "source": "A Hardware Description Language for R1CS",
+      "target": "Circom Sudoku Example"
+    },
+    {
+      "source": "A Hardware Description Language for R1CS",
+      "target": "using circom for the first time"
     },
     {
       "source": "A taxonomy of emergence",
@@ -2047,6 +2381,10 @@
       "target": "English Civil War"
     },
     {
+      "source": "Circom Sudoku Example",
+      "target": "Zero Knowledge Proofs"
+    },
+    {
       "source": "Code Organisation of MUD",
       "target": "MUD contracts"
     },
@@ -2151,12 +2489,48 @@
       "target": "Where to host the API server"
     },
     {
+      "source": "Creating a React App",
+      "target": "trying the Footium front-end test"
+    },
+    {
       "source": "Creationism",
       "target": "God as higher order phenomena"
     },
     {
       "source": "Creationism",
       "target": "Adaptations"
+    },
+    {
+      "source": "Cryptographic Proofs",
+      "target": "Types of Cryptographic Proofs"
+    },
+    {
+      "source": "Cryptography",
+      "target": "Cryptographic Proofs"
+    },
+    {
+      "source": "Cryptography",
+      "target": "Symmetric-Key Encryption"
+    },
+    {
+      "source": "Cryptography",
+      "target": "Asymmetric Key Encryption"
+    },
+    {
+      "source": "Cryptography",
+      "target": "three main security properties"
+    },
+    {
+      "source": "Cryptography",
+      "target": "types of security definitions"
+    },
+    {
+      "source": "Cryptography",
+      "target": "Kerchoffs Principle"
+    },
+    {
+      "source": "Cryptography",
+      "target": "Chosen-plaintext attack"
     },
     {
       "source": "CSS for my first react project",
@@ -2172,11 +2546,47 @@
     },
     {
       "source": "Dark Forest",
+      "target": "Games Terms of Service"
+    },
+    {
+      "source": "Dark Forest",
+      "target": "Fully On-Chain Games"
+    },
+    {
+      "source": "Dark Forest",
+      "target": "Zero Knowledge Proofs"
+    },
+    {
+      "source": "Dark Forest",
       "target": "0xParc"
     },
     {
       "source": "Dark Forest",
       "target": "Lattice"
+    },
+    {
+      "source": "Dark Forest",
+      "target": "ZK-SNARK"
+    },
+    {
+      "source": "Dark Forest",
+      "target": "Functional Commitment Scheme"
+    },
+    {
+      "source": "Dark Forest",
+      "target": "Interactive Proofs"
+    },
+    {
+      "source": "Dark Forest",
+      "target": "client-server model"
+    },
+    {
+      "source": "Dark Forest",
+      "target": "Smart Contract"
+    },
+    {
+      "source": "Dark Forest",
+      "target": "ZK-SNARK"
     },
     {
       "source": "defence definition",
@@ -2201,6 +2611,10 @@
     {
       "source": "Electronic Vacuum tubes",
       "target": "Colossus (Computer)"
+    },
+    {
+      "source": "elliptic curve",
+      "target": "Types of finite fields"
     },
     {
       "source": "Emergence",
@@ -2237,6 +2651,10 @@
     {
       "source": "Enoch Powell",
       "target": "Mont Pelerin Society"
+    },
+    {
+      "source": "epistemology",
+      "target": "Philosophy"
     },
     {
       "source": "ethers.js",
@@ -2345,6 +2763,18 @@
     {
       "source": "Fully On-Chain Games",
       "target": "Early patterns in creating FOCGs"
+    },
+    {
+      "source": "Functional Commitment Scheme",
+      "target": "Zero Knowledge Proofs"
+    },
+    {
+      "source": "Functional Commitment Scheme",
+      "target": "Cryptography"
+    },
+    {
+      "source": "Functional Commitment Scheme",
+      "target": "types of important functional commitments"
     },
     {
       "source": "Fundamentalism",
@@ -2575,12 +3005,20 @@
       "target": "Hilbert's Infinity Hotel"
     },
     {
+      "source": "Information theory as a theory of difference",
+      "target": "System-Environment Paradigm"
+    },
+    {
       "source": "Input Output Models of Systems",
       "target": "System-to-system relations"
     },
     {
       "source": "Input Output Models of Systems",
       "target": "Mathematical Input Output Models of Systems"
+    },
+    {
+      "source": "Interactive Proofs",
+      "target": "ZK-SNARK"
     },
     {
       "source": "Jameson Raid",
@@ -2605,6 +3043,10 @@
     {
       "source": "Lamarckism",
       "target": "fitness"
+    },
+    {
+      "source": "Languages in Cryptography",
+      "target": "Zero Knowledge Proofs"
     },
     {
       "source": "Lattice",
@@ -2807,6 +3249,10 @@
       "target": "Postgres database"
     },
     {
+      "source": "NARK",
+      "target": "arithmetic circuits"
+    },
+    {
       "source": "national traditions of neoliberalism",
       "target": "French Neoliberalism"
     },
@@ -2871,6 +3317,10 @@
       "target": "positive feedback"
     },
     {
+      "source": "NP Proofs",
+      "target": "Cryptographic Proofs"
+    },
+    {
       "source": "Observation depends on theory",
       "target": "Science as a system"
     },
@@ -2891,8 +3341,20 @@
       "target": "New Model Army"
     },
     {
+      "source": "On-Chain Poker Texas Hold-em",
+      "target": "Zero Knowledge Proofs"
+    },
+    {
+      "source": "On-Chain Poker Texas Hold-em",
+      "target": "Games Terms of Service"
+    },
+    {
       "source": "Ontological reduction",
       "target": "Ontology"
+    },
+    {
+      "source": "Ontology",
+      "target": "Philosophy"
     },
     {
       "source": "open systems",
@@ -2901,6 +3363,18 @@
     {
       "source": "open systems",
       "target": "System-Environment Paradigm"
+    },
+    {
+      "source": "Operational Closure",
+      "target": "Information theory as a theory of difference"
+    },
+    {
+      "source": "Operational Closure",
+      "target": "closed systems"
+    },
+    {
+      "source": "Operational Closure",
+      "target": "closed systems"
     },
     {
       "source": "Ordinary matter",
@@ -2979,6 +3453,50 @@
       "target": "Genes"
     },
     {
+      "source": "Programming ZKPs",
+      "target": "Zero Knowledge Proofs"
+    },
+    {
+      "source": "Programming ZKPs",
+      "target": "arithmetic circuits"
+    },
+    {
+      "source": "Programming ZKPs",
+      "target": "boolean circuits"
+    },
+    {
+      "source": "Programming ZKPs",
+      "target": "Rank 1 Constraint Systems"
+    },
+    {
+      "source": "Programming ZKPs",
+      "target": "Rank 1 Constraint Systems"
+    },
+    {
+      "source": "Programming ZKPs",
+      "target": "A Hardware Description Language for R1CS"
+    },
+    {
+      "source": "Quadratic residue",
+      "target": "Cryptography"
+    },
+    {
+      "source": "Quadratic residue",
+      "target": "modular arithmetic"
+    },
+    {
+      "source": "Rank 1 Constraint Systems",
+      "target": "affine combinations of variables"
+    },
+    {
+      "source": "Rank 1 Constraint Systems",
+      "target": "element-wise product"
+    },
+    {
+      "source": "Rank 1 Constraint Systems",
+      "target": "R1CS Libraries"
+    },
+    {
       "source": "reductionism",
       "target": "instrumentalism"
     },
@@ -3001,6 +3519,14 @@
     {
       "source": "Say's Law",
       "target": "Economics"
+    },
+    {
+      "source": "Schnorr Protocol",
+      "target": "Zero Knowledge Proofs"
+    },
+    {
+      "source": "Schnorr Protocol",
+      "target": "elliptic curve"
     },
     {
       "source": "Science as a system",
@@ -3032,6 +3558,10 @@
     },
     {
       "source": "Scientific Theories are explanations",
+      "target": "Philosophy"
+    },
+    {
+      "source": "Scientific Theories are explanations",
       "target": "empiricism"
     },
     {
@@ -3053,6 +3583,22 @@
     {
       "source": "Second Life",
       "target": "Games Terms of Service"
+    },
+    {
+      "source": "Self-Organisation & Autopoiesis",
+      "target": "System-Environment Paradigm"
+    },
+    {
+      "source": "Self-Organisation & Autopoiesis",
+      "target": "Autopoiesis"
+    },
+    {
+      "source": "Self-Organisation & Autopoiesis",
+      "target": "Operational Closure"
+    },
+    {
+      "source": "Self-Organisation & Autopoiesis",
+      "target": "Autopoiesis"
     },
     {
       "source": "Semantic model of reduction",
@@ -3085,6 +3631,10 @@
     {
       "source": "Smart Contracts aren't contracts",
       "target": "incompleteness of contract"
+    },
+    {
+      "source": "SNARK",
+      "target": "NARK"
     },
     {
       "source": "social choice theory",
@@ -3131,6 +3681,14 @@
       "target": "sociology"
     },
     {
+      "source": "Symmetric-Key Encryption",
+      "target": "Cryptographic Proofs"
+    },
+    {
+      "source": "Symmetric-Key Encryption",
+      "target": "three main security properties"
+    },
+    {
       "source": "System-Environment Paradigm",
       "target": "open systems"
     },
@@ -3153,6 +3711,10 @@
     {
       "source": "System",
       "target": "concrete systems theory"
+    },
+    {
+      "source": "Technical Machines",
+      "target": "Operational Closure"
     },
     {
       "source": "Temperature",
@@ -3319,6 +3881,26 @@
       "target": "analytic systems theory"
     },
     {
+      "source": "Trivial vs Non-Trivial Machines",
+      "target": "Operational Closure"
+    },
+    {
+      "source": "Trivial vs Non-Trivial Machines",
+      "target": "Technical Machines"
+    },
+    {
+      "source": "trying the Footium front-end test",
+      "target": "Creating drag and drop functionality for Web"
+    },
+    {
+      "source": "Types of Cryptographic Proofs",
+      "target": "Cryptographic Proofs"
+    },
+    {
+      "source": "Types of Cryptographic Proofs",
+      "target": "Zero Knowledge Proofs"
+    },
+    {
       "source": "Types of epistemology",
       "target": "Positivism"
     },
@@ -3341,6 +3923,14 @@
     {
       "source": "Types of epistemology",
       "target": "epistemological"
+    },
+    {
+      "source": "types of security definitions",
+      "target": "Real-vs-Randomness Style of Security Definition"
+    },
+    {
+      "source": "types of security definitions",
+      "target": "Left-vs-Right Style of Security Definition"
     },
     {
       "source": "Underemployment equilibrium",
@@ -3383,8 +3973,32 @@
       "target": "UK Military Procurement"
     },
     {
+      "source": "Understanding UK Military Capability",
+      "target": "iA study on 21st century defence policy"
+    },
+    {
+      "source": "Understanding UK Military Capability",
+      "target": "Defence Operating Model"
+    },
+    {
+      "source": "Understanding UK Military Capability",
+      "target": "UK approach to strategy"
+    },
+    {
+      "source": "Understanding UK Military Capability",
+      "target": "Introduction a national, UK, security strategy"
+    },
+    {
       "source": "User-Generated Content",
       "target": "Games Terms of Service"
+    },
+    {
+      "source": "using circom for the first time",
+      "target": "installing circom"
+    },
+    {
+      "source": "using circom for the first time",
+      "target": "Circom Sudoku Example"
     },
     {
       "source": "Web3 Games Want Property Rights",
@@ -3433,6 +4047,38 @@
     {
       "source": "Writing System",
       "target": "universality"
+    },
+    {
+      "source": "Zero Knowledge Proofs",
+      "target": "Cryptographic Proofs"
+    },
+    {
+      "source": "Zero Knowledge Proofs",
+      "target": "NP Proofs"
+    },
+    {
+      "source": "Zero Knowledge Proofs",
+      "target": "Languages in Cryptography"
+    },
+    {
+      "source": "ZK in Gaming",
+      "target": "Games Terms of Service"
+    },
+    {
+      "source": "ZK in Gaming",
+      "target": "Dark Forest"
+    },
+    {
+      "source": "zk-EVM",
+      "target": "Zero Knowledge Proofs"
+    },
+    {
+      "source": "ZK-SNARK",
+      "target": "Zero Knowledge Proofs"
+    },
+    {
+      "source": "ZK-SNARK",
+      "target": "SNARK"
     }
   ]
 }
