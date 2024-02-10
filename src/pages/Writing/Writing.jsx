@@ -11,16 +11,16 @@ const Writing = () => {
       id: 'section1',
       title: 'The Definitive Introduction to Emergence',
       date: '  | 07/02/2024',
-      url: "/personal-website/writing/Emergence",
-      markdownUrl: "/personal-website/articles/Emergence.md"
+      url: "/Personal-Website/writing/Emergence",
+      markdownUrl: "/Personal-Website/articles/Emergence.md"
 
     },
     {
       id: 'section2',
       title: 'The Urbanisation of Virtual Worlds',
       date: '  | 23/01/2024',
-      url: "/personal-website/writing/Urbanisation-Virtual-Worlds",
-      markdownUrl: "/personal-website/articles/Urbanisation_Of_Virtual_worlds.md"
+      url: "/Personal-Website/writing/Urbanisation-Virtual-Worlds",
+      markdownUrl: "/Personal-Website/articles/Urbanisation_Of_Virtual_worlds.md"
     },
     {
       id: 'section3',
