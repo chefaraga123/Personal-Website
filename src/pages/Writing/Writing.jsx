@@ -29,10 +29,6 @@ const Writing = () => {
       url: "/Personal-Website/writing/introduction-zks-gaming",
       markdownUrl: "/Personal-Website/articles/Introduction_Zks_Gaming.md"
 
-    },
-    {
-      id: 'section4',
-      title: 'An Introduction to Building an On-chain game'
     }
   ];//Should put this somewhere else as a JSON?
 
