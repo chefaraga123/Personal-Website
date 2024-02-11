@@ -11,7 +11,7 @@ const Writing = () => {
       id: 'section1',
       title: 'The Definitive Introduction to Emergence',
       date: '  | 07/02/2024',
-      url: "/Personal-Website/writing/Emergence",
+      url: "/Personal-Website/Emergence",
       markdownUrl: "/Personal-Website/articles/Emergence.md"
 
     },
@@ -19,14 +19,14 @@ const Writing = () => {
       id: 'section2',
       title: 'The Urbanisation of Virtual Worlds',
       date: '  | 23/01/2024',
-      url: "/Personal-Website/writing/Urbanisation-Virtual-Worlds",
+      url: "/Personal-Website/Urbanisation-Virtual-Worlds",
       markdownUrl: "/Personal-Website/articles/Urbanisation_Of_Virtual_worlds.md"
     },
     {
       id: 'section3',
       title: 'An Application of Zks in Gaming',
       date: '  | 14/02/2024',
-      url: "/Personal-Website/writing/introduction-zks-gaming",
+      url: "/Personal-Website/introduction-zks-gaming",
       markdownUrl: "/Personal-Website/articles/Introduction_Zks_Gaming.md"
 
     }

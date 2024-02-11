@@ -25,9 +25,9 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/writing" element={<Writing />} /> 
 
-        <Route path="/writing/Emergence" element={<Emergence />} />
-        <Route path="/writing/Urbanisation-Virtual-Worlds" element={<Urbanisation />} />
-        <Route path="/writing/introduction-zks-gaming" element={<ZkGaming />} />
+        <Route path="/Emergence" element={<Emergence />} />
+        <Route path="/Urbanisation-Virtual-Worlds" element={<Urbanisation />} />
+        <Route path="/introduction-zks-gaming" element={<ZkGaming />} />
 
 
         <Route path="/Books" element={<Books />} />

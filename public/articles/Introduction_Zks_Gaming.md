@@ -10,7 +10,7 @@ My article is laid out in three sections
 2) **ZKs for games**: functionally how ZKs can be useful in gaming
 3) **An implemented example**: how to implement and understand a simple ZK game End-2-End  
 
-I also provide Github repository if you're interested in implementations of some of context wherein:  
+I also provide Github repository if you're interested in implementations of some of what's discussed:  [ZK Gaming Introduction Repository](https://github.com/chefaraga123/ZK-Gaming-Introduction)
 
 So...
 
@@ -20,13 +20,12 @@ The essence of zero knowledge is being able to prove possession of knowledge, or
 
 A typical, applied examples of a zero knowledge arrangement is being able to prove that you're over a certain age without revealing your actual age. 
 
-~~Zero-knowledge is an umbrella term to a type of cryptography where a statement about some knowledge can be verified as either true or false without the verifier knowing what the thing itself is.~~
 
 The typical setup is of a **prover** and a **verifier**.
 - **Provers generate proofs** 
 - **Verifiers verify proofs** 
 
-What this specifically means, the prover is an entity who is interested demonstrating the validity of a statement, and a verifier is an entity which can verify whether the statement underlying the proof is true or false. 
+What this specifically means: the prover is an entity who is interested demonstrating the validity of a statement, and a verifier is an entity which can verify whether the statement underlying the proof is true or false. 
 
 There are two types of zero knowledge proofs: interactive proofs and non-interactive proofs. In the context of blockchain we are typically most interested in non-interactive proofs, the most discussed type being **SNARKs**, which I'll come onto later.
 
