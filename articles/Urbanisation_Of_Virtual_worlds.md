@@ -1,5 +1,8 @@
 # The Urbanisation of Virtual Worlds
 
+
+![Article1_Cover_Image](Article1_Cover_Image.png)
+
 ## Introduction
 ‘True ownership’ and property rights are oft-referenced by Web3-evangelists as the cornerstone motivation for Web3. Web3 is touted as a system of enforceable property rights for digital assets. There are a couple of major issues with this framing: first property rights are a legal, not a technical, construct and even if one does have ‘true ownership’ how that differs from a mode of faux-ownership inherent to digital assets from the Before Crypto Era (BCE) is rarely usefully elucidated. 
 
