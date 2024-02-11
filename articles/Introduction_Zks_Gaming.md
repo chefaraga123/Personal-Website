@@ -36,7 +36,6 @@ An interesting aspect of interactive proofs is the probabilistic component, this
 #### High-Level Example: Proving colours to a blind verifier 
 **The Setup** 
 - **The objective of the Prover**: 
-- **The objective of the verifier**:
 - There is a sheet of paper which may be of a single colour, or have a different colour on either side.
 - The prover can tell the difference between these two colours
 - The verifier is colour-blind and cannot perceive a difference between the two colours, they know that they are colour blind and could be convinced that the paper has two colours on it.
@@ -45,7 +44,7 @@ An interesting aspect of interactive proofs is the probabilistic component, this
 - The verifier asks the prover to prove that there are 2 colours on the page | if the prover can perceive changes in the state of the page then it proves there are different states
 
 
-**Process:**
+**Interactive Proof Algorithm:**
 1) The verifier asks the prover what the current colour is
 2) The prover responds
 3) The verifier flips a coin as to whether to flip the piece of paper 
@@ -59,10 +58,16 @@ This process of interaction, of the verifier randomly changing the state of the 
 
 #### Lower-Level Example: the Graph Non-Isomorphism Problem
 **The Setup**
-- **The objective of the Prover**: Given two graphs *G1* & *G2*, the prover wants to prove to the verifier that *G1* & *G2* are not isormorphic
-- **The objective of the verifier**:
+- **The objective of the Prover**: Given two graphs *G1* & *G2*, the prover wants to prove to the verifier that *G1* & *G2* are not **[isormorphic](/Personal-Website/notes/Isomorphism%20between%20Graphs.md)**. 
 
-**Process:**
+
+**Interactive Proof Algorithm:**
+1) The prover generates a random **[permutation](/Personal-Website/notes/Permutation.md)** of the vertices of G1 
+2) The prover sebds this random permutation to the verifier 
+3) The verifier randomly chooses a vertex from G1 and requests its image under pi
+4) the prover sends pi(v) to the verifier 
+5) the verifier checks if the images of the neightbours of v under pi match the neighbours of pi(v) in G2
+6) steps 1-5 are repeated until the verifier is convinced 
 
 
 ### Non-Interactive Zero-Knowledge Proofs 
