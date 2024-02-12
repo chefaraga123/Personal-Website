@@ -13,6 +13,7 @@ import KnowledgeGraph from './pages/KnowledgeGraph/KnowledgeGraph';
 import Emergence from './pages/Writing/Articles/Emergence';
 import Urbanisation from './pages/Writing/Articles/Urbanisation_Virtual_Worlds';
 import ZkGaming from './pages/Writing/Articles/Zks_Gaming';
+import ZKIntroduction from './pages/Writing/Articles/ZKs_Introduction';
 
 /*Components*/
 import NoteViewer from './components/NoteViewer/NoteViewer';
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/Emergence" element={<Emergence />} />
         <Route path="/Urbanisation-Virtual-Worlds" element={<Urbanisation />} />
         <Route path="/introduction-zks-gaming" element={<ZkGaming />} />
+        <Route path="/introduction-zks" element={<ZKIntroduction />} />
 
 
         <Route path="/Books" element={<Books />} />

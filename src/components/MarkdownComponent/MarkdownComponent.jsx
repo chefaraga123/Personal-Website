@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
+import remarkMath from 'remark-math';
 
 function MarkdownComponent({ filePath }) {
   const [markdownContent, setMarkdownContent] = useState('');
@@ -20,7 +21,10 @@ function MarkdownComponent({ filePath }) {
 
   return (
     <div>
-      <ReactMarkdown>{markdownContent}</ReactMarkdown>
+      <ReactMarkdown 
+        children={markdownContent}
+        remarkPlugins={[remarkMath]}
+      />
     </div>
   );
 }
