@@ -103,13 +103,14 @@ An interesting aspect of interactive proofs is the probabilistic component, this
 - Soundness 
 
 ## ZK-SNARK Construction 
-### Abstraction Level 1: Arithmetic Circuits 
-Arithmetic circuits (AC) are a way of representing complex computations in terms of simple components. The complexity is broken down into simple components of addition, subtraction, multiplication and division operations. The AC repsents the problem or computation you want to prove you've solved correctly 
-The AC captures the entire computation process 
-However a useful AC may have 20,000 gates, this wouldn't be very intuitive, we need a level of abstraction on top of the AC which we can deal with. 
+### Building the Circuit 
+#### Abstraction Level 1: Arithmetic Circuits 
+* Arithmetic circuits (AC) are a way of representing complex computations in terms of simple components. The complexity is broken down into simple components of addition, subtraction, 
+* multiplication and division operations. The AC repsents the problem or computation you want to prove you've solved correctly 
+* The AC captures the entire computation process 
+* However a useful AC may have 20,000 gates, this wouldn't be very intuitive, we need a level of abstraction on top of the AC which we can deal with. 
 
-
-### Abstraction Level 2: Rank 1 Constraint Systems (R1CS)
+#### Abstraction Level 2: Rank 1 Constraint Systems (R1CS)
 * R1CS is a framework commonly used in the construction of zk-SNARKs.
 * This is an abstraction on top of an Arithmetic Circuit
 * The underlying arithmetic circuit may be very complex, as it is a network of interconnected gates performing arithmetic operations such as addition & subtraction. 
@@ -118,25 +119,54 @@ However a useful AC may have 20,000 gates, this wouldn't be very intuitive, we n
 * Each constraint is a linear equation that involves a combination of input/intermediate/output variables. 
 * Allows us to represent computations in a concise and structure, however we would rather than deal with the logic - we need another level of abstraction!  
 
-
-### Abstraction Level 3 Hardware Description Languages, Circom
+#### Abstraction Level 3 Hardware Description Languages, Circom
 * We probably don't want to write the R1CS directly, we want to deal with the logic of the computation 
+* Lets say we want to write a circuit that verifies the sum of two numbers, the example Circom code would be: 
+```text
+template Adder() {
+    signal input a; // First private input
+    signal input b; // Second private input
+    signal input c; // Public input (expected sum)
+    
+    signal output out; // Output signal to indicate if the sum is correct
 
-`a = a^2`
+    // Define the computation
+    signal sum;
+    sum <== a + b;
+
+    // Check if the computed sum matches the public input
+    out <== sum === c;
+}
+
+component main = Adder();
+```
+* The Circom program is translated into a Rank-1 Constraint System 
+* The circuit has two private inputs: a & b
+* C is the public input 
+* The circuit computes *sum = a + b*, using the syntax `sum <== a + b;`
+* The circuit outputs 1 if the sum of a & b is equal to the expected sum `signal output out;`
+
+
 
 ### Putting it all together: Circom -> R1CS -> AC
 * The Circom compiler translates the high-level, human-readable, Circom program into R1CS
 * The R1CS serves as an intermediate step between our high-level description of the computation and the Arithmetic circuit. It provides a way to express computation in terms of mathematical constraints *I really struggle to understand this idea*
 * The Arithmetic Circuit is what is actually used to generate and verify Zero-Knowledge Proofs 
+* The AC represents the computation/algorithm you want to prove knowledge of 
+* A way to ground the the process of creating the ZK circuit, is at the micro-level to show how circom translates into Rank-1 Cosntraint Systems which thus resolves into an Arithmetic circuit. 
+* **Translating our Circom into R1CS** the operation `sum <== a + b;` translates to a constraint that ensures the sum of `a` and `b` = `sum`
 
-### Cryptographic Parameter Generation (Trusted Setup)
-* Now that we've designed our Arithmetic Circuit we 
 
+
+### Trusted Setup Phase
+* Cryptographic Parameter Generation
+* The trusted setup generates public parametsr that are used by both the prover and the verifier. These parameters depend on a secret that must not be disclosed - revealing the secret could compromise the security of the entire system
+* These public parametsers enable the prove to construct ZK-PRoofs that demonstrate that they have correctly performed a computation (as per the Arithmetic Circuit) without revealing the computation's inputs or outputs. 
+* Post-generation the parameters must be securely disposed of 
 **Multi-Party Computation Ceremony**
 
-### Proof Generation
-* Creating Proofs 
-* Using the Arithmetic Circuit 
+### Proof Creation
+* The proof is created by executing the computation within the constraints of the AC and using the cryptographic parameters generated during the trusted setup phase to transform this execution into a succint non-interactive proof 
 
 ### Proof Verification
 * Verifying Proofs
