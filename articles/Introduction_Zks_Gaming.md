@@ -1,4 +1,4 @@
-# An Introduction to Zero Knowledge in Gaming 
+# Applying Zero Knowledge to Gaming 
 My article is laid out in three sections 
 1) **What ZKs are**: specifically laying out what is meant by zero-knowledge
     - Introduction
@@ -29,11 +29,11 @@ What this specifically means: the prover is an entity who is interested demonstr
 
 There are two types of zero knowledge proofs: interactive proofs and non-interactive proofs. In the context of blockchain we are typically most interested in non-interactive proofs, the most discussed type being **SNARKs**, which I'll come onto later.
 
-### Interactive Zero-Knowledge Proofs 
+### Interactive Proofs 
 **What is meant by interaction?** By interaction we mean that rather than passively reading a proof the verifier engages in a non-trivial interaction with the prover. 
 An interesting aspect of interactive proofs is the probabilistic component, this will become clear in an example. 
-#### High-Level Example: Proving colours to a blind verifier 
-**The Setup** 
+#### Example of a Zero-Knowledge Interactive Proof: Proving colours to a blind verifier 
+#### The Setup 
 - **The objective of the Prover**: 
 - There is a sheet of paper which may be of a single colour, or have a different colour on either side.
 - The prover can tell the difference between these two colours
@@ -43,36 +43,45 @@ An interesting aspect of interactive proofs is the probabilistic component, this
 - The verifier asks the prover to prove that there are 2 colours on the page | if the prover can perceive changes in the state of the page then it proves there are different states
 
 
-**Interactive Proof Algorithm:**
+#### Interactive Proof Algorithm:
 1) The verifier asks the prover what the current colour is
 2) The prover responds
 3) The verifier flips a coin as to whether to flip the piece of paper 
 4) The verifier asks the prover what the new colour is
 5) The prover responds, if the paper was flipped and the prover doesn't change their answer then there is only a single colour, if the prover is right there is a 50% chance now that the prover is telling the truth and that hence there are two colours 
-6) The verifier flips the coin again and flips or doesn't depending on the result 
-7) The verifier asks the prover what the new colour is
-8) The verifier responds, and if they're answers aligns with the actions of the verifier there is now a 100% - 50%^2 = 75% chance 
+6) steps 1-5 are repeated until the verifier is convinced 
 
-This process of interaction, of the verifier randomly changing the state of the paper and the prover responding whether the state of the paper has changed or not continues. For everytime that the prover is right the verifier builds confidence until the verifier effectively converges on complete confidence in the prover
 
-#### Lower-Level Example: the Graph Non-Isomorphism Problem
-**The Setup**
+#### Why is this zero-knowledge?
+- The prover possesses knowlege that the verifier lacks due their being colour blind. 
+- The prover demonstrates the existence of two colours without revealing the specific colours themselves.
+- The verifier gains confidence in the existence of 2 colours without learning any information about what those colours actually are
+
+#### Example of a Non-Zero-Knowledge Interactive Proof: The Graph Non-Isomorphism Problem
+
+#### The Setup
 - **The objective of the Prover**: Given two graphs *G1* & *G2*, the prover wants to prove to the verifier that *G1* & *G2* are not **[isormorphic](/Personal-Website/notes/Isomorphism%20between%20Graphs.md)**. 
 
 
-**Interactive Proof Algorithm:**
+#### Interactive Proof Algorithm:
 1) The prover generates a random **[permutation](/Personal-Website/notes/Permutation.md)** of the vertices of G1 
 2) The prover sebds this random permutation to the verifier 
 3) The verifier randomly chooses a vertex from G1 and requests its image under pi
 4) the prover sends pi(v) to the verifier 
-5) the verifier checks if the images of the neightbours of v under pi match the neighbours of pi(v) in G2
+5) the verifier checks if the images of the neightbours of v under pi match the neighbours of $\pi$ in G2
 6) steps 1-5 are repeated until the verifier is convinced 
 
+#### Why is this not zero-knowledge?
+- In the process of demonstrating non-isomorphism, specific information about the structure of the graphs is revealed to the verifier. 
+- Recap: ZK Proofs are designed to convince a verifier of a statement's truthfulness without disclosing any informaiton beyond the validity of a statement. 
 
 ### Non-Interactive Zero-Knowledge Proofs 
-**What is meant by Non-interaction?** By non-interaction we mean that 
-#### Example:  
-**The setup** 
+**What is meant by Non-interaction?** By non-interaction we mean that a prover can provide a proof that can be verified by the verifier without any further interaction or communication between the two parties. The proof is self-contained and can be verified independently by the verifier. Non-interactive proofs are desirable when there are constraints on communication bandwidth. 
+
+#### Example: Schnorr Protocol, A non-interactive proof of knowledge for a discrete logarithm
+**Context:** 
+- A non-interactive proof of knowledge for a discrete logarithm
+
 
 -----
 
@@ -83,3 +92,6 @@ This process of interaction, of the verifier randomly changing the state of the 
 
 ## 3. Implementing your first ZK-Dapp
 
+
+# Notes
+#### Example: A digital signature scheme based on public key cryptography, such as the Digital Signature Algorithm (DSA) or the [Elliptic Curve Digital Signature Algorithm (ECDSA)](/Personal-Website/notes/elliptic%20curve.md)
