@@ -1,0 +1,3 @@
+- the crux of this is that one should always seek the simplest explanations 
+- "Do not multiply assumptions beyond necessity"
+- falls down on the ambiguity of the word necessary 

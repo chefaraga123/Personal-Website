@@ -1,0 +1,2 @@
+- Introduced the element of time into physics, and hence the idea of irreversible historical processes. 
+- Classical thermodynamics admits only one possible outcome: the reaching of thermal equilibrium. The optimal distribution of energy thus representing an end of history of sorts 

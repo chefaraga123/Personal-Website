@@ -1,0 +1,2 @@
+- tag: [[Ontology]]
+- the view of nature as a universal compositional hierarchy

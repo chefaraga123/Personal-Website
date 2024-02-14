@@ -1,0 +1,3 @@
+- An [[epistemological]] framework 
+- The recognition that there are no authoritative sources of knowledge, nor any reliable means of justifying ideas as being probable or true 
+- Fallibilists expect even their best and most fundamental explanations to contain misconceptions in addition to truth 

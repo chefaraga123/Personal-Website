@@ -1,0 +1,3 @@
+- Hardhat is designed around the concepts of tasks & plugins. 
+- Tasks: everytime you run Hardhat from the command-line you're running a task e.g. `npx hardhat compile` is running the `compile` task 
+- To see the currently available tasks run `npx hardhat`

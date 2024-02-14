@@ -1,0 +1,1 @@
+- The central argument is that the classical liberalism on which the liberty & prosperity of 19th century Britain was built, was threatened by German statist ideas that furthered increasingly deliberate regulation of social life 

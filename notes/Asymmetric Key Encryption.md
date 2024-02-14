@@ -1,0 +1,2 @@
+- Each person has a secret key and a corresponding public key 
+- An example is [[RSA Encryption]]

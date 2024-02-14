@@ -1,0 +1,5 @@
+- the doctrine that scientific theories are generated through a process of derivation from observation 
+- induction is the elevation of truth from the particular to the general 
+- Inductivism purports to explain how science obtains predictions about experiences 
+- in everyday life we are well aware of the which aspects of our experience we expect to be repeated
+- 

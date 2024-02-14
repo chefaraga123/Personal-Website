@@ -1,0 +1,3 @@
+- [[thermodynamics]]
+- In [[closed systems]] the classical thermodynamics holds, however in [[open systems]], if one pushes a system far from its equilibrium the number of possible outcomes is increased greatly
+- 

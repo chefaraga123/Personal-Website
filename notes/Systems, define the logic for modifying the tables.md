@@ -1,0 +1,1 @@
+- The way MUD works, on-chain logic is implemented by one or more system contracts. Those systems are always called by a central world contract 

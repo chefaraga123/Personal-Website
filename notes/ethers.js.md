@@ -1,0 +1,14 @@
+- ![[Pasted image 20240128162454.png]]
+- Core entities:
+	- Connector
+	- Provider 
+	- Signer 
+	- Wallet 
+		- User-controlled wallet like MetaMask in frontend 
+		- or Wallet from PK or Mnemonic phrase in backend 
+- A lightweight js library that provides a set of tools for interacting with the Ethereum blockchain and its ecosystem 
+- Designed to make it easier to write [[client]]-side code that communicates w/ [[Smart Contract]]s and makes transactions on the Ethereum network 
+- Key features of ethers.js
+	- **Connecting to [[Ethereum Node]]s**: 
+	- **[[Smart Contract]] interaction**:
+	

@@ -1,0 +1,3 @@
+- This is not unique to humans, it is the basic methods by which all organisms keep themselves alive: every cell is a chemical factory 
+- the difference between humans and other species is the type of knowledge they can use & in how it is created. (conjecture & criticism of ideas rather than variation and selection of genes)
+- 

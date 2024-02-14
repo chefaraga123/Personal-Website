@@ -1,0 +1,9 @@
+- A field of Linguistics and [[Machine Learning]] focused on understanding related to human language 
+- The aim of NLP tasks is not just to understand single words individually, but also to understand words' context 
+- Common NLP tasks include
+	- classifying whole sentences
+	- classifying individual words in a sentence
+	- generating text content
+	- extracting an answer from text
+	- generating a new sentence from an input text
+- 

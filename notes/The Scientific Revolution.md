@@ -1,0 +1,7 @@
+- Tag: [[Scientific Theories are explanations]]
+- Called a revolution as this new mode of knowledge discovery hinged around the rejection of authority. However the average rebellion of authority merely leads to new authorities replacing the old, with the fundamental form of knowledge generation remaining the same. 
+- A consequence of the new tradition of criticism was the emergence of the methodological rule that a scientific theory should be testable 
+- Although scientific theories are not derived from experience they can be tested by experience
+- [[Karl Popper]] called testability AKA [[falsifiability]] the "criterion of demarcation" between science and non-science 
+- The inadequacy of testability is that prediction is not & cannot be the teleology of science 
+- 

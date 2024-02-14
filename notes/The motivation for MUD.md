@@ -1,0 +1,6 @@
+- The motivation for [[MUD the fully-chain game engine]]
+- There were many difficulties associated with building FOCGs, including:
+	- The coupling of state and logic in [[Smart Contract]]s making upgrading logic difficult
+	- the lack of scynchrony between the chain and the [[client]] leading to inconsistencies in game state
+	- Irregularities with access controls pose problems for would-be third-party developers attempting to create their own plugins and [[client]]s
+- MUD is maximally on-chain, the entire application state lives in the EVM, and the only requirement for clients and front-ends is an [[Ethereum Node]]

@@ -1,0 +1,1 @@
+- A system where the products of a reaction are themselves catalysts for that same reaction. This creates a self-sustaining loop where the reaction can proceed in the presence of sufficient quantities of the initial reactants 

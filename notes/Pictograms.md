@@ -1,0 +1,3 @@
+- The use of stylised pictures to represent words or concepts 
+- No system ever came close to have a pictogram for every word in its spoken language 
+- 

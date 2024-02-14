@@ -1,0 +1,4 @@
+- Tag: [[sociology]]
+- [[Structural functionalism]] AKA maintenance functionalism
+- 
+-

@@ -1,0 +1,7 @@
+- Hotel with infinity room 
+- each rooms have natural numbers
+- There aren't infinite rooms BUT there is no last room
+- All rooms have numbers infinitely far below infinity 
+- Infinity hotel is fully occupied, each room contains a single guest 
+- Infinity hotel always has room for more guests
+- 

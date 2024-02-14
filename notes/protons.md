@@ -1,0 +1,1 @@
+Hydrogen atoms deprived of their electrons

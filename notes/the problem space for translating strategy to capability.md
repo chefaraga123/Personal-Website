@@ -1,0 +1,6 @@
+- The way in which strategic direction is translated into military capability follows a four step model
+	- The government affirms a chosen defence policy 
+	- The government allocates resource
+	- Defence decision makers determine the capability required to meet policy 
+	- Resource is spent to acquire/maintain that capability
+- 

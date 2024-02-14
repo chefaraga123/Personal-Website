@@ -1,0 +1,14 @@
+- tags: [[Neoliberalism]]
+- Hayek's *[[Road to Serfdom]]* (1944) played a central intellectual role for British neoliberalism.
+- The neoliberal agenda in Britain was developed by the [[Institute of Economic Affairs]], such an institution was on the fringe of British politics until the election of the 1979 Thatcher government 
+- "[[Classical Liberalism]]"
+	- Mill had made an argument defining the boundary between individual and state in his essay *On Liberty* attacking state education as despotic 
+- By 1922 British politics had been recast as a contest between the [[Conservative Party]] and the [[Labour Party]], with the Liberal Party a rump  
+
+- In this midst, the Road to Serfdom served as a political tract, not a work of economic analysis. 
+- The road to serfdom Hayek argues, is a German road 
+- [[Carl Schmitt]]'s arguments have persisted into the 21st century, because of the articulation of a problem that remains unresolved: *how can political order & liberty be secured if the state has no limit other than laws passed by whoever controls Parliament and government* Friedrick [[Hayek]] is responding to this, but in a purely rhetorical way
+- The classical liberalism promoted by Hayek in his book invoked a conception of political freedom, underpinned by a parallel, but weaker conception of economic liberty. Free markets, in the classical view were a corollary of political liberty & not the other way round 
+- **What characterises neoliberalism from classical liberalism is the inversion of the relationship between politics and economics**
+- Arguments for liberty became economic rather than politics, identifying the impersonality of market forces as the chief means for securing popular welfare and personal liberty.
+- 

@@ -1,0 +1,5 @@
+- a non-causal, but also non-compositional, determination between composed and component entities focused upon role-shaping or role-constraining rather than role -filling. 
+- AKA 
+	- part-whole constraint
+	- self-organisation
+	- circular causation 

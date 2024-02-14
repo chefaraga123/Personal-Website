@@ -1,0 +1,9 @@
+- Natural Language Processing
+- Computer Vision
+- Medicine
+- Biology
+- Image Generation
+- Recommendation system
+- Playing games
+- Robotics 
+- etc...

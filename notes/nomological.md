@@ -1,0 +1,3 @@
+- a word derive from the "nomos" which is Greek for law
+- in a broad sense, nomological refers to anything pertaining to or derived from laws or a set of laws
+- 1. **Philosophy and Science**: Here, it relates to the laws of nature or the principles that govern the natural world. A nomological statement or law in science, for example, would be a proposition or rule that states a natural or logical necessity, usually based on empirical observations.

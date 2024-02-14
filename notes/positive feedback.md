@@ -1,0 +1,4 @@
+- The amplification of deviations
+- This leads to the questions: how far can a system push certain amplifications without endangering itself?
+	- How far can the increase of certain variables progress if these variables are merely variables amongst other variables. 
+- Does the have braking mechanism at its disposal, or will only catastrophic developments finally block the positive feedback that was at an earlier point introduced 

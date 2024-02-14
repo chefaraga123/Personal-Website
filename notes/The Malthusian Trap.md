@@ -1,0 +1,4 @@
+- [[Thinking about the future]]
+- In 1798 Malthus argued in his essay *On Population* that the 19th century would see an end to human progress 
+- He calculated that the exponentially growing human race was reaching the planets capacity on food generation 
+- Population growth is geometric, food generation growth is linear

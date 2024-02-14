@@ -1,0 +1,5 @@
+- Considering how powerful the attackers to our cryptographic system are
+	- A: The eavesdropper
+	- B: The tamperer 
+- Cryptosystems should remain secure even when the attacker knows all the internal details of the system. The key should be the only thing that needs to remain secret. The system should be designed to make it easy to change keys that are leaked. 
+- We assume that the attacker knows the encryption and decryption algorithms. The only information missing is the secret keys. 

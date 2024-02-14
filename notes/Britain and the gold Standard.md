@@ -1,0 +1,1 @@
+#- Britain left the gold standard in 1931 

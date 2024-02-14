@@ -1,0 +1,3 @@
+- Used to analyse the computation of Boolean functions 
+- They are structured as graphs consisting of nodes (gates) and edges (wires)
+- Boolean circuits are used to evaluate Boolean functions, which are functions of binary values and produce a binary output 

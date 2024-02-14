@@ -1,0 +1,4 @@
+- the general question of sociology is how social order is possible at all 
+- what distinguishes a social system or a social order from a psychic or biological phenomenon
+- What are the conditions for the persistence of a social system? What are the conditions for the existence of a society?
+- 

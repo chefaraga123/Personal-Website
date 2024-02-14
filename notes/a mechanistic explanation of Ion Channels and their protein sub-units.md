@@ -1,0 +1,4 @@
+- Research from the [[neuroscience]]s
+	- A **potassium ion channel** plays a key role in a **neuron** due to its **property** of being a **voltage-sensitive gate** contributing the backward-looking power of opening in response to a **change in the charge** of the surrounding cells 
+	- We can appreciate an intra-level productive explanation of why the ion channel opens in terms of the process in which this individual is involved 
+	- When the ion channel is **under certain background conditions** such as being in the oily membrane of the cell and there is a change in the charge of the surrounding cells, then the backward looking power of the ion channel, contributed to it by the property of being a voltage-sensitive gate is manifested and bases a productive process that results in the ion channel opening

@@ -1,0 +1,2 @@
+- A command line-application for Windows that provides an emulation layer for a Git command-line experience 
+- Git BASH allows windows users to access a set of [[BASH]] shell commands, along with Git commands within a windows environment 

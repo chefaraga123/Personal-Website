@@ -1,0 +1,3 @@
+- `mv pages src/pages
+	- moves the pages directory to a new location under the src directory 
+- 

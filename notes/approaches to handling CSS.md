@@ -1,0 +1,10 @@
+- **Global CSS** e.g. `App.css`
+	- Centralised Styling, makes sense for smaller or simpler projects, however as the project grows the CSS file can become large and difficult to maintain. There's potential for naming conflicts since CSS classes are global
+- **Component-Specific CSS** 
+	- Modular Styling: write separate CSS files for each component 
+	- Its easier to maintain, but many small files may be hard to manage
+- **CSS Module** 
+	- provides a way to write CSS that's scoped to a single component 
+- **Styled Components** 
+	- Allows you to write CSS directly within your JS files, creating styled-components 
+	- Slightly different syntax to pure CSS, maybe entailing greater complexity.

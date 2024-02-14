@@ -1,0 +1,5 @@
+- Relies on the existence of a plurality of apparently viable theories. 
+- Making conflicting predictions that can be distinguished by the experiment 
+- This emerges from [[Conjecture as the source of our theories]]
+- Relies on many prior explanations in addition to the ones being tested, such as theories of how measurement instruments work 
+- Theories can contradict each other, but reality has no contradictions, hence every problem signals the inadequacy of our knwoledge 

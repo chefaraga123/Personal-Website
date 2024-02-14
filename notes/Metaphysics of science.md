@@ -1,0 +1,4 @@
+- The abstract examination of ontological concepts, issues arguments and positions as they arise within or from the sciences and their explanations and theories 
+- Both [[Scientific Emergentists]] and [[scientific reductionists]] are pursuing this, and both groups endorse [[everyday reductionism]]
+- Each position defends integrated [[nomological]], semantic and methodological views apparently driven by their opposing ontological claims about the implications of compositional explanations and other empirical evidence
+	- tag:[[Ontology]]
