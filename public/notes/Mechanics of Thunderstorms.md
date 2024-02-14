@@ -1,0 +1,6 @@
+- A temperature [[Gradients]] exists between the ocean surface and the atmosphere. This leads to the upward flow of air and vapour. 
+- As the vapour moves upwards it cools until it reaches the critical point and which [[phase transitions]] from vapour to liquid water. 
+- The phase transition leads to the release of energy which transfers to the surrounding medium. This energy is called **latent heat** 
+- This latent heat increases the temperature of the air current, providing buoyancy to the vapour allowing it to reach greater height as this process iterates
+- The death of a thunderstorm is attributable to processes that counteract its sustaining gradients: the higher the air reaches the colder it gets, the more saturated it gets and the larger the drops and crystals that condense from it. .
+- When the weight of the drops/crystals exceed the updraft they begin to form as rain and hail, stealing energy from the updraft and destroying the internal machinery of the storm

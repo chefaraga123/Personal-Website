@@ -1,0 +1,1 @@
+- A legal document governing the relationship between the software service provider and the end user 

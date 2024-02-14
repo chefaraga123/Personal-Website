@@ -1,0 +1,2 @@
+- Defined a criteria for the concept of [[Autonomous worlds]]
+- 

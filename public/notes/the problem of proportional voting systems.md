@@ -1,0 +1,2 @@
+- proportional representation systems assign outsize importance to the third-largest party, which, holds the balance of power, and can act as the king-maker 
+- Objective is to allocate influence proportionally, but this is undermined by the presence of the third party 

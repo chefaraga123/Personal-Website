@@ -1,0 +1,7 @@
+- The [[Compositional Explanation]] of a higher process works by illuminating how it is composed by the qualitatively different productive processes posited in intra-level explanations at lower levels. 
+- **For example**
+	- [[a mechanistic explanation using Diamonds and Carbon Atoms]]
+	- [[a mechanistic explanation of Ion Channels and their protein sub-units]]
+- **productive closure** across the distinct levels of individuals within a compositional hierarchy 
+	- **productive relations within a compositional hierarchy are exclusively intra-level relations.** 
+- 

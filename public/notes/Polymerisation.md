@@ -1,0 +1,3 @@
+- The process through which polymers are made 
+- The chemical reaction which lengthens the chain of a polymer 
+- It is not favoured by an aqueous environment 

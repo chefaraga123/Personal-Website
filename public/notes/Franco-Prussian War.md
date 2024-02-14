@@ -1,0 +1,2 @@
+- 1871, Churchill sees the signing of peace as Germany eclipsing French power in continental Europe 
+- France was stripped of Alsace & Lorraine 

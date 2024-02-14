@@ -1,0 +1,1 @@
+A type of [[sociology]], either functionalist or Marxist-structuralist, that takes society as a whole as its point of departure, rarely attempting to explain the exact historical processes through which collective social institutions have emerged out of the interactions of indiviudals. 

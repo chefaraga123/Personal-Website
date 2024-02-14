@@ -1,0 +1,6 @@
+- tag [[Scientific Theories are explanations]]
+- Myths although false, do constitute an explanatory theory 
+- However when myths are altered or superseded they are barely any closer to the truth of the situation 
+- The Gods have some power to affect large-scale phenomena 
+- Every detail of the myth, i.e. its internal mechanics can vary without the implied predictive output changing. The details of the myth are unconnected to the details of the phenomena 
+- it is easy to update the specifics of the myth to account for conflicting observations 

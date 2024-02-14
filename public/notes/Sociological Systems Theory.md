@@ -1,0 +1,1 @@
+- Tags:[[sociology]], [[Foundations of a General Systems Theory]], [[System]]

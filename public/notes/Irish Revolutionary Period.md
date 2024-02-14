@@ -1,0 +1,1 @@
+- **Period in the 1910s and early 1920s** when Irish nationalist opinion shifted from the Home Rule supporting Irish Parliamentary Party to the republican Sinn Fein movement. 

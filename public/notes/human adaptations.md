@@ -1,0 +1,9 @@
+- tag: [[Adaptations]]
+- Could this be tied to a theory of [[open systems]], the relationship between social systems and biological systems to their environment being of a fundamentally different nature?
+- Human needs can be met, given the right knowledge, given the transformation of other resource
+- All technical knowledge can eventually be implemented in automated devices. 
+	- [[automation of technical knowledge]]
+- Human beings can be regarded as universal constructors 
+	- This universality is a consequence of being able to create explanations 
+- No organism other than humans is capable of creating or using explanatory knowledge 
+	- the cultural knowledge of fairly sophisticated primates is more similar to genetic knowledge 

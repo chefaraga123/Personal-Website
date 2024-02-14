@@ -1,0 +1,2 @@
+- implies components have some powers in complex collectives that they would not have if the laws or principles applying in simpler collectives exhaustively applied in the complex aggregation 
+- 

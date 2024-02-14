@@ -1,0 +1,4 @@
+- The science have shown how the many processes based by particular carbon atoms breaking the bonds between and displacing specific glass molecules compose/implement the process of the diamond scratching the glass
+	- Given the relevant triggering conditions, the powers of the carbon atoms to hold each other in close relative spatial relations and to break the bonds between glass molecules when under pressure are triggered in a host of carbon atoms 
+	- The result is a large number of productive processes involving particular carbon atoms each of which produces breakages in the bonding of specific glass molecules with other molecules as well as changes in their spatial locations. And these many lower-level processes involving carbon atoms together implement and non-productively result in, the qualitatively different process involving the diamond 
+	

@@ -1,0 +1,2 @@
+- Pressure is the average degree to which a population of molecules pushes against the walls of its container attributable to the momentum of its parts 
+- Pressure is proportional to Mass AND Velocity 

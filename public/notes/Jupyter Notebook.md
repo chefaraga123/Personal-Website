@@ -1,0 +1,8 @@
+- An IDE that allows you to write & execute code in an interactive way, document processes using markdown and visualise data all in one place 
+- Jupyter relies on Python being installed 
+- To install use the following command
+	- `pip install notebook`
+- To launch: 
+	- `jupyter notebook`
+- To access the server follow this URL
+	- `http://127.0.0.1:8888/tree`

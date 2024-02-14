@@ -1,0 +1,2 @@
+- this flag adds the package to the `devDependencies` section of your project's package.json file. 
+- These are dependencies that are only needed for development & testing not running in production 

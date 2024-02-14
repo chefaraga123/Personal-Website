@@ -1,0 +1,3 @@
+- [[Emergence]]
+- Gradients are the label given to the capacity for intensive differences to act as energy storage devices 
+- Gradients can serve to generate the moving parts of larger wholes. If a gradient is intense enough and if it is prevented from dissipating it can cause a molecular population to self-organise into a circular motion pattern that will exist as long as the gradient persists 

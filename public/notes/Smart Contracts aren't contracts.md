@@ -1,0 +1,4 @@
+- [[Smart Contract]] is a misnomer, elucidated on by various writes, it is not smart as it just executes according to its conditions naively, and its a misunderstanding of the idea of a contract 
+- However in a sense Smart Contract are useful in the way that contracts are, Smart Contracts are useful because (assuming the code is accurately interpretable) they can help people individuals with no prior relationship coordinate well-defined interactions 
+- [[Contracts]] are useful because they provide individuals the capacity to form expectations about the behaviour of other individuals. 
+- Contracts aren't typically complete, a phenomena referred to as the [[incompleteness of contract]], this is an equally desirable and undesirable property of contracts, however Smart Contracts are complete as all outcomes are explicitly or at least implicitly accounted for. 2

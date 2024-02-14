@@ -1,0 +1,2 @@
+- deduction is the movement of truth from the general to the particular 
+	- or the particular -> the particular 

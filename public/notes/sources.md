@@ -1,0 +1,1 @@
+- A site / mechanism where users can receive currency/resources 

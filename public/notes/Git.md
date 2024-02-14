@@ -1,0 +1,39 @@
+- [[Git BASH]]
+- A distributed version control system, created to support development of the Linux Kernel 
+- Core aspects include 
+	- **Branching** and **Merging** 
+	- **Staging** 
+- Using Github 
+	- Creating a repository 
+- Linking a local repository to GitHub
+	- `git remote add origin [repository URL]`
+- Pushing code to GitHub
+	- `git push -u origin master`
+- Push the local master branch to the remote repositor, set the default upstream for the master branch 
+	- `git push --set-upstream origin master`
+- Creating a new branch
+	- `git branch <branch name>`
+- Check current branch
+	- `git status` or `git branch`
+- Add changes in the working directory to the staging area
+	- `git add .`
+- Save your staged changes + add a descriptive message 
+	- `git commit -m "<descriptive message>"`
+- Pushing updates to Github pages
+	- ````npm run deploy?
+
+- Git can be used to support a [[Continuous Integration, Continuous Deployment (CI,CD)]] pipeline, the process is as follows:
+	- Push code changes to a Git repository
+	- A CI/CD tool is triggered by the push event 
+	- The CI/CD tool runs a pipeline as its defined in the repository 
+	- The pipeline runs through various jobs & stages (build, test, deploy)
+- **On GitHub:** 
+	- GitHub Actions (for GitHub repositories)
+	- Define the pipeline in `.github/workflows/workflow.yml`, this defines 
+		- Build Steps
+		- Test Steps
+		- Deploy Steps 
+	- Configure Build Environment
+	- Integrate with Git
+	- Test the pipeline
+	- Set Up Deployment 

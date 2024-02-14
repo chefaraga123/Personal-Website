@@ -1,0 +1,2 @@
+- takes all scientific explanation to have the form of deductive arguments explaining phenomena by deriving them from the laws serving as the premises of such arguments
+- 

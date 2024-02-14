@@ -1,0 +1,4 @@
+- Ribonucleic Acid 
+- A sequence of four nucleotides 
+- The simplest self-replicating entities are RNA molecules in a free state 
+- They have their own catalytic properties, depending on the precise sequence of their own constituent molecules

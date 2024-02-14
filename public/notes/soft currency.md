@@ -1,0 +1,2 @@
+- the most commonly found resources in F2P games, easily earnt and widely available as rewards from performing the core loop 
+- 

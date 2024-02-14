@@ -1,0 +1,18 @@
+- Explanations of higher-level entities built around lower-level entities taken to compose them 
+- This is broadly endorsed across [[scientific reductionists]] and [[Scientific Emergentists]], their disputes no longer concern the existence of composition at all levels in nature 
+- The two sides class over divergent ontological commitments, implicit assumed by either side in contrasting views of the nature of composition.
+	- tag: [[Ontology]]
+- Composition explanations and connected empirical findings plausibly provide core empirical evidence about the structure of nature both locally and globally. 
+- Scientific reductionism and emergentism are both focused on such explanations
+- to the degree which we take explanatory success as a marker of truth we should favour scientific notions of composition rather than philosophical frameworks 
+	- [[Scientific Theories are explanations]]
+- [[Compositional relations]]
+- Allow us to explain one kid of entity in terms of the qualitatively different type of entity taken to compose it, this hence results in [[Piercing Explanatory Power (PEP)]]
+	- We can explain a conception of nature used in our scientific accounts, like the hardness of a diamond using utterly different kinds of entity such as the [[covalent bonding]] of carbon atoms 
+- Once we have successfully supplied a compositional explanation of certain entities in terms of certain others that compose them then we have established that these entities are in some sense the same. This is termed the [[ontologically unifiyng power (OUP)]] of compositional explanations
+- Compositional relations in the sciences are thus usually many-to-one with many components and a single composed entity.  
+- Numerous component entities, as a team or collective, jointly non-productively result in the qualitatively different entity they are taken to compose. 
+- The contrast of intra-level and inter-level compositional explanations
+	- Intra-level explanations plausibly work by representing productive relations between wholly distinct entities and such relations are often identical to the triggering of the powers of an individual that, under certain conditions, necessarily generates certain effects 
+- Distinct teams of component entities can separately be such that these distinct components each together compose "tokens" of the same type of higher-level entity. One may have multiple combinations of lower-level entities which together compose "tokens" of the same kind of higher-level entity
+- 

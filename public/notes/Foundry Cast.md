@@ -1,0 +1,2 @@
+- Interact with the blockchain over [[rpc]]. you can make [[Smart Contract]] calls, send transactions or retrieve any type of chain data
+-

@@ -1,0 +1,2 @@
+- an embedded EVM database similar to a [[SQLite database]] with the concept of tables, columns and rows. Using Store allows for more structure data management and doesn't rely on the storage methods provided by the [[Solidity Compiler]]
+- It supports table creation at runtime and allows registering hooks to automatically create indexed views for more flexibility 

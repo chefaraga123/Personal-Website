@@ -1,0 +1,1 @@
+An affine combination of variables is a special type of linear combination where the **coefficients** (the constants you multiply the variables by) **sum up to one**. This is commonly used in linear algebra and geometry.

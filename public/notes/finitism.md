@@ -1,0 +1,4 @@
+- The doctrine that only finite abstract entities exist 
+- For instance, there are infinitely many natural numbers, but finitism holds that this is only a matter of speaking - there is a finite rule for generating each natural number  from the previous one and nothing literally infinite is involved 
+- Finitism is [[instrumentalism]] applied to mathematics, it is the attempt to see mathematical entities purely as procedures that mathematicians follow, but not for referring to anything real other than finite objects of experience 
+- 

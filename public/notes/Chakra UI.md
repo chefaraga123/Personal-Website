@@ -1,0 +1,3 @@
+- a simple-to-us React component library that provides a set of resuable and composable UI components 
+- **Component Library**: Chakra UI provides a wide range of components, such as buttons, forms, modals, toasts, and more, which are designed to work together harmoniously. These components are built with composition in mind, allowing developers to combine and customize them as needed.
+- **popular choice for developers building projects with React.**

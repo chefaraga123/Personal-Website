@@ -1,0 +1,2 @@
+- atoms disassociated into their electrically charged components 
+- typically emits bright, visible light 

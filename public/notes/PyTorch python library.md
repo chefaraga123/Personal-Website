@@ -1,0 +1,2 @@
+- an open source ML framework 
+- a library for deep learning on irregular input data such as graphs, point clouds and mainfolds 

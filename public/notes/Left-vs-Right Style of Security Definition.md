@@ -1,0 +1,2 @@
+- **Other intuition**: *an encryption scheme is a good one if encryptions of mL look like encryptions of mR to an attacked for all possible mL & mR.* 
+- 

@@ -1,0 +1,5 @@
+- Are used to compute arithmetic functions over integers or real numbers. They consist of gates that perform basic arithmetic operations like addition/subtraction/multiplication/division 
+- Nodes:
+	- inputs, gates, constants
+- Edges:
+	- Writes, connections 

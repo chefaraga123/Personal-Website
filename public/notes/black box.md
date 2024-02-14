@@ -1,0 +1,3 @@
+- This is a term used when the inside of a system cannot be recognised because it is too complex & cannot be analysed
+- Only from the regularities of the external relations of the system can the conclusion be drawn that there must be some kind of mechanism to explain the system's reliability and predictability of its outputs given certain inputs 
+- The black box model is merely a model that provides a frame, and doesn't in principle exclude the possibility of subsequent more detailed analyses. But it does dissolve the notion of a machine like coupling of input & output 

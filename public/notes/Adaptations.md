@@ -1,0 +1,2 @@
+- For a **gene** to be adapted to a given function means that few, if any, marginal changes, would  improve its ability to perform that function. Some changes may make no practical difference whilst most would make it worse. 
+- Considering it in the context of a [[Fitness Landscape]], then a good adaptation is one which is close or on a maxima, and the neighbourhood of mutations represents points of lower [[fitness]]
