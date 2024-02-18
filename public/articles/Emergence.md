@@ -7,7 +7,6 @@ You may hear people talk about how some property emerges given some parts or inp
 emergent behaviour  when users do things that weren't explicitly planned by the developer. The behaviour of the users in such a case 
 would be deemed irreducible to the game's mechanics. I even used it in my article about how *Web3 provides a foundation for the emergence of a higher order of sophistication in games and virtual worlds*, with that I was kind of trying to say that Web3 is a condition that facilitates certain patterns of behaviour but that its mere existence is not the full enabling condition. 
 
-
 ## The motivation to write about this
 My first interaction with emergence was when I was about 14 and came across **[Conway's Game of Life](https://playgameoflife.com/)**. In Conway's Game of Life, the player is responsible for setting the initial conditions of a recursive simulation, in English, you have a grid of cells, each cell is either in an on or an off state and for each cell depending upon the states of its neighbours its state updates or it doesn't, as the user you set the initial states of the cells on this grid, and then you start the simulation. At which point the rule is applied the states recursively update until they converge on some end state. Conway's Game of Life is Turing Complete, which means that through setting the initial states of these cells one can simulate any algorithmic process - how can something so trivially simple generate such complexity.  
 

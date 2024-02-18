@@ -25,7 +25,7 @@ const Writing = () => {
     {
       id: 'section3',
       title: 'An introduction to ZKs',
-      date: '  | 14/02/2024',
+      date: '  | 15/02/2024',
       url: "/Personal-Website/introduction-zks",
       markdownUrl: "/Personal-Website/articles/Introduction_Zks.md"
 
@@ -36,6 +36,14 @@ const Writing = () => {
       date: '  | 21/02/2024',
       url: "/Personal-Website/introduction-zks-gaming",
       markdownUrl: "/Personal-Website/articles/Introduction_Zks_Gaming.md"
+
+    },
+    {
+      id: 'section5',
+      title: 'Using Non-Custodial Accounts',
+      date: '  | 21/02/2024',
+      url: "/Personal-Website/Non_Custodial_Accounts",
+      markdownUrl: "/Personal-Website/articles/Non_Custodial_Accounts.md"
 
     }
 

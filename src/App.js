@@ -14,13 +14,14 @@ import Emergence from './pages/Writing/Articles/Emergence';
 import Urbanisation from './pages/Writing/Articles/Urbanisation_Virtual_Worlds';
 import ZkGaming from './pages/Writing/Articles/Zks_Gaming';
 import ZKIntroduction from './pages/Writing/Articles/ZKs_Introduction';
+import Non_Custodial_Accounts from './pages/Writing/Articles/Non__Custodial_Accounts';
 
 /*Components*/
 import NoteViewer from './components/NoteViewer/NoteViewer';
 
 const App = () => {
   return (
-    <Router basename="/Personal-Website">
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -30,6 +31,7 @@ const App = () => {
         <Route path="/Urbanisation-Virtual-Worlds" element={<Urbanisation />} />
         <Route path="/introduction-zks-gaming" element={<ZkGaming />} />
         <Route path="/introduction-zks" element={<ZKIntroduction />} />
+        <Route path="/Non-custodial-account" element={<Non_Custodial_Accounts />} />
 
 
         <Route path="/Books" element={<Books />} />
