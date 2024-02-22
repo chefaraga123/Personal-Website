@@ -1,15 +1,14 @@
 # The Urbanisation of Virtual Worlds
 
-
-![Article1_Cover_Image](Article1_Cover_Image.png)
-
 ## Introduction
 ‘True ownership’ and property rights are oft-referenced by Web3-evangelists as the cornerstone motivation for Web3. Web3 is touted as a system of enforceable property rights for digital assets. There are a couple of major issues with this framing: first property rights are a legal, not a technical, construct and even if one does have ‘true ownership’ how that differs from a mode of faux-ownership inherent to digital assets from the Before Crypto Era (BCE) is rarely usefully elucidated. 
 
 To be clear, I do think that the analogy of property rights does work! Those in Web3 are right to be excited about the idea of digitally-native property rights! Property rights are the transformational event for social organisation. Secure property rights & rule of law are core drivers of economic development and prosperity (a broadly ubiquitous perspective amongst development economists). Web3 provides a foundation for the emergence of a higher order of sophistication in games and virtual worlds. 
 
 My intention with this article is to use ideas from economics, sociology, law and systems theory to argue why and how Web3 represents a huge development for games and virtual worlds.
+
 ## Section 1: Social Organisation & Property Rights 
+
 Urbanisation is the movement from agrarian to city-living. From the comparative analysis of agrarian vs city-living emerges a picture of the relationship between property rights and social organisation. 
 
 Let's call agrarian-living, community-living. In a community everyone knows each other (or at least has an idea of each other), everyone knows each other’s reputation: you have the village idiot and the priest, the butcher, the baker etc… In a city it's impossible for everyone to know each other. 

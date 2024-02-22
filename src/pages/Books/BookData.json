@@ -1,72 +1,157 @@
 [
     {
       "title": "Retrospect",
-      "author": "Robert McNamara"
+      "author": "Robert McNamara",
+      "genre": ["Biography", "History ", "Warfare ", "Politics "]
     },
     {
       "title": "The Years of Lyndon Johnson (3&4)",
-      "author": "Robert A. Caro"
+      "author": "Robert A. Caro",
+      "genre": ["Biography", "History", "Politics"]
     },
     {
       "title": "The Power Broker",
-      "additionalInfo": "Robert Moses"
-    },
-    {
-      "title": "Enoch Powell: Politics and Ideas in Modern Britain",
-      "author": "Various"
+      "author": "Robert A. Caro",
+      "additionalInfo": "Robert Moses",
+      "genre": ["Biography", "History", "Politics", "Management"]
+
     },
     {
       "title": "Henry Kissinger & American Power",
-      "author": "Thomas A. Schwartz"
+      "author": "Thomas A. Schwartz",
+      "genre": ["Biography", "History", "Warfare", "Politics "]
+
     },
     {
       "title": "The Great Betrayal",
-      "author": "Ian Smith"
+      "author": "Ian Smith",
+      "genre": ["Biography", "History", "Warfare", "Politics"]
+
     },
     {
       "title": "Team of Rivals",
-      "additionalInfo": "Abraham Lincoln"
+      "additionalInfo": "Abraham Lincoln",
+      "genre": ["Biography", "History", "Warfare", "Politics", "Leadership"]
     },
     {
       "title": "The making of Oliver Cromwell",
-      "author": "Ronald Hutton"
+      "author": "Ronald Hutton",
+      "genre": ["Biography", "History", "Warfare", "Politics"]
+
     },
     {
       "title": "Citizen Clem",
-      "additionalInfo": "Clement Atlee"
+      "additionalInfo": "Clement Atlee",
+      "genre": ["Biography", "History", "Warfare", "Politics"]
+
     },
     {
       "title": "Pieces of the Action",
-      "author": "Vannevar Bush"
+      "author": "Vannevar Bush",
+      "genre": ["Autobiography", "History", "Warfare", "Politics", "Management"]
+
     },
     {
       "title": "The knowledge we have lost in information",
-      "author": "Ian G. Simmons"
+      "author": "Philip Mirowski",
+      "genre": ["Economics", "History", "Philosophy", "Politics"]
+
     },
     {
       "title": "Science-Mart: Privatising American Science",
-      "author": "Philip Mirowski"
+      "author": "Philip Mirowski",
+      "genre": ["Economics", "History", "Philosophy", "Politics"]
+
     },
     {
       "title": "The Road from Mont Pelerin",
       "author": "Philip Mirowski",
-      "additionalInfo": "Collection of essays"
+      "genre": ["Economics", "History", "Philosophy", "Politics"]
     },
     {
       "title": "On China",
-      "author": "Henry Kissinger"
+      "author": "Henry Kissinger",
+      "genre": ["Autobiography ", "History", "Warfare", "Politics "]
+
     },
     {
       "title": "The Concept of the Political",
-      "author": "Carl Schmitt"
+      "author": "Carl Schmitt",
+      "genre": ["History", "Politics", "Philosophy"]
+
     },
     {
       "title": "Talent",
-      "author": "Tyler Cowen and Daniel Gross"
+      "author": "Tyler Cowen and Daniel Gross",
+      "genre": ["Psychology", "Business"]
+
     },
     {
       "title": "Pyramid of Game Design",
-      "author": "Nicholas Lovell"
+      "author": "Nicholas Lovell",
+      "genre": ["Business", "Game Design"]
+    },
+    {
+      "title": "Understanding UK Military Capability",
+      "author": "Andrew R. Curtis",
+      "genre": ["History", "Politics", "Warfare"]
+    },
+    {
+      "title": "Technics and Civilisation",
+      "author": "Lewis Mumford",
+      "genre": ["History", "Technology", "Philosophy"]
+    },
+    {
+      "title": "The Beginning of Infinity",
+      "author": "David Deutsch",
+      "genre": ["Physics", "Philosophy"]
+    },
+    {
+      "title": "Systems Theory",
+      "author": "Niklas Luhmann",
+      "genre": ["Sociology", "Philosophy"]
+    },
+    {
+      "title": "Reduction and Emergence in Science and Philosophy",
+      "author": "Carl Gillet",
+      "genre": ["Physics", "Philosophy"]
+    },
+    {
+      "title": "The History of Mining",
+      "author": "Michael Coulson",
+      "genre": ["History", "Geology"]
+    },
+    {
+      "title": "A Global History of Money",
+      "author": "Akinobu Kuroda",
+      "genre": ["History", "Economics"]
+    },
+    {
+      "title": "The Politics of Nuclear Weapons",
+      "author": "Akinobu Kuroda",
+      "genre": ["History", "Politics", "Warfare"]
+    },
+    {
+      "title": "Intensive Science and Virtual Philosophy",
+      "author": "Manuel DeLanda",
+      "genre": ["Philosophy", "Physics", "Mathematics"]
+    }
+    ,
+    {
+      "title": "A New Philosophy of Society",
+      "author": "Manuel DeLanda",
+      "genre": ["Philosophy", "Sociology"]
+    }
+    ,
+    {
+      "title": "Philosophy and Simulation: The Emergence of Synthetic Reason",
+      "author": "Manuel DeLanda",
+      "genre": ["Philosophy", "Sociology", "Physics"]
+    },
+    {
+      "title": "A Thousand Years of Non-Linear History",
+      "author": "Manuel DeLanda",
+      "genre": ["Philosophy", "Sociology", "History"]
     }
   ]
   
