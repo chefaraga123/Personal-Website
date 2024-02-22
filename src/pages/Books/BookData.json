@@ -153,5 +153,116 @@
       "author": "Manuel DeLanda",
       "genre": ["Philosophy", "Sociology", "History"]
     }
+    ,
+    {
+      "title": "A Thousand Years of Non-Linear History",
+      "author": "Manuel DeLanda",
+      "genre": ["Philosophy", "Sociology", "History"]
+    },
+    {
+      "title": "Lean Startup",
+      "author": "Eric Ries",
+      "genre": ["Business", "Management"]
+    },
+    {
+      "title": "One Up",
+      "author": "Joost van Dreunen",
+      "genre": ["Business", "Management", "Games"]
+    },
+    {
+      "title": "One Up",
+      "author": "Joost van Dreunen",
+      "genre": ["Business", "Management", "Games"]
+    }
+    ,
+    {
+      "title": "Blood Sweat and Pixels",
+      "author": "Jason Schrier",
+      "genre": ["Business", "Management", "Games"]
+    }
+    ,
+    {
+      "title": "Shorting the Grid",
+      "author": "Meredith Angwin",
+      "genre": ["Politics", "Technology"]
+    }
+    ,
+    {
+      "title": "Fear of Freedom",
+      "author": "Erich Fromm",
+      "genre": ["Politics", "Sociology", "Psychology"]
+    },
+    {
+      "title": "The Audacity to Win",
+      "author": "David Plouffe",
+      "genre": ["Politics", "Leadership"]
+    }
+    ,
+    {
+      "title": "The World for Sale",
+      "author": "Javier Blas",
+      "genre": ["Politics", "Economics"]
+    },
+    {
+      "title": "Chip War",
+      "author": "Chris Miller",
+      "genre": ["Technology", "Economics", "Politics"]
+    }
+    ,
+    {
+      "title": "Course in General Linguists",
+      "author": "Ferdinand de Saussure",
+      "genre": ["Psychology", "Linguistics"]
+    }
+    ,
+    {
+      "title": "Fear and Loathing in Las Vegas",
+      "author": "Hunter S Thompson",
+      "genre": ["Fiction"]
+    }
+    ,
+    {
+      "title": "Legal Systems Very Different From Ours",
+      "author": "David Friedman",
+      "genre": ["Law", "Sociology", "Economics"]
+    }
+    ,
+    {
+      "title": "Political Order and Political Decay",
+      "author": "Francis Fukuyama",
+      "genre": ["Politics", "History" , "Economics", "Law", "Sociology"]
+    }
+    ,
+    {
+      "title": "High Output Management",
+      "author": "Andrew Grove",
+      "genre": ["Business", "Management"]
+    },
+    {
+      "title": "Only the Paranoid Survive",
+      "author": "Andrew Grove",
+      "genre": ["Business", "Management"]
+    },
+    {
+      "title": "Blockchain and the Law",
+      "author": "Primavera De Fillipi",
+      "genre": ["Law", "Technology"]
+    },
+    {
+      "title": "The Rule of Law",
+      "author": "Tom Bingham",
+      "genre": ["Law"]
+    },
+    {
+      "title": "Hooked",
+      "author": "Nir Eyal",
+      "genre": ["Business"]
+    },
+    {
+      "title": "The Blunders of Our Government",
+      "author": "Ivor Crewe",
+      "genre": ["Politics", "History"]
+    }
+    
   ]
   
