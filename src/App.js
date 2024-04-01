@@ -22,7 +22,7 @@ import NoteViewer from './components/NoteViewer/NoteViewer';
 
 const App = () => {
   return (
-      <Router basename="/Personal-Website">
+      <Router basename="/">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
