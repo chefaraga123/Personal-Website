@@ -43,7 +43,7 @@ An interesting phenomena to observe up close is managerial diseconomies of scale
 In approximately July, I moved from Oxford to London. I was most fortunate to have been involved with the formation of HomeDAO, a rather elite network of young 
 founders. 
 
-The move to London was motivated by Tania.
+The move to London was motivated by Tania, my girlfriend.
 
 Towards the end of the I started obsessively tracking personal metrics, including sleep (Sleep Duration, Wakeup Time, Sleep Quality, Time to Sleep), 
 the times I eat, and my workouts.
@@ -52,6 +52,9 @@ the times I eat, and my workouts.
 The overriding objective of this year was to become more intentional. 
 In addition to what I was already tracking I started to track how I spent my time, how long I worked for, how long I travelled for a day, 
 how long I spent reading, doing hobbies.
+
+I hit strength PRs, benching 130kg for 2 reps, although granted my 115 for 5 squat does show off how unbalanced my physique is!
+I started running regularly and doing cardio 
 
 I've become extremely excited about 
 
