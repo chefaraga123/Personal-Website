@@ -8,6 +8,7 @@ import About from './pages/About/About';
 import Writing from './pages/Writing/Writing';
 import Books from './pages/Books/Books';
 import KnowledgeGraph from './pages/KnowledgeGraph/KnowledgeGraph';
+import Trackers from './pages/Trackers/Trackers'
 
 /*Pages: Articles */
 import Emergence from './pages/Writing/Articles/Emergence';
@@ -15,7 +16,7 @@ import Urbanisation from './pages/Writing/Articles/Urbanisation_Virtual_Worlds';
 import ZkGaming from './pages/Writing/Articles/Zks_Gaming';
 import ZKIntroduction from './pages/Writing/Articles/ZKs_Introduction';
 import Non_Custodial_Accounts from './pages/Writing/Articles/Non__Custodial_Accounts';
-
+import Reason_For_Footium from './pages/Writing/Articles/Reason_For_Footium';
 
 /*Components*/
 import NoteViewer from './components/NoteViewer/NoteViewer';
@@ -33,7 +34,7 @@ const App = () => {
             <Route path="/introduction-zks-gaming" element={<ZkGaming />} />
             <Route path="/introduction-zks" element={<ZKIntroduction />} />
             <Route path="/Non-custodial-account" element={<Non_Custodial_Accounts />} />
-
+            <Route path="/Reason-For-Footium" element={<Reason_For_Footium />} />
 
             <Route path="/Books" element={<Books />} />
 
@@ -42,6 +43,7 @@ const App = () => {
               <NoteViewer noteId={match.params.noteId} />
             )} />
             
+            <Route path="/Trackers" element={<Trackers />} />
           </Routes>
      </Router>
   );

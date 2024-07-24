@@ -9,7 +9,7 @@ const Emergence = () => {
         <div>
             <Navigation />
             <div className={styles.markdownContainer}>
-                <MarkdownComponent filePath={"/Personal-Website/articles/Emergence.md"} />
+                <MarkdownComponent filePath={"/articles/Emergence.md"} />
             </div>
         </div>
     );

@@ -8,7 +8,7 @@ const Urbanisation = () => {
         <div>
             <Navigation />
             <div className={styles.markdownContainer}>
-                <MarkdownComponent filePath={"/Personal-Website/articles/Urbanisation_Of_Virtual_worlds.md"} />
+                <MarkdownComponent filePath={"/articles/Urbanisation_Of_Virtual_worlds.md"} />
             </div>
         </div>
     );

@@ -8,7 +8,7 @@ const ZKIntroduction = () => {
         <div>
             <Navigation />
             <div className={styles.markdownContainer}>
-                <MarkdownComponent filePath={"/Personal-Website/articles/Introduction_Zks.md"} />
+                <MarkdownComponent filePath={"/articles/Introduction_Zks.md"} />
             </div>
         </div>
     );

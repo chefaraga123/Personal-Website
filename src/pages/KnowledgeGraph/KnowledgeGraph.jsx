@@ -10,7 +10,7 @@ const KnowledgeGraph = () => {
 
     useEffect(() => {
       // Fetch the graph data from the 'public' directory
-      fetch('/Personal-Website/obsidianGraph.json')
+      fetch('/obsidianGraph.json')
         .then(response => response.json())
         .then(data => {
           // Set the graph data to state
@@ -25,7 +25,7 @@ const KnowledgeGraph = () => {
     
     const handleNodeClick = (node) => {
       const baseURL = process.env.NODE_ENV === 'development'
-        ? 'http://localhost:3000/Personal-Website/'
+        ? 'http://localhost:3000/'
         : process.env.PUBLIC_URL;
   
         const notePath = node.url;

@@ -9,7 +9,7 @@ const Non_Custodial_Accounts = () => {
         <div>
             <Navigation />
             <div className={styles.markdownContainer}>
-                <MarkdownComponent filePath={"/Personal-Website/articles/Non_Custodial_Accounts.md"} />
+                <MarkdownComponent filePath={"/articles/Non_Custodial_Accounts.md"} />
             </div>
         </div>
     );

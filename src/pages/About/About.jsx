@@ -17,12 +17,13 @@ to visualise the economic models that we were presented with, such as the Keynes
 and see how my toy economy would respond to the various perturbations that it would be subject to. 
 
 ### 2020
-ultimately meeting Jordan one of my co-founders at Footium.
+Ultimately meeting Jordan one of my co-founders at Footium.
 
-I spent so much time on Footium during first and second years of study, I was spending more time on Footium than my degree, and it occupied much more of my headspace 
+I spent so much time on Footium during first and second years of study, I was spending more time on Footium than my degree, and it occupied much more of my headspace!  
 
 ### 2021
-
+We did our pre-seed raised, it was encouraged by Encode Invest who lead our angel-round. At the time I didn't really understand the signficiance of what I was doing. 
+Success felt predetermined 
 
 ### 2022
 We finished our seed fundraise!
@@ -56,9 +57,9 @@ how long I spent reading, doing hobbies.
 I hit strength PRs, benching 130kg for 2 reps, although granted my 115 for 5 squat does show off how unbalanced my physique is!
 I started running regularly and doing cardio 
 
-I've become extremely excited about 
-
 This will be my greatest year ever, and a phase shift for Footium
+
+I've found it very difficult 
 
 `;
 
