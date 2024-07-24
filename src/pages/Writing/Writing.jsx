@@ -11,39 +11,39 @@ const Writing = () => {
       id: 'section2',
       title: 'The Urbanisation of Virtual Worlds',
       date: '  | 23/01/2024',
-      url: "/Personal-Website/Urbanisation-Virtual-Worlds",
-      markdownUrl: "/Personal-Website/articles/Urbanisation_Of_Virtual_worlds.md"
+      url: "/Urbanisation-Virtual-Worlds",
+      markdownUrl: "/articles/Urbanisation_Of_Virtual_worlds.md"
     },
     {
       id: 'section1',
       title: 'The Definitive Introduction to Emergence',
       date: '  | 07/02/2024',
-      url: "/Personal-Website/Emergence",
-      markdownUrl: "/Personal-Website/articles/Emergence.md"
+      url: "/Emergence",
+      markdownUrl: "/articles/Emergence.md"
 
     },
     {
       id: 'section3',
       title: 'An introduction to ZKs',
       date: '  | 15/02/2024',
-      url: "/Personal-Website/introduction-zks",
-      markdownUrl: "/Personal-Website/articles/Introduction_Zks.md"
+      url: "/introduction-zks",
+      markdownUrl: "/articles/Introduction_Zks.md"
 
     },
     {
       id: 'section4',
       title: 'Applying ZK to Gaming',
       date: '  | 21/02/2024',
-      url: "/Personal-Website/introduction-zks-gaming",
-      markdownUrl: "/Personal-Website/articles/Introduction_Zks_Gaming.md"
+      url: "/introduction-zks-gaming",
+      markdownUrl: "/articles/Introduction_Zks_Gaming.md"
 
     },
     {
       id: 'section5',
       title: 'Using Non-Custodial Accounts',
       date: '  | 21/02/2024',
-      url: "/Personal-Website/Non_Custodial_Accounts",
-      markdownUrl: "/Personal-Website/articles/Non_Custodial_Accounts.md"
+      url: "/Non_Custodial_Accounts",
+      markdownUrl: "/articles/Non_Custodial_Accounts.md"
 
     }
 
