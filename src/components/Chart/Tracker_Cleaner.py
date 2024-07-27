@@ -1,5 +1,12 @@
 import pandas as pd
-import json
+from datetime import datetime
+
+
+def remove_am_pm(time_str):
+    """Helper function to remove 'AM' or 'PM' from the time string."""
+    if isinstance(time_str, str):
+        return time_str.replace(' AM', '').replace(' PM', '')
+    return time_str  # return the value as is if it's not a string
 
 def csv_to_json(csv_file_path, json_file_path):
     # Read the CSV file
@@ -11,29 +18,28 @@ def csv_to_json(csv_file_path, json_file_path):
     # Adjust 'date' to match your column name if it's different
     df['Date'] = pd.to_datetime(df['Date'])
 
+
     # Sort the dataframe by date
     df = df.sort_values('Date')
 
     # Format the date as required by Chart.js
     df['x'] = df['Date'].dt.strftime('%Y-%m-%d')
 
-    # Rename your value column to 'y' and ensure it's numeric
+    df['Wakeup Time'] = df['Wakeup Time'].apply(remove_am_pm)
+
+    # Rename your value column to 'y'
     # Adjust 'value' to match your column name if it's different
     df = df.rename(columns={'Wakeup Time': 'y'})
-    df['y'] = pd.to_numeric(df['y'], errors='coerce')
-
-    # Drop any rows where y is not a valid number
-    df = df.dropna(subset=['y'])
 
     # Select only the required columns
     df = df[['x', 'y']]
 
-    # Convert to list of dictionaries
-    data = df.to_dict('records')
+    # Convert to JSON
+    json_data = df.to_json(orient='records')
 
     # Write to file
     with open(json_file_path, 'w') as json_file:
-        json.dump(data, json_file, indent=2)
+        json_file.write(json_data)
 
     print(f"Conversion complete. JSON file saved as {json_file_path}")
 
