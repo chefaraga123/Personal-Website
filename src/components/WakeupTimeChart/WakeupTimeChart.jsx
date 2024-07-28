@@ -2,18 +2,13 @@ import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale } from 'chart.js';
 import 'chartjs-adapter-date-fns';
 import wakeupData from "./Tracker_Clean.json"
+import './Chart.module.css'; // Import the CSS file
 
-/*
-const wakeupData = [
-    {"x":"2023-07-01","y":"15:17:30"},
-    {"x":"2023-07-02","y":"08:15:30"},
-    {"x":"2023-07-03","y":"08:15:30"}
-];*/
 
 // Register the Chart.js components 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeScale);
 
-const Chart = () => {
+const WakeupTimeChart = () => {
     const data = {
         datasets: [
             {
@@ -68,7 +63,12 @@ const Chart = () => {
         }
     };
 
-    return <Line data={data} options={options} />;
+    return (
+        <div className="chart-container">
+          <Line data={data} options={options} />
+         </div>
+
+    );
 }
 
-export default Chart;
+export default WakeupTimeChart;

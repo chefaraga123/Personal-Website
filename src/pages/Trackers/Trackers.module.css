@@ -1,0 +1,19 @@
+/* Trackers.module.css */
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0; /* Example background color */
+}
+
+.chartWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+}
+

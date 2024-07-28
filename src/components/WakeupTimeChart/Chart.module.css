@@ -1,0 +1,13 @@
+/* Style for the chart container */
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value as needed */
+}
+
+/* Style for the chart */
+.chart-container canvas {
+    max-width: 100%; /* Adjust this value as needed */
+    max-height: 100%; /* Adjust this value as needed */
+}
