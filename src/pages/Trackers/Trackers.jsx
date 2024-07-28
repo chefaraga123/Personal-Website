@@ -18,7 +18,7 @@ const Home = () => {
     const content = `
         I have been tracking my wakeup time since the end of June 2023, and I have been tracking my gym attendance since November 2023
         the motivation derived from the belief that it is most straightforward to improve that which can be measured I have definitely 
-        improved the consistency of my wakeup time since then on both weekday and weekend, my gym attendance has been higher. 
+        improved the consistency of my wakeup time since then on both weekday and weekends. 
     `
 
 

@@ -64,10 +64,13 @@ I've found it very difficult
 `;
 
     return (
+        <div className={styles.homeContainer}>
+
         <div className={styles.aboutContainer}>
             <Navigation />
             <h1>About Me</h1>
             <ReactMarkdown>{content}</ReactMarkdown>
+        </div>
         </div>
     );
 };

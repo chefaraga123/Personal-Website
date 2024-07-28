@@ -21,3 +21,15 @@
   border: 1px solid #ddd;
   margin-top: 5px;
 }
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* or whatever maximum width you prefer */
+  margin: 0 auto;
+  padding: 0 20px; /* Add some padding on the sides */
+  background-color: #f0f0f0; /* Example background color */
+
+}

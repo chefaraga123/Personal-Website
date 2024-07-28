@@ -38,6 +38,7 @@ const App = () => {
 
             <Route path="/Books" element={<Books />} />
 
+
             <Route path="/knowledge-graph" element={<KnowledgeGraph />} />
             <Route path="/notes/:noteId" render={({ match }) => (
               <NoteViewer noteId={match.params.noteId} />

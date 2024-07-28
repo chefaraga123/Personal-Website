@@ -218,7 +218,8 @@
     {
       "title": "Fear and Loathing in Las Vegas",
       "author": "Hunter S Thompson",
-      "genre": ["Fiction"]
+      "genre": ["Fiction"],
+      "additionalInfo": "test"
     }
     ,
     {

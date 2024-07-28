@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Navigation from '../../components/Navigation/Navigation';
 import BookData from './BookData.json'; // Import your JSON data
 import './Checkbox.module.css'; // Import CSS file
+import { Link } from 'react-router-dom';  // Assuming you're using React Router
 
 
 
@@ -175,6 +176,7 @@ const Books = () => {
             <ul>
                 {filteredBooks.map((book, index) => (
                     <li key={index}>
+                        <Link to={book.summaryLink}>
                         <strong>Title:</strong> {book.title} <br />
                         <strong>Author:</strong> {book.author} <br />
                         <strong>Genres:</strong> {book.genre.join(', ')} <br />
@@ -183,6 +185,7 @@ const Books = () => {
                                 <strong>Additional Info:</strong> {book.additionalInfo}
                             </div>
                         )}
+                        </Link>
                         <br />
                         <br />
                     </li>

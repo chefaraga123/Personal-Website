@@ -9,3 +9,33 @@
     /* Define additional styles here */
   }
   
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* or whatever maximum width you prefer */
+    margin: 0 auto;
+    padding: 0 20px; /* Add some padding on the sides */
+  }
+
+  .genreFilterContainer {
+    text-align: center;
+  }
+  
+  .checkboxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Adds space between checkboxes */
+  }
+  
+  .checkboxLabel {
+    display: flex;
+    align-items: center;
+    margin-right: 15px; /* Adds space to the right of each label */
+  }
+  
+  .checkboxLabel input {
+    margin-right: 5px; /* Adds a little space between the checkbox and the text */
+  }
