@@ -6,8 +6,12 @@ ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, T
 
 const InteractiveGraph = () => {
   const initialDataPoints = [65, 59, 80, 81, 56, 55, 40];
+
+  //Use the useState hook to create state variables & their setter functions
   const [dataPoints, setDataPoints] = useState(initialDataPoints);
   const [newDataPoint, setNewDataPoint] = useState('');
+
+  //holds the datastructure for the chart 
   const [chartData, setChartData] = useState({
     labels: [],
     datasets: [{
@@ -28,10 +32,13 @@ const InteractiveGraph = () => {
     scales: { y: { beginAtZero: true } }
   };
 
+  //runs whenenever dataPoints changes calling updateChartData
   useEffect(() => {
     updateChartData();
   }, [dataPoints]);
+  // ah it sets the initial state of the dataPoints with the original variable
 
+  //uses setchart data to update the chartData structure
   const updateChartData = () => {
     setChartData({
       labels: dataPoints.map((_, index) => `Month ${index + 1}`),
