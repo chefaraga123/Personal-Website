@@ -6,6 +6,7 @@ import ReactMarkdown from 'react-markdown';
 import Navigation from '../../components/Navigation/Navigation';
 import WakeupTimeChart from "../../components/WakeupTimeChart/WakeupTimeChart";
 import GymTracker from "../../components/GymTracker/GymTracker";
+import InteractiveGraph from '../../components/InteractiveGraph/InteractiveGraph';
 
 const Home = () => {
 
@@ -40,6 +41,10 @@ const Home = () => {
 
             <div style={{ width: '800px', height: '400px' }}>
               <GymTracker />
+            </div>
+
+            <div>
+                <InteractiveGraph />
             </div>
 
         </div>
