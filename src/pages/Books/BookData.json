@@ -263,6 +263,16 @@
       "title": "The Blunders of Our Government",
       "author": "Ivor Crewe",
       "genre": ["Politics", "History"]
+    },
+    {
+      "title": "Foucault on Power",
+      "author": "Michel Foucault",
+      "genre": ["History", "Philosophy"]
+    },
+    {
+      "title": "Killing the Host",
+      "author": "Michael Hudson",
+      "genre": ["History", "Economics"]
     }
     
   ]
