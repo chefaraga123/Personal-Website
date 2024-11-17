@@ -134,9 +134,9 @@
     {
       "title": "Intensive Science and Virtual Philosophy",
       "author": "Manuel DeLanda",
-      "genre": ["Philosophy", "Physics", "Mathematics"]
-    }
-    ,
+      "genre": ["Philosophy", "Physics", "Mathematics"],
+      "summaryLink": "/books/intensive-science-virtual-philosophy"
+    },
     {
       "title": "A New Philosophy of Society",
       "author": "Manuel DeLanda",

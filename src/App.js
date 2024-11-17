@@ -20,6 +20,9 @@ import Non_Custodial_Accounts from './pages/Writing/Articles/Non__Custodial_Acco
 import Reason_For_Footium from './pages/Writing/Articles/Reason_For_Footium';
 import Recapping_2024 from './pages/Writing/Articles/Recapping_2024';
 
+/*Pages: Book Summaries */
+import Intensive_Science from './pages/Books/Book_Summaries/Intensive_Science_Virtual_Philosophy'
+
 /*Components*/
 import NoteViewer from './components/NoteViewer/NoteViewer';
 
@@ -45,9 +48,13 @@ const App = () => {
 
 
             <Route path="/knowledge-graph" element={<KnowledgeGraph />} />
+            
             <Route path="/notes/:noteId" render={({ match }) => (
               <NoteViewer noteId={match.params.noteId} />
             )} />
+            
+            <Route path="/books/intensive-science-virtual-philosophy" element={<Intensive_Science />}/>
+
             
             <Route path="/Trackers" element={<Trackers />} />
           </Routes>
