@@ -45,4 +45,44 @@ A singularity may undergod a symmetry-breaking transition and be converted into 
 
 Entities are abstract general entities that coexist, sharply distinguished from one another, concrete universals are instead meshed together into a continuum. 
 
+**In what sense can a continuous space progressively give rise to discontinuous spaces**. A space is not just a set of points, but a set together with a way of binding these points together into neighbourhoods through well-defined relations of proximity or contiguity. Within out familiar **Eucliedean geomtry** these relations are specified by fixed lengths or distances which determine points' closeness. The concept of length (as well as area, volume) are known as a **metric concept**, and spaces of Euclidean geometry are known as **metric spaces**. There exist other types of spaces where distances don't define proximities as distances don't remained fixed. A topological space may be stretched without the neighbourhoods which define it changing in nature. 
+
+There are well-defined technical ways of linking metric & non-metric spaces in such a way tha tthe form becomes the product of the progressive differentiation opf the latter. 
+**To understand this properly we need to discuss the history of geometry.**
+
+In the 19th century the prevailing conception of the structure of space was captured by Euclidean geometry, there were however, geometries for which metric concepts were not fundamental. E.g. Gauss & Riemann's differential geometry
+which furnished us the concept of the manifold, as well as several others: projective geometry, affine geometry, topology. What was discovered was that basic concepts of Euclidean geometry could be derived from non-metric concepts!
+Felix Klein realised that all known geometries could be categorised by their invariants under different groups of transformations. Some of these geometries, projective - affine - Euclidean, could be seen as forming levels of a hierarchy. 
+In Euclidean geometry two triangles are equivalent only if their sides are the same length, in affine geometry *all triangles are the same*. Topology can be understood as the least differentiated geometry. This geometric hierarchy could be 
+understood as an abstract scenario for the birth of real space.
+
+**Extensive/Intensive Properties & Metrics/Non-Metric Space**
+**Extensive properties** include not only those metric properties such as length/area/volume, but also quantities like energy/entropy - they are defined as intrinsically divisible properties. 
+**Intensive properties** are those that cannot be divided, such as temperature or pressure, with a change in kind i.e. a qualitative change in the system. 
+
+Metric space emerges from a nonmetric continuum through a cascade of broken symmetries, undifferentiated intensive spaces gives rise to extensive strucutres (discontinuous structures with metric properties).
+
+Modal logic is the branch of philosophy that deals with the relations between the possible and the actual. 
+
+
+Despite their lack of actuality **attractors** are real and have definite effects on actual entities, they confer on trajectories a certain degree of stability called **asymptotic stability**.
+Small shocks may dislodge a trajectory from its attractor, whilst the shock is not too large to push it out of its basin of attraction the trajectory will return to the stable state defined by the attractors
+
+The virtual is not opposed to the real, but to the actual. 
+
+Traditionally ontological discussion of *possibilities* has been stunted due to their elusive nature & the difficulty of providing a clear criterion for individuating them, 
+
+
+
 ## The Actualisation of the virtual in space 
+
+The picture of a continuous topological space undergoing discontinuous transitions is a powerful metaphor for the cosmic genesis of spatial structure. 
+
+Core concepts that characterise intensive thinking: populations and rates of change. 
+
+The process of the individuation of species 
+
+Up until Darwin, biological entities were seen as eternal archetypes defined by a transcendental essence. Darwn depicted the historically contingent nature of species. 
+
+Biologist Michael Ghiselin argues that a species formed through the double process of *natural selection* and *reproductive isolation* does not represent a higher ontological category than the 
+individual organisms that compose it 
