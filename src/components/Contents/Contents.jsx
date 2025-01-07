@@ -16,17 +16,6 @@ const ContentsComponent = ({ sections }) => {
             <a href="#" onClick={() => navigateToArticle(section.url)}>
               {section.title} - {section.date}
             </a>
-            {section.subsections && (
-              <ul>
-                {section.subsections.map((subsection) => (
-                  <li key={subsection.id}>
-                    <a href="#" onClick={() => navigateToArticle(subsection.url)}>
-                      {subsection.title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            )}
           </li>
         ))}
       </ul>

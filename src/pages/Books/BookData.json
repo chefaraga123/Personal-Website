@@ -135,13 +135,15 @@
       "title": "Intensive Science and Virtual Philosophy",
       "author": "Manuel DeLanda",
       "genre": ["Philosophy", "Physics", "Mathematics"],
-      "summaryLink": "/books/intensive-science-virtual-philosophy"
+      "summaryLink": "/books/Intensive_Science_Virtual_Philosophy",
+      "id": "Intensive_Science_Virtual_Philosophy"
     },
     {
       "title": "Religion: Rereading What Is Bound Together",
       "author": "Michel Serres",
       "genre": ["Philosophy", "Mathematics"],
-      "summaryLink": "/books/religion-rereading-what-is-bound-together"
+      "summaryLink": "/books/Religion_Rereading_What_Is_Bound_Together",
+      "id": "Religion_Rereading_What_Is_Bound_Together"
     },
     {
       "title": "A New Philosophy of Society",

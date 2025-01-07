@@ -1,32 +1,37 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
-import remarkMath from 'remark-math';
 
-function MarkdownComponent({ filePath }) {
-  const [markdownContent, setMarkdownContent] = useState('');
+const MarkdownComponent = ({ filePath }) => {
+    const [content, setContent] = useState('');
+    const [error, setError] = useState(null);
 
-  useEffect(() => {
-    async function fetchMarkdownFile() {
-      try {
-        const response = await fetch(filePath);
-        const markdownText = await response.text();
-        setMarkdownContent(markdownText);
-      } catch (error) {
-        console.error('Error fetching Markdown file:', error);
-      }
+    useEffect(() => {
+        const fetchMarkdown = async () => {
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const text = await response.text();
+                setContent(text);
+            } catch (err) {
+                console.error('Error fetching markdown:', err);
+                setError(err.message);
+            }
+        };
+
+        fetchMarkdown();
+    }, [filePath]);
+
+    if (error) {
+        return <div>Error: {error}</div>;
     }
 
-    fetchMarkdownFile();
-  }, [filePath]);
-
-  return (
-    <div>
-      <ReactMarkdown 
-        children={markdownContent}
-        remarkPlugins={[remarkMath]}
-      />
-    </div>
-  );
-}
+    return (
+        <div>
+            <ReactMarkdown>{content}</ReactMarkdown>
+        </div>
+    );
+};
 
 export default MarkdownComponent;

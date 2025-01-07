@@ -23,6 +23,7 @@ import Recapping_2024 from './pages/Writing/Articles/Recapping_2024';
 /*Pages: Book Summaries */
 import Intensive_Science from './pages/Books/Book_Summaries/Intensive_Science_Virtual_Philosophy'
 import Religion_Rereading from './pages/Books/Book_Summaries/Religion_Rereading_What_Is_Bound_Together'
+import BookSummary from './pages/Books/Book_Summaries/BookSummary';
 
 /*Components*/
 import NoteViewer from './components/NoteViewer/NoteViewer';
@@ -54,8 +55,7 @@ const App = () => {
               <NoteViewer noteId={match.params.noteId} />
             )} />
             
-            <Route path="/books/intensive-science-virtual-philosophy" element={<Intensive_Science />}/>
-            <Route path="/books/religion-rereading-what-is-bound-together" element={<Religion_Rereading />}/>
+            <Route path="/books/:bookId" element={<BookSummary />} />
             
             <Route path="/Trackers" element={<Trackers />} />
           </Routes>

@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Navigation from '../../components/Navigation/Navigation';
 import BookData from './BookData.json'; // Import your JSON data
-import './Checkbox.module.css'; // Import CSS file
 import { Link } from 'react-router-dom';  // Assuming you're using React Router
-
-
 
 const Books = () => {
     const [books, setBooks] = useState([]);
@@ -49,145 +46,32 @@ const Books = () => {
             <div>
                 <h2>Filter by Genre:</h2>
                 <ul>
-                    <li>
-                        <label>
-                            <input
-                                type="checkbox"
-                                value="Biography"
-                                checked={selectedGenres.includes('Biography')}
-                                onChange={() => handleGenreSelect('Biography')}                                                         
-                            />
-                            Biography
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input
-                                type="checkbox"
-                                value="History"
-                                checked={selectedGenres.includes('History')}
-                                onChange={() => handleGenreSelect('History')}
-                            />
-                            History
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input
-                                type="checkbox"
-                                value="Politics"
-                                checked={selectedGenres.includes('Politics')}
-                                onChange={() => handleGenreSelect('Politics')}
-                            />
-                            Politics
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input
-                                type="checkbox"
-                                value="Warfare"
-                                checked={selectedGenres.includes('Warfare')}
-                                onChange={() => handleGenreSelect('Warfare')}
-                            />
-                            Warfare
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input
-                                type="checkbox"
-                                value="Technology"
-                                checked={selectedGenres.includes('Technology')}
-                                onChange={() => handleGenreSelect('Technology')}
-                            />
-                            Technology
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input
-                                type="checkbox"
-                                value="Philosophy"
-                                checked={selectedGenres.includes('Philosophy')}
-                                onChange={() => handleGenreSelect('Philosophy')}
-                            />
-                            Philosophy
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input
-                                type="checkbox"
-                                value="Economics"
-                                checked={selectedGenres.includes('Economics')}
-                                onChange={() => handleGenreSelect('Economics')}
-                            />
-                            Economics
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input
-                                type="checkbox"
-                                value="Management"
-                                checked={selectedGenres.includes('Management')}
-                                onChange={() => handleGenreSelect('Management')}
-                            />
-                            Management
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input
-                                type="checkbox"
-                                value="Mathematics"
-                                checked={selectedGenres.includes('Mathematics')}
-                                onChange={() => handleGenreSelect('Mathematics')}
-                            />
-                            Mathematics
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input
-                                type="checkbox"
-                                value="Engineering"
-                                checked={selectedGenres.includes('Engineering')}
-                                onChange={() => handleGenreSelect('Engineering')}
-                            />
-                            Engineering
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input
-                                type="checkbox"
-                                value="Sociology"
-                                checked={selectedGenres.includes('Sociology')}
-                                onChange={() => handleGenreSelect('Sociology')}
-                            />
-                            Sociology
-                        </label>
-                    </li>
-                    {/* Add more genre checkboxes as needed */}
+                    {["Biography", "History", "Politics", 
+                    "Warfare", "Technology", "Philosophy", 
+                    "Economics", "Management", "Mathematics", 
+                    "Engineering", "Sociology"].map((genre) => (
+                        <li key={genre}>
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    value={genre}
+                                    checked={selectedGenres.includes(genre)}
+                                    onChange={() => handleGenreSelect(genre)}
+                                />
+                                {genre}
+                            </label>
+                        </li>
+                    ))}
                 </ul>
             </div>
             <ul>
                 {filteredBooks.map((book, index) => (
                     <li key={index}>
                         <Link to={book.summaryLink}>
-                        <strong>Title:</strong> {book.title} <br />
-                        <strong>Author:</strong> {book.author} <br />
-                        <strong>Genres:</strong> {book.genre.join(', ')} <br />
-                        {book.additionalInfo && (
-                            <div>
-                                <strong>Additional Info:</strong> {book.additionalInfo}
-                            </div>
-                        )}
+                            <strong>Title:</strong> {book.title} <br />
+                            <strong>Author:</strong> {book.author} <br />
+                            <strong>Genres:</strong> {book.genre.join(', ')} <br />
                         </Link>
-                        <br />
-                        <br />
                     </li>
                 ))}
             </ul>
