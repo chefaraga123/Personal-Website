@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Navigation from '../../components/Navigation/Navigation';
 import BookData from './BookData.json'; // Import your JSON data
-import { Link } from 'react-router-dom';  // Assuming you're using React Router
+import { Link } from 'react-router-dom';
+import styles from './Books.module.css'; // Import your CSS module
 
 const Books = () => {
     const [books, setBooks] = useState([]);
@@ -49,7 +50,7 @@ const Books = () => {
                     {["Biography", "History", "Politics", 
                     "Warfare", "Technology", "Philosophy", 
                     "Economics", "Management", "Mathematics", 
-                    "Engineering", "Sociology"].map((genre) => (
+                    "Engineering", "Sociology", "Fiction"].map((genre) => (
                         <li key={genre}>
                             <label>
                                 <input
@@ -64,17 +65,20 @@ const Books = () => {
                     ))}
                 </ul>
             </div>
-            <ul>
+            <div className={styles.bookshelf}>
                 {filteredBooks.map((book, index) => (
-                    <li key={index}>
+                    <div key={index} className={styles.bookItem}>
                         <Link to={book.summaryLink}>
-                            <strong>Title:</strong> {book.title} <br />
-                            <strong>Author:</strong> {book.author} <br />
-                            <strong>Genres:</strong> {book.genre.join(', ')} <br />
+                            <img src={book.image} alt={book.title} className={styles.bookImage} />
+                            <div className={styles.bookInfo}>
+                                <strong>Title:</strong> {book.title} <br />
+                                <strong>Author:</strong> {book.author} <br />
+                                <strong>Genres:</strong> {book.genre.join(', ')} <br />
+                            </div>
                         </Link>
-                    </li>
+                    </div>
                 ))}
-            </ul>
+            </div>
         </div>
     );
 };

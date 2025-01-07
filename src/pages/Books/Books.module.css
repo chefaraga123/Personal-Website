@@ -33,3 +33,48 @@
   background-color: #f0f0f0; /* Example background color */
 
 }
+
+.bookItem {
+    text-align: center; /* Center the text and image */
+    margin-bottom: 20px; /* Add some space between items */
+}
+
+.bookImage {
+    width: 100px; /* Set a fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image */
+}
+
+.bookInfo {
+    margin-top: 10px; /* Add space between the image and text */
+}
+
+.genreFilter {
+    display: flex; /* Use flexbox for horizontal layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    margin-bottom: 20px; /* Add some space below the filter */
+}
+
+.genreItem {
+    margin-right: 15px; /* Space between items */
+    display: flex; /* Align checkbox and label */
+    align-items: center; /* Center items vertically */
+}
+
+.bookshelf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjusts spacing between items */
+}
+
+.bookItem {
+    margin: 10px; /* Space between books */
+    width: 150px; /* Adjust width as needed */
+    text-align: center; /* Center text */
+}
+
+.bookImage {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
