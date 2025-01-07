@@ -85,4 +85,21 @@ The process of the individuation of species
 Up until Darwin, biological entities were seen as eternal archetypes defined by a transcendental essence. Darwn depicted the historically contingent nature of species. 
 
 Biologist Michael Ghiselin argues that a species formed through the double process of *natural selection* and *reproductive isolation* does not represent a higher ontological category than the 
-individual organisms that compose it 
+
+individual organisms that compose it. Unlike the relation between a natural kind & its members - which is one of instantiation, the relation of individual species to individual organisms is one of wholes and parts - much as 
+the relation of the organism and the cells that compose it. 
+Unlike the relations between a particular instance and a general type the relaiton between parts and wholes is causal. 
+Relations between general types and individual instances is hierarchical, each level representing a different ontological category, an approach in terms of interacting parts and emergent wholes leads to a flat ontology. 
+
+A way in which physicists state the distinction between the intensive and the extensive 
+
+**Externsive properties** add up in a simple way: two areas sum to a proportionally larger area
+**Intensive properties** do not add up - but rather average. 
+
+A particular value of temperature or pressure, being an average, will remain the same when the body possessing these properties is broken into n parts. 
+
+Differences in thermodynamic intensities are capable of driving a process of equilibriation in a population of molecures, a process in which these differences will tend to average themselves out.
+
+A linear system with a single attractor: while the system is moving towards the attractor state, this unactualised end state already exists, actively attracting the process towards itself. In this case the *virtuality* is easy to grap. Once the process is over it is easy to overlook this virtuality. 
+
+The earlier description of multiplicities left unresolved the question of their nature as concrete universal eentities. We used features of certain mathemtical models as a source for the notions that define a multiplicity. 
