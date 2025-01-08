@@ -9,7 +9,7 @@ const Books = () => {
     const [filteredBooks, setFilteredBooks] = useState([]);
     const [toReadBooks, setToReadBooks] = useState([]); // New state for To Read books
     const [selectedGenres, setSelectedGenres] = useState([]);
-    const [showReadBooks, setShowReadBooks] = useState(false); // New state for toggling visibility
+    const [showReadBooks, setShowReadBooks] = useState(true); // New state for toggling visibility
 
     useEffect(() => {
         // Set the fetched data to state
@@ -50,7 +50,7 @@ const Books = () => {
     return (
         <div>
             <Navigation />
-            <h1>Books I think are worth reading</h1>
+            <h2>Books I think are interesting enough to put on a list</h2>
             <div>
                 <h2>Filter by Genre:</h2>
                 <ul className={styles.genreList}>

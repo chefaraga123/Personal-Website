@@ -190,13 +190,6 @@
       "author": "Manuel DeLanda",
       "genre": ["Philosophy", "Sociology", "History"],
       "image": "/images/A_Thousand_Years_of_Non-Linear_History_Cover.jpg"
-    }
-    ,
-    {
-      "title": "A Thousand Years of Non-Linear History",
-      "author": "Manuel DeLanda",
-      "genre": ["Philosophy", "Sociology", "History"],
-      "image": "/images/A_Thousand_Years_of_Non-Linear_History_Cover.jpg"
     },
     {
       "title": "Lean Startup",
@@ -363,8 +356,37 @@
       "author": "Winston Churchill",
       "genre": ["History"],
       "image": "/images/The_World_Crisis_Cover.jpg"
+    },
+    {
+      "title": "Waging Insurgent Warfare",
+      "author": "Seth Jones",
+      "genre": ["History", "Warfare"],
+      "image": "/images/Waging_Insurgent_Warfare_Cover.jpg"
+    },
+    {
+      "title": "Against Method",
+      "author": "Paul Feyerabend",
+      "genre": ["Philosophy"],
+      "image": "/images/Against_Method_Cover.jpg"
+    },
+    {
+      "title": "The Master and Margarita",
+      "author": "Mikhail Bulgakov",
+      "genre": ["Fiction"],
+      "image": "/images/The_Master_and_Margarita_Cover.jpg"
+    },
+    {
+      "title": "Decline of the West",
+      "author": "Oswald Spengler",
+      "genre": ["History"],
+      "image": "/images/Decline_of_the_West_Cover.jpg"
+    },
+    {
+      "title": "Madness and Civilization",
+      "author": "Michel Foucault",
+      "genre": ["History"],
+      "image": "/images/Madness_and_Civilization_Cover.jpg"
     }
-    
     
   ]
   
