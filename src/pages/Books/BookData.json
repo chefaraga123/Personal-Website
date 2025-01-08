@@ -3,7 +3,9 @@
       "title": "Retrospect",
       "author": "Robert McNamara",
       "genre": ["Biography", "History ", "Warfare ", "Politics "],
-      "image": "/images/Retrospect_Cover.jpg"
+      "image": "/images/Retrospect_Cover.jpg",
+      "summaryLink": "/books/Retrospect",
+      "id": "Retrospect"
     },
     {
       "title": "The Years of Lyndon Johnson: Master of the Senate",
@@ -71,14 +73,18 @@
       "title": "Science-Mart: Privatising American Science",
       "author": "Philip Mirowski",
       "genre": ["Economics", "History", "Philosophy", "Politics"],
-      "image": "/images/Science_Mart_Cover.jpg"
+      "image": "/images/Science_Mart_Cover.jpg",
+      "summaryLink": "/books/The_Privatisation_Of_American_Science",
+      "id": "The_Privatisation_Of_American_Science"
 
     },
     {
       "title": "The Road from Mont Pelerin",
       "author": "Philip Mirowski",
       "genre": ["Economics", "History", "Philosophy", "Politics"],
-      "image": "/images/The_Road_from_Mont_Pelerin_Cover.jpg"
+      "image": "/images/The_Road_from_Mont_Pelerin_Cover.jpg",
+      "summaryLink": "/books/The_Road_From_Mont_Pelerin",
+      "id": "The_Road_From_Mont_Pelerin"
     },
     {
       "title": "On China",
@@ -117,7 +123,9 @@
       "title": "Technics and Civilisation",
       "author": "Lewis Mumford",
       "genre": ["History", "Technology", "Philosophy"],
-      "image": "/images/Technics_and_Civilisation_Cover.jpg"
+      "image": "/images/Technics_and_Civilisation_Cover.jpg",
+      "summaryLink": "/books/Technics_and_Civilisation",
+      "id": "Technics_and_Civilisation"  
     },
     {
       "title": "The Beginning of Infinity",
@@ -129,7 +137,9 @@
       "title": "Systems Theory",
       "author": "Niklas Luhmann",
       "genre": ["Sociology", "Philosophy"],
-      "image": "/images/Systems_Theory_Cover.jpg"
+      "image": "/images/Systems_Theory_Cover.jpg",
+      "summaryLink": "/books/Systems_Theory",
+      "id": "Systems_Theory"
     },
     {
       "title": "Reduction and Emergence in Science and Philosophy",
@@ -176,14 +186,18 @@
       "title": "A New Philosophy of Society",
       "author": "Manuel DeLanda",
       "genre": ["Philosophy", "Sociology"],
-      "image": "/images/A_New_Philosophy_of_Society_Cover.jpg"
+      "image": "/images/A_New_Philosophy_of_Society_Cover.jpg",
+      "summaryLink": "/books/A_New_Philosophy_of_Society",
+      "id": "A_New_Philosophy_of_Society"
     }
     ,
     {
       "title": "Philosophy and Simulation: The Emergence of Synthetic Reason",
       "author": "Manuel DeLanda",
       "genre": ["Philosophy", "Sociology", "Physics"],
-      "image": "/images/Philosophy_and_Simulation_The_Emergence_of_Synthetic_Reason_Cover.jpg"
+      "image": "/images/Philosophy_and_Simulation_The_Emergence_of_Synthetic_Reason_Cover.jpg",
+      "summaryLink": "/books/Philosophy_and_Simulation_The_Emergence_of_Synthetic_Reason",
+      "id": "Philosophy_and_Simulation_The_Emergence_of_Synthetic_Reason"
     },
     {
       "title": "A Thousand Years of Non-Linear History",
@@ -379,7 +393,9 @@
       "title": "Decline of the West",
       "author": "Oswald Spengler",
       "genre": ["History"],
-      "image": "/images/Decline_of_the_West_Cover.jpg"
+      "image": "/images/Decline_of_the_West_Cover.jpg",
+      "summaryLink": "/books/Decline_of_the_West",
+      "id": "Decline_of_the_West"
     },
     {
       "title": "Madness and Civilization",
@@ -392,7 +408,33 @@
       "author": "Jeremiah O'Callaghan",
       "genre": ["History", "Philosophy", "Economics"],
       "image": "/images/Usury_or_Interest_Cover.jpg"
+    },
+    {
+      "title": "Simulacra and Simulation",
+      "author": "Jean Baudrillard",
+      "genre": ["Philosophy"],
+      "image": "/images/Simulacra_and_Simulation_Cover.jpg",
+      "summaryLink": "/books/Simulacra_and_Simulation",
+      "id": "Simulacra_and_Simulation"
     }
+    ,
+    {
+      "title": "Machine Dreams",
+      "author": "Philip Mirowski",
+      "genre": ["Philosophy"],
+      "image": "/images/Machine_Dreams_Cover.jpg",
+      "summaryLink": "/books/Machine_Dreams",
+      "id": "Machine_Dreams"
+    },
+    {
+      "title": "War in the Age of Intelligent Machines",
+      "author": "Manuel DeLanda",
+      "genre": ["History", "Warfare"],
+      "image": "/images/War_in_the_Age_of_Intelligent_Machines_Cover.jpg",
+      "summaryLink": "/books/War_in_the_Age_of_Intelligent_Machines",
+      "id": "War_in_the_Age_of_Intelligent_Machines"
+    }
+
     
   ]
   
