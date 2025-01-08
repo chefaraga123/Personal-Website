@@ -386,6 +386,12 @@
       "author": "Michel Foucault",
       "genre": ["History"],
       "image": "/images/Madness_and_Civilization_Cover.jpg"
+    },
+    {
+      "title": "Usury, or Interest",
+      "author": "Jeremiah O'Callaghan",
+      "genre": ["History", "Philosophy", "Economics"],
+      "image": "/images/Usury_or_Interest_Cover.jpg"
     }
     
   ]

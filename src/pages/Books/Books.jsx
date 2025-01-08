@@ -51,6 +51,7 @@ const Books = () => {
         <div>
             <Navigation />
             <h2>Books I think are interesting enough to put on a list</h2>
+            <p>I am still working on this list and the inclusion of various book summaries</p>
             <div>
                 <h2>Filter by Genre:</h2>
                 <ul className={styles.genreList}>
