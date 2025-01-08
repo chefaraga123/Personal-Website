@@ -78,3 +78,14 @@
     width: 100%; /* Make image responsive */
     height: auto; /* Maintain aspect ratio */
 }
+
+.genreList {
+    display: flex; /* Use flexbox for horizontal layout */
+    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+.genreList li {
+    margin-right: 15px; /* Space between checkboxes */
+}

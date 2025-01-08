@@ -46,7 +46,7 @@ const Books = () => {
             <h1>Books I've Read</h1>
             <div>
                 <h2>Filter by Genre:</h2>
-                <ul>
+                <ul className={styles.genreList}>
                     {["Biography", "History", "Politics", 
                     "Warfare", "Technology", "Philosophy", 
                     "Economics", "Management", "Mathematics", 
