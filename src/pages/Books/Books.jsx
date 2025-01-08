@@ -7,7 +7,9 @@ import styles from './Books.module.css'; // Import your CSS module
 const Books = () => {
     const [books, setBooks] = useState([]);
     const [filteredBooks, setFilteredBooks] = useState([]);
+    const [toReadBooks, setToReadBooks] = useState([]); // New state for To Read books
     const [selectedGenres, setSelectedGenres] = useState([]);
+    const [showReadBooks, setShowReadBooks] = useState(false); // New state for toggling visibility
 
     useEffect(() => {
         // Set the fetched data to state
@@ -40,10 +42,15 @@ const Books = () => {
         }
     }, [selectedGenres, books]);
 
+    // Function to toggle the visibility of the read books
+    const toggleReadBooks = () => {
+        setShowReadBooks(!showReadBooks);
+    };
+
     return (
         <div>
             <Navigation />
-            <h1>Books I've Read</h1>
+            <h1>Books I think are worth reading</h1>
             <div>
                 <h2>Filter by Genre:</h2>
                 <ul className={styles.genreList}>
@@ -65,8 +72,29 @@ const Books = () => {
                     ))}
                 </ul>
             </div>
+            <h2 onClick={toggleReadBooks} style={{ cursor: 'pointer' }}>
+                Books I've Read {showReadBooks ? '▲' : '▼'}
+            </h2>
+            {showReadBooks && ( // Conditionally render the bookshelf
+                <div className={styles.bookshelf}>
+                    {filteredBooks.map((book, index) => (
+                        <div key={index} className={styles.bookItem}>
+                            <Link to={book.summaryLink}>
+                                <img src={book.image} alt={book.title} className={styles.bookImage} />
+                                <div className={styles.bookInfo}>
+                                    <strong>Title:</strong> {book.title} <br />
+                                    <strong>Author:</strong> {book.author} <br />
+                                    <strong>Genres:</strong> {book.genre.join(', ')} <br />
+                                </div>
+                            </Link>
+                        </div>
+                    ))}
+                </div>
+            )}
+            <h2>Books I'm planning to read</h2>
+
             <div className={styles.bookshelf}>
-                {filteredBooks.map((book, index) => (
+                {toReadBooks.map((book, index) => (
                     <div key={index} className={styles.bookItem}>
                         <Link to={book.summaryLink}>
                             <img src={book.image} alt={book.title} className={styles.bookImage} />
