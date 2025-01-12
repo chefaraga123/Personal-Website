@@ -35,7 +35,7 @@ Negentropy - used in the context of situations where there is decrease in entrop
 
 An open system concerns the exchange relationship between a system and its environment 
 
-For more details, see the [System-to-system relations](../notes/System-to-system%20relations.md).
+For more details, see the [System-to-system relations](../notes/System-to-system%20relations).
 
 General sociological context:
 Structuralism

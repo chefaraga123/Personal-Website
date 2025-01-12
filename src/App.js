@@ -21,12 +21,10 @@ import Reason_For_Footium from './pages/Writing/Articles/Reason_For_Footium';
 import Recapping_2024 from './pages/Writing/Articles/Recapping_2024';
 
 /*Pages: Book Summaries */
-import Intensive_Science from './pages/Books/Book_Summaries/Intensive_Science_Virtual_Philosophy'
-import Religion_Rereading from './pages/Books/Book_Summaries/Religion_Rereading_What_Is_Bound_Together'
 import BookSummary from './pages/Books/Book_Summaries/BookSummary';
 
 /*Components*/
-import NoteViewer from './components/NoteViewer/NoteViewer';
+import NotePage from './pages/NotePage/NotePage';
 
 const App = () => {
   return (
@@ -50,14 +48,12 @@ const App = () => {
 
 
             <Route path="/knowledge-graph" element={<KnowledgeGraph />} />
-            
-            <Route path="/notes/:noteId" render={({ match }) => (
-              <NoteViewer noteId={match.params.noteId} />
-            )} />
-            
+                       
             <Route path="/books/:bookId" element={<BookSummary />} />
             
             <Route path="/Trackers" element={<Trackers />} />
+
+            <Route path="/notes/:noteName" element={<NotePage />} />
           </Routes>
      </Router>
   );

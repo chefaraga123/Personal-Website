@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { ForceGraph2D } from 'react-force-graph';
+import ReactMarkdown from 'react-markdown';
 import styles from './KnowledgeGraph.module.css';
 import Navigation from '../../components/Navigation/Navigation';
 
@@ -8,6 +9,8 @@ const KnowledgeGraph = () => {
     const [showLabels, setShowLabels] = useState(true);
     const [searchQuery, setSearchQuery] = useState('');
     const [filteredNodes, setFilteredNodes] = useState([]);
+    const [markdownContent, setMarkdownContent] = useState('');
+    const [selectedNode, setSelectedNode] = useState(null);
 
     useEffect(() => {
         fetch('/obsidianGraph.json')
@@ -33,13 +36,12 @@ const KnowledgeGraph = () => {
     };
 
     const handleNodeClick = (node) => {
-        const baseURL = process.env.NODE_ENV === 'development'
-            ? 'http://localhost:3000/'
-            : process.env.PUBLIC_URL;
-
-        const notePath = node.url;
-        const fullPath = `${baseURL}${notePath}`;
-        window.location.href = fullPath;
+        if (node.url) {
+            window.open(`/${node.url}`, '_blank');
+        } else {
+            const notePath = encodeURIComponent(node.notePath);
+            window.open(`/notes/${notePath}`, '_blank');
+        }
     };
 
     const renderNode = (node, ctx, globalScale) => {
@@ -86,7 +88,17 @@ const KnowledgeGraph = () => {
                 onNodeClick={handleNodeClick}
                 nodeCanvasObject={renderNode}
                 nodeCanvasObjectMode={() => 'before'}
+                onNodeDragEnd={(node) => {
+                    node.fx = null;
+                    node.fy = null;
+                }}
             />
+            {selectedNode && (
+                <div className={styles.markdownContainer}>
+                    <h2>{selectedNode.label}</h2>
+                    <ReactMarkdown>{markdownContent}</ReactMarkdown>
+                </div>
+            )}
         </div>
     );
 };

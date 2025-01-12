@@ -1,17 +1,31 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import styles from './NoteViewer.module.css';
 
-const NoteViewer = ({ noteId }) => {
-  const [markdown, setMarkdown] = useState('');
+const NoteViewer = ({ noteName }) => {
+    const [markdownContent, setMarkdownContent] = useState('');
 
-  useEffect(() => {
-    fetch(`/notes/${noteId}.md`)
-      .then(response => response.text())
-      .then(text => setMarkdown(text))
-      .catch(error => console.error('Error loading the note:', error));
-  }, [noteId]);
+    useEffect(() => {
+        fetch(`/notes/${noteName}.md`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(data => {
+                setMarkdownContent(data);
+            })
+            .catch(error => {
+                console.error('Error fetching note:', error);
+            });
+    }, [noteName]);
 
-  return <ReactMarkdown>{markdown}</ReactMarkdown>;
+    return (
+        <div className={styles.noteContainer}>
+            <ReactMarkdown>{markdownContent}</ReactMarkdown>
+        </div>
+    );
 };
 
 export default NoteViewer;
