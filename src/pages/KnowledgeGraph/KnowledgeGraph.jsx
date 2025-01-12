@@ -5,77 +5,80 @@ import Navigation from '../../components/Navigation/Navigation';
 
 const KnowledgeGraph = () => {
     const [graphData, setGraphData] = useState({ nodes: [], links: [] });
-    const [showLabels, setShowLabels] = useState(true); // State to track label visibility
-
+    const [showLabels, setShowLabels] = useState(true);
+    const [searchQuery, setSearchQuery] = useState('');
+    const [filteredNodes, setFilteredNodes] = useState([]);
 
     useEffect(() => {
-      // Fetch the graph data from the 'public' directory
-      fetch('/obsidianGraph.json')
-        .then(response => response.json())
-        .then(data => {
-          // Set the graph data to state
-          setGraphData(data);
-        })
-        .catch(error => {
-          // Handle any errors in fetching or parsing the data
-          console.error('Error fetching graph data:', error);
-        });
-    }, []); // The empty dependency array ensures this effect runs only once after the initial render
-  
-    
-    const handleNodeClick = (node) => {
-      const baseURL = process.env.NODE_ENV === 'development'
-        ? 'http://localhost:3000/'
-        : process.env.PUBLIC_URL;
-  
-        const notePath = node.url;
-        const fullPath = `${baseURL}${notePath}`;
-          
-        // If you're using React Router, you might use history.push(url)
-        window.location.href = fullPath; // Or open the URL in a new tab with window.open(url, '_blank');
+        fetch('/obsidianGraph.json')
+            .then(response => response.json())
+            .then(data => {
+                setGraphData(data);
+                setFilteredNodes(data.nodes);
+            })
+            .catch(error => {
+                console.error('Error fetching graph data:', error);
+            });
+    }, []);
+
+    useEffect(() => {
+        const filtered = graphData.nodes.filter(node =>
+            node.label.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+        setFilteredNodes(filtered);
+    }, [searchQuery, graphData.nodes]);
+
+    const handleSearchChange = (event) => {
+        setSearchQuery(event.target.value);
     };
 
-    /*
-    const handleZoom = (zoom) => {
-        const minZoom = 1; // Minimum zoom level
-        if (zoom < minZoom) {
-          setZoomLevel(minZoom);
-        } else {
-          setZoomLevel(zoom);
-        }
-      };*/
+    const handleNodeClick = (node) => {
+        const baseURL = process.env.NODE_ENV === 'development'
+            ? 'http://localhost:3000/'
+            : process.env.PUBLIC_URL;
+
+        const notePath = node.url;
+        const fullPath = `${baseURL}${notePath}`;
+        window.location.href = fullPath;
+    };
 
     const renderNode = (node, ctx, globalScale) => {
         const label = node.label;
-        const fontSize = 12 / globalScale; // Adjust font size based on zoom level
+        const fontSize = 12 / globalScale;
         ctx.font = `${fontSize}px Sans-Serif`;
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
-        ctx.fillStyle = node.color || 'rgba(255, 255, 255, 0.7)'; // Default node color
+        ctx.fillStyle = node.color || 'rgba(255, 255, 255, 0.7)';
         ctx.beginPath();
-        ctx.arc(node.x, node.y, 5, 0, 2 * Math.PI, false); // Draw a circle for the node
+        ctx.arc(node.x, node.y, 5, 0, 2 * Math.PI, false);
         ctx.fill();
-        ctx.fillStyle = 'black'; // Label color
+        ctx.fillStyle = 'black';
         if (showLabels) {
-          ctx.fillText(label, node.x, node.y + 15); // Position label below the node
+            ctx.fillText(label, node.x, node.y + 15);
         }
-      };
-
-    // Handler to toggle labels on and off
-    const toggleLabels = () => {
-      setShowLabels(!showLabels);
     };
-      
-    // Create a ref to the container div
-    const graphContainer = useRef(null);
 
+    const toggleLabels = () => {
+        setShowLabels(!showLabels);
+    };
+
+    const graphContainer = useRef(null);
 
     return (
         <div className={styles.graphContainer} ref={graphContainer}>
             <Navigation />
-            <button style={styles.button} onClick={toggleLabels}>{showLabels ? 'Hide Labels' : 'Show Labels'}</button>
+            <input
+                type="text"
+                placeholder="Search nodes..."
+                value={searchQuery}
+                onChange={handleSearchChange}
+                className={styles.searchInput}
+            />
+            <button style={styles.button} onClick={toggleLabels}>
+                {showLabels ? 'Hide Labels' : 'Show Labels'}
+            </button>
             <ForceGraph2D
-                graphData={graphData}
+                graphData={{ nodes: filteredNodes, links: graphData.links }}
                 nodeLabel="name"
                 nodeAutoColorBy="group"
                 linkDirectionalParticles="value"

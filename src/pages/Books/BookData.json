@@ -59,7 +59,9 @@
       "title": "Pieces of the Action",
       "author": "Vannevar Bush",
       "genre": ["Autobiography", "History", "Warfare", "Politics", "Management"],
-      "image": "/images/Pieces_of_the_Action_Cover.jpg"
+      "image": "/images/Pieces_of_the_Action_Cover.jpg",
+      "summaryLink": "/books/Pieces_of_the_Action",
+      "id": "Pieces_of_the_Action"
 
     },
     {
@@ -277,7 +279,9 @@
       "title": "Legal Systems Very Different From Ours",
       "author": "David Friedman",
       "genre": ["Law", "Sociology", "Economics"],
-      "image": "/images/Legal_Systems_Very_Different_From_Ours_Cover.jpg"
+      "image": "/images/Legal_Systems_Very_Different_From_Ours_Cover.jpg",
+      "summaryLink": "/books/Legal_Systems_Very_Different_From_Ours",
+      "id": "Legal_Systems_Very_Different_From_Ours"
     }
     ,
     {

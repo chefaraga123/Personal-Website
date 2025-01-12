@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Navigation from '../../components/Navigation/Navigation';
 import BookData from './BookData.json'; // Import your JSON data
-import { Link } from 'react-router-dom';
+import { Link, Link as RouterLink } from 'react-router-dom';
 import styles from './Books.module.css'; // Import your CSS module
+import ReactMarkdown from 'react-markdown'; // Import the library
 
 const Books = () => {
     const [books, setBooks] = useState([]);
@@ -51,6 +52,25 @@ const Books = () => {
     // Function to handle the summary filter
     const handleSummaryFilter = () => {
         setShowWithSummary(!showWithSummary);
+    };
+
+    const renderSummary = (summary) => {
+        // Replace note links with actual links to the public notes
+        const regex = /\[(.*?)\]\((notes\/.*?\.md)\)/g; // Regex to match [text](notes/filename.md)
+        const parts = summary.split(regex);
+        return parts.map((part, index) => {
+            if (index % 3 === 1) {
+                // This is the link text
+                const linkText = part;
+                const linkUrl = `../${parts[index + 1]}`; // Move up one directory and then to notes
+                return (
+                    <a key={index} href={linkUrl} target="_blank" rel="noopener noreferrer">
+                        {linkText}
+                    </a>
+                );
+            }
+            return part; // Return the text as is
+        });
     };
 
     return (
@@ -105,6 +125,11 @@ const Books = () => {
                                         {book.summaryLink && <span className={styles.summaryFlag}>📖</span>} {/* Flag for summary */}
                                     </div>
                                 </Link>
+                                {book.summary && ( // Render the summary if it exists
+                                    <div className={styles.summary}>
+                                        {renderSummary(book.summary)} {/* Render Markdown summary with links */}
+                                    </div>
+                                )}
                             </div>
                         ))}
                 </div>

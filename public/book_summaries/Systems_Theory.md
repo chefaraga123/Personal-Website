@@ -16,19 +16,12 @@ Theory of action seen as oriented towards the subject & the individual, whereas 
 
 Connection between system formation or overarching ordering structures on the one hand and actions as the basal operations on the other. 
 
-
 Parsons proposes that actions are an emergent property of reality
 There are components that need to be combined for actions to emerge
 For a primary understanding of actions need to distinguish ends and means 
 What are the values that society uses to restrict the freedom of choice concerning the combination of means and ends 
 
-
-
 Lecture 2
-
-
-
-
 
 Lecture 3: The Theory of Open Systems 
 Systems thinking is conceptualised as an interdisciplinary mode of thought
@@ -42,9 +35,7 @@ Negentropy - used in the context of situations where there is decrease in entrop
 
 An open system concerns the exchange relationship between a system and its environment 
 
-
-
-
+For more details, see the [System-to-system relations](../notes/System-to-system%20relations.md).
 
 General sociological context:
 Structuralism
