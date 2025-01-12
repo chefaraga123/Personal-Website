@@ -10,6 +10,7 @@ const Books = () => {
     const [toReadBooks, setToReadBooks] = useState([]); // New state for To Read books
     const [selectedGenres, setSelectedGenres] = useState([]);
     const [showReadBooks, setShowReadBooks] = useState(true); // New state for toggling visibility
+    const [showWithSummary, setShowWithSummary] = useState(false); // New state for filtering books with summaries
 
     useEffect(() => {
         // Set the fetched data to state
@@ -47,6 +48,11 @@ const Books = () => {
         setShowReadBooks(!showReadBooks);
     };
 
+    // Function to handle the summary filter
+    const handleSummaryFilter = () => {
+        setShowWithSummary(!showWithSummary);
+    };
+
     return (
         <div>
             <Navigation />
@@ -72,24 +78,35 @@ const Books = () => {
                         </li>
                     ))}
                 </ul>
+                <label>
+                    <input
+                        type="checkbox"
+                        checked={showWithSummary}
+                        onChange={handleSummaryFilter}
+                    />
+                    Show only books with summaries
+                </label>
             </div>
             <h2 onClick={toggleReadBooks} style={{ cursor: 'pointer' }}>
                 Books I've Read {showReadBooks ? '▲' : '▼'}
             </h2>
             {showReadBooks && ( // Conditionally render the bookshelf
                 <div className={styles.bookshelf}>
-                    {filteredBooks.map((book, index) => (
-                        <div key={index} className={styles.bookItem}>
-                            <Link to={book.summaryLink}>
-                                <img src={book.image} alt={book.title} className={styles.bookImage} />
-                                <div className={styles.bookInfo}>
-                                    <strong>Title:</strong> {book.title} <br />
-                                    <strong>Author:</strong> {book.author} <br />
-                                    <strong>Genres:</strong> {book.genre.join(', ')} <br />
-                                </div>
-                            </Link>
-                        </div>
-                    ))}
+                    {filteredBooks
+                        .filter(book => !showWithSummary || book.summaryLink) // Filter based on summary
+                        .map((book, index) => (
+                            <div key={index} className={styles.bookItem}>
+                                <Link to={book.summaryLink}>
+                                    <img src={book.image} alt={book.title} className={styles.bookImage} />
+                                    <div className={styles.bookInfo}>
+                                        <strong>Title:</strong> {book.title} <br />
+                                        <strong>Author:</strong> {book.author} <br />
+                                        <strong>Genres:</strong> {book.genre.join(', ')} <br />
+                                        {book.summaryLink && <span className={styles.summaryFlag}>📖</span>} {/* Flag for summary */}
+                                    </div>
+                                </Link>
+                            </div>
+                        ))}
                 </div>
             )}
             <h2>Books I'm planning to read</h2>
@@ -103,6 +120,7 @@ const Books = () => {
                                 <strong>Title:</strong> {book.title} <br />
                                 <strong>Author:</strong> {book.author} <br />
                                 <strong>Genres:</strong> {book.genre.join(', ')} <br />
+                                {book.summaryLink && <span className={styles.summaryFlag}>📖</span>} {/* Flag for summary */}
                             </div>
                         </Link>
                     </div>
