@@ -1,58 +1,109 @@
-Preface
-This book has taught me more about neoliberalism, and liberalism, than anything else I have ever read whilst not being a book intended to discuss the nature of or propagandistically espouse the virture of those ideologies.
+# Notes from *The Road from Mont Pelerin*
 
-Very briefly. Neoliberals don’t believe in the existence of a stable free market or that capitalism is pristine. Neoliberalism is a pluralistic ideology, which has the implication that a cleanly reified definition that pleases all parties is realistically out of the bounds of this essay
+---
 
-Neoliberalism has often been reduced to the intellectual strands of the Chicago school, Ordoliberalism, Austrian Economics, Libertarianism and even Neoclassical Economics.
+Links:
+- **[Liberalism and Neoliberalism in Britain](../notes/Liberalism_and_Neoliberalism_in_Britain)** 
+- **[Neoliberalism](../notes/Neoliberalism)** 
 
-Complaints that neoliberalism doesn’t really exist seems to display a naivete about the interaction of ideas and political movements.
+## **Preface**
+- **Overview**:
+  - This book offers profound insights into **[Neoliberalism](../notes/Neoliberalism)** and **liberalism**, surpassing other works on the subject while avoiding propagandistic promotion of these ideologies.
+  - **Neoliberalism**:
+    - Does not assume the existence of a pristine, stable free market.
+    - A **pluralistic ideology**, resisting a singular, reified definition.
 
-Intro
-The neoliberal continues to be stereotypically represented by the common conception of a neoclassical economist, a representation that does run into contradiction.
+- **Key Observations**:
+  - Neoliberalism often linked to intellectual strands like:
+    - Chicago School
+    - Ordoliberalism
+    - Austrian Economics
+    - Libertarianism
+    - Neoclassical Economics.
+  - Arguments against neoliberalism’s existence reflect naivety about the interaction of ideas and political movements.
 
-The term neoliberalism is hardly used to describe the US configuration of free market forces, forces which tends to sail under the flags of libertarianism or neoconservatism
+---
 
-Neoliberalism was developed in order to oppose what was described as collectivism and socialism through the development of an agenda diverging from classical liberalism
+## **Introduction**
+- **Stereotypes**:
+  - Neoliberals often mischaracterized as neoclassical economists, despite contradictions in this representation.
+  - In the U.S., "neoliberalism" rarely describes free-market ideologies, which instead align with **libertarianism** or **neoconservatism**.
 
-John Williamson coined the term “Washington Consensus (WC)”, the WC combined a set of macroeconomic policies intended to restore stability and a set of liberalisation policies aimed at structural reform.
+- **Origins and Goals**:
+  - Developed as an opposition to **collectivism** and **socialism**.
+  - Focused on promoting:
+    - **Competition** and **entrepreneurship**.
+    - Rejection of socialist ideas, particularly **Bolshevism**.
+  - Central message:
+    - The **market** is superior to **state intervention**.
 
-Neoliberalism propagated doctrines of competition and entrepreneurship and posited the rejection of advancing
-socialist ideas and bolshevism in particular. The conception of the state was in negative terms and classical liberalism loomed large.
+ [The Washington Consensus](../notes/The-Washington-Consensus)
 
-The core message was the superiority of the market over state intervention
+- **Key Figures and Concepts**:
+  - **John Williamson**:
+    - Coined the term *Washington Consensus* (WC):
+      - Combined macroeconomic stability policies with liberalization reforms.
+  - **Walter Lippmann**:
+    - Defined totalitarianism through the absence of property rights rather than the lack of democracy.
 
-(Walter) Lippmann’s work was a discussion of totalitarianism defined in terms of the absence of property rights rather than the more common interpretation as the lack of democracy
+---
 
-The colloquium defined the concept of neoliberalism as:
+## **Core Tenets of Neoliberalism** (As Defined by the Mont Pelerin Colloquium)
+1. **Priority of the price mechanism**.
+2. **Free enterprise**.
+3. **System of competition**.
+4. **A strong and impartial state**.
 
-The priority of the price mechanism
-The free enterprise
-The system of competition
-A strong and impartial state
-Whereas political freedom was regarded as a prerequisite of economic freedom in the British liberal tradition. Economics was now treated as quintessential to preserve a new kind of political freedom of individual choice.
+- In contrast to British liberalism:
+  - Political freedom was traditionally seen as a prerequisite for economic freedom.
+  - Neoliberalism positioned **economics** as the foundation for preserving **individual choice** and political freedom.
 
-The product of textbooks and the establishment of think tanks like the IEA were crucial to persisting neoliberal influence.
+---
 
-Chicago was the key staging ground for forging a lasting alliance between neoliberal intellecutals and the corporate opposition to the New Deal.
+## **Key Developments**
+- **Propagating Neoliberalism**:
+  - Textbooks and think tanks (e.g., Institute of Economic Affairs, IEA) played critical roles in maintaining neoliberal influence.
+- **Chicago School of Economics**:
+  - A central hub for building alliances between neoliberal intellectuals and corporate opposition to the New Deal.
 
-Origins of National Traditions
-French neoliberalism and its divisions
-Liberalism and neoliberalism in Britain
-Neoliberalism in Germany
-The rise of the Chicago school of economics
-Neoliberals confront the trade unions
-Reinventing monopoly
-The neoliberal development discourse
-Thinker:
-- Gramsci
-- James Buchanan
-- John Williamson
-- Eli Hekscher
-- Leopold von Wiese
-- Luigi Einaudi
-- Walter Lippmann
+---
 
+## **Origins of National Traditions**
+### **French Neoliberalism**:
+- Marked by internal divisions.
+  
+### **British Neoliberalism**:
+- Liberalism influenced by classical traditions while adapting to neoliberal tenets.
 
+### **Neoliberalism in Germany**:
+- Strong ordoliberal foundations.
 
+### **Rise of the Chicago School**:
+- Forged critical ties between intellectuals and business leaders, shaping U.S. neoliberal policy.
 
+---
 
+## **Key Themes**
+### **Neoliberals and Trade Unions**:
+- Confronted organized labor as part of a broader campaign to limit state intervention in markets.
+
+### **Reinventing Monopoly**:
+- Examined ways to redefine monopolies under neoliberal thought, balancing regulation and free-market ideals.
+
+### **Neoliberal Development Discourse**:
+- Promoted competition and market-driven approaches as solutions for economic development.
+
+---
+
+## **Key Thinkers**
+- **Antonio Gramsci**
+- **James Buchanan**
+- **John Williamson**
+- **Eli Heckscher**
+- **Leopold von Wiese**
+- **Luigi Einaudi**
+- **Walter Lippmann**
+
+---
+
+Let me know if you'd like further refinements or additional details added!

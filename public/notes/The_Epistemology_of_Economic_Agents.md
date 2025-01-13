@@ -1,0 +1,5 @@
+- As part of the history of [[Information in Economics]]
+- Categorising according to [[Friedrich von Hayek]]'s conceptions of agents' knowledge across three phases of his career:
+	- 1) Hayek represented knowledge as being dispersed in some way, and in some sense as having a local existence - and being hard to gather. Methods of aggregating up individual agents' knowledge would have a crucial bearing on the operation of a well-functioning economy. 
+	- 2) In the second phase, Hayek treated knowledge as tacit and inaccessible to self-examination 
+	- 3) In the third phase Hayek portrayed knowledge as completely disengaged from the consciousness of the knower. This corresponds to Hayek's idea of "competition as a discovery procedure. "

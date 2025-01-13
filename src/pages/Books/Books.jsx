@@ -11,7 +11,7 @@ const Books = () => {
     const [toReadBooks, setToReadBooks] = useState([]); // New state for To Read books
     const [selectedGenres, setSelectedGenres] = useState([]);
     const [showReadBooks, setShowReadBooks] = useState(true); // New state for toggling visibility
-    const [showWithSummary, setShowWithSummary] = useState(false); // New state for filtering books with summaries
+    const [showWithSummary, setShowWithSummary] = useState(true); // New state for filtering books with summaries
 
     useEffect(() => {
         // Set the fetched data to state

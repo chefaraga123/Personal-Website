@@ -1,7 +1,0 @@
-- [[Hosting a React App]]
-- You can use frameworks like Express.js with Node.js 
-- The server will need endpoints to:
-	- serve the graph data
-	- Handle additional functionality such as authentication 
-- Build the API endpoints 
-- Need to fetch the data from the front-end 

@@ -1,46 +1,75 @@
-Lecture 1
-General sociological theory: the general question of how a social order is possible at all 
+# Notes from *An Introduction to Systems Theory* by Niklas Luhmann
 
-What are the conditions for the persistence of a social system? And what are the conditions for the existence of a society? 
+---
+### Notes to integrate
+  -  **[Thermodynamics in closed vs open systems](../notes/Thermodynamics_in_closed_vs_open_systems)** 
+  -  **[Information theory as a theory of difference](../notes/Information_theory_as_a_theory_of_difference)**
+  -  **[Foundations of a General Systems Theory](../notes/Foundations_of_a_General_Systems_Theory)** 
+  -  **[System-to-system relations](../notes/System-to-system_relations)** 
+  -  **[Observation problem in systems](../notes/Observation_problem_in_systems)** 
 
-What minimal conditions concerning maintenance and problem solving must be fulfilled so that a society can exist at all?
+## **Lecture 1: General Sociological Theory**
+- **Central Questions**:
+  1. How is social order possible?
+  2. What conditions are required for the persistence of a social system or society?
+  3. What minimal conditions must be met for societal maintenance and problem-solving?
 
-My Notes: Is Luhmann arguing for a “structural functionalism” that bridges the given sociological dichotomy and hence denoting that Systems Theory?
+- **Core Ideas**:
+  - Systems theory seeks to **bridge sociological dichotomies**, offering a form of **structural functionalism**.
+  - Focus on integrating challenges like:
+    - Deviance.
+    - Limitations of social control.
+    - Value contradictions.
 
-Core ideas: how to integrate problems of deviance, the limitations of social control, of value contradictions 
-“Action is system” 
+- **Action as System**:
+  - Connection between system formation (macro structures) and actions (basal operations).
+  - Builds on **Parsons’ 2x2 matrix**, known for being MECE (Mutually Exclusive, Collectively Exhaustive).
 
-Reference to Parson’s 2x2 matrix and its property of being MECE 
+- **Parsons' Theory of Action**:
+  - Actions as an **emergent property of reality**.
+  - Components of action:
+    1. **Ends and Means**: Differentiation between goals and tools to achieve them.
+    2. **Values**: Societal constraints that limit choices in combining means and ends.
 
-Theory of action seen as oriented towards the subject & the individual, whereas systems theory is seen as abstract and perhaps more capable at depicting macro-structures 
+- **Key Distinction**:
+  - **Theory of Action**: Oriented towards individual subjects.
+  - **Systems Theory**: Abstract framework better suited for depicting macro-structures.
 
-Connection between system formation or overarching ordering structures on the one hand and actions as the basal operations on the other. 
+---
 
-Parsons proposes that actions are an emergent property of reality
-There are components that need to be combined for actions to emerge
-For a primary understanding of actions need to distinguish ends and means 
-What are the values that society uses to restrict the freedom of choice concerning the combination of means and ends 
+## **Lecture 3: The Theory of Open Systems**
+- **Interdisciplinary Approach**:
+  - Systems thinking conceptualized as interdisciplinary.
+  - Draws on models from various fields, such as mathematics, physics, and economics.
 
-Lecture 2
+- **Equilibrium Models**:
+  - Early systems theory rooted in concepts of **stability and disturbance**:
+    - **Equilibrium**: A state marking a system’s sensitivity to disturbance.
+    - **Disequilibrium**: May be necessary for long-term stability.
+  - Examples:
+    - Economics (17th century): "Balance of trade" or "balance of power."
+  
+- **Thermodynamics and Systems**:
+  - In closed systems:
+    - Entropy leads to the dissolution of distinctions.
+  - **Negentropy**: Situations where entropy decreases, leading to increased order.
 
-Lecture 3: The Theory of Open Systems 
-Systems thinking is conceptualised as an interdisciplinary mode of thought
-Points of departure of general systems theory 
-A line of development can be seen with the models deal with the concept of an equilibrium
-This has a mathematical basis, but conceptually it has a mathematically independent existence - used in economics in the 17th century e.g. ideas of “balance of trade” or the “balance of power” as between nations 
-This line of development is characterised by the distinction between stability & disturbance. The idea of equilibrium can be understood that marks and locates a system’s sensitivity to disturbance 
-Maybe imbalance/disequilibrium is the requisite condition for stability 
-The most novel issue that arises when taking an equilibrium model as the basis of a general systems theory is given by thermodynamics, that the physics of closed systems tends to produce entropy (i.e. to dissolve distinctions) 
-Negentropy - used in the context of situations where there is decrease in entropy / increase in order 
+- **Open Systems**:
+  - Defined by **exchange relationships** between a system and its environment.
+  - Systems must interact with external elements to maintain themselves.
 
-An open system concerns the exchange relationship between a system and its environment 
+---
 
-For more details, see the [System-to-system relations](../notes/System-to-system%20relations).
+## **General Sociological Context**
+- **Structuralism**:
+  - Emphasizes coherence and stability in societal structures.
+  - Reductionist in its approach to analyzing society.
 
-General sociological context:
-Structuralism
-Emphasises how the different elements of society fit together into a coherent stable structure (a reductionist approach)
-Functionalism 
-Views society as a complex systems whose parts work together to promote solidarity and stability, emphasises the interdependence of the institutions and processes of society and how they work together to maintain the system as a whole. (an emergentist approach) 
+- **Functionalism**:
+  - Views society as an **emergent system**:
+    - Parts of society interdependently work together to promote stability and solidarity.
+    - Institutions and processes sustain the whole.
 
- 
+---
+
+Let me know if you'd like any further refinements or expansions!

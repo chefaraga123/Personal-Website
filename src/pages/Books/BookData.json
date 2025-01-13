@@ -1,13 +1,5 @@
 [
     {
-      "title": "Retrospect",
-      "author": "Robert McNamara",
-      "genre": ["Biography", "History ", "Warfare ", "Politics "],
-      "image": "/images/Retrospect_Cover.jpg",
-      "summaryLink": "/books/Retrospect",
-      "id": "Retrospect"
-    },
-    {
       "title": "The Years of Lyndon Johnson: Master of the Senate",
       "author": "Robert A. Caro",
       "genre": ["Biography", "History", "Politics"],
@@ -68,7 +60,9 @@
       "title": "The knowledge we have lost in information",
       "author": "Philip Mirowski",
       "genre": ["Economics", "History", "Philosophy", "Politics"],
-      "image": "/images/The_Knowledge_We_Have_Lost_in_Information_Cover.jpg"
+      "image": "/images/The_Knowledge_We_Have_Lost_in_Information_Cover.jpg",
+      "summaryLink": "/books/The_Knowledge_We_Have_Lost_in_Information",
+      "id": "The_Knowledge_We_Have_Lost_in_Information"
 
     },
     {
@@ -153,7 +147,9 @@
       "title": "The History of Mining",
       "author": "Michael Coulson",
       "genre": ["History", "Geology"],
-      "image": "/images/The_History_of_Mining_Cover.jpg"
+      "image": "/images/The_History_of_Mining_Cover.jpg",
+      "summaryLink": "/books/The_History_of_Mining",
+      "id": "The_History_of_Mining"
     },
     {
       "title": "A Global History of Money",
@@ -165,7 +161,9 @@
       "title": "The Politics of Nuclear Weapons",
       "author": "Akinobu Kuroda",
       "genre": ["History", "Politics", "Warfare"],
-      "image": "/images/The_Politics_of_Nuclear_Weapons_Cover.jpg"
+      "image": "/images/The_Politics_of_Nuclear_Weapons_Cover.jpg",
+      "summaryLink": "/books/The_Politics_of_Nuclear_Weapons",
+      "id": "The_Politics_of_Nuclear_Weapons"
     },
     {
       "title": "Intensive Science and Virtual Philosophy",
@@ -205,7 +203,9 @@
       "title": "A Thousand Years of Non-Linear History",
       "author": "Manuel DeLanda",
       "genre": ["Philosophy", "Sociology", "History"],
-      "image": "/images/A_Thousand_Years_of_Non-Linear_History_Cover.jpg"
+      "image": "/images/A_Thousand_Years_of_Non-Linear_History_Cover.jpg",
+      "summaryLink": "/books/A_Thousand_Years_of_Non-Linear_History",
+      "id": "A_Thousand_Years_of_Non-Linear_History"
     },
     {
       "title": "Lean Startup",
@@ -231,14 +231,18 @@
       "title": "Shorting the Grid",
       "author": "Meredith Angwin",
       "genre": ["Politics", "Technology"],
-      "image": "/images/Shorting_the_Grid_Cover.jpg"
+      "image": "/images/Shorting_the_Grid_Cover.jpg",
+      "summaryLink": "/books/Shorting_the_Grid",
+      "id": "Shorting_the_Grid"
     }
     ,
     {
       "title": "Fear of Freedom",
       "author": "Erich Fromm",
       "genre": ["Politics", "Sociology", "Psychology"],
-      "image": "/images/Fear_of_Freedom_Cover.jpg"
+      "image": "/images/Fear_of_Freedom_Cover.jpg",
+      "summaryLink": "/books/Fear_of_Freedom",
+      "id": "Fear_of_Freedom"
     },
     {
       "title": "The Audacity to Win",
@@ -437,6 +441,22 @@
       "image": "/images/War_in_the_Age_of_Intelligent_Machines_Cover.jpg",
       "summaryLink": "/books/War_in_the_Age_of_Intelligent_Machines",
       "id": "War_in_the_Age_of_Intelligent_Machines"
+    },
+    {
+      "title": "The Challenge Launch Decision",
+      "author": "Diane Vaughan",
+      "genre": ["History", "Management"],
+      "image": "/images/The_Challenge_Launch_Decision_Cover.jpg",
+      "summaryLink": "/books/The_Challenge_Launch_Decision",
+      "id": "The_Challenge_Launch_Decision"
+    },
+    {
+      "title": "Retrospect",
+      "author": "Robert McNamara",
+      "genre": ["Biography", "History ", "Warfare ", "Politics "],
+      "image": "/images/Retrospect_Cover.jpg",
+      "summaryLink": "/books/Retrospect",
+      "id": "Retrospect"
     }
 
     

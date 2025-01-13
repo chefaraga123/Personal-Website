@@ -1,6 +1,0 @@
-- **tags:**
-	- [[Creating a React App]]
-- Options
-	- Vercel
-	- Netlify
-	- GitHub Pages 

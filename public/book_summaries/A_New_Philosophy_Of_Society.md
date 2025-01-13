@@ -1,78 +1,137 @@
-The purpose of this book is to describe steps between micro- and macro- perspectives on social systems.
+# Notes from *A New Philosophy of Society* by Manuel DeLanda
 
-This starts through the consideration of:
+---
 
-Assemblages vs Organic Totalities
+## **Purpose of the Book**
+- To describe the steps between **micro-** and **macro-perspectives** on social systems.
+- Achieved through the use of the concept of **assemblages**, offering an alternative to reductionist approaches.
 
-Relations of Exteriority vs Relations of Interiority
+---
 
-There are distinct types of reductionism. Consider micro-reductionism as typically exemplified through microeconomics, individuals agents have assumed rationality and society as a whole is conceptualised as a mere aggregate, i.e. as a whole without properties that are more than the sum of its parts. The opposing position is a macro-reductionism i.e that social structure is what really exists, individuals being products of the society in which they are born.
+## **Core Concepts**
+### **Assemblages vs. Organic Totalities**
+- **Assemblages**:
+  - Wholes whose properties emerge from interactions between parts.
+  - Characterized by **relations of exteriority**, meaning:
+    - Components retain autonomy and can be detached or reconfigured in new assemblages.
+    - The properties of the whole arise from the capacities of its components in interaction, not as an aggregation of properties.
 
-Wholes vs Assemblages
-Assemblages are wholes whose properties emerge from the interaction between parts.
+- **Organic Totalities**:
+  - Wholes defined by **relations of interiority**:
+    - Components are defined by their relations to other parts within the whole.
+    - A part ceases to exist as what it is when removed from the whole.
+  - Imply a seamless unity between parts and wholes.
 
-Networks are compared by the number of people they contain.
+---
 
-The awareness of the resemblance between classes, groups, social instituions and bodily organs is not new. Aristotle sets forth this organismic metaphor for describing society. Anthropomorphic analogies are used to describe the state (interesting to consider how this relates to the Aristotelian concept of Telos). However writers such as Hobbes and Rousseau rejected this equivocation, instead contrasting them.
+## **Reductionism**
+- **Micro-Reductionism**:
+  - Exemplified by microeconomics.
+  - Individuals are assumed rational; society is treated as an aggregate without emergent properties.
+- **Macro-Reductionism**:
+  - Views social structures as primary, with individuals as mere products of society.
 
-A refinement of this organismic analogy is theory about the general relation between parts and wholes. The basic concept in this theory are the below
+---
 
-Relations of interiority: where the component parts are defined by their relations to the other parts in the whole. Here the part when detached from its whole ceases to be what it is, since being a part is one of its constitutive properties.
+## **Key Dimensions of Assemblages**
+1. **Roles of Components**:
+   - Components can play roles along a spectrum:
+     - **Material**: Physical or tangible functions.
+     - **Expressive**: Communicative or symbolic functions.
+2. **Processes of Stabilization or Destabilization**:
+   - Components can reinforce or undermine the assemblage’s identity.
 
-The above conception implies an inextricable unity
+---
 
-The main theoretical alternative to organic totalities are assemblages (Deleuze). These assemblages are defined above and are characterised by the below.
+## **Special Assemblages**
+- **Genes**:
+  - Composed of linear sequences of nucleotides; components of chromosomes.
+- **Words**:
+  - Composed of linear sequences of phonetic sounds or letters; components of sentences.
+- **Assemblage Recurrence**:
+  - Assembly processes recur at different spatial and temporal scales, linking micro- and macro-levels of reality.
 
-Relations of exteriority: these relations imply a component part of an assemblage may be detached and plugged into a different asssemblage in which its interactions are different. The implication is that the properties of the component parts can never explain the relations which constitute a whole. The exteriority of relations implies autonomy of the terms they relate.
+---
 
-The reason why the properties of a whole cannot be reduced to those of its parts is that they are not the result of an aggregation of the components’ own properties but of the actual excersize of their capacities.
+## **Assemblages and Causality**
+- **Linear Causality**:
+  - The idea that the same cause always produces the same effect is limiting and misleading.
+- **Non-Linear Causality**:
+  - Defined by thresholds, below or above which external causes fail to produce an effect.
+- **Material vs. Expressive Roles**:
+  - Material components involve causal interactions.
+  - Expressive components often catalyze these interactions.
 
-In the context of relations of interiority the reason why the properties of a whole cannot be reduced to those of its parts is that they are the result not of an aggregation of the components’ own properties but of the actual excersize of their capacities. These capacitites involve reference to the properties of other interacting entities.
+---
 
-De Landa defines the concept of assemblages along two dimensions:
+## **Assemblages and Essentialism**
+- Assemblages reject **taxonomic essentialism**:
+  - Traditional classifications (e.g., genus, species, individual) treat categories as static and separate.
+  - Assemblages are dynamic, with identities emerging from processes of interaction.
 
-The variable roles which an assemblage’s components may play: from a purely material role to a purely expressive role.
+- Assemblages are characterized by:
+  - **Flat Ontology**:
+    - All entities (individuals, groups, societies) exist on the same ontological level, differing only in scale.
+  - **Topological Structures**:
+    - Connectivity and relationships define the space of possibilities for an assemblage.
 
-The variable process through which the component either stabilises or destabilises the assemblage.
+---
 
-When atoms interact with radiation their internal structure creates patterns in this radiation through the selective absorption of some of its wavelengths. While this information has an objective existence it isn’t functional.
+## **Social Ontology**
+- **Empiricist Tradition**:
+  - Knowledge reduces to sense impressions; ideas replicate impressions.
+- **Assemblages in Social Reality**:
+  - Larger social assemblages have **objective existence**:
+    - Causally affect their components (e.g., enabling or limiting individual actions).
+    - Interact with other assemblages at the same scale.
+- **Micro-Macro Linkage**:
+  - Assemblages bridge individual entities and larger social entities through recurrent processes at various scales.
 
-Special assemblages
-Genes are made up of linear sequences of nucleotides and are the component parts of chromosomes.
+---
 
-Words are made of linear sequences of phonetic sounds or written letters and are the component part of sentences.
+## **Applications**
+### **Networks and Persons**
+- Networks:
+  - **Low-density networks**:
+    - Feature weak links, providing novel information and opportunities.
+  - **High-density networks**:
+    - Feature strong links, offering resources and stability.
+- Personal Identity:
+  - Stable identity relies on maintaining habitual associations.
 
-The combination of the recurrence of the same assembly processes at any one spatial scale and the recurrence of the same kind of assembly processes at successive scales gives assemblage theory a means of approaching the problem of linking the micro- & macro-levels of social reality.
+### **Social Dynamics**
+- **Examples of Multi-Scale Assemblages**:
+  - Napoleonic revolution in warfare:
+    - Shift from local battles to national resource mobilization.
+  - Resource mobilization involves overcoming inertia at various scales.
 
-The formula for linear causality: same cause, same effect always has had a damaging impact on the very conception of the relations between causes and effects. It is misleading to think that the occurrence of A implies B. IF causality is to provide the basis for objective syntheses causal relations must be characterized as productive (not just implicative!)
+- **Temporal Consequences of Scale**:
+  - Larger scales influence the duration and impact of events capable of altering assemblages.
 
-Assemblages & Essentialism
-Taxonomists reify the general categories produced by the classifications. Taxonomic essentialism, as opposed to platonic variety, can be traced back to Aristotle
+---
 
-The enduring identity of a given species is accounted for in terms of the different forms of natural selection that steer the accumulation of genetic materials in the direction of greater adaptability, as well as the process through which two progressively divergent communities fail to mate. Reproductive isolation marks the threshold of speciation.
+## **DeLanda’s Assemblage Theory**
+### **Key Features**:
+1. Assemblages consist of self-subsistent parts linked by **relations of exteriority**.
+2. Components can be detached and reconfigured in new assemblages.
+3. Social and physical locales are shaped not only by their material form but also by recurring activities.
 
-Only non-metric or topological notions, such as the overall connectivity of the different parts of the body, can be used to specify it. A body plan defines a space of possibilities, and this space has a topological structure.
+### **Synthesis of Micro- and Macro-Perspectives**:
+- Assemblage theory explains how micro-level interactions produce macro-level structures and how macro-structures constrain micro-level activities.
 
-Max Weber introduced a classification for social entities in terms of ideal types. He found three ways through which authority could gain legitimacy: traditional, rational-legal, and charismatic.
+---
 
-The dimensions of this space (the degrees of freedom of the authority structure) include:
+## **Philosophical Implications**
+- **Realist Ontology**:
+  - Asserts the autonomy of social entities from our conceptions of them.
+  - Social assemblages have **objective existence** through their causal effects.
+- Assemblages reject rigid distinctions between levels of analysis:
+  - Micro- and macro- scales are connected through dynamic, recurring processes.
+- Social processes are shaped by constraints and affordances:
+  - Components face limitations and opportunities that enable novel performances.
 
-The degree to which an office position in a hierarchy is clearly separated from the incumbent. Rational-legal forms have the most separation
-The degree to which activities of the organisation are routinised. The charismatic form would have the least routine.
-Social assemblages larger than individuals have an objective existence because they can causally affect the people that are their component parts, limiting them, and enabling them and affecting other assemblages at the same scale.
+---
 
-Persons and Networks
-We need a point of departure for a bottom-up ontological model.
-
-The empiricist tradition is best known for its epistemological claims, i.e. the claim that all knowledge, including verbal knowledge can ultimately be reduced to sense impressions.
-
-An empiricist model conceptualises subjective experiences in terms of distinct and seperable sense impressions.
-
-Ideas directly express impressions.
-
-A personal identity is stable only to the extent that habitual or routine associations are constantly maintained.
-
-Ideas as low intensity replications of impressions.
-
-
-
+## **Conclusion**
+- Assemblages offer a powerful framework for understanding the dynamic interactions between parts and wholes.
+- By rejecting reductionism and embracing non-linear causality, assemblage theory bridges micro- and macro-perspectives on social systems.
