@@ -46,7 +46,6 @@ const App = () => {
 
             <Route path="/Books" element={<Books />} />
 
-
             <Route path="/knowledge-graph" element={<KnowledgeGraph />} />
                        
             <Route path="/books/:bookId" element={<BookSummary />} />
