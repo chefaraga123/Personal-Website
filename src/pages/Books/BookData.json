@@ -155,7 +155,9 @@
       "title": "A Global History of Money",
       "author": "Akinobu Kuroda",
         "genre": ["History", "Economics"],
-      "image": "/images/A_Global_History_of_Money_Cover.jpg"
+      "image": "/images/A_Global_History_of_Money_Cover.jpg",
+      "summaryLink": "/books/A_Global_History_of_Money",
+      "id": "A_Global_History_of_Money"
     },
     {
       "title": "The Politics of Nuclear Weapons",
