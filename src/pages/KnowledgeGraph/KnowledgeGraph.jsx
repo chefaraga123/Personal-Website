@@ -3,8 +3,10 @@ import { ForceGraph2D } from 'react-force-graph';
 import ReactMarkdown from 'react-markdown';
 import styles from './KnowledgeGraph.module.css';
 import Navigation from '../../components/Navigation/Navigation';
+import { useNavigate } from 'react-router-dom';
 
 const KnowledgeGraph = () => {
+    const navigate = useNavigate();
     const [graphData, setGraphData] = useState({ nodes: [], links: [] });
     const [showLabels, setShowLabels] = useState(true);
     const [searchQuery, setSearchQuery] = useState('');
@@ -36,13 +38,16 @@ const KnowledgeGraph = () => {
     };
 
     const handleNodeClick = (node) => {
-        if (node.url) {
-            window.open(`/notes/${node.id}`, '_blank');
-        } else {
-            const notePath = encodeURIComponent(`/notes/${node.id}`);
-            window.open(`/notes/${notePath}`, '_blank');
-        }
+        // Get the node ID and replace spaces with underscores
+        const nodeId = node.id.replace(/ /g, '_'); // Replace spaces with underscores
+    
+        // Construct a new URL using the modified node ID
+        const newUrl = `/notes/${nodeId}`; // Construct the new URL
+    
+        // Navigate to the new URL without opening a new window
+        navigate(newUrl);
     };
+    
 
     const renderNode = (node, ctx, globalScale) => {
         const label = node.label;
