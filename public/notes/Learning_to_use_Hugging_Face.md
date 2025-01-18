@@ -1,0 +1,6 @@
+- following **[Hugging Face set up](../notes/Hugging_Face_set_up)**
+- [Three part course](https://huggingface.co/learn/nlp-course/chapter1/1): 
+- !**[Pasted image 20240128103319.png](../notes/Pasted_image_20240128103319.png)**
+	- **[Hugging Face Introduction](../notes/Hugging_Face_Introduction)**
+	- Intermediate
+	- Advanced

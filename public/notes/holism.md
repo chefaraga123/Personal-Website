@@ -1,2 +1,2 @@
 - the idea that the only valid explanations are of parts in terms of wholes 
-- Is Marxist [[sociology]] a form of holism?
+- Is Marxist **[sociology](../notes/sociology)** a form of holism?

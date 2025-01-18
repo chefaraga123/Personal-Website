@@ -1,0 +1,2 @@
+- tag: **[Heuristics](../notes/Heuristics)**
+- Interesting to consider the **[Parts of the Brain](../notes/Parts_of_the_Brain)**, we are built to "react", rather than "think" 

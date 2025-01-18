@@ -1,0 +1,4 @@
+- Tag: **[sociology](../notes/sociology)**
+- **[Structural functionalism](../notes/Structural_functionalism)** AKA maintenance functionalism
+- 
+-

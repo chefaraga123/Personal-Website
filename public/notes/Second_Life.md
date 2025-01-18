@@ -1,0 +1,4 @@
+- **[Games](../notes/Games)**
+- A virtual world launched by Linden Lab in 2003. It is largely a UGC platform, where Linden Lab participates by maintaining the world, its economy and the underlying technology. 
+- Users can build games and interactive activities to which they add functionality via the **Linden Scripting Language** 
+-

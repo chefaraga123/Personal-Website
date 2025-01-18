@@ -1,2 +1,2 @@
-- a branch of [[0xParc]], responsible for designing and maintaining, [[MUD the fully-chain game engine]] and the [[world engine]]
+- a branch of **[0xParc](../notes/0xParc)**, responsible for designing and maintaining, **[MUD the fully-chain game engine](../notes/MUD_the_fully-chain_game_engine)** and the **[world engine](../notes/world_engine)**
 - 

@@ -1,3 +1,0 @@
-- The key concern of [[Mont Pelerin Society]] neoliberalism is the problem of how to secure a free market and to redefine the functions of the market in order to attain that goal. 
-- The publication of [[Walter Lippmann]]'s "an inquiry into the principles of the good society" (1937), the core message of which was that the market economy was superior to state intervention 
-- Lippman's work discussed totalitarianism primarily with regard to the absence of private 

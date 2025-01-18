@@ -1,0 +1,2 @@
+- Web3 **[Games](../notes/Games)** are games where ownership is represented by tokens which have a game-independent existence, rather than on a database or some game state which has no game-independent existence. 
+- Web3 Games can leverage **[Smart Contract](../notes/Smart_Contract)**s to allow users to transact their property 

@@ -1,2 +1,0 @@
-- Tag [[Economics]]
-AKA the Law of markets, the claim that the production of a production created demand for another product by providing something of value which can be exchanged for that other product. **I.e. production is the source of demand** 

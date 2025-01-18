@@ -1,0 +1,5 @@
+- A mechanical calculator that represented decimal digits by cogs, each of which could click into one of ten positions 
+- The original purpose was to automate the production of tables of mathematical functions such as logarithms & cosines which were used heavily in engineering & navigation
+- These were previous compiled by armies of clerks known as "computers"
+- The reason it could exist is the regularity underlying **[analytic functions](../notes/analytic_functions)**
+- **[Charles Babbage](../notes/Charles_Babbage)** created a calculator that exhibited **[universality](../notes/universality)** for calculating analytic functions. It made use of the universality of **[movable type](../notes/movable_type)** 

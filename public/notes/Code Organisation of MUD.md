@@ -1,3 +1,0 @@
-- Most of the code is in two packages 
-	- The on-chain part of the application: [[MUD contracts]]
-	- The off-chain part of the application, the UI [[MUD client]]

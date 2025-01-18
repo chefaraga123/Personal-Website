@@ -1,0 +1,3 @@
+- Inventor of the **[The Babbage Difference Engine](../notes/The_Babbage_Difference_Engine)** and the **[Analytic Engine](../notes/Analytic_Engine)**
+- Developed early ideas around AI & **[Cybernetics](../notes/Cybernetics)**
+- 

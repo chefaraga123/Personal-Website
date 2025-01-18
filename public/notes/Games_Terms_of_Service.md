@@ -1,0 +1,3 @@
+- Terms of Service AKA EULA, Terms of Use, Terms & Conditions are a legal **[Contracts](../notes/Contracts)** which users have to agree to before using a digital service 
+- For **[Web3 games](../notes/Web3_games)** to be meaningfully differentiated from Web2 games their ToS needs to reflect their technologically enabled differences. 
+- The function of ToS is absolve the games provider of as much liability as possible for the way their actions affect their users and the actions of their users. 

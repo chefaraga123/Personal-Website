@@ -1,3 +1,0 @@
-- The rational side, [[the neocortex]]
-- the emotional side, [[the limbic system]]
-- 

@@ -1,0 +1,8 @@
+- tag: **[Theory of Evolution](../notes/Theory_of_Evolution)**
+- using a computer simulation you can run many trails, each with a slight random variation the first program 
+- An evolutionary algorithm subjects a simulated agent to a battery of tests. 
+- At the end of each test run, the program that performed best is retained at the reset a re discarded 
+- Then many variants of that program are generated and simulated
+- This is evolution in the sense that *variance* and *selection* occurs - but is it evolution in the sense of the creation of *knowledge* by variation and selection 
+- **is knowledge created through the execution of the program, or the development of the program by the developer?**
+- Biological evolution often reaches a local maxima of fitness

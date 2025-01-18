@@ -1,4 +1,4 @@
 - Coined by economist John Williamson  
 - The WC combined a set of macroeconomic policies intended to restore economic stability & a set of liberalisation policies aimed at structural reform 
 - The ten policy instruments included: the reduction of federal deficits, privatisation of state-run enterprises, deregulation of key industries and trade and financial sector liberalisation
-- This list of instruments has been depicted as characteristic of [[Neoliberalism]]
+- This list of instruments has been depicted as characteristic of **[Neoliberalism](../notes/Neoliberalism)**

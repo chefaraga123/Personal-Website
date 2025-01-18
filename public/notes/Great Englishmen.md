@@ -1,3 +1,0 @@
-- [[Winston Churchill]]
-- [[Oliver Cromwell]]
-- [[Clement Atlee]]

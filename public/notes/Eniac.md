@@ -1,3 +1,3 @@
-- One of the first computers with [[universality]]
+- One of the first computers with **[universality](../notes/universality)**
 - Used to solve the equations needed for aiming large guns
 - Later used for weather forecasting and in the hydrogen bomb project 

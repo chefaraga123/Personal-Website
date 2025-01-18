@@ -1,4 +1,4 @@
-- [[Neoclassical Economics]] hinges around a schema of rationality composed of three components:
+- **[Neoclassical Economics](../notes/Neoclassical_Economics)** hinges around a schema of rationality composed of three components:
 	- **Utility Function**: Consistent well-behaved preferences ordering reflecting the mindset of some individual.
 	- **Formal Axiomatic Definitions**: The axiomatic method employed to describe mental manipulations as comprising the definition of rational choice.
 	- **Methodological Individualism**: Reduction of all social phenomena to be attributed to the activities of individual agents applying (b) to (a) 

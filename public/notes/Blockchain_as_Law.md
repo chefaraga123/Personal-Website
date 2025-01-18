@@ -1,0 +1,2 @@
+- Thinking of the law as an epistemic machine that ratifies and generates truth, the blockchain follows a similar function.
+- **[Smart Contract](../notes/Smart_Contract)**s operate on the basis of its inputs being self-referentially true according to the internally consistent nature of the blockchain. 

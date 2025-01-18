@@ -1,5 +1,5 @@
 - NARK stands for Non-interactive ARgument of Knowledge 
-- A NARK is applied to [[arithmetic circuits]]
+- A NARK is applied to **[arithmetic circuits](../notes/arithmetic_circuits)**
 
 - Public Arithmetic Circuit (Public Statement, Secret Witness)
 - Pre-processing (AKA setup) algorithm 

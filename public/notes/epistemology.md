@@ -1,1 +1,1 @@
-tags: [[Philosophy]]
+tags: **[Philosophy](../notes/Philosophy)**

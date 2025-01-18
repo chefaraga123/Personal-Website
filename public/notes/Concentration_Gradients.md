@@ -1,0 +1,2 @@
+- Tag: **[Gradients](../notes/Gradients)**, **[Emergence](../notes/Emergence)**
+- Gradients of concentration of substances other than water 

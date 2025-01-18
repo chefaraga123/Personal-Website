@@ -1,0 +1,3 @@
+- Most of the code is in two packages 
+	- The on-chain part of the application: **[MUD contracts](../notes/MUD_contracts)**
+	- The off-chain part of the application, the UI **[MUD client](../notes/MUD_client)**

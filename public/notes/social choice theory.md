@@ -1,3 +1,0 @@
-- [[the problem of proportional voting systems]]
-- [[plurality voting systems]]
-- 

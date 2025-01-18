@@ -1,0 +1,3 @@
+- The on-chain components can be divided into two types of functionality:
+	- **[Tables, store the data](../notes/Tables,_store_the_data)**
+	- **[Systems, define the logic for modifying the tables](../notes/Systems,_define_the_logic_for_modifying_the_tables)**

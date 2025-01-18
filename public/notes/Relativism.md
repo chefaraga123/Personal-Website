@@ -1,1 +1,1 @@
-- The [[epistemology]] that statements in a given field cannot be objectively true or false and at most can be judged relative to some cultural or arbitrary standard 
+- The **[epistemology](../notes/epistemology)** that statements in a given field cannot be objectively true or false and at most can be judged relative to some cultural or arbitrary standard 

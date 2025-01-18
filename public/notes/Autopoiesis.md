@@ -1,2 +1,2 @@
-- the self-reproduction of life by those elements that have in turn been produced in and by the living [[System]]
+- the self-reproduction of life by those elements that have in turn been produced in and by the living **[System](../notes/System)**
 - 

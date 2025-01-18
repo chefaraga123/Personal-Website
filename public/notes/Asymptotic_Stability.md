@@ -1,0 +1,3 @@
+- When the emergent **[Emergence](../notes/Emergence)** properties of a whole are stable they can survive changes in the details of the interactions between its parts 
+- **For example**: a given degree of temperature in a body of water may result from a number of different interactions between the kinetic energy of its component molecules. This implies we can take the existence of temperature for granted when explaining the circulatory pattern in a convection cell. 
+- A  stable emergent property is *indifferent* to local changes in the interactions that give rise to it, and this objective indifference translates into an objective *explanatory irrelevance* of the details of the interactions. 

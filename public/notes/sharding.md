@@ -1,4 +1,4 @@
-- The core idea of this is to distribute players across [[servers]], hence "shards"
+- The core idea of this is to distribute players across **[servers](../notes/servers)**, hence "shards"
 - Each shard could independently host a portion of the players, game maps and data 
 - Ultimate Online was an early MMORPG that implemented sharding onto the server. 
 - 

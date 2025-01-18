@@ -1,3 +1,0 @@
-- Defence covers all those matters that are the responsibility of the Secretary of State for Defense 
-- [[Defence decision makers UK]]
-- 

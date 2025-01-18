@@ -1,5 +1,0 @@
-- [[Pictograms]] are a type of early writing system 
-- All the words in a given language are built out of a small number of elementary sounds 
-- The key threshold for a writing system is the achievement of [[universality]] the point at which it can represent any word in it 
-- An alphabet contains knowledge of words sound like. That allows it to be used by a foreigner to learn to speak the language 
-- 

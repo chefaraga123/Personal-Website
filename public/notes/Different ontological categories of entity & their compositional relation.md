@@ -1,9 +1,0 @@
-- tag: [[Ontology]]
-- **types of entity | compositional relation **
-	- properties | lower level properties **realise** higher-level properties
-	- individuals | lower level individuals **constitute** higher-level individuals 
-	- processes | lower level individuals **implement** higher-level processes
-- sciences are ontological in character because they concern relations between entities in the world. 
-- To articulate such entity types we need a minimum ontological framework 
-	- **individuals** are located in space-time, and to instantiate properties and relations that contribute powers to them. Individuals are individuated by their properties (**& tendencies/capacities?**)
-- 

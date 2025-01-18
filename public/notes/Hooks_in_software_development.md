@@ -1,0 +1,7 @@
+- A feature provided that allows you to hook into features and lifecycle events in a functional and reusable way. 
+- Key concepts in hooks
+	- Reusability
+	- functional Components
+	- **[Declarative Programming](../notes/Declarative_Programming)** 
+- Applied**[Hooks in React](../notes/Hooks_in_React)**
+	- **[Hooks in React](../notes/Hooks_in_React)**

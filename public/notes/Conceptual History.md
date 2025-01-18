@@ -1,2 +1,0 @@
-- Traces and reconstructs [[epistemological]] developments as social history, the result of larger historical developments and social struggles that give rise to new meanings 
-- 

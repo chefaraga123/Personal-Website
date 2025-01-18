@@ -1,0 +1,15 @@
+- **[Zero Knowledge Proofs](../notes/Zero_Knowledge_Proofs)**
+- This allows you to prove that you know a **secret, such as a private key**, corresponding to a **public value**, such as a **public key**, without revealing the secret key itself 
+- Based on **[discrete logarithms in cyclic groups](../notes/discrete_logarithms_in_cyclic_groups)** 
+- Steps to implement the Schnorr Protocol
+	- **1: Setup**
+		- **Choose a Group**: Select a cyclic group G with a generator g, this is often done using **[elliptic curve](../notes/elliptic_curve)** groups due to their efficiency and security 
+		- **Generate Keys**: the **prover** chooses a secret key x at random and computes the public key $Y = g^x$ 
+	- **2: Commitment** 
+		- The **prover** selects a random value k and computes a commitment $C = g^k$. The prover sends C to the verifier 
+	- **3: Challenge** 
+		- The **verifier** sends a random challenge $e$ to the prover
+	- **4: Response**
+		- The **prover** computes the response $s=k+ex$ and sends $s$ to the verifier 
+	- 5: Verification
+		- The **Verifier** checks if $g^s=CY^e$ 

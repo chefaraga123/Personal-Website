@@ -1,2 +1,0 @@
-- tag: [[reductionism]]
-- seeks to provide a plausible account of all the sciences and levels of nature 

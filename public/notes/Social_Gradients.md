@@ -1,0 +1,6 @@
+- **[Gradients](../notes/Gradients)** are perhaps useful ways to think about the triggering of war. 
+- There are **social ratcheting functions** which push parts of society apart (self-reinforcing cultural differences, internet echo chambers),
+- There are **social binding functions** which brings society together, this could be shared values etc...
+- In a civil war the social binding function fails to dissipate the social ratcheting function. 
+- The social ratcheting function can be conceptualised as an **[Autocatalytic Loop](../notes/Autocatalytic_Loop)** 
+- What are the inputs into social division? Perceived antagonism?

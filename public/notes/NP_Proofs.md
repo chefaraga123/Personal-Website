@@ -1,0 +1,3 @@
+- tag: **[Cryptographic Proofs](../notes/Cryptographic_Proofs)**
+- Efficiently verifiable proofs
+- A type of proof where the truth of a claim can be quickly verified , the veritifcation process is significantly less resource -intensive that the process of finding or generating the proof 

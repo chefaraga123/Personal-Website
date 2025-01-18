@@ -1,5 +1,5 @@
 - a class of natural or synthetic substances composed of very large molecules *macromolecules* which are multiples of simpler chemical units called monomers 
 - There are four basic polymer structures: linear, branched, crosslinked and networked 
 - In contemporary organisms, both the genes, and the proteins those genes code for are polymers 
-- [[Polymerisation]]
+- **[Polymerisation](../notes/Polymerisation)**
 - 

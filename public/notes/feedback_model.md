@@ -1,0 +1,4 @@
+- The idea that is some apparatus that measures certain distances - that is information from its environment - in relation to a desirable system state 
+- Depending upon whether this system translates into satisfactory or unsatisfactory turns the mechanisms of the system either on or off 
+- Types of feedback are **[negative feedback](../notes/negative_feedback)** and **[positive feedback](../notes/positive_feedback)**
+- 

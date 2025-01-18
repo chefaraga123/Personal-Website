@@ -1,0 +1,3 @@
+- **[the problem of proportional voting systems](../notes/the_problem_of_proportional_voting_systems)**
+- **[plurality voting systems](../notes/plurality_voting_systems)**
+- 

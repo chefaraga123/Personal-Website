@@ -1,0 +1,5 @@
+- A type of Web3 games that have everything on-chain other that their front-end 
+- Each you make is recorded on-chain and involves a blockchain transaction 
+- One of the first on-chain games was **[Dark Forest](../notes/Dark_Forest)**
+- **[Early patterns in creating FOCGs](../notes/Early_patterns_in_creating_FOCGs)**
+- 

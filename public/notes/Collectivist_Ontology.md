@@ -1,0 +1,6 @@
+- encompassing isolated components and also collective phenomena such as collectives of interrelated individuals 
+- This ontological commitment allows **[scientific reductionists](../notes/scientific_reductionists)** to endorse a sophisticated account of the macro-world, and its levels, encompassing multiple realisation and qualitative emergence 
+- This ontology endorse a macro world and indispensable higher sciences that study it 
+- scientific reductionism accepts in principles that that higher sciences are indispensable. 
+- A combination of **[Ontological reduction](../notes/Ontological_reduction)**ism and a **[semantic anti-reductionism](../notes/semantic_anti-reductionism)**
+- 

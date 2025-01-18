@@ -1,0 +1,4 @@
+-  **[Economics](../notes/Economics)**
+- **[WW1](../notes/WW1)**
+- Keynes' Economic Consequences of the peace 
+- His thought was that Germany must play a role in the economic progress of Europe,  the elimination of Germany would place strain on the global economy 

@@ -1,0 +1,14 @@
+- tag: **[Software Development](../notes/Software_Development)**, **[Machine Learning](../notes/Machine_Learning)**
+- Learn how to use:
+	- the pipeline() for inference
+	- load a pretrained model & preprocessor with an AutoClass
+	- Quickly train a model with PyTorch or TensorFlow
+- Download the necessary libraries:
+	- `pip install transformers datasets`
+		- **[transformers python library](../notes/transformers_python_library)**
+		- **[datasets python library](../notes/datasets_python_library)**
+	- `pip install torch`
+		- **[PyTorch python library](../notes/PyTorch_python_library)**
+	- `pip install tensorflow`
+- often used in conjunction with **[Jupyter Notebook](../notes/Jupyter_Notebook)**
+- 

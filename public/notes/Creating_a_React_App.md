@@ -1,0 +1,27 @@
+- Tag :**[Software Development](../notes/Software_Development)**
+- Use command `npx create-react-app` 
+	- !**[Pasted image 20240125095915.png](../notes/Pasted_image_20240125095915.png)**
+- Remembering the distinction between **[npx vs npm](../notes/npx_vs_npm)**
+- Need to specify the directory in which the app is being initialised, so hence 
+- `npx create-react-app <project directory>`
+	- !**[Pasted image 20240125100126.png](../notes/Pasted_image_20240125100126.png)**
+- Useful commands
+	- `npm start`: starts the development server
+	- `npm run build`: bundles the app into static files for production
+	- `npm test`: starts the test runner
+- Project structure 
+- !**[Pasted image 20240125100632.png](../notes/Pasted_image_20240125100632.png)**
+	- **public/index.html**: The single HTML file where the React app is rendered 
+	- **src/index.js**: The Javascript entrypoint for your React app 
+	- **src/App.js**: A sample React component 
+- **[Core react concepts](../notes/Core_react_concepts)**
+- **[First React component](../notes/First_React_component)**
+- **[What it means to manage state in React](../notes/What_it_means_to_manage_state_in_React)**
+- To display my components nicely I need to use **[CSS for my first react project](../notes/CSS_for_my_first_react_project)**
+- **[React - making a list app](../notes/React_-_making_a_list_app)**
+- I use **[Git](../notes/Git)** to maintain the codebase 
+- I am also creating an **[Express Server to log submissions](../notes/Express_Server_to_log_submissions)** on the back-end from my react frontend 
+- The next step is to create a **[Progressive Web App](../notes/Progressive_Web_App)**
+- **[graphing with a Javascript Library](../notes/graphing_with_a_Javascript_Library)**
+- I **[Where to host the API server](../notes/Where_to_host_the_API_server)**
+- **[trying the Footium front-end test](../notes/trying_the_Footium_front-end_test)** 

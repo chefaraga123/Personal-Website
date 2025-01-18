@@ -1,2 +1,0 @@
-- Such as the [[theory of mediocrity]]
-- the spaceship analogy of the biosphere, ironically it is anthropocentric 

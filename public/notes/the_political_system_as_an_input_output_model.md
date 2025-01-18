@@ -1,0 +1,7 @@
+- A model of the political system that supports several inputs
+	- the official allocation of support: the support of government by general elections
+	- the input of specific organisations' interests: stakeholder lobbing & the sort 
+- Politics is viewed as a transformational mechanism
+	- the output is described as the *allocation of values*
+- This model precludes quantification - this explanatory gap, the gap in the ability to articulate the internal workings of systems was a theory of the **[black box](../notes/black_box)**
+- 

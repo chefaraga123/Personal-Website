@@ -1,0 +1,5 @@
+- He was a farmer in St Ives (in Cambridgeshire)
+- He was an MP 
+- He took up arms 
+- He was a colonel during the **[English Civil War](../notes/English_Civil_War)**
+- Appointed commander of the **[New Model Army](../notes/New_Model_Army)** cavalry under Sir Thomas Fairfax 

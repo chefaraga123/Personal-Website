@@ -1,13 +1,13 @@
 - as a practical matter, market design justified the piecemeal marketisation of government functions and ultimately full privatisation; as a theoretical matter, this served to degrade the cognitive capacities of the agent. 
-- Market design constitutes the precepts of [[Neoliberalism]] taken to their logical conclusion 
+- Market design constitutes the precepts of **[Neoliberalism](../notes/Neoliberalism)** taken to their logical conclusion 
 
-- Market design consolidates [[The Socialist Calculation Controversy]], [[mechanism design]], [[Information Economics]]
+- Market design consolidates **[The Socialist Calculation Controversy](../notes/The_Socialist_Calculation_Controversy)**, **[mechanism design](../notes/mechanism_design)**, **[Information Economics](../notes/Information_Economics)**
 
 - In 2014, the Journal of Economic Literature (JEL) designated market design an official field of study. 
 - The subject guide has the following description 
 		*Covers studies concerning the deign and evolution of economic institutions, the designs of mechanisms for economic transactions (such as price determination and dispute resolution) and the interplay between a market's size and the information available to agents in such an environment*
 
-[[The epistemology of economic agents]] is very important for market design 
+**[The epistemology of economic agents](../notes/The_epistemology_of_economic_agents)** is very important for market design 
 
 ***Changes in how economists conceptualised information lead to changes in how economists conceptualised markets***
 

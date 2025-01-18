@@ -1,4 +1,0 @@
-- tag: [[Economics]]
-- the early neoclassical economics were concerned with the objective of equating the formalisms of energy with something called "utility" so that they could portray the market as deterministic. **Utility wasn't provided as a serious theory of mind.** 
-- It was only post-WW2 that future occurrences were modelled as governing current choices and decisions 
-- 

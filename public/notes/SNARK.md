@@ -1,4 +1,4 @@
-- A SNARK is a special type of [[NARK]]
+- A SNARK is a special type of **[NARK](../notes/NARK)**
 - Specifically the main difference between a SNARK and a NARK is that a SNARK is *succinct* 
 - Specifically a SNARK is a succinct proof that some statement is true 
 - 

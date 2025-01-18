@@ -1,3 +1,0 @@
-- An orthodox school of [[Economics]], takes a highly reductive version of the individual as its analytical unit 
-- Each individual is modelled as optimising their marginal utility in isolation from others 
-- Each decision maker is further atomised by the assumption that decisions are made discretely, ignoring social norms & values that constraint society in various ways 

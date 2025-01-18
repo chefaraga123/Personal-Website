@@ -1,1 +1,1 @@
-- tags: [[Zero Knowledge Proofs]]
+- tags: **[Zero Knowledge Proofs](../notes/Zero_Knowledge_Proofs)**

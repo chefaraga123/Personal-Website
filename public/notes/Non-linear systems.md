@@ -1,1 +1,0 @@
-- Attractors and bifurcations are features of any [[System]] in which the dynamics are not only far from equilibrium but also non-linear, i.e. there are strong mutual interactions (or [[positive feedback]] ) between components 

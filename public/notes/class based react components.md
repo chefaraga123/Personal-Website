@@ -1,7 +1,0 @@
-- Syntax & Structure
-	- Defined using ES6 classes
-	- ![[Pasted image 20240125101416.png]]
-- State Management
-	- can have local state managed with `this.state` and `this.setState()`
-	- ![[Pasted image 20240125101126.png]]
-	- `this` keyword, used to access props, state and methods 

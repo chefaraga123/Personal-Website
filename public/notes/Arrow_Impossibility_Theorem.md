@@ -1,5 +1,5 @@
-- tag: [[Economics]], [[Scientific Theories are explanations]]
-- A fundamental result in [[social choice theory]]
+- tag: **[Economics](../notes/Economics)**, **[Scientific Theories are explanations](../notes/Scientific_Theories_are_explanations)**
+- A fundamental result in **[social choice theory](../notes/social_choice_theory)**
 
 - Arrow strikes at the heart of public choice 
 

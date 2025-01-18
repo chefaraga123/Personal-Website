@@ -1,3 +1,0 @@
-- The on-chain components can be divided into two types of functionality:
-	- [[Tables, store the data]]
-	- [[Systems, define the logic for modifying the tables]]

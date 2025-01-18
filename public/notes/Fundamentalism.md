@@ -1,7 +1,7 @@
-- the [[scientific reductionists]]' conception of nature
-- takes there to be only a single level of determinative entities in a case of compositional explanation. Given the focus on compositional explanation, the scientific reductionist is committed to what is termed by Carl Gillet to be [[Collectivist Ontology]]
+- the **[scientific reductionists](../notes/scientific_reductionists)**' conception of nature
+- takes there to be only a single level of determinative entities in a case of compositional explanation. Given the focus on compositional explanation, the scientific reductionist is committed to what is termed by Carl Gillet to be **[Collectivist Ontology](../notes/Collectivist_Ontology)**
 - The fundamentalist framework of scientific reductionism accepts
 	- the central role in the sciences of compositional explanations and their compositional concepts
-	- presses an [[Ontological reduction]]ism
+	- presses an **[Ontological reduction](../notes/Ontological_reduction)**ism
 	- accepts the principles indispensability of the higher sciences
 	- embraces a complex macro-world 

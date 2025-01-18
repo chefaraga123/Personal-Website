@@ -1,0 +1,14 @@
+- R1CS format for ZKP ACs
+- Definition
+	- x: field elements $x_1, ..., x_l$ 
+	- w: $w_1, ..., w_{m-l-1}$ 
+	- $\phi$ : n equations of form 
+		- $\alpha$ x $\beta$ = $\gamma$ 
+			- where $\alpha$, $\beta$ and $\gamma$ are **[affine combinations of variables](../notes/affine_combinations_of_variables)** 
+- !**[Pasted image 20240204115218.png](../notes/Pasted_image_20240204115218.png)**
+- ### Matrix Definition 
+	- !**[Pasted image 20240204115419.png](../notes/Pasted_image_20240204115419.png)**
+- **[element-wise product](../notes/element-wise_product)**
+- When people program ZKPs, they typically think of their constraint system in terms of linear combinations 
+
+- **[R1CS Libraries](../notes/R1CS_Libraries)**

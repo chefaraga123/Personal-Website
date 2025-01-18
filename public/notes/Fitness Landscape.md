@@ -1,3 +1,0 @@
-- A possibility space of self-replicating entities to which [[fitness]] values have been assigned. 
-- The structure of the space depends upon the distribution of [[singularities]], sequences of nucleotides with optimum fitness, and how fitness varies in the neighbourhood of singularities 
-- 

@@ -1,1 +1,0 @@
-A property of traditional legal [[Contracts]]

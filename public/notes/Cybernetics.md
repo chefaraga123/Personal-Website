@@ -1,5 +1,5 @@
-- Tags: [[Input Output Models of Systems]]
+- Tags: **[Input Output Models of Systems](../notes/Input_Output_Models_of_Systems)**
 - The science of the art of steering & controlling
 - cybernetics arose in the 1940s on the basis of technical considerations regarding the possibility of keeping systems, systems states and system outputs stable upon changing environmental conditions 
-- Based on the well-known [[feedback model]]
+- Based on the well-known **[feedback model](../notes/feedback_model)**
 - 

@@ -1,0 +1,3 @@
+- tag: **[Cryptography](../notes/Cryptography)**
+- A concept from number theory that deals with the solvability of certain types of equations in **[modular arithmetic](../notes/modular_arithmetic)** 
+- 

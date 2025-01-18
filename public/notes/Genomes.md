@@ -1,1 +1,1 @@
-Groups of [[Genes]] dependent on each other for replication
+Groups of **[Genes](../notes/Genes)** dependent on each other for replication

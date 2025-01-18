@@ -1,5 +1,0 @@
-- The term language refers to sets of statements or problems that can be verified as true or false 
-- A decision problem in CS is a question that yields a yes or no answer, typically framed as 
-	- *Does this set contain this particular element*
-- In the context of [[Zero Knowledge Proofs]] a language is the set of all "yes" instances of a decision problem. 
-- formally a language 

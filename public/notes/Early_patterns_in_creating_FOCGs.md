@@ -1,0 +1,6 @@
+- **Early patterns** in creating FOCGs summarised in four points:
+	- **When different contracts touch the same state**: multiple smart contracts may modify the same data or state, which may lead to data inconsistency or other problems
+	- **Write multiple data structures**: each entity has its own data structure and type 
+	- **Write Getters function** a function that returns bulk elements for a data structure
+	- **events**: each data structure contains an event which is a specific feature in a **[Smart Contract](../notes/Smart_Contract)** that allows the app to synchronise or update the state of new blocks as they are added to the chain 
+- 

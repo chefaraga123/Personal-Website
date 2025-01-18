@@ -1,6 +1,0 @@
-- This name is used in the case of systems where entropy was not assumed to occur in them & hence why order could be created.
-- Openness means that an exchange with the environment takes place 
-- A meaning system obtains information from its environment 
-- The exchange relationship between system and environment is what is designated by the term open systems. 
-- We can see a difference between [[System-to-system relations]] and the [[System-Environment Paradigm]]
-- 

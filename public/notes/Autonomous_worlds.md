@@ -1,0 +1,11 @@
+- The criteria
+	-  Data from the blockchain 
+	- Logic and rules are implemented through **[Smart Contract](../notes/Smart_Contract)**s
+	- The development of the game follows open ecological principles 
+	- The game is permanently stored on-chain
+	- Games are interoperable with things we consider valuable 
+- Worlds with a blockchain substrate allow their inhabitants to participate in consensus 
+- From the world's perspective two concepts need to be defined
+	- **[the blockchain root state](../notes/the_blockchain_root_state)**
+	- **[the blockchain state transition functions](../notes/the_blockchain_state_transition_functions)**
+- 

@@ -1,2 +1,2 @@
-- a [[universality]] classical computer on a single silicon chip 
+- a **[universality](../notes/universality)** classical computer on a single silicon chip 
 - 

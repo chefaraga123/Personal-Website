@@ -1,0 +1,1 @@
+- Closely related to **[Mechanics of Thunderstorms](../notes/Mechanics_of_Thunderstorms)**, lightning relies on an electrical **[Gradients](../notes/Gradients)** between the ground and the cloud 

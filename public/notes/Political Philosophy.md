@@ -1,6 +1,0 @@
-- Typically centred around the question of *who should rule?* which generates derivative questions 
-- [[Karl Popper]] argued that this class of questions is rooted in the same misconception as the question: *how are scientific theories derived from sensory data* which defines empiricism. It is seeking a government from existing data 
-	- the question askers is applying a simple rule to existing knowledge 
-- think of the political process as a leader-election engine 
-- Popper applies the philosophy of fallibilism to politics, generating the question of *how can we rid ourselves of bad governments without violence*
-- 

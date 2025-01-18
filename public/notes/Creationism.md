@@ -1,5 +1,5 @@
-- tag:  [[God as higher order phenomena]]
-- The idea that God/supernatural beings designed and created all biological [[Adaptations]]
+- tag:  **[God as higher order phenomena](../notes/God_as_higher_order_phenomena)**
+- The idea that God/supernatural beings designed and created all biological **[Adaptations](../notes/Adaptations)**
 - A putative designer must also have created the knowledge of how that organism works. Creation faces the inherent dilemma: is the designer a purely supernatural being - one who was "just there", complete with all that knowledge, or not. 
 	- A being who was *just there* serves no explanatory purpose, and equivalent to say thing those things that exist are *just there*, with no need to attribute responsibility to a God 
 	- The extent to which a creationist theory intends to elucidate on how God created said objects the most that God ceases to be supernatural and is more so an unseen entity.
