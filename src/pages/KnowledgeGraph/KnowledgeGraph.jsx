@@ -37,9 +37,9 @@ const KnowledgeGraph = () => {
 
     const handleNodeClick = (node) => {
         if (node.url) {
-            window.open(`/${node.url}`, '_blank');
+            window.open(`/notes/${node.id}`, '_blank');
         } else {
-            const notePath = encodeURIComponent(node.notePath);
+            const notePath = encodeURIComponent(`/notes/${node.id}`);
             window.open(`/notes/${notePath}`, '_blank');
         }
     };

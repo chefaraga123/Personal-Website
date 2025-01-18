@@ -1,9 +1,3 @@
-.graphContainer {
-    width: 100%;
-    height: 500px; /* Adjust height as needed */
-    background-color: #f9f9f9; /* Just to visualize the container */
-    /* Additional styles for your graph container */
-}
 
 button {
     padding: 10px 20px;

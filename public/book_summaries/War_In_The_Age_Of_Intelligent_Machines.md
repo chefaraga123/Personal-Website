@@ -1,5 +1,9 @@
 # Notes from *War in the Age of Intelligent Machines*
 
+- **[Emergent Phenomena](../notes/emergent_phenomena)**
+- **[Autocatalytic Loop](../notes/Autocatalytic_Loop.md)**
+
+
 ## Key Concepts
 - **Complex Systems**
 - **Friction**

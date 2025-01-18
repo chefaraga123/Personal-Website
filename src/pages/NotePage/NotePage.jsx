@@ -1,13 +1,15 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import NoteViewer from '../../components/NoteViewer/NoteViewer'; // Import the NoteViewer component
+import Navigation from '../../components/Navigation/Navigation';
+import styles from './NotePage.module.css';
 
 const NotePage = () => {
     const { noteName } = useParams(); // Get the note name from the URL
 
     return (
         <div>
-            <h1>{noteName.replace(/%20/g, ' ')}</h1> {/* Replace %20 with spaces for display */}
+            <Navigation />
             <NoteViewer noteName={noteName} /> {/* Pass the noteName to NoteViewer */}
         </div>
     );
