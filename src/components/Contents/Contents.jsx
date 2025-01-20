@@ -1,7 +1,12 @@
 import React from 'react';
 import styles from './Contents.module.css'
 
-const ContentsComponent = ({ sections }) => {
+const ContentsComponent = ({ sections, filter }) => {
+  // Filter sections based on the selected category
+  const filteredSections = filter === 'all' 
+    ? sections 
+    : sections.filter(section => section.category === filter);
+
   const navigateToArticle = (url) => {
     // Navigate to the article URL
     window.location.href = url;
@@ -10,15 +15,12 @@ const ContentsComponent = ({ sections }) => {
   return (
     <div className={styles.contents}>
       <h2>Contents</h2>
-      <ul>
-        {sections.map((section) => (
-          <li key={section.id}>
-            <a href="#" onClick={() => navigateToArticle(section.url)}>
-              {section.title} - {section.date}
-            </a>
-          </li>
-        ))}
-      </ul>
+      {filteredSections.map((section) => (
+        <a key={section.id} href={section.url} className={styles.panel}>
+          <h3>{section.title}</h3>
+          <p>{section.date}</p>
+        </a>
+      ))}
     </div>
   );
 };
