@@ -31,10 +31,9 @@ const App = () => {
       <Router basename="/">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
             <Route path="/writing" element={<Writing />} /> 
-            <Route path="/languages" element={<Languages />} />
 
+            
             <Route path="/Emergence" element={<Emergence />} />
             <Route path="/Urbanisation-Virtual-Worlds" element={<Urbanisation />} />
             <Route path="/introduction-zks-gaming" element={<ZkGaming />} />
@@ -50,8 +49,6 @@ const App = () => {
                        
             <Route path="/books/:bookId" element={<BookSummary />} />
             
-            <Route path="/Trackers" element={<Trackers />} />
-
             <Route path="/notes/:noteName" element={<NotePage />} />
           </Routes>
      </Router>
