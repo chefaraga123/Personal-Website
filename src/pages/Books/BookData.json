@@ -331,7 +331,9 @@
       "title": "The Blunders of Our Government",
       "author": "Ivor Crewe",
       "genre": ["Politics", "History"],
-      "image": "/images/The_Blunders_of_Our_Government_Cover.jpg"
+      "image": "/images/The_Blunders_of_Our_Government_Cover.jpg",
+      "summaryLink": "/books/The_Blunders_of_Our_Government",
+      "id": "The_Blunders_of_Our_Government"
     },
     {
       "title": "Foucault on Power",
