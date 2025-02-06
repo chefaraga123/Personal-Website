@@ -2,7 +2,7 @@
 
 ## Science and the Market
 
-Many of the proposed solutions to problems in modern science converge around a concept known as **Open Science**: the proposition that science is held back by friction—manifest in the peer review process, costly journals, and a cabal of gatekeepers and if only that friction were mediated somehow scientists would do more science. **DeSci** (Decentralized Science) is an extension of this logic. At face value, it’s a very reasonable suggestion.
+Many of the proposed solutions to problems in modern science converge around a concept known as **Open Science**: the proposition that science is held back by friction — manifest in the peer review process, costly journals, and a cabal of gatekeepers - and if only that friction were mediated somehow scientists would do more science. **DeSci** (Decentralized Science) is an extension of this logic. At face value, it’s a very reasonable suggestion.
 
 However, viewing the organization of science through the lens of friction alone neglects the broader institutional context: **Who is the primary financier? To what end is science directed?** And what are the specific modalities that have shaped science in the 20th and 21st centuries? In this article, I explore the historical context that has led to the assumption that science is soluble to market treatment.
 
@@ -39,8 +39,9 @@ This value chain has taken several heterogeneous forms—for example:
 - The **Cold War regime**, where government was the primary financier of R&D  
 - The **contemporary globalized privatization regime**
 
-It’s too simplistic to assume that scientists will carry on doing the same work regardless of who is paying them. In each historical regime, “science” is embedded within a meshwork of institutions, where funding shapes not only **what** gets researched but also the **nature** of outputs.
+This value chain takes a number of heterogeneous forms, such as the regime of Chandlerian M-form corporations with internal R&D capabilities, the cold-war regime where the government became the primary financier of R&D and the contemporary globalised privatisation regime. 
 
+Given that - to assume that scientists doing science is some black box, and that scientists just follow the money but are otherwise doing the same thing, seems like too much of an easy story. 
 ---
 
 ## Issues Within Science
