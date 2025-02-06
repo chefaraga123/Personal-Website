@@ -6,7 +6,7 @@ Many of the proposed solutions to problems in modern science converge around a c
 
 However, viewing the organization of science through the lens of friction alone neglects the broader institutional context: **Who is the primary financier? To what end is science directed?** And what are the specific modalities that have shaped science in the 20th and 21st centuries? In this article, I explore the historical context that has led to the assumption that science is soluble to market treatment.
 
-*This piece has largely been inspired by **[The Privatisation of American Science](../books/The_Privatisation_Of_American_Science)** , **[The Knowledge We Have Lost in Information](../books/The_Knowledge_We_Have_Lost_in_Information)** and **[Pieces of the Action](../books/Pieces_of_the_Action)**, as well as the sources at the bottom of the page.*
+*This piece has largely been inspired by **[The Privatisation of American Science](../books/The_Privatisation_Of_American_Science)** , **[The Knowledge We Have Lost in Information](../books/The_Knowledge_We_Have_Lost_in_Information)** and **[Pieces of the Action](../books/Pieces_of_the_Action)**, as well as the sources at the bottom of the page. Clickable links allow you to explore some ideas in more depth without rendering the article beyond scope.*
 
 ---
 ## Where Is the Ideas Marketplace?
