@@ -73,12 +73,13 @@ Essentially, **DeSci** seeks to wrap the organization of science with **crypto-i
 
 ## The Marketplace, Information, and Ideas
 
-Markets hinge on the existence of **property rights**—anything that can be “wrapped” in property rights becomes subject to market dynamics. **Intellectual property (IP)** is one way to make ideas “market-soluble.”
+Markets rely on the existence of property rights: anything that can be wrapped with property rights can be subject to the eminent wisdom of the market! IP is a way to make ideas market soluble. 
 
-A marketplace requires both **demand** and **supply**, and in theory, if you ensure the *right* people get the *right* ideas, while the *right* creators are incentivized to offer those ideas, you reduce market failures.
+And a marketplace is composed of a demand-side and a supply-side, if we produce a situation in which both the right people get the right ideas and the right people are induced to supply those ideas to market then we reduce market failures
 
-Of course, we can buy and sell IP, but it’s not clear that the main bottleneck in research is merely access to IP. Would Los Alamos or Bell Labs have been more efficient if they’d had JSTOR or ResearchGate? Perhaps not. This raises questions about whether market thinking naturally extends to the production of new ideas or whether such a framework **oversimplifies** the complexities of scientific R&D.
+For sure we can sell information, we can sell IP, but it's not obvious that the limiting factor on research is access to IP. Would Los Alamos, Bell Labs have been more efficient if they just had jstor or research gate (well the public/private relationship in the case of Los Alamos is not as clear cut as you might think). 
 
+Is it really that counterintuitive to apply the market treatment to the production of ideas? Software is abstract, software can be bought and sold, creating software is understood as a project as opposed to being amenable to mechanised end-2-end, perhaps I’m speaking too late given Devin etc…  Crucially I am interested in how ideas have been reified, and its implications 
 ---
 
 ## The Neoclassical Intrusion Into Ideas-Space
