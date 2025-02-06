@@ -42,6 +42,9 @@ This value chain has taken several heterogeneous forms—for example:
 This value chain takes a number of heterogeneous forms, such as the regime of Chandlerian M-form corporations with internal R&D capabilities, the cold-war regime where the government became the primary financier of R&D and the contemporary globalised privatisation regime. 
 
 Given that - to assume that scientists doing science is some black box, and that scientists just follow the money but are otherwise doing the same thing, seems like too much of an easy story. 
+
+In each of these historical regimes ‘science’ beyond its reification is a meshwork of institutions where money shapes the organisation of science and the quality (meant neutrally) of its outputs, not just scientific direction. 
+
 ---
 
 ## Issues Within Science
