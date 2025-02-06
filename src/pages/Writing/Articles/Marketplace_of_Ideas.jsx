@@ -9,7 +9,7 @@ const Footium_Biggest_IP = () => {
         <div>
             <Navigation />
             <div className={styles.markdownContainer}>
-                <img className={styles.centeredImage} src={"/Articles/Diagrams/Idea_Article_1.jpeg"} alt="Header Image" />
+                <img className={styles.centeredImage} src={"/articles/Diagrams/Idea_Article_1.jpeg"} alt="Header Image" />
                 <MarkdownComponent filePath={"/articles/What_Is_the_Marketplace_of_Ideas.md"} />
             </div>
         </div>

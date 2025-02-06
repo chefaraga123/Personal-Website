@@ -117,9 +117,7 @@ Such outsourcing invites questions about the **objectives** of big Pharma, the p
 **DeSci** is compelling, particularly for **alternative funding** and addressing certain **market failures** within science. However, it’s not the **silver bullet** its biggest advocates often claim. Real-world issues—such as replication crises, publication bias, and systemic funding gaps—might simply replay under new organizational models that follow the same **market logic**.
 
 ---
-## Relevant Book Summaries 
- [The Washington Consensus](../notes/The-Washington-Consensus)
- [The Privatisation of American Science](../books/The_Privatisation_Of_American_Science)
+
 
 
 ## Sources
