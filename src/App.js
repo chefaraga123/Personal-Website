@@ -20,6 +20,7 @@ import Non_Custodial_Accounts from './pages/Writing/Articles/Non__Custodial_Acco
 import Reason_For_Footium from './pages/Writing/Articles/Reason_For_Footium';
 import Recapping_2024 from './pages/Writing/Articles/Recapping_2024';
 import Footium_Biggest_IP from './pages/Writing/Articles/Footium_Biggest_IP';
+import Marketplace_of_Ideas from './pages/Writing/Articles/Marketplace_of_Ideas';
 /*Pages: Book Summaries */
 import BookSummary from './pages/Books/Book_Summaries/BookSummary';
 
@@ -42,7 +43,7 @@ const App = () => {
             <Route path="/Reason-For-Footium" element={<Reason_For_Footium />} />
             <Route path="/Recapping-2024" element={<Recapping_2024 />} />
             <Route path="/Footium-Biggest-IP" element={<Footium_Biggest_IP />} />
-
+            <Route path="/Marketplace-of-Ideas" element={<Marketplace_of_Ideas />} />
             <Route path="/Books" element={<Books />} />
 
             <Route path="/knowledge-graph" element={<KnowledgeGraph />} />

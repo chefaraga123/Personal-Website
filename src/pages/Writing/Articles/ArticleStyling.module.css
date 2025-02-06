@@ -4,7 +4,7 @@
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    padding: 100px;
+    padding: 10px;
   }
   
   .markdownContent {
@@ -24,4 +24,8 @@
   }
   
   /* Add more styles as needed */
-  
+  .centeredImage {
+    width: 50%; /* Adjust the width as needed */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}

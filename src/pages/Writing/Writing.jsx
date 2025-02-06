@@ -30,7 +30,7 @@ const Writing = () => {
                 <button onClick={() => handleFilterChange('Computer-Science')}>Computer-Science</button>
             </div>
             <p>{qualifyingArticles} articles found.</p>
-            <ContentsComponent sections={sections} filter={filter} />
+            <ContentsComponent sections={[...sections].reverse()} filter={filter} />
 
 
             <div>

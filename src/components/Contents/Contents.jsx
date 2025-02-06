@@ -14,7 +14,7 @@ const ContentsComponent = ({ sections, filter }) => {
 
   return (
     <div className={styles.contents}>
-      <h2>Contents</h2>
+      <h2>Most recent articles at the top</h2>
       {filteredSections.map((section) => (
         <a key={section.id} href={section.url} className={styles.panel}>
           <h3>{section.title}</h3>
