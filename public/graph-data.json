@@ -1799,6 +1799,12 @@
       "label": "Young Turk Revolution",
       "group": 1,
       "url": "notes/Young Turk Revolution.md"
+    },
+    {
+      "id": "Contracts for Difference",
+      "label": "Contracts for Difference",
+      "group": 1,
+      "url": "notes/ContractsforDifference.md"
     }
   ],
   "links": [
