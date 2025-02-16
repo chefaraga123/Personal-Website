@@ -12,3 +12,21 @@ p {
     color: #666;
     font-size: 1.2rem;
 }
+
+.recentUpdates {
+    margin-top: 20px; /* Adjust spacing as needed */
+    padding: 10px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 5px; /* Rounded corners */
+    text-align: left; /* Align text to the left */
+}
+
+.recentUpdates h2 {
+    font-size: 1.5em; /* Example styling for h2 */
+    color: #333; /* Example color for h2 */
+}
+
+.recentUpdates p {
+    font-size: 1em; /* Example styling for p */
+    color: #666; /* Example color for p */
+}
