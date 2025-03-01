@@ -2225,6 +2225,12 @@
             "label": "ZK-SNARK",
             "group": 1,
             "url": "notes/ZK-SNARK.md"
+        }, 
+        {
+            "id": "Proteins",
+            "label": "Proteins",
+            "group": 1,
+            "url": "notes/Proteins.md"
         }
     ],
     "links": [

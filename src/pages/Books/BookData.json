@@ -469,6 +469,20 @@
       "image": "/images/The_Collapse_of_Complex_Societies_Cover.jpg",
       "summaryLink": "/books/The_Collapse_of_Complex_Societies",
       "id": "The_Collapse_of_Complex_Societies"
+    }, 
+    { "title": "How Life Works",
+      "author": "Phillip Ball",
+      "genre": ["Biology"],
+      "image": "/images/How_Life_Works_Cover.jpg",
+      "summaryLink": "/books/How_Life_Works",
+      "id": "How_Life_Works"
+    }, 
+    { "title": "Collapse: The Fall of the Soviet Union",
+      "author": "Vladislav Zubok",
+      "genre": ["History", "Politics"],
+      "image": "/images/Collapse_The_Fall_of_the_Soviet_Union_Cover.jpg",
+      "summaryLink": "/books/Collapse_The_Fall_of_the_Soviet_Union",
+      "id": "Collapse_The_Fall_of_the_Soviet_Union"
     }
 
     

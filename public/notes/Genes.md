@@ -1,41 +1,92 @@
-Genes 
-In popular discourse genes are a kind of essence of being. With the popular notion that there is a correspondence between particular behaviours and particular genes. 
+# Genes  
 
-Following the discovery of double helix DNA in 1953 there was the perspective that everything about a person could be derived from their genes, including the complete development process. 
+In popular discourse, genes are often seen as the **essence of being**, with the idea that there is a direct correspondence between particular **behaviors** and particular **genes**.  
 
-Charles Darwin proposed that traits are inherited through a process called pangenesis, through which cells in the body would deliver information via the reproductive organs into the offspring. Genes derive from the word pangenesis. 
+Following the discovery of the **double-helix DNA** structure in 1953, there was a prevailing belief that **everything** about a person—including their complete development process—could be derived from their genes.  
 
-Mendel was conducting plant-breeding experiments in the 1860s. Mendel crossbred plants to see what characteristics would result. He found that the results could be explained by assuming that plants inherit traits discreetly, transmitted intact & without blending.
+## Historical Context  
 
-This indicated to Mendel that traits are of two types: dominant - where inheriting from one parent will cause it to manifest in the offspring, and recessive where the trait will only appear if inherited from both parents. The key message being that traits are inherited unchanged & unmixed. 
+### Darwin and Pangenesis  
+Charles Darwin proposed that traits are inherited through a process called **pangenesis**, where cells in the body would deliver information via the reproductive organs into offspring.  
+- The term **"gene"** is derived from the word *pangenesis*.  
 
-Mendel was concerned with breeding as opposed to evolution.
+### Mendel’s Experiments  
+Gregor **Mendel**, conducting **plant-breeding experiments** in the 1860s, crossbred plants to observe how characteristics were inherited.  
 
-Through a modern lens, Mendel’s observations imply that trait-determining genes come in different varieties, called alleles. For each gene, you get one allele from your father & one from your mother.  Alleles are different versions of the same gene. 
+- He found that inheritance followed **discrete** patterns, rather than blending traits from parents.  
+- This led to the distinction between **dominant** and **recessive** traits:  
+  - **Dominant**: Manifests if inherited from one parent.  
+  - **Recessive**: Only appears if inherited from both parents.  
+- **Key takeaway**: Traits are inherited **unchanged & unmixed**.  
+- Mendel was primarily focused on **breeding**, not **evolution**.  
 
-What were these ‘gene particles’?
-Chromosomes (“coloured bodies”) were a strong candidate for the material component of genes. 
-Human somatic cells contain 46 chromosomes: two copies of each of 23 different varieties. 
-The gametes are special insofar they each contain only one set of chromosomes. This makes them haploid cells - as opposed to the diploid somatic cells. 
+## Modern Understanding of Genes  
 
-This begs the question as to what are chromosomes - a protein & another molecule (DNA)DNA is a polymer of 4 types of chemical unit (nucleotides), these nucleotides being distinguished by their bases. 
+Mendel’s observations, through a modern lens, imply that **trait-determining genes** come in different varieties, called **alleles**.  
 
-Genes were a kind of molecule - the field of molecular genetics ws born. 
+- **Alleles** are different versions of the same gene.  
+- For each gene, an individual inherits **one allele from the father & one from the mother**.  
 
-There was never a proper reconciliation of the “evolutionary gene” that mediates inheritance and the molecular gene that acts somehow in cells to shape an organism through development. 
+### Chromosomes and Molecular Genetics  
+The question arose: **What were these "gene particles"?**  
 
-What do genes really do? Proteins are made from amino acids joined together in a chain that forms a specific shape. This shape and the chemical behaviour of the protein depend on the sequence of amino acids - of which there are 20 varieties in natural proteins. 
+- **Chromosomes** (*"colored bodies"*) were strong candidates for being the material component of genes.  
+- **Human somatic cells** contain **46 chromosomes** (two copies of 23 different varieties).  
+- **Gametes** (sperm and egg cells) contain **only one set** of chromosomes (**haploid**), unlike **diploid** somatic cells.  
 
-Genetic information is first transferred to an RNA molecule (called messenger RNA, hence mRNA) in a process called transcription, and the mRNA is then used to make a protein in the process of translation. Both steps rely on enzymes: RNA polymerase 
+This led to the question: **What are chromosomes?**  
+- A **protein** and another molecule: **DNA**.  
+- **DNA** is a **polymer** of four types of **chemical units** (**nucleotides**), distinguished by their **bases**.  
 
-How does a gene encode a protein? The simplest assumption is that there is a correspondence between the sequence of base pairs in DNA and of amino acids in a protein. There 4 types of DNA base, but 20 naturally occurring amino acids. The project to crack the full code linking base-pair triplets to amino acids was completed in 1967. Genes encode proteins via the genetic code - a genetic sequence of bases corresponds to a particular sequence of amino acids in the product proteins. 
+Genes were understood to be **a kind of molecule**, marking the birth of **molecular genetics**.  
 
-In the cell nucleus the DNA is packaged in a substance called chromatin - a filamentary assembly of DNA & proteins - in which only very short stretches of the naked helix are revealed. How DNA is arranged within chromatin at larger scales seems to be central to the processes or replication & transcription 
+## What Do Genes Really Do?  
 
-The prevailing view in the 80s/90s was that the activation (expression) of a gene to make a protein leads to some specific physiological outcomes, and there is thus a direct link between genotype and phenotype - certain alleles should lead predictably to certain traits. 
+Proteins are made from **amino acids** joined together in a **chain** that forms a **specific shape**.  
 
-However genes awarded names in one context sometimes turned out to be identical to genes given different names in another context. 
+- The **shape** and **chemical behavior** of a protein depend on the **sequence** of its amino acids.  
+- There are **20 varieties** of amino acids in natural proteins.  
 
-Many studies of gene function relied on a technology called “gene knockouts”, where particular genes were selectively disabled in an organism so that the impact could be observed.However the results were often counter intuitive. 
+### The Genetic Code: Transcription & Translation  
+Genetic information is transferred in two key steps:  
 
-The author seems to be arguing against a greedy reductionist ontology amongst biologists - in the context of “genes” being framed as the atomic unit of biology 
+1. **Transcription**  
+   - DNA information is **copied** into an **RNA molecule** (messenger RNA or **mRNA**).  
+   - This process is carried out by the enzyme **RNA polymerase**.  
+
+2. **Translation**  
+   - The **mRNA** is used to **make a protein**.  
+
+The simplest assumption was that **DNA base pairs** correspond directly to **amino acids** in a protein.  
+
+- **Four types of DNA bases**, but **20 naturally occurring amino acids**.  
+- The **genetic code** was fully cracked in **1967**, revealing that **triplets of base pairs** correspond to specific **amino acids** in proteins.  
+
+### DNA Packaging in Chromatin  
+Inside the **cell nucleus**, DNA is packaged in a **substance called chromatin**:  
+
+- A **filamentary assembly** of **DNA & proteins**.  
+- Only **short stretches** of the **naked DNA helix** are exposed.  
+- The **arrangement of DNA within chromatin** is central to **replication & transcription**.  
+
+## Shifting Perspectives on Gene Function  
+
+In the **1980s and 1990s**, the prevailing view was that:  
+
+- The **activation (expression) of a gene** to make a protein leads to **specific physiological outcomes**.  
+- This implied a **direct link** between **genotype** and **phenotype**—certain **alleles** should predictably lead to certain **traits**.  
+
+However, some **complications** arose:  
+
+- Genes named in **one context** were sometimes later found to be **identical** to genes given **different names** in another context.  
+- **Gene knockout studies**, where particular genes were selectively **disabled**, often led to **counterintuitive results**.  
+
+## The Author’s Argument  
+
+The author critiques **greedy reductionism** among **biologists**, particularly in the framing of **genes** as the **atomic unit of biology**.  
+
+- The lack of reconciliation between:  
+  1. The **"evolutionary gene"** that mediates inheritance.  
+  2. The **"molecular gene"** that shapes an organism through development.  
+
+This suggests that **biological complexity** cannot be reduced to **genes alone**.  
