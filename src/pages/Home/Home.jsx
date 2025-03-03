@@ -10,6 +10,7 @@ const Home = () => {
             <Navigation />
             <section className={styles.recentUpdates}>
                 <h2>Updates</h2>
+                <p>03/03/2025: <b>Shipped </b> <a href="https://www.footiumchat.com/">Footium Chat</a> so that people can have post-match interviews with their Footium players</p>
                 <p>01/03/2025: <b>Notes:</b> <a href="/notes/Proteins">Proteins</a> which is about the structure and function of proteins</p>
                 <p>22/02/2025: <b>Notes:</b> <a href="/notes/Genes">Genes</a></p>
                 <p>16/02/2025: <b>Notes:</b> <a href="/notes/ContractsforDifference">Contracts for Difference</a> which relates to UK energy policy and an implied mode of subsidy for renewables</p>
