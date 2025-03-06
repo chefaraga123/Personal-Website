@@ -10,6 +10,11 @@ const Home = () => {
             <Navigation />
             <section className={styles.recentUpdates}>
                 <h2>Updates</h2>
+                <p>06/03/2025: <b>Notes:</b> <ul>
+                    <li><a href="/notes/Allosteric_Regulation">Allosteric Regulation</a>: the regulation of protein enzymes by other proteins.</li>
+                    <li><a href="/notes/RNA_Transcription"> RNA Transcription</a>: the first step in gene expression.</li>
+                    </ul>
+                </p>
                 <p>03/03/2025: <b>Shipped </b> <a href="https://www.footiumchat.com/">Footium Chat</a> so that people can have post-match interviews with their Footium players</p>
                 <p>01/03/2025: <b>Notes:</b> <a href="/notes/Proteins">Proteins</a> which is about the structure and function of proteins</p>
                 <p>22/02/2025: <b>Notes:</b> <a href="/notes/Genes">Genes</a></p>

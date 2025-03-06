@@ -2231,6 +2231,30 @@
             "label": "Proteins",
             "group": 1,
             "url": "notes/Proteins.md"
+        },
+        {
+            "id": "Allosteric Regulation",
+            "label": "Allosteric Regulation",
+            "group": 1,
+            "url": "notes/Allosteric_Regulation.md"
+        },
+        {
+            "id": "Hormones",
+            "label": "Hormones",
+            "group": 1,
+            "url": "notes/Hormones.md"
+        },
+        {
+            "id": "RNA Transcription",
+            "label": "RNA Transcription",
+            "group": 1,
+            "url": "notes/RNA_Transcription.md"
+        },
+        {
+            "id": "eukaryotic cells",
+            "label": "eukaryotic cells",
+            "group": 1,
+            "url": "notes/eukaryotic_cells.md"
         }
     ],
     "links": [
