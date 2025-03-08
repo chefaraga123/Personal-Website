@@ -10,6 +10,7 @@ const Home = () => {
             <Navigation />
             <section className={styles.recentUpdates}>
                 <h2>Updates</h2>
+                <p>08/03/2025: <b>Article:</b> <a href="/Writing/Articles/Soviet_Collapse">How Gorbachev's reforms collapsed the Soviet Union</a></p>
                 <p>07/03/2025: <b>Shipped</b> <a href="https://www.yourpersonalaccountant.today/">Your Personal Accountant</a> to classify transactions from bank statements</p>
                 <p>06/03/2025: <b>Notes:</b> <ul>
                     <li><a href="/notes/Allosteric_Regulation">Allosteric Regulation</a>: the regulation of protein enzymes by other proteins.</li>
