@@ -10,6 +10,7 @@ const Home = () => {
             <Navigation />
             <section className={styles.recentUpdates}>
                 <h2>Updates</h2>
+                <p>18/03/2025: <b>Article:</b> <a href="/AI_Thinks_Like_The_Market">AI Thinks Like The Market</a> Financial Markets and Large Language Models share failure modes</p>
                 <p>08/03/2025: <b>Article:</b> <a href="/Soviet_Collapse">How Gorbachev's reforms collapsed the Soviet Union</a></p>
                 <p>07/03/2025: <b>Shipped</b> <a href="https://www.yourpersonalaccountant.today/">Your Personal Accountant</a> to classify transactions from bank statements</p>
                 <p>06/03/2025: <b>Notes:</b> <ul>
