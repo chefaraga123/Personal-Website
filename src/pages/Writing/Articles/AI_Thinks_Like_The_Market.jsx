@@ -94,7 +94,7 @@ const NeuralNetworkVisualization = () => {
 const AI_Thinks_Like_The_Market = () => {
     const shareUrl = window.location.href; // Current article URL
     const title = "AI Thinks Like The Market"; // Article title
-    const imageUrl = "https://jamesoleary.xyz/images/The_Knowledge_We_Have_Lost_in_Information_Cover.jpg"; // Assuming the image is in the public/images folder
+    const imageUrl = "https://imagedelivery.net/y6Evsm-yLt-GaRery1Q3XA/254e1965-e436-4b82-6238-077f75d18d00/public"; // Assuming the image is in the public/images folder
 
     return (
         <div>
