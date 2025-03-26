@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
+import { TwitterShareButton, TwitterIcon } from 'react-share';
 import Navigation from '../../../components/Navigation/Navigation';
 import MarkdownComponent from '../../../components/MarkdownComponent/MarkdownComponent';
 import styles from './ArticleStyling.module.css';
@@ -90,12 +92,39 @@ const NeuralNetworkVisualization = () => {
 };
 
 const AI_Thinks_Like_The_Market = () => {
+    const shareUrl = window.location.href; // Current article URL
+    const title = "AI Thinks Like The Market"; // Article title
+    const imageUrl = "/images/The_Knowledge_We_Have_Lost_in_Information_Cover.jpg"; // Assuming the image is in the public/images folder
+
     return (
         <div>
+            <Helmet>
+                <title>{title}</title>
+                <meta name="description" content="Description of the article." />
+                <meta property="og:title" content={title} />
+                <meta property="og:image" content={imageUrl} />
+                <meta property="og:url" content={shareUrl} />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content={title} />
+                <meta name="twitter:image" content={imageUrl} />
+            </Helmet>
+
             <Navigation />
             <div className={styles.markdownContainer}>
                 <MarkdownComponent filePath={"/articles/AI_Thinks_Like_The_Market.md"} />
                 <NeuralNetworkVisualization />
+                
+                {/* Twitter Sharing Section */}
+                <div>
+                    <h3>Share this article:</h3>
+                    <TwitterShareButton
+                        url={shareUrl}
+                        title={title}
+                        image={imageUrl}
+                    >
+                        <TwitterIcon size={32} round />
+                    </TwitterShareButton>
+                </div>
             </div>
         </div>
     );
