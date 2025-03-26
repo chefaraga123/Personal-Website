@@ -98,6 +98,7 @@ const AI_Thinks_Like_The_Market = () => {
 
     return (
         <div>
+            <Helmet>
                 <title>{title}</title>
                 <meta name="description" content="Description of the article." />
                 <meta property="og:title" content={title} />
@@ -107,6 +108,7 @@ const AI_Thinks_Like_The_Market = () => {
                 <meta name="twitter:description" content="Description of the article." />
                 <meta name="twitter:image" content={imageUrl} />
                 <meta name="twitter:url" content={shareUrl} />
+            </Helmet>
 
             <Navigation />
             <div className={styles.markdownContainer}>
