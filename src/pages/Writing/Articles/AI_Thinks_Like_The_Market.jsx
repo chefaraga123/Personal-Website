@@ -108,6 +108,7 @@ const AI_Thinks_Like_The_Market = () => {
                 <meta name="twitter:description" content="Description of the article." />
                 <meta name="twitter:image" content={imageUrl} />
                 <meta name="twitter:url" content={shareUrl} />
+                <meta name="twitter:card" content="summary_large_image" />
             </Helmet>
 
             <Navigation />
