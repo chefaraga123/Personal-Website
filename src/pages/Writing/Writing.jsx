@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import styles from './Writing.module.css';
 import Navigation from '../../components/Navigation/Navigation';
 import MarkdownComponent from '../../components/MarkdownComponent/MarkdownComponent';
@@ -21,6 +22,16 @@ const Writing = () => {
 
     return (
         <div className={styles.writingContainer}>
+            <Helmet>
+                <title>My Writings | James' Personal Website</title>
+                <meta name="description" content="Collection of articles on Philosophy, Computer Science, and Footium by James" />
+                <meta name="keywords" content="writing, articles, philosophy, computer science, footium" />
+                <meta property="og:title" content="My Writings | James' Personal Website" />
+                <meta property="og:description" content="Collection of articles on Philosophy, Computer Science, and Footium by James" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={typeof window !== 'undefined' ? window.location.href : 'https://yourwebsite.com/writing'} />
+                <link rel="canonical" href={typeof window !== 'undefined' ? window.location.href : 'https://yourwebsite.com/writing'} />
+            </Helmet>
             <Navigation />
             <h1>My Writings</h1>
             <div>

@@ -1,6 +1,7 @@
 /*Libaries*/
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 /*Pages*/
 import Home from './pages/Home/Home';
@@ -31,32 +32,44 @@ import NotePage from './pages/NotePage/NotePage';
 
 const App = () => {
   return (
+    <div>
+      <Helmet>
+        <title>James' Personal Website</title>
+        <meta name="description" content="Personal website featuring articles on philosophy, computer science, and Footium, along with book summaries and a knowledge graph." />
+        <meta name="keywords" content="philosophy, computer science, Footium, book summaries, knowledge graph" />
+        <meta property="og:title" content="James' Personal Website" />
+        <meta property="og:description" content="Personal website featuring articles on philosophy, computer science, and Footium, along with book summaries and a knowledge graph." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={typeof window !== 'undefined' ? window.location.href : 'https://yourwebsite.com'} />
+        <link rel="canonical" href={typeof window !== 'undefined' ? window.location.href : 'https://yourwebsite.com'} />
+      </Helmet>
       <Router basename="/">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/writing" element={<Writing />} /> 
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/writing" element={<Writing />} /> 
 
-            
-            <Route path="/Emergence" element={<Emergence />} />
-            <Route path="/Urbanisation-Virtual-Worlds" element={<Urbanisation />} />
-            <Route path="/introduction-zks-gaming" element={<ZkGaming />} />
-            <Route path="/introduction-zks" element={<ZKIntroduction />} />
-            <Route path="/Non-custodial-account" element={<Non_Custodial_Accounts />} />
-            <Route path="/Reason-For-Footium" element={<Reason_For_Footium />} />
-            <Route path="/Recapping-2024" element={<Recapping_2024 />} />
-            <Route path="/Footium-Biggest-IP" element={<Footium_Biggest_IP />} />
-            <Route path="/Marketplace-of-Ideas" element={<Marketplace_of_Ideas />} />
-            <Route path="/Soviet_Collapse" element={<Soviet_Collapse />} />
-            <Route path="/AI_Thinks_Like_The_Market" element={<AI_Thinks_Like_The_Market />} />
-            <Route path="/Books" element={<Books />} />
+          
+          <Route path="/Emergence" element={<Emergence />} />
+          <Route path="/Urbanisation-Virtual-Worlds" element={<Urbanisation />} />
+          <Route path="/introduction-zks-gaming" element={<ZkGaming />} />
+          <Route path="/introduction-zks" element={<ZKIntroduction />} />
+          <Route path="/Non-custodial-account" element={<Non_Custodial_Accounts />} />
+          <Route path="/Reason-For-Footium" element={<Reason_For_Footium />} />
+          <Route path="/Recapping-2024" element={<Recapping_2024 />} />
+          <Route path="/Footium-Biggest-IP" element={<Footium_Biggest_IP />} />
+          <Route path="/Marketplace-of-Ideas" element={<Marketplace_of_Ideas />} />
+          <Route path="/Soviet_Collapse" element={<Soviet_Collapse />} />
+          <Route path="/AI_Thinks_Like_The_Market" element={<AI_Thinks_Like_The_Market />} />
+          <Route path="/Books" element={<Books />} />
 
-            <Route path="/knowledge-graph" element={<KnowledgeGraph />} />
-                       
-            <Route path="/books/:bookId" element={<BookSummary />} />
-            
-            <Route path="/notes/:noteName" element={<NotePage />} />
-          </Routes>
-     </Router>
+          <Route path="/knowledge-graph" element={<KnowledgeGraph />} />
+                     
+          <Route path="/books/:bookId" element={<BookSummary />} />
+          
+          <Route path="/notes/:noteName" element={<NotePage />} />
+        </Routes>
+      </Router>
+    </div>
   );
 };
 
