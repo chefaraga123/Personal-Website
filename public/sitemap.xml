@@ -5,46 +5,133 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
+  <!-- Main Pages -->
   <url>
     <loc>https://www.jamesoleary.xyz/</loc>
-    <lastmod>2025-04-08</lastmod>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://www.jamesoleary.xyz/about</loc>
-    <lastmod>2025-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://www.jamesoleary.xyz/writing</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.jamesoleary.xyz/blog</loc>
-    <lastmod>2025-04-08</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.jamesoleary.xyz/books</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.jamesoleary.xyz/blog/emh-and-llms</loc>
-    <lastmod>2025-03-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://www.jamesoleary.xyz/projects</loc>
-    <lastmod>2025-03-20</lastmod>
+    <loc>https://www.jamesoleary.xyz/knowledge-graph</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
+  <!-- Articles -->
   <url>
-    <loc>https://www.jamesoleary.xyz/contact</loc>
-    <lastmod>2025-02-25</lastmod>
+    <loc>https://www.jamesoleary.xyz/Autonomous_Weapons</loc>
+    <lastmod>2025-04-14</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jamesoleary.xyz/AI_Thinks_Like_The_Market</loc>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jamesoleary.xyz/Marketplace-of-Ideas</loc>
+    <lastmod>2025-02-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jamesoleary.xyz/Emergence</loc>
+    <lastmod>2024-02-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jamesoleary.xyz/Urbanisation-Virtual-Worlds</loc>
+    <lastmod>2024-01-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jamesoleary.xyz/introduction-zks</loc>
+    <lastmod>2024-02-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jamesoleary.xyz/introduction-zks-gaming</loc>
+    <lastmod>2024-02-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jamesoleary.xyz/Reason-For-Footium</loc>
+    <lastmod>2024-02-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jamesoleary.xyz/Recapping-2024</loc>
+    <lastmod>2024-11-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jamesoleary.xyz/Footium-Biggest-IP</loc>
+    <lastmod>2024-03-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Book Summaries -->
+  <url>
+    <loc>https://www.jamesoleary.xyz/books/war-in-the-age-of-intelligent-machines</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jamesoleary.xyz/books/Pieces_of_the_Action</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jamesoleary.xyz/books/Machine_Dreams</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jamesoleary.xyz/books/Retrospect</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>

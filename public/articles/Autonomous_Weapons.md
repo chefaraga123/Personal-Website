@@ -79,12 +79,12 @@ The purpose of this section has been to suggest that the cultural & practical em
 
 
 ### The Military Machine 
-Manuel De Landa writes about the notion of war / the military institution as a kind of integrated machine is not novel. 
+Manuel De Landa writes about the notion of war / the military institution as a machine. 
 
-The level of weapons and the hardware of war 
-The level of tactics, in which men and weapons are integrated into formations
-The level of strategy in which the battles fought by those formations acquire a unified political goal 
-The level of logistics, of procurement, and supply network 
+- The level of weapons and the hardware of war 
+- The level of tactics, in which men and weapons are integrated into formations
+- The level of strategy in which the battles fought by those formations acquire a unified political goal 
+- The level of logistics, of procurement, and supply network 
 
 
 
