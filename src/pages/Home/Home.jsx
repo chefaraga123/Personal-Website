@@ -10,14 +10,15 @@ const Home = () => {
             <Navigation />
             <section className={styles.recentUpdates}>
                 <h2>Updates</h2>
+                <p>14/04/2025: <b>Article:</b> <a href="/Autonomous_Weapons">The weapons were always autonomous</a> which is about the cybernetic origins of autonomous weapons and their implications for modern warfare</p>
                 <p>28/03/2025: <b>Shipped</b> <a href="https://report-generator-front-end.vercel.app/">Report Generator</a> which is a tool for generating post match reports for Footium</p>
                 <p>18/03/2025: <b>Article:</b> <a href="/AI_Thinks_Like_The_Market">AI Thinks Like The Market</a> Financial Markets and Large Language Models share failure modes</p>
                 <p>08/03/2025: <b>Article:</b> <a href="/Soviet_Collapse">How Gorbachev's reforms collapsed the Soviet Union</a></p>
                 <p>07/03/2025: <b>Shipped</b> <a href="https://www.yourpersonalaccountant.today/">Your Personal Accountant</a> to classify transactions from bank statements</p>
-                <p>06/03/2025: <b>Notes:</b> <ul>
-                    <li><a href="/notes/Allosteric_Regulation">Allosteric Regulation</a>: the regulation of protein enzymes by other proteins.</li>
-                    <li><a href="/notes/RNA_Transcription"> RNA Transcription</a>: the first step in gene expression.</li>
-                    </ul>
+                <p>06/03/2025: <b>Notes:</b> 
+                    <a href="/notes/Allosteric_Regulation">Allosteric Regulation</a>: the regulation of protein enzymes by other proteins.
+                    <a href="/notes/RNA_Transcription"> RNA Transcription</a>: the first step in gene expression.
+                    
                 </p>
                 <p>03/03/2025: <b>Shipped </b> <a href="https://www.footiumchat.com/">Footium Chat</a> so that people can have post-match interviews with their Footium players</p>
                 <p>01/03/2025: <b>Notes:</b> <a href="/notes/Proteins">Proteins</a> which is about the structure and function of proteins</p>

@@ -24,6 +24,7 @@ import Footium_Biggest_IP from './pages/Writing/Articles/Footium_Biggest_IP';
 import Marketplace_of_Ideas from './pages/Writing/Articles/Marketplace_of_Ideas';
 import Soviet_Collapse from './pages/Writing/Articles/Soviet_Collapse';
 import AI_Thinks_Like_The_Market from './pages/Writing/Articles/AI_Thinks_Like_The_Market';
+import Autonomous_Weapons from './pages/Writing/Articles/Autonomous_Weapons';
 /*Pages: Book Summaries */
 import BookSummary from './pages/Books/Book_Summaries/BookSummary';
 
@@ -60,6 +61,7 @@ const App = () => {
           <Route path="/Marketplace-of-Ideas" element={<Marketplace_of_Ideas />} />
           <Route path="/Soviet_Collapse" element={<Soviet_Collapse />} />
           <Route path="/AI_Thinks_Like_The_Market" element={<AI_Thinks_Like_The_Market />} />
+          <Route path="/Autonomous_Weapons" element={<Autonomous_Weapons />} />
           <Route path="/Books" element={<Books />} />
 
           <Route path="/knowledge-graph" element={<KnowledgeGraph />} />

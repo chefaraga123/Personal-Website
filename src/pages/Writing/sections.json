@@ -74,5 +74,13 @@
       "url": "/AI_Thinks_Like_The_Market",
       "markdownUrl": "/articles/AI_Thinks_Like_The_Market.md",
       "category": "Philosophy"
+    },
+    {
+      "id": "section11",
+      "title": "The weapons were always autonomous",
+      "date": "  | 14/04/2025",
+      "url": "/Autonomous_Weapons", 
+      "markdownUrl": "/articles/Autonomous_Weapons.md",
+      "category": "Technology"
     }
 ]
