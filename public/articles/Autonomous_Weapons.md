@@ -86,6 +86,10 @@ Manuel De Landa writes about the notion of war / the military institution as a m
 - The level of strategy in which the battles fought by those formations acquire a unified political goal 
 - The level of logistics, of procurement, and supply network 
 
+A story of this military machine can be told in terms of varying degrees of centralisation and decentralisation, characteristics of systems and the level of autonomy of the different components. Highly centralised systems may be characterised by long feedback loops, single points of failure, and top-down command and control, while highly decentralised systems may be characterised by short feedback loops, multiple points of failure, and bottom-up decision making. 
+
+
+## Part 3: What this means for how we think about autonomous weapons contemporarily
 
 
 ## Sources 
