@@ -2,43 +2,56 @@
 
 ## Introduction
 
-Autonomous weapons are a grim fixture of modern warfare, and disturbing footage from drones in the Ukraine war has pushed this awareness into the popular consciousness. It would be a mistake to see popular concern against autonomous weapons as purely contemporary, having been foreshadowed by films like Terminator, weapons development during the second world war and the construction of the military as a hierarchical machine. 
+Autonomous weapons are a grim fixture of modern warfare, and disturbing footage from drones in the Ukraine war has pushed this awareness into the popular consciousness. 
 
-War is a maximally (in)human endeavour. You can take the human out of the war but you can't take the war out of the human, but that’s besides the point when you take the human out of the loop. 
+It would be a mistake to see concern against autonomous weapons as purely contemporary, having been foreshadowed by films such as Terminator, weapons development during the second world war. 
 
-Borrowing from the work of Manuel Delanda, I use the word machine to foreshadow the abstract conception of the military as an integration composed of hardware, tactics, strategy and logistics. 
+It would be a mistake to see popular concern against autonomous weapons as purely contemporary, having been foreshadowed by films like Terminator, 
+weapons development during the second world war and the construction of the military as a hierarchical machine. 
 
-To set the stage for this formulation of war as integrated machine undergirding my part 2, I'll first introduce Norbert Wiener, the prodigy who developed a weapons system we may now refer to as cybernetic, a term he coined thereafter. Subsequently, I'll describe how the automata treatment became institutionalised in warfare, with the RAND Corporation - the organisation for the rational prosecution of war - at the centre and then discuss some of the ways in which cybernetic concepts have found their way into the Department of Defence.  
+You can take the human out of the war but you can't take the war out of the human, but that’s besides the point when you take the human out of the loop. 
+The decision loop and man’s role within it is a common theme for this essay.
 
-In the second act I'll widen my framing by deploy this cybernetic ontology as a general purpose framework for understanding the evolution of the different layers in the overall stack of warfare. As well as  
+I'll first introduce Norbert Wiener, the prodigy who developed a weapons system we may refer to as cybernetic, a term he coined thereafter. 
 
-There are two historical frames that I’ll use to contextualise an understanding of autonomous weapons:
-- Part 1: The cybernetic origins of autonomous control in WW2 and after
-- Part 2: A conceptualisation of all warfare within the framework developed in part 1
-- Part 3: The implications of the contemporary trend on the architecture of the military.
+Subsequently, I'll describe how the automata treatment became institutionalised in warfare, with the RAND Corporation at the centre.  
+
+In the second part I'll widen my framing by deploying this rationalised understanding of war to understanding the evolution of tactics.  
+
+### Contents
+- Part 1: The cybernetic origins of autonomous control in WW2 and the Cold War 
+- Part 2: Understanding the evolution of tactics in terms of feedback loops     
+- Part 3: The implications of the contemporary trend on the architecture of the military. 
 
 ---
 
 ## Part 1: Cybernetic Genesis
 
 ### The Birth of Cybernetics  
-World War 2 set forth an explosion of new weapons that changed the relation of man and machine. Famous for his role working on code breaking during WW2, Alan Turing developed the  eponymous Turing test, framing what is now referred to as Artificial Intelligence.  
+World War 2 set forth an explosion of new weapons that changed the relation of man and machine.
+Exemplary of this was Alan Turing who, famous for working on code breaking during WW2, developed the eponymous Turing test, framing what is now referred to as Artificial Intelligence.  
 
-Not to understate the contributions of Turing, my departure point for this exploration is Norbert Wiener, who developed automatic gun targeting systems. Weiner, a child prodigy who earned his PhD at age 19 for his dissertation on mathematical logic, was an early researcher into stochastic and mathematical noise processes (**brief explanation...**).
+Not to understate the contributions of Turing, my departure point for this exploration is Norbert Wiener, who developed automatic gun targeting systems. 
+Weiner, a child prodigy who earned his PhD at age 19 for his dissertation on mathematical logic, was an early researcher into stochastic and mathematical noise processes (**brief explanation...**).
 
 Having done some work for the military at the end of World War One.  Under the direction of Warren Weaver Weiner, a well known mathematician at MIT, was brought into war work in 1941 on the problem of anti aircraft gunnery control. 
 
-Weiner had worked closely with Vannevar Bush on his differential analyser (an early analog computer) who had come to head up the Office of Scientific Research and Development (OSRD), having direct control over much of the science budget during WW2. 
+Weiner had worked closely with Vannevar Bush on an early analog computer, 
+Bush had come to head up the Office of Scientific Research and Development (OSRD), having direct control over much of the science budget during WW2. 
 
-The problem of gun control is this - how can one accurately aim anti-aircraft guns at fast-moving enemy bomber planes? Treating the plane and the pilot as a single entity, Weiner’s approached automatic gun control as a problem of prediction under uncertainty, he built a system that took in data, processed it and hence adjusted its aim to match the aircraft’s expected future position. This was a type of negative feedback system - it continuously compared the plane’s predicted trajectory to what actually happened, using the difference to correct itself, honing in on the target with each update.
+The problem of gun control is this - how can one accurately aim anti-aircraft guns at fast-moving enemy bomber planes? Treating the plane and the pilot as a single entity, Weiner’s approached automatic gun control as a problem of prediction under uncertainty, 
+he built a system that took in data, processed it and hence adjusted its aim to match the aircraft’s expected future position. 
 
-Practically, the gun control mechanism had four key components: 
+This was a type of negative feedback system - it continuously compared the plane’s predicted trajectory to what actually happened, using the difference to correct itself, honing in on the target with each update.
+
+Practically, this gun control mechanism had four key components: 
 - A sensor, the then recently invented radar which provided real-time data on the target’s location
 - A processor, an analog computer, taking in the input from the radar and then calculating a  prediction of the future position.
 - An actuator: what physically positions the gun 
 - A Human operator to oversee the operation. 
 
-While it required human approval to fire weapons, it automated the detection → decision → action chain which is the crux of the cybernetic loop. This metamorphosis from the human as executor to human as supervisor was significant for the ontology of war, something had changed radically forever.
+While it required human approval to fire weapons, it automated the tactical feedback loop. 
+This metamorphosis from the human as executor to human as supervisor was significant for the ontology of war.
 
 Weiner’s major conceptual leap had been to recognise that the system formed a closed-loop feedback circuit: data was continuously processed, and used to adjust behaviour in real time - and this feedback could be automated. 
 
@@ -59,8 +72,12 @@ Established in 1948, with the mandate: “a program of study and research on the
  
 RAND partially inspired Stanley Kubrick's dark comedy Doctor Strangelove or: How I learned to stop worrying and love the bomb, a film which showcased the absurdity of game theoretic approaches to war. The film portrays how,  in order to sustain the credible threat of retaliation against the United States in the event of nuclear war, the USSR creates a Doomsday device that cannot be turned off that will automatically respond to a first strike. An ironic crux of the film being how it cannot be turned off.   
 The people working at RAND, a mixture of military theorists, mathematicians like von Neumann, and technocrats sought to create a new model of military rationality, one based not on heroism but on strategic logic, game theory, and theoretical models of decision-making under uncertainty.
+
 This approach to war treated humans as functionally interchangeable components in a system, a conception of war which ontologically flattened man and machine by seeing them both in terms of feedback, communication and control. 
-Seeing war as a command and control loop, lead to human decision-makers being increasingly treated like nodes in a network — agents with bounded rationality, whose behavior could be optimized, simulated, or replaced. This framing undergirded the shift towards seeing war as quantitative business, as Robert McNamara infamously did during the Vietnam War - trying to measure success in terms of linear metrics that diverged from the holistic reality. Whilst McNamara hasn’t been judged favourably by history, the integration of rationality into war through computers has only progressed.
+
+Seeing war as a command and control loop, lead to human decision-makers being increasingly treated like nodes in a network — agents with bounded rationality, whose behavior could be optimized, simulated, or replaced. 
+
+This framing undergirded the shift towards seeing war as quantitative business, as Robert McNamara infamously did during the Vietnam War - trying to measure success in terms of linear metrics that diverged from the holistic reality. Whilst McNamara hasn’t been judged favourably by history, the integration of rationality into war through computers has only progressed.
 Whilst the proto-genesis of autonomous weapons was in World War 2, during the Vietnam War Precision-Guided Munitions, such as Laser Guided Bombs were developed. This system radically improved targeting by…  
 RAND Corporation’s war were wars of automata - war games became central to military planning 
 
