@@ -32,7 +32,8 @@ World War 2 set forth an explosion of new weapons that changed the relation of m
 Exemplary of this was Alan Turing who, famous for working on code breaking during WW2, developed the eponymous Turing test, framing what is now referred to as Artificial Intelligence.  
 
 Not to understate the contributions of Turing, my departure point for this exploration is Norbert Wiener, who developed automatic gun targeting systems. 
-Weiner, a child prodigy who earned his PhD at age 19 for his dissertation on mathematical logic, was an early researcher into stochastic and mathematical noise processes (**brief explanation...**).
+
+Weiner, a child prodigy who earned his PhD at age 19 for his dissertation on mathematical logic, was an early researcher into stochastic and mathematical noise processes (random or probabilistic systems that evolve over time, such as signal interference or erratic movement, crucial for modelling uncertainty in real-world data and prediction)
 
 Having done some work for the military at the end of World War One.  Under the direction of Warren Weaver Weiner, a well known mathematician at MIT, was brought into war work in 1941 on the problem of anti aircraft gunnery control. 
 
@@ -59,10 +60,11 @@ It was the result of this insight that Weiner coined the field of cybernetics as
 
 In reality the operational impact of this gun control system was modest and  the practical extent of the gun’s autonomy and the human role as supervisor was little like what we could see now. It is similar in kind. The gun control experiment was a practical example that the machine could take over routine cognitive tasks like prediction and response. 
 
-Weiner held deep reservations about the risk of removing humans from the decision making processes, fearing that over-delegating to machines could remove moral responsibility & critical judgement. He wanted to maintain man-in-the-loop control. Paul Scharre - who helped draft DoD policy on autonomy depicts the trajectory in three ways:  
-Human in the loop - direct human control 
-Human on the loop - human oversight over automated systems 
-Human out of the loop - full autonomy with no human intervention 
+Weiner held deep reservations about the risk of removing humans from the decision making processes, fearing that over-delegating to machines could remove moral responsibility & critical judgement. 
+He wanted to maintain man-in-the-loop control. Paul Scharre - who helped draft DoD policy on autonomy depicts the trajectory in three ways:  
+- Human in the loop - direct human control 
+- Human on the loop - human oversight over automated systems 
+- Human out of the loop - full autonomy with no human intervention 
 
 ### RAND Corporation
 
@@ -71,14 +73,18 @@ RAND Corporation’s birth was a result of the formalisation of Operations Resea
 Established in 1948, with the mandate: “a program of study and research on the broad subject of intercontinental warfare other than surface, with the objective of recommending to the Army Air Forces preferred techniques and instrumentalities for this purpose.”, the RAND Corporation became one of the home’s of cold war paranoia. 
  
 RAND partially inspired Stanley Kubrick's dark comedy Doctor Strangelove or: How I learned to stop worrying and love the bomb, a film which showcased the absurdity of game theoretic approaches to war. The film portrays how,  in order to sustain the credible threat of retaliation against the United States in the event of nuclear war, the USSR creates a Doomsday device that cannot be turned off that will automatically respond to a first strike. An ironic crux of the film being how it cannot be turned off.   
+
 The people working at RAND, a mixture of military theorists, mathematicians like von Neumann, and technocrats sought to create a new model of military rationality, one based not on heroism but on strategic logic, game theory, and theoretical models of decision-making under uncertainty.
 
 This approach to war treated humans as functionally interchangeable components in a system, a conception of war which ontologically flattened man and machine by seeing them both in terms of feedback, communication and control. 
 
 Seeing war as a command and control loop, lead to human decision-makers being increasingly treated like nodes in a network — agents with bounded rationality, whose behavior could be optimized, simulated, or replaced. 
 
-This framing undergirded the shift towards seeing war as quantitative business, as Robert McNamara infamously did during the Vietnam War - trying to measure success in terms of linear metrics that diverged from the holistic reality. Whilst McNamara hasn’t been judged favourably by history, the integration of rationality into war through computers has only progressed.
-Whilst the proto-genesis of autonomous weapons was in World War 2, during the Vietnam War Precision-Guided Munitions, such as Laser Guided Bombs were developed. This system radically improved targeting by…  
+This framing undergirded the shift towards seeing war as quantitative business, as Robert McNamara infamously did during the Vietnam War - trying to measure success in terms of linear metrics that diverged from the holistic reality. 
+
+Whilst McNamara hasn’t been judged favourably by history, the integration of rationality into war through computers has only progressed.
+
+The proto-genesis of autonomous weapons was in World War 2, during the Vietnam War Precision-Guided Munitions, such as Laser Guided Bombs were developed. This system radically improved targeting by…  
 RAND Corporation’s war were wars of automata - war games became central to military planning 
 
 Thomas Schelling, The Strategy of Conflict, is one of the most famous popularisers of the RAND school in his application of game theory to international strategy. 
@@ -123,27 +129,28 @@ Autonomous weapons remove command from the decision making loop - but is that fu
 Do autonomous weapons tend towards centralisation or decentralisation?
 
 
-### Clockwork Armies 
-Automata - not autonomy 
-The Turk was a fake chess-playing automaton built in 1770 by Wolfgang von Kempelen, to those not in the know The Turk appeared to be a mechanical figure capable of playing - and often winning - complex games against human opponents. 19th century sources claim that The Turk played, and defeated, Frederick the Great, the Monarch that transformed Prussia into a major European power, whilst those claims are most likely apocryphal, it is true that as a hobby he loved to collect mechanical birds, and clockwork devices. These toys were a microcosm of Frederick’s approach to war, as he fashioned his armies after clockwork automata. 
+### Clockwork Armies: Automata not autonomy 
+The Turk was a fake chess-playing automaton built in 1770 by Wolfgang von Kempelen, to those not in the know The Turk appeared to be a mechanical figure capable of playing - and often winning - complex games against human opponents. 
 
-Philosopher Manuel De Landas labels his armies clockwork. A clockwork army is characterised by a one-way flow of information, and an external source of energy. 
-The army’s brain is responsible for practically all decision making. 
-Although this is a step in that direction as the routinization of the 
+19th century sources claim that The Turk played, and defeated, Frederick the Great, the Monarch that transformed Prussia into a major European power, those claims are most likely apocryphal, it is true that as a hobby he loved to collect mechanical birds, and clockwork devices. 
 
-Foreshadowing Frederick Taylor’s Taylorism, aka Scientific Management and its time tests, Frederick II’s armies were subject to a similar logic. Drills were broken down into granular steps permitting a tactical calculus. 
+These toys were a microcosm of Frederick’s approach to war, as he fashioned his armies after clockwork automata. 
 
-Frederick’s soldiers were proscribed from individual initiative - there were pro-automata; their only role was to cooperate in the creation of walls of projectiles through synchronised firepower.  
+Frederick’s armies were like clockwork, his soldiers were proto-automata, all individual initiative was proscribed. This was a maximally centralised army, all decision making flowed from the top to the soldiers. 
 
-### Platoons (second)
-The pressure of the increased accuracy and range of firearms forced tactical decision makers to adapt 
+Military drills and the routinisation of the various tactical maneuvers, preceded Frederick Taylor’s Taylorism/Scientific Management, 
 
-contemporary platoons in which small tight-knit squads have significant autonomy without the need to relay the information they receive back to central command. 
+Frederick’s armies were organized into long, thin lines two or three ranks deep, soldiers in a given rank would fire & then reload as the next rank fired. This process was tightly choreographed resembling the logic of clockwork automata. 
 
-WW1 - German Stormtroopers 
+Here there were automata, but not autonomy. Autonomy emerged when war became too complex for a single brain.   
 
-### The Blitzkrieg
-The blitzkrieg is one of, if not the, most well known military strategy executed during WW2. It is widely understood as the rapid 
+### Auftragstaktik: Autonomy not automata
+
+The pressure of the stalemate of World War Two forced adaptation, here the Germans invented the Stormtrooper, self-sufficient soldiers armed with novel weapons and new deep infiltration tactics. These Stormtrooper units had autonomy without the need to relay the information they received back to central command. 
+
+This tactical development of mission-oriented tactics in which only the outlines of an operation are laid down, leaving the execution to field officers and soldiers reduced the accrual of friction up the chain of command, reducing strategic paralysis. 
+
+The most well known integration of these new techniques and technologies of warfare was the Blitzkrieg. The blitzkrieg is is widely understood as the rapid advances into enemy territory enabled by advances in tanks and planes - but this technology was not the whole story. 
 
 German tanks and planes, in contrast with their allied counterparts, were equipped with two-way communication capabilities. This allowed commanders and units on the ground to coordinate and respond dynamically to changing conditions without waiting for centralised orders. 
 
@@ -155,11 +162,22 @@ Rather than saying how to execute a maneuver, units were provided with an object
 
 This tactical doctrine had an OODA loop advantage, was more flexible under uncertainty / less brittle when plans were subverted by unexpected events. 
 
-Part of German strategy was localisation of the decision making, an artifact we see in 
-
+Part of German strategy was localisation of the decision making, an artifact we see in the modern organisation of soldiers. 
 
 
 ## Part 3: What this means for how we think about autonomous weapons contemporarily
+
+The implications is that in some respect the underlying ontology of warfare doesn’t incur a step-shift change due to the ubiquity of autonomous weapons.
+
+Contemporary autonomous weapons include the drones we see in the Ukraine War 
+But part of what the Ukraine War has demonstrated is the need for people 
+
+Drones are just a piece of hardware. 
+
+The feedback loop between defense and offense still exists 
+
+Truly autonomous weapons are those that remove the human from the loop and the tactical unit. 
+Whilst goals are still being set by command how those goals are delivered is completely defined by the hardware itself. 
 
 
 ## Sources 
