@@ -23,23 +23,21 @@ There are two historical frames that I’ll use to contextualise an understandin
 ## Part 1: Cybernetic Genesis
 
 ### The Birth of Cybernetics  
-**Automatic Gun Control**
+World War 2 set forth an explosion of new weapons that changed the relation of man and machine. Famous for his role working on code breaking during WW2, Alan Turing developed the  eponymous Turing test, framing what is now referred to as Artificial Intelligence.  
 
-World War 2 was the locus of a Cambrian explosion of new techniques of warfare that set forth to change the relation of man and machine — most famously as the centre of work in computer science from which came Alan Turing's eponymous Turing test. The Turing test is often seen as a watershed moment in the thought history of automata as it is the most widely known framing of what is now referred to as Artificial Intelligence.
+Not to understate the contributions of Turing, my departure point for this exploration is Norbert Wiener, who developed automatic gun targeting systems. Weiner, a child prodigy who earned his PhD at age 19 for his dissertation on mathematical logic, was an early researcher into stochastic and mathematical noise processes (**brief explanation...**).
 
-Not to understate the contributions of Turing, my departure point for this exploration is Norbert Wiener's development of automatic gun targeting systems. Wiener, a child prodigy who earned his PhD at age 19 for his dissertation on mathematical logic, was an early researcher into stochastic and mathematical noise processes (**brief explanation...**).
+Having done some work for the military at the end of World War One.  Under the direction of Warren Weaver Weiner, a well known mathematician at MIT, was brought into war work in 1941 on the problem of anti aircraft gunnery control. 
 
-Having done some work for the military at the end of World War One. Under the direction of Warren Weaver, Wiener, a well-known mathematician at MIT, was brought into war work in 1941 on the problem of anti-aircraft gunnery control.
+Weiner had worked closely with Vannevar Bush on his differential analyser (an early analog computer) who had come to head up the Office of Scientific Research and Development (OSRD), having direct control over much of the science budget during WW2. 
 
-Wiener had worked closely with Vannevar Bush on his differential analyser (an early analog computer) who had come to head up the Office of Scientific Research and Development (OSRD), having direct control over much of the science budget during WW2.
+The problem of gun control is this - how can one accurately aim anti-aircraft guns at fast-moving enemy bomber planes? Treating the plane and the pilot as a single entity, Weiner’s approached automatic gun control as a problem of prediction under uncertainty, he built a system that took in data, processed it and hence adjusted its aim to match the aircraft’s expected future position. This was a type of negative feedback system - it continuously compared the plane’s predicted trajectory to what actually happened, using the difference to correct itself, honing in on the target with each update.
 
-The problem of gun control is this — how can one accurately aim anti-aircraft guns at fast-moving enemy bomber planes? Treating the plane and the pilot as a single entity, Wiener approached automatic gun control as a problem of prediction under uncertainty. He built a system that took in data, processed it, and hence adjusted its aim to match the aircraft’s expected future position. This was a type of negative feedback system — it continuously compared the plane’s predicted trajectory to what actually happened, using the difference to correct itself, honing in on the target with each update.
-
-Practically, the gun control mechanism had four key components:
-- A **sensor**, the then recently invented radar which provided real-time data on the target’s location
-- A **processor** which was an analog computer, taking in the input from the radar and then calculating predictions of the future position
-- An **actuator**: a servo mechanism that translated the processor’s output into precise mechanical motion, continuously adjusting the gun’s position based on feedback to align with the predicted target trajectory
-- A **human operator** to oversee the operation
+Practically, the gun control mechanism had four key components: 
+- A sensor, the then recently invented radar which provided real-time data on the target’s location
+- A processor, an analog computer, taking in the input from the radar and then calculating a  prediction of the future position.
+- An actuator: what physically positions the gun 
+- A Human operator to oversee the operation. 
 
 While it required human approval to fire weapons, it automated the detection → decision → action chain which is the crux of the cybernetic loop. This metamorphosis from the human as executor to human as supervisor was significant for the ontology of war, something had changed radically forever.
 
@@ -47,26 +45,27 @@ Weiner’s major conceptual leap had been to recognise that the system formed a 
 
 It was the result of this insight that Weiner coined the field of cybernetics as ”the science of control and communications in the animal and machine”. 
 
-In reality the operational impact of this gun control system was modest and  the practical extent of the gun’s autonomy and the human role as supervisor was little like what we could see now it is similar in kind. The gun control experiment set the frame that the machine could take over routine cognitive tasks like prediction and response. 
+In reality the operational impact of this gun control system was modest and  the practical extent of the gun’s autonomy and the human role as supervisor was little like what we could see now. It is similar in kind. The gun control experiment was a practical example that the machine could take over routine cognitive tasks like prediction and response. 
 
 Weiner held deep reservations about the risk of removing humans from the decision making processes, fearing that over-delegating to machines could remove moral responsibility & critical judgement. He wanted to maintain man-in-the-loop control. Paul Scharre - who helped draft DoD policy on autonomy depicts the trajectory in three ways:  
-- Human in the loop - direct human control 
-- Human on the loop - human oversight over automated systems 
-- Human out of the loop - full autonomy with no human intervention 
+Human in the loop - direct human control 
+Human on the loop - human oversight over automated systems 
+Human out of the loop - full autonomy with no human intervention 
 
 ### RAND Corporation
 
-The RAND Corporation was established in 1948, with the vague original mandate:  
-> “A program of study and research on the broad subject of intercontinental warfare other than surface, with the objective of recommending to the Army Air Forces preferred techniques and instrumentalities for this purpose.”
+RAND Corporation’s birth was a result of the formalisation of Operations Research during World War II.  In the 1950s RAND became the centre of System’s Analysis, 
 
-RAND was the centre of the milieu that inspired Stanley Kubrick's dark comedy Doctor Strangelove or: How I learned to stop worrying and love the bomb, showcasing the paranoia and absurdity of game theoretic approaches to war. The film portrays how,  in order to sustain the credible threat of retaliation against the United States in the event of nuclear war, the USSR creates a Doomsday device that cannot be turned off that will automatically respond to a first strike. An ironic crux of the film being how it cannot be turned off.   
-The people working at RAND, a mixture of military theorists, mathematicians like von Neumann, and technocrats sought to create a new model of military rationality one based not on heroism but on strategic logic, game theory, and theoretical models of decision-making under uncertainty.
+Established in 1948, with the mandate: “a program of study and research on the broad subject of intercontinental warfare other than surface, with the objective of recommending to the Army Air Forces preferred techniques and instrumentalities for this purpose.”, the RAND Corporation became one of the home’s of cold war paranoia. 
+ 
+RAND partially inspired Stanley Kubrick's dark comedy Doctor Strangelove or: How I learned to stop worrying and love the bomb, a film which showcased the absurdity of game theoretic approaches to war. The film portrays how,  in order to sustain the credible threat of retaliation against the United States in the event of nuclear war, the USSR creates a Doomsday device that cannot be turned off that will automatically respond to a first strike. An ironic crux of the film being how it cannot be turned off.   
+The people working at RAND, a mixture of military theorists, mathematicians like von Neumann, and technocrats sought to create a new model of military rationality, one based not on heroism but on strategic logic, game theory, and theoretical models of decision-making under uncertainty.
+This approach to war treated humans as functionally interchangeable components in a system, a conception of war which ontologically flattened man and machine by seeing them both in terms of feedback, communication and control. 
+Seeing war as a command and control loop, lead to human decision-makers being increasingly treated like nodes in a network — agents with bounded rationality, whose behavior could be optimized, simulated, or replaced. This framing undergirded the shift towards seeing war as quantitative business, as Robert McNamara infamously did during the Vietnam War - trying to measure success in terms of linear metrics that diverged from the holistic reality. Whilst McNamara hasn’t been judged favourably by history, the integration of rationality into war through computers has only progressed.
+Whilst the proto-genesis of autonomous weapons was in World War 2, during the Vietnam War Precision-Guided Munitions, such as Laser Guided Bombs were developed. This system radically improved targeting by…  
+RAND Corporation’s war were wars of automata - war games became central to military planning 
 
-The people working at RAND, a mixture of military theorists, mathematicians like von Neumann, and technocrats sought to create a new model of military rationality one based not on heroism but on strategic logic, game theory, and theoretical models of decision-making under uncertainty.
-
-This approach to war depended on treating human and machine actors as functionally interchangeable components in a system, a conception of war within the frame of Norbert Wiener's Cybernetics which had ontologically flattened man and machine by seeing them both in terms of feedback, communication and control. 
-
-Seeing war as a command and control loop, lead to human decision-makers being increasingly treated like nodes in a network — agents with bounded rationality, whose behavior could be optimized, simulated, or replaced. This framing undergirded the shift towards seeing war as quantitative business, as Robert McNamara infamously did during the Vietnam War - trying to measure success in terms of linear metrics that diverged from the holistic reality. Whilst McNamara hasn’t been judged favourably by history, the integration of rationality into war through computers has only progressed. 
+Thomas Schelling, The Strategy of Conflict, is one of the most famous popularisers of the RAND school in his application of game theory to international strategy. 
 
 
 ## Recap
