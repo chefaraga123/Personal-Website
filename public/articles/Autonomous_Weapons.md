@@ -2,16 +2,15 @@
 
 ## Introduction
 
-Autonomous weapons are a grim fixture of modern warfare, disturbing footage from drones in the Ukraine war has pushed this awareness into the popular consciousness. It would be a mistake to see the cultural backlash against autonomous weapons as purely contemporary, having been foreshadowed by films like Terminator, weapons development during the second world war and the construction of the military as a hierarchical machine. 
+Autonomous weapons are a grim fixture of modern warfare, and disturbing footage from drones in the Ukraine war has pushed this awareness into the popular consciousness. It would be a mistake to see popular concern against autonomous weapons as purely contemporary, having been foreshadowed by films like Terminator, weapons development during the second world war and the construction of the military as a hierarchical machine. 
 
 War is a maximally (in)human endeavour. You can take the human out of the war but you can't take the war out of the human, but that’s besides the point when you take the human out of the loop. 
-Putting the ethical concerns aside, the introduction of autonomous weapons into warfare will impact the internal communications architecture of the military machine. 
 
 Borrowing from the work of Manuel Delanda, I use the word machine to foreshadow the abstract conception of the military as an integration composed of hardware, tactics, strategy and logistics. 
 
-To set the stage for this formulation of war as integrated machine undergirding my part 2, I'll first introduce Norbert Wiener, the prodigy who developed a weapons system we may now refer to as cybernetic, a term he coined thereafter. Subsequently, I'll explicate the role of the RAND Corporation — the organisation for the rational prosecution of war — and then discuss some of the ways in which cybernetic concepts have found their way into the Department of Defence.
+To set the stage for this formulation of war as integrated machine undergirding my part 2, I'll first introduce Norbert Wiener, the prodigy who developed a weapons system we may now refer to as cybernetic, a term he coined thereafter. Subsequently, I'll describe how the automata treatment became institutionalised in warfare, with the RAND Corporation - the organisation for the rational prosecution of war - at the centre and then discuss some of the ways in which cybernetic concepts have found their way into the Department of Defence.  
 
-In the second act I'll deploy this cybernetic ontology as a general purpose framework for understanding the evolution of the different layers in the overall stack of warfare.
+In the second act I'll widen my framing by deploy this cybernetic ontology as a general purpose framework for understanding the evolution of the different layers in the overall stack of warfare. As well as  
 
 There are two historical frames that I’ll use to contextualise an understanding of autonomous weapons:
 - Part 1: The cybernetic origins of autonomous control in WW2 and after
