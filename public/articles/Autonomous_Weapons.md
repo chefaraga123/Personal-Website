@@ -4,10 +4,9 @@
 
 Autonomous weapons are a grim fixture of modern warfare, and disturbing footage from drones in the Ukraine war has pushed this awareness into the popular consciousness. 
 
-It would be a mistake to see concern against autonomous weapons as purely contemporary, having been foreshadowed by films such as Terminator, weapons development during the second world war. 
+It would be a mistake to see concern against autonomous weapons as purely contemporary, 
+having been foreshadowed by films such as Terminator, weapons development during the second world war. 
 
-It would be a mistake to see popular concern against autonomous weapons as purely contemporary, having been foreshadowed by films like Terminator, 
-weapons development during the second world war and the construction of the military as a hierarchical machine. 
 
 You can take the human out of the war but you can't take the war out of the human, but that’s besides the point when you take the human out of the loop. 
 The decision loop and man’s role within it is a common theme for this essay.
@@ -21,8 +20,6 @@ In the second part I'll widen my framing by deploying this rationalised understa
 ### Contents
 - Part 1: The cybernetic origins of autonomous control in WW2 and the Cold War 
 - Part 2: Understanding the evolution of tactics in terms of feedback loops     
-- Part 3: The implications of the contemporary trend on the architecture of the military. 
-
 ---
 
 ## Part 1: Cybernetic Genesis
@@ -164,20 +161,6 @@ This tactical doctrine had an OODA loop advantage, was more flexible under uncer
 
 Part of German strategy was localisation of the decision making, an artifact we see in the modern organisation of soldiers. 
 
-
-## Part 3: What this means for how we think about autonomous weapons contemporarily
-
-The implications is that in some respect the underlying ontology of warfare doesn’t incur a step-shift change due to the ubiquity of autonomous weapons.
-
-Contemporary autonomous weapons include the drones we see in the Ukraine War 
-But part of what the Ukraine War has demonstrated is the need for people 
-
-Drones are just a piece of hardware. 
-
-The feedback loop between defense and offense still exists 
-
-Truly autonomous weapons are those that remove the human from the loop and the tactical unit. 
-Whilst goals are still being set by command how those goals are delivered is completely defined by the hardware itself. 
 
 
 ## Sources 
