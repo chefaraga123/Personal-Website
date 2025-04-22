@@ -68,25 +68,80 @@ This approach to war depended on treating human and machine actors as functional
 
 Seeing war as a command and control loop, lead to human decision-makers being increasingly treated like nodes in a network — agents with bounded rationality, whose behavior could be optimized, simulated, or replaced. This framing undergirded the shift towards seeing war as quantitative business, as Robert McNamara infamously did during the Vietnam War - trying to measure success in terms of linear metrics that diverged from the holistic reality. Whilst McNamara hasn’t been judged favourably by history, the integration of rationality into war through computers has only progressed. 
 
-### Strategic Computing at DARPA 
 
-### Recap
-The purpose of this section has been to suggest that the cultural & practical emergence of autonomous weapons began during World War Two, with Norbert Wiener’s automatic gunner control project. The creation of a closed circuit was a watershed moment, which, combined with the intellectual development of game theory metamorphosed war into a rational system in which people - as predictable agents - were interchangeable with machines - a world in which the distinction between autonomous weapons and “subordinated” weapons is dissolved. . 
+## Recap
 
+My intention with this section has been to suggest that the practical emergence of autonomous weapons began during World War Two, with Norbert Wiener’s automatic gun control project. His innovation - the closed circuit in which automatic feedback removed humans from the loop explicitly introduced the possibility of machines performing end-2-end tasks.
+
+This, combined with the intellectual development of game theory, metamorphosed war into a rational system in which people - as predictable agents - were interchangeable with machines - a world in which the distinction between autonomous weapons and “subordinated” weapons is dissolved. 
+
+The RAND Corporation, and the military industrial complex drove this trend, further institutionalising this new military epistemology.In section two, I argue that the logic of automation has always been embedded in military thought, modern, or at least post-world war two weapons merely represent an acceleration of existing tendencies.
 
 ---
 ## Part 2: Cybernetic Ontology
 
+Now that we’ve developed the framework to understand the institutionalisation of autonomous weapons we can now think about how the drive towards rational war is central to the history of warfare as a whole.  
 
-### The Military Machine 
-Manuel De Landa writes about the notion of war / the military institution as a machine. 
+### Autonomous Tactics 
+Tactical units are information processors, they follow a decision loop: they observe their environment, analyse the situation, decide the course of action and then execute on it. 
 
-- The level of weapons and the hardware of war 
-- The level of tactics, in which men and weapons are integrated into formations
-- The level of strategy in which the battles fought by those formations acquire a unified political goal 
-- The level of logistics, of procurement, and supply network 
+Tactical units are given instructions they have to execute - either through precise instructions that flow from the top or just a high-level goal (what is known as mission-type tactics) where the what is defined by command but the how is left to the unit’s discretion. 
 
-A story of this military machine can be told in terms of varying degrees of centralisation and decentralisation, characteristics of systems and the level of autonomy of the different components. Highly centralised systems may be characterised by long feedback loops, single points of failure, and top-down command and control, while highly decentralised systems may be characterised by short feedback loops, multiple points of failure, and bottom-up decision making. 
+The relationship between tactics and strategy has changed over time, as the increased complexity of the battlefield driven by novel weaponry has pushed decision-making downward - towards smaller tactical units. If all decision making was channelled through top-command in the modern battlefield the top would become overwhelmed. This decentralisation stepped up during the later stages of WW1 when the stalemate demanded a new approach. 
+
+Highly centralised systems may be characterised by long feedback loops, single points of failure, and top-down command and control, while highly decentralised systems may be characterised by short feedback loops, multiple points of failure - or redundancy, and bottom-up decision making.
+ 
+A story of this military machine can be told in terms of varying degrees of centralisation and decentralisation, characteristics of systems and the level of autonomy of the different components. 
+
+### Autonomous Weapons 
+
+Autonomous weapons take this farther - the unification of hardware with tactics - as the tactics are abstracted and embedded in the hardware. 
+
+More generally, an autonomous weapon can be understood as a piece of hardware which displaces human judgement from the decision-making loop, as we saw with Norbert Wiener's automatic gun control system, or introduce feedback loops where none existed such as with the laser-guided bombs in the Vietnam War. Whilst these systems didn’t eliminate human involvement they redistributed agency. 
+
+Autonomous weapons are only a part of the wider military machine - they still rely on a supply chain and are only deployed given a particular strategy. Autonomous weapons may even directly work together with humans. To speak of autonomous weapons as an essential type that exists is difficult. . 
+
+From the perspective of command, autonomous weapons lie within the pattern of mission-type tactics that has become predominant.
+
+Autonomous weapons remove command from the decision making loop - but is that fundamentally different to the platoons which have their local loop. From the perspective of command, an autonomous weapon is any entity that sets its own implementation. Autonomous weapons are only an epistemic novelty because of how they make explicit the implicit logic of decentralisation that has long existed in modern warfar.e 
+
+Do autonomous weapons tend towards centralisation or decentralisation?
+
+
+### Clockwork Armies 
+Automata - not autonomy 
+The Turk was a fake chess-playing automaton built in 1770 by Wolfgang von Kempelen, to those not in the know The Turk appeared to be a mechanical figure capable of playing - and often winning - complex games against human opponents. 19th century sources claim that The Turk played, and defeated, Frederick the Great, the Monarch that transformed Prussia into a major European power, whilst those claims are most likely apocryphal, it is true that as a hobby he loved to collect mechanical birds, and clockwork devices. These toys were a microcosm of Frederick’s approach to war, as he fashioned his armies after clockwork automata. 
+
+Philosopher Manuel De Landas labels his armies clockwork. A clockwork army is characterised by a one-way flow of information, and an external source of energy. 
+The army’s brain is responsible for practically all decision making. 
+Although this is a step in that direction as the routinization of the 
+
+Foreshadowing Frederick Taylor’s Taylorism, aka Scientific Management and its time tests, Frederick II’s armies were subject to a similar logic. Drills were broken down into granular steps permitting a tactical calculus. 
+
+Frederick’s soldiers were proscribed from individual initiative - there were pro-automata; their only role was to cooperate in the creation of walls of projectiles through synchronised firepower.  
+
+### Platoons (second)
+The pressure of the increased accuracy and range of firearms forced tactical decision makers to adapt 
+
+contemporary platoons in which small tight-knit squads have significant autonomy without the need to relay the information they receive back to central command. 
+
+WW1 - German Stormtroopers 
+
+### The Blitzkrieg
+The blitzkrieg is one of, if not the, most well known military strategy executed during WW2. It is widely understood as the rapid 
+
+German tanks and planes, in contrast with their allied counterparts, were equipped with two-way communication capabilities. This allowed commanders and units on the ground to coordinate and respond dynamically to changing conditions without waiting for centralised orders. 
+
+This technological advantage was wrapped up by the German military concept of Auftragstaktik - or mission-type tactics. This foreshadowed the types of distributed control that are obvious in the case of drone swarms.
+
+This shift from purely vertical flows in communication shifted to lateral flows. 
+
+Rather than saying how to execute a maneuver, units were provided with an objective and they were given the autonomy to achieve that objective.
+
+This tactical doctrine had an OODA loop advantage, was more flexible under uncertainty / less brittle when plans were subverted by unexpected events. 
+
+Part of German strategy was localisation of the decision making, an artifact we see in 
+
 
 
 ## Part 3: What this means for how we think about autonomous weapons contemporarily
