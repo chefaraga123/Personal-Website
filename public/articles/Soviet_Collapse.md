@@ -31,21 +31,24 @@ The reforms were intended to move power from the ossified bureaucracy to the gra
 A key reform was the law on socialist enterprises. This was the consummate product of reform-minded economists who sought to combine socialism with a state regulated market. This contradicted the 1917 revolutionary approach of property whereby the state was the custodian of all property. 
 
 #### Dual Money System & Banking Reform 
-In the soviet union there were two kinds of money in circulation. One currency was virtual called безналичный which means non-cash - this virtual accounting system was between the state and state enterprises. This type of money resembled issue bills and letters of credit in the market economy with the caveat that they could never be cashed. 
-The second kind of money was Наличные, which means cash, this was the type of money used to pay wages, and purchases goods and services. 
+In the soviet union there were two kinds of money in circulation, roughly translating to cash and non-cash respectively. 
 
-This mechanism allowed the state to finance massive projects without inflating the nominal price of consumer goods and services.
+The first kind of money was Наличные, which means cash, this was the type of money used to pay wages, and purchases goods and services. 
 
-Cash did exist in people’s hands with the potential to create inflation and macroeconomic instability. 
+The second, less intuitive type of money, was безналичный which means non-cash, this being non-cash as it was part of a virtual accounting system between the state and state enterprises. 
 
-The partition between these two modes of money was watertight, all enterprises had to have double bookkeeping. There were forbidden to use their non-cash allocations for salaries and wages, and they couldn’t purchase industrial equipment and raw materials with cash. 
+This type of money resembled **[bills of exchange](../notes/Bills_of_Exchange)** and **[letters of credit](../notes/Letters_of_Credit)** in the market economy with the caveat that they could never be cashed. 
 
-An unintended consequence of the struggle against binge drinking was that people still had the same amount of disposable income - they just couldn’t as easily spend it on alcohol - they demanded quality goods they could purchase instead. 
+The partition between these two modes of money was watertight, all enterprises had to have double bookkeeping. They were forbidden to use their non-cash allocations for salaries and wages, and they couldn’t purchase industrial equipment and raw materials with cash. 
+
+Cash did exist in people’s hands with the potential to create inflation and macroeconomic instability, however this mechanism allowed the state to finance massive projects without directly inflating the nominal price of consumer goods and services.
+
+Since the 1960s, reform-minded Soviet economists had argued that State Enterprises should get money for development from state-controlled commercial banks. The enterprises would make a profit and pay back the bank with interest. 
 
 The law on State Enterprises brought forward banking system reform. In July 1987 the Politburo permitted the establishment of four specialised banks with crediting functions. 
 The new law allowed cooperatives and state enterprises to create commercial banks using their surplus money for the purpose of crediting others. 
 
-Gorbachev introduce a wave of political reforms 
-Only the abolition of these Gorbachev-era reforms by Yeltsin in 1993 would stabilise the constitutional order. 
+In May 1988 the Law on Cooperatives was enacted, placing cooperatives and enterprises under the same roof; the first could purchase from the latter, and the latter could set up the former. This law also allowed both entities to create commercial banks, using their surplus money to credit others. 
 
-The economic reforms had failed to materialise economic growth 
+
+----
