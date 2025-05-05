@@ -10,6 +10,7 @@ const Home = () => {
             <Navigation />
             <section className={styles.recentUpdates}>
                 <h2>Updates</h2>
+                <p>05/05/2025: <b>Article:</b> <a href="/Who_set_the_prices_Who_Who">Who set the prices? Who. Who.</a></p>
                 <p>14/04/2025: <b>Article:</b> <a href="/Autonomous_Weapons">The weapons were always autonomous</a> which is about the cybernetic origins of autonomous weapons and their implications for modern warfare</p>
                 <p>28/03/2025: <b>Shipped</b> <a href="https://report-generator-front-end.vercel.app/">Report Generator</a> which is a tool for generating post match reports for Footium</p>
                 <p>18/03/2025: <b>Article:</b> <a href="/AI_Thinks_Like_The_Market">AI Thinks Like The Market</a> Financial Markets and Large Language Models share failure modes</p>

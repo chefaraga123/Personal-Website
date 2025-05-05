@@ -25,6 +25,7 @@ import Marketplace_of_Ideas from './pages/Writing/Articles/Marketplace_of_Ideas'
 import Soviet_Collapse from './pages/Writing/Articles/Soviet_Collapse';
 import AI_Thinks_Like_The_Market from './pages/Writing/Articles/AI_Thinks_Like_The_Market';
 import Autonomous_Weapons from './pages/Writing/Articles/Autonomous_Weapons';
+import WhoSetThePrices from './pages/Writing/Articles/Who_set_the_prices_Who_Who';
 /*Pages: Book Summaries */
 import BookSummary from './pages/Books/Book_Summaries/BookSummary';
 
@@ -62,6 +63,8 @@ const App = () => {
           <Route path="/Soviet_Collapse" element={<Soviet_Collapse />} />
           <Route path="/AI_Thinks_Like_The_Market" element={<AI_Thinks_Like_The_Market />} />
           <Route path="/Autonomous_Weapons" element={<Autonomous_Weapons />} />
+          <Route path="/Who_set_the_prices_Who_Who" element={<WhoSetThePrices />} />
+
           <Route path="/Books" element={<Books />} />
 
           <Route path="/knowledge-graph" element={<KnowledgeGraph />} />

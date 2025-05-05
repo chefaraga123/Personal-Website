@@ -2,9 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { Helmet } from 'react-helmet';
 import styles from './Writing.module.css';
 import Navigation from '../../components/Navigation/Navigation';
-import MarkdownComponent from '../../components/MarkdownComponent/MarkdownComponent';
 import ContentsComponent from '../../components/Contents/Contents';
-import MarkdownExcerpt from '../../components/MarkdownExcerpt/MarkdownExcerpt';
 import sections from './sections.json'; // Adjust the path if the JSON file is in a different location
 
 const Writing = () => {
@@ -39,6 +37,7 @@ const Writing = () => {
                 <button onClick={() => handleFilterChange('Footium')}>Footium</button>
                 <button onClick={() => handleFilterChange('Philosophy')}>philosophy</button>
                 <button onClick={() => handleFilterChange('Computer-Science')}>Computer-Science</button>
+                <button onClick={() => handleFilterChange('Economics')}>Economics</button>
             </div>
             <p>{qualifyingArticles} articles found.</p>
             <ContentsComponent sections={[...sections].reverse()} filter={filter} />

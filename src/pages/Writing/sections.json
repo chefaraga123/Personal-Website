@@ -82,5 +82,13 @@
       "url": "/Autonomous_Weapons", 
       "markdownUrl": "/articles/Autonomous_Weapons.md",
       "category": "Technology"
+    },
+    {
+      "id": "section12",
+      "title": "Who set the prices? Who. Who.",
+      "date": "  | 05/05/2025",
+      "url": "/Who_set_the_prices_Who_Who",
+      "markdownUrl": "/articles/Who_set_the_prices_Who_Who.md",
+      "category": "Economics"
     }
 ]
