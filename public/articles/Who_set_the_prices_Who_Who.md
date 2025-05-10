@@ -35,3 +35,16 @@ The point I'm making by listing out these different auction formats is to make e
 Market efficiency is often understood in terms of pareto efficiency, i.e. the given allocation of resources could not be modified without making someone else worse off. An allocation is pareto efficient if no further mutual gains are possible, however pareto efficiency doesn’t speak to overall utility or equality. 
 
 At the limit, the most efficient outcomes can only be achieved by dissolving everything with property rights. 
+
+# Market designers aren’t God
+If the in the practical/real world an auction is designed by a policy maker to maximise revenues to the treasury without taking into account of the second, third order effects - then this is similar to an arrangement in which an economic planner wants to produce a number of shoes but forgets to specify that shoes be produced a) in pairs, and b) a range of sizes. 
+There is an objective: manufacturer 10,000 shoes 
+
+Old dynamic i’ve previously discussed about how you can micro-manage the input or the output. Something needs to be left as a free-variable. The controlled variable is either the input or the output: if you control for a particular output you can’t micro-manage the workers, if you micro-manage the works you can’t control for a particular output. 
+
+There is a fundamental trade-off between autonomy and accountability at the heart of complex social systems. 
+
+Economies are complex systems and command economies and capitalist economies
+For command economies the input is controlled at a micro-level, outputs aren’t validated by the market, and shortages / surpluses are common as the system isn’t adapted to real demand. However, even if the output isn’t rewarded in the same way as in capitalist economies - there isn’t the same kind of ecology - at the limit the morale of the people, and the legitimacy of the government represents a lower bound control on output 
+
+For capitalist economies the output is controlled at a micro-level, how a firm delivers an output doesn’t matter as long as the output is there. Obviously inside companies there will be different approaches to delivering an output, at the population-level i.e. the level of many firms, the market doesn’t evaluate firms on the constitution of their approach. 
