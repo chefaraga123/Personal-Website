@@ -32,6 +32,7 @@ import BookSummary from './pages/Books/Book_Summaries/BookSummary';
 
 /*Components*/
 import NotePage from './pages/NotePage/NotePage';
+import CookieConsent from './components/CookieConsent/CookieConsent';
 
 const App = () => {
   return (
@@ -76,6 +77,7 @@ const App = () => {
           <Route path="/notes/:noteName" element={<NotePage />} />
         </Routes>
       </Router>
+      <CookieConsent />
     </div>
   );
 };
