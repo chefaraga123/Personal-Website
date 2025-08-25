@@ -510,5 +510,21 @@
     "image": "/images/Fear_and_Loathing_on_the_Campaign_Trail_72_Cover.jpg",
     "summaryLink": "/books/Fear_and_Loathing_on_the_Campaign_Trail_72",
     "id": "Fear_and_Loathing_on_the_Campaign_Trail_72"
+  },
+  {
+    "title": "Hells Angels",
+    "author": "Hunter S Thompson",
+    "genre": ["Fiction"],
+    "image": "/images/Hells_Angels_Cover.jpg",
+    "summaryLink": "/books/Hells_Angels",
+    "id": "Hells_Angels"
+  },
+  {
+    "title": "Alanbrooke War Diaries",
+    "author": "Alan Brooke",
+    "genre": ["History", "Warfare"],
+    "image": "/images/Alanbrooke_War_Diaries_Cover.jpg",
+    "summaryLink": "/books/Alanbrooke_War_Diaries",
+    "id": "Alanbrooke_War_Diaries"
   }
 ]
