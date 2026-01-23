@@ -98,5 +98,13 @@
       "url": "/Managerial-Ethics",
       "markdownUrl": "/articles/Managerial_Ethics_Ethical_Micro_Management.md",
       "category": "Philosophy"
+    },
+    {
+      "id": "section14",
+      "title": "Interactive Articles with MDX",
+      "date": "  | 23/01/2026",
+      "url": "/MDX-Example",
+      "markdownUrl": "/articles/MDX_Example.mdx",
+      "category": "Technology"
     }
 ]

@@ -1,0 +1,133 @@
+# Interactive Articles with MDX
+
+This article demonstrates how to use **MDX** to create interactive content with embedded React components.
+
+## What is MDX?
+
+MDX lets you write JSX directly in your Markdown files. This means you can import and use React components alongside your regular text content.
+
+<Callout type="info" title="Why MDX?">
+MDX bridges the gap between the simplicity of Markdown and the power of React components. You get the best of both worlds.
+</Callout>
+
+## Interactive Charts
+
+Here's a line chart showing some example data:
+
+<InteractiveChart
+  type="line"
+  title="Monthly Revenue Growth"
+  data={{
+    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+    datasets: [
+      {
+        label: 'Revenue ($k)',
+        data: [12, 19, 15, 25, 22, 30],
+        borderColor: 'rgb(75, 192, 192)',
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        tension: 0.3,
+      },
+    ],
+  }}
+/>
+
+And here's a bar chart comparing different categories:
+
+<InteractiveChart
+  type="bar"
+  title="Category Comparison"
+  data={{
+    labels: ['Category A', 'Category B', 'Category C', 'Category D'],
+    datasets: [
+      {
+        label: '2024',
+        data: [65, 59, 80, 81],
+        backgroundColor: 'rgba(54, 162, 235, 0.6)',
+      },
+      {
+        label: '2025',
+        data: [75, 69, 90, 95],
+        backgroundColor: 'rgba(255, 99, 132, 0.6)',
+      },
+    ],
+  }}
+/>
+
+## Callout Boxes
+
+You can use different types of callouts to highlight important information:
+
+<Callout type="success" title="Pro Tip">
+Use callouts to draw attention to key points in your articles.
+</Callout>
+
+<Callout type="warning" title="Caution">
+Be mindful of how many interactive elements you add - too many can slow down the page.
+</Callout>
+
+<Callout type="error" title="Common Mistake">
+Don't forget to import your components in the MDXComponent.jsx file before using them.
+</Callout>
+
+## Collapsible Sections
+
+Use collapsibles for supplementary content or technical details:
+
+<Collapsible title="Click to expand: Technical Details">
+
+This section contains additional technical information that not every reader needs to see.
+
+You can include:
+- Code examples
+- Detailed explanations
+- Reference material
+
+The collapsible keeps your main content clean while still providing depth for interested readers.
+
+</Collapsible>
+
+<Collapsible title="Another Example: Data Sources" defaultOpen={false}>
+
+Here's where you might list your data sources or methodology:
+
+1. Source A - Primary research
+2. Source B - Industry reports
+3. Source C - Academic papers
+
+</Collapsible>
+
+## Combining Components
+
+You can even nest components for more complex layouts:
+
+<Collapsible title="Revenue Breakdown (Click to expand)">
+
+<InteractiveChart
+  type="doughnut"
+  title="Revenue by Source"
+  height={250}
+  data={{
+    labels: ['Product Sales', 'Services', 'Subscriptions', 'Other'],
+    datasets: [
+      {
+        data: [45, 25, 20, 10],
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.7)',
+          'rgba(54, 162, 235, 0.7)',
+          'rgba(255, 206, 86, 0.7)',
+          'rgba(75, 192, 192, 0.7)',
+        ],
+      },
+    ],
+  }}
+/>
+
+<Callout type="note">
+This chart shows the breakdown of revenue sources for Q4 2025.
+</Callout>
+
+</Collapsible>
+
+## Conclusion
+
+MDX gives you the flexibility to create rich, interactive articles while maintaining the simplicity of Markdown for regular text content. Use it wisely to enhance your readers' experience.

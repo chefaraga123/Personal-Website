@@ -27,6 +27,7 @@ import AI_Thinks_Like_The_Market from './pages/Writing/Articles/AI_Thinks_Like_T
 import Autonomous_Weapons from './pages/Writing/Articles/Autonomous_Weapons';
 import WhoSetThePrices from './pages/Writing/Articles/Who_set_the_prices_Who_Who';
 import Managerial_Ethics from './pages/Writing/Articles/Managerial_Ethics_Ethical_Micro_Management';
+import MDXExample from './pages/Writing/Articles/MDX_Example';
 /*Pages: Book Summaries */
 import BookSummary from './pages/Books/Book_Summaries/BookSummary';
 
@@ -67,6 +68,7 @@ const App = () => {
           <Route path="/Autonomous_Weapons" element={<Autonomous_Weapons />} />
           <Route path="/Who_set_the_prices_Who_Who" element={<WhoSetThePrices />} />
           <Route path="/Managerial-Ethics" element={<Managerial_Ethics />} />
+          <Route path="/MDX-Example" element={<MDXExample />} />
 
           <Route path="/Books" element={<Books />} />
 
