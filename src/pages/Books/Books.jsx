@@ -99,9 +99,6 @@ const Books = () => {
     return (
         <div>
             <Navigation />
-            <h2>Books I think are interesting enough to put on a list</h2>
-            <p>I am still working on this list and the inclusion of various book summaries</p>
-
             {bookOfTheDay && (
                 <div className={styles.bookOfTheDay}>
                     <h2>Book of the Day</h2>
