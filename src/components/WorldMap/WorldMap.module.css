@@ -1,0 +1,196 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 1.8rem;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 24px;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+}
+
+.sliderContainer {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.sliderLabel {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+}
+
+.slider {
+    width: 100%;
+    max-width: 600px;
+    height: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #ddd;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    background: #0056b3;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.yearMarkers {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 8px auto 0;
+    padding: 0 10px;
+}
+
+.yearMarker {
+    font-size: 0.75rem;
+    color: #888;
+    cursor: pointer;
+    padding: 4px;
+    transition: color 0.2s;
+}
+
+.yearMarker:hover {
+    color: #333;
+}
+
+.yearMarker.active {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.mapContainer {
+    position: relative;
+    background: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.tooltip {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    pointer-events: none;
+    z-index: 1000;
+    white-space: nowrap;
+}
+
+.legend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+.legendLabel {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.legendGradient {
+    width: 200px;
+    height: 12px;
+    background: linear-gradient(to right,
+        rgb(255, 255, 220),
+        rgb(254, 217, 142),
+        rgb(254, 153, 41),
+        rgb(217, 72, 1),
+        rgb(127, 0, 0)
+    );
+    border-radius: 2px;
+}
+
+.topEconomies {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.topEconomies h3 {
+    margin: 0 0 16px 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.economyList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 8px;
+}
+
+.economyItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background: white;
+    border-radius: 4px;
+}
+
+.rank {
+    font-weight: bold;
+    color: #007bff;
+    min-width: 24px;
+}
+
+.countryName {
+    flex: 1;
+}
+
+.gdpValue {
+    font-weight: 500;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .yearMarkers {
+        display: none;
+    }
+
+    .economyList {
+        grid-template-columns: 1fr;
+    }
+}

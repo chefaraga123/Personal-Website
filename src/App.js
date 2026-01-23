@@ -9,6 +9,7 @@ import About from './pages/About/About';
 import Writing from './pages/Writing/Writing';
 import Books from './pages/Books/Books';
 import KnowledgeGraph from './pages/KnowledgeGraph/KnowledgeGraph';
+import WorldMapPage from './pages/WorldMap/WorldMapPage';
 import Trackers from './pages/Trackers/Trackers';
 import Languages from './pages/Languages/Languages';
 
@@ -73,6 +74,7 @@ const App = () => {
           <Route path="/Books" element={<Books />} />
 
           <Route path="/knowledge-graph" element={<KnowledgeGraph />} />
+          <Route path="/world-map" element={<WorldMapPage />} />
                      
           <Route path="/books/:bookId" element={<BookSummary />} />
           
