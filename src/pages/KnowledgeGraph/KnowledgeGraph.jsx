@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 const KnowledgeGraph = () => {
     const navigate = useNavigate();
     const [graphData, setGraphData] = useState({ nodes: [], links: [] });
-    const [showLabels, setShowLabels] = useState(true);
+    const [showLabels, setShowLabels] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
     const [filteredNodes, setFilteredNodes] = useState([]);
     const [markdownContent, setMarkdownContent] = useState('');
