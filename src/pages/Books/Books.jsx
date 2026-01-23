@@ -12,11 +12,34 @@ const Books = () => {
     const [selectedGenres, setSelectedGenres] = useState([]);
     const [showReadBooks, setShowReadBooks] = useState(true); // New state for toggling visibility
     const [showWithSummary, setShowWithSummary] = useState(true); // New state for filtering books with summaries
+    const [bookOfTheDay, setBookOfTheDay] = useState(null);
+
+    // Function to get a deterministic "random" book based on the current date
+    const getBookOfTheDay = (booksWithSummaries) => {
+        if (booksWithSummaries.length === 0) return null;
+
+        const today = new Date();
+        const dateString = `${today.getFullYear()}-${today.getMonth()}-${today.getDate()}`;
+
+        // Simple hash function to convert date string to a number
+        let hash = 0;
+        for (let i = 0; i < dateString.length; i++) {
+            hash = ((hash << 5) - hash) + dateString.charCodeAt(i);
+            hash = hash & hash; // Convert to 32-bit integer
+        }
+
+        const index = Math.abs(hash) % booksWithSummaries.length;
+        return booksWithSummaries[index];
+    };
 
     useEffect(() => {
         // Set the fetched data to state
         setBooks(BookData);
         setFilteredBooks(BookData); // Initialize filtered books with all books
+
+        // Set book of the day from books with summaries
+        const booksWithSummaries = BookData.filter(book => book.summaryLink);
+        setBookOfTheDay(getBookOfTheDay(booksWithSummaries));
     }, []);
 
     // Function to handle genre selection
@@ -78,6 +101,28 @@ const Books = () => {
             <Navigation />
             <h2>Books I think are interesting enough to put on a list</h2>
             <p>I am still working on this list and the inclusion of various book summaries</p>
+
+            {bookOfTheDay && (
+                <div className={styles.bookOfTheDay}>
+                    <h2>Book of the Day</h2>
+                    <div className={styles.bookOfTheDayContent}>
+                        <Link to={bookOfTheDay.summaryLink} className={styles.bookOfTheDayLink}>
+                            <img
+                                src={bookOfTheDay.image}
+                                alt={bookOfTheDay.title}
+                                className={styles.bookOfTheDayImage}
+                            />
+                            <div className={styles.bookOfTheDayInfo}>
+                                <h3>{bookOfTheDay.title}</h3>
+                                <p className={styles.bookOfTheDayAuthor}>by {bookOfTheDay.author}</p>
+                                <p className={styles.bookOfTheDayGenres}>{bookOfTheDay.genre.join(', ')}</p>
+                                <span className={styles.readReviewLink}>Read Review →</span>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+            )}
+
             <div>
                 <h2>Filter by Genre:</h2>
                 <ul className={styles.genreList}>

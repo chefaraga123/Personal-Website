@@ -89,3 +89,85 @@
 .genreList li {
     margin-right: 15px; /* Space between checkboxes */
 }
+
+/* Book of the Day styles */
+.bookOfTheDay {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bookOfTheDay h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+}
+
+.bookOfTheDayContent {
+    display: flex;
+    justify-content: center;
+}
+
+.bookOfTheDayLink {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease;
+}
+
+.bookOfTheDayLink:hover {
+    transform: scale(1.02);
+}
+
+.bookOfTheDayImage {
+    width: 150px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.bookOfTheDayInfo {
+    text-align: left;
+}
+
+.bookOfTheDayInfo h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.4rem;
+}
+
+.bookOfTheDayAuthor {
+    margin: 0 0 8px 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.bookOfTheDayGenres {
+    margin: 0 0 12px 0;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.readReviewLink {
+    display: inline-block;
+    color: #007bff;
+    font-weight: 500;
+}
+
+.bookOfTheDayLink:hover .readReviewLink {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .bookOfTheDayLink {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bookOfTheDayInfo {
+        text-align: center;
+    }
+}
