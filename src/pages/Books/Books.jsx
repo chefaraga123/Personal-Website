@@ -97,7 +97,7 @@ const Books = () => {
     };
 
     return (
-        <div>
+        <div className={styles.booksContainer}>
             <Navigation />
             {bookOfTheDay && (
                 <div className={styles.bookOfTheDay}>

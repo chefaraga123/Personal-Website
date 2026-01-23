@@ -1,3 +1,9 @@
+.booksContainer {
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .books-list {
   list-style: none;
   padding: 0;
