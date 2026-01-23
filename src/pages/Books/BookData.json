@@ -467,64 +467,48 @@
     "title": "The Age of AI",
     "author": "Henry Kissinger",
     "genre": ["History", "Technology"],
-    "image": "/images/The_Age_of_AI_Cover.jpg",
-    "summaryLink": "/books/The_Age_of_AI_Kissinger",
-    "id": "The_Age_of_AI_Kissinger"
+    "image": "/images/The_Age_of_AI_Cover.jpg"
   },
   {
     "title": "Infinite Jest",
     "author": "David Foster Wallace",
     "genre": ["Fiction"],
-    "image": "/images/Infinite_Jest_Cover.jpg",
-    "summaryLink": "/books/Infinite_Jest",
-    "id": "Infinite_Jest"
+    "image": "/images/Infinite_Jest_Cover.jpg"
   },
   {
     "title": "The Secret History",
     "author": "Donna Tart",
     "genre": ["Fiction"],
-    "image": "/images/The_Secret_History_Cover.jpg",
-    "summaryLink": "/books/The_Secret_History",
-    "id": "The_Secret_History"
+    "image": "/images/The_Secret_History_Cover.jpg"
   },
   {
     "title": "The Closing of the American Mind",
     "author": "Allan Bloom",
     "genre": ["History", "Philosophy"],
-    "image": "/images/The_Closing_of_the_American_Mind_Cover.jpg",
-    "summaryLink": "/books/The_Closing_of_the_American_Mind",
-    "id": "The_Closing_of_the_American_Mind"
+    "image": "/images/The_Closing_of_the_American_Mind_Cover.jpg"
   },
   {
     "title": "Crime and Punishment",
     "author": "Fyodor Dostoevsky",
     "genre": ["Fiction"],
-    "image": "/images/Crime_and_Punishment_Cover.jpg",
-    "summaryLink": "/books/Crime_and_Punishment",
-    "id": "Crime_and_Punishment"
+    "image": "/images/Crime_and_Punishment_Cover.jpg"
   },
   {
     "title": "Fear and Loathing on the Campaign Trail '72",
     "author": "Hunter S Thompson",
     "genre": ["Fiction"],
-    "image": "/images/Fear_and_Loathing_on_the_Campaign_Trail_72_Cover.jpg",
-    "summaryLink": "/books/Fear_and_Loathing_on_the_Campaign_Trail_72",
-    "id": "Fear_and_Loathing_on_the_Campaign_Trail_72"
+    "image": "/images/Fear_and_Loathing_on_the_Campaign_Trail_72_Cover.jpg"
   },
   {
     "title": "Hells Angels",
     "author": "Hunter S Thompson",
     "genre": ["Fiction"],
-    "image": "/images/Hells_Angels_Cover.jpg",
-    "summaryLink": "/books/Hells_Angels",
-    "id": "Hells_Angels"
+    "image": "/images/Hells_Angels_Cover.jpg"
   },
   {
     "title": "Alanbrooke War Diaries",
     "author": "Alan Brooke",
     "genre": ["History", "Warfare"],
-    "image": "/images/Alanbrooke_War_Diaries_Cover.jpg",
-    "summaryLink": "/books/Alanbrooke_War_Diaries",
-    "id": "Alanbrooke_War_Diaries"
+    "image": "/images/Alanbrooke_War_Diaries_Cover.jpg"
   }
 ]
