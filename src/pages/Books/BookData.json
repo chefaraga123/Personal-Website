@@ -510,5 +510,47 @@
     "author": "Alan Brooke",
     "genre": ["History", "Warfare"],
     "image": "/images/Alanbrooke_War_Diaries_Cover.jpg"
+  },
+  {
+    "title": "There is no Anti-Mimetics Division",
+    "author": "Qntm",
+    "genre": ["Fiction"],
+    "image": "/images/There_is_no_AntiMimetics_Division_Cover.jpeg"
+  },
+  {
+    "title": "Annihalation",
+    "author": "Michel Houellebecq",
+    "genre": ["Fiction"],
+    "image": "/images/Annihalation_Cover.jpg"
+  },
+  {
+    "title": "Submission",
+    "author": "Michel Houellebecq",
+    "genre": ["Fiction"],
+    "image": "/images/Submission_Cover.jpg"
+  },
+  {
+    "title":"Serotonin",
+    "author": "Michel Houellebecq",
+    "genre": ["Fiction"],
+    "image": "/images/Serotonin_Cover.jpeg"
+  },
+  {
+    "title":"The Map and the Territory",
+    "author": "Michel Houellebecq",
+    "genre": ["Fiction"],
+    "image": "/images/The_Map_and_the_Territory_Cover.jpg"
+  },
+  {
+    "title":"Atomised",
+    "author": "Michel Houellebecq",
+    "genre": ["Fiction"],
+    "image": "/images/Atomised_Cover.jpeg"
+  }, 
+  {
+    "title":"Zero to One",
+    "author": "Peter Thiel",
+    "genre": ["Business"],
+    "image": "/images/Zero_to_One_Cover.jpg"
   }
 ]
