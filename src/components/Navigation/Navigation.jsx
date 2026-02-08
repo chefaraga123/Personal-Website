@@ -36,6 +36,14 @@ const Navigation = () => {
             >
                 World Map
             </NavLink>
+            <a
+                href="https://tracker.jamesoleary.xyz"
+                className={styles.navLink}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Tracker
+            </a>
         </div>
     );
 };
