@@ -60,7 +60,7 @@
     color: #666;
 }
 
-button {
+.contents button {
     margin-right: 10px; /* Space between buttons */
     padding: 5px 10px; /* Button padding */
     border: none; /* Remove border */
@@ -70,7 +70,7 @@ button {
     color: white; /* Button text color */
 }
 
-button:hover {
+.contents button:hover {
     background-color: #0056b3; /* Darker background on hover */
 }
   

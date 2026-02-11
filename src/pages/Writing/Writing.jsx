@@ -32,13 +32,40 @@ const Writing = () => {
             </Helmet>
             <Navigation />
             <h1>My Writings</h1>
-            <div>
-                <button onClick={() => handleFilterChange('all')}>All</button>
-                <button onClick={() => handleFilterChange('Footium')}>Footium</button>
-                <button onClick={() => handleFilterChange('Philosophy')}>philosophy</button>
-                <button onClick={() => handleFilterChange('Computer-Science')}>Computer-Science</button>
-                <button onClick={() => handleFilterChange('Economics')}>Economics</button>
+
+            <div className={styles.filterBar}>
+                <button
+                    className={`${styles.filterButton} ${filter === 'all' ? styles.filterButtonActive : ''}`}
+                    onClick={() => handleFilterChange('all')}
+                >
+                    All
+                </button>
+                <button
+                    className={`${styles.filterButton} ${filter === 'Footium' ? styles.filterButtonActive : ''}`}
+                    onClick={() => handleFilterChange('Footium')}
+                >
+                    Footium
+                </button>
+                <button
+                    className={`${styles.filterButton} ${filter === 'Philosophy' ? styles.filterButtonActive : ''}`}
+                    onClick={() => handleFilterChange('Philosophy')}
+                >
+                    Philosophy
+                </button>
+                <button
+                    className={`${styles.filterButton} ${filter === 'Computer-Science' ? styles.filterButtonActive : ''}`}
+                    onClick={() => handleFilterChange('Computer-Science')}
+                >
+                    Computer Science
+                </button>
+                <button
+                    className={`${styles.filterButton} ${filter === 'Economics' ? styles.filterButtonActive : ''}`}
+                    onClick={() => handleFilterChange('Economics')}
+                >
+                    Economics
+                </button>
             </div>
+
             <p>{qualifyingArticles} articles found.</p>
             <ContentsComponent sections={[...sections].reverse()} filter={filter} />
 
