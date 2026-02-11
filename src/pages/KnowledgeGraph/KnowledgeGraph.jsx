@@ -11,7 +11,7 @@ const KnowledgeGraph = () => {
 
     // When enabled, we render labels, but only for "important" nodes (selected, hovered, search matches, neighbors).
     // Rendering every label makes the graph unusable on mobile.
-    const [showLabels, setShowLabels] = useState(false);
+    const [showLabels] = useState(true);
 
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedNode, setSelectedNode] = useState(null);
@@ -122,7 +122,6 @@ const KnowledgeGraph = () => {
         }
 
         focusNode(node);
-        if (!showLabels) setShowLabels(true);
     };
 
     const renderNode = (node, ctx, globalScale) => {
@@ -184,9 +183,7 @@ const KnowledgeGraph = () => {
         }
     };
 
-    const toggleLabels = () => {
-        setShowLabels(!showLabels);
-    };
+    // labels are always on by default
 
     return (
         <div className={styles.graphContainer}>
@@ -201,9 +198,7 @@ const KnowledgeGraph = () => {
                     onKeyDown={handleSearchKeyDown}
                     className={styles.searchInput}
                 />
-                <button className={styles.button} onClick={toggleLabels}>
-                    {showLabels ? 'Hide Labels' : 'Show Labels'}
-                </button>
+                {/* Labels are always on by default */}
                 <div className={styles.hint}>
                     Tip: tap a node to highlight; tap again to open the note.
                 </div>
