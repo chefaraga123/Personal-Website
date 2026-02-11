@@ -11,7 +11,7 @@ const KnowledgeGraph = () => {
 
     // When enabled, we render labels, but only for "important" nodes (selected, hovered, search matches, neighbors).
     // Rendering every label makes the graph unusable on mobile.
-    const [showLabels, setShowLabels] = useState(false);
+    const [showLabels] = useState(true);
 
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedNode, setSelectedNode] = useState(null);
@@ -71,6 +71,27 @@ const KnowledgeGraph = () => {
         return ids;
     }, [searchMatches, selectedNode, hoverNode, adjacency]);
 
+    const nodeDegree = useMemo(() => {
+        const deg = new Map();
+        for (const n of graphData.nodes) deg.set(n.id, 0);
+        for (const l of graphData.links) {
+            const s = typeof l.source === 'object' ? l.source.id : l.source;
+            const t = typeof l.target === 'object' ? l.target.id : l.target;
+            deg.set(s, (deg.get(s) || 0) + 1);
+            deg.set(t, (deg.get(t) || 0) + 1);
+        }
+        return deg;
+    }, [graphData.nodes, graphData.links]);
+
+    const selectionNodeIds = useMemo(() => {
+        // When a node is selected, we only want labels for that node + its 1-hop neighbors.
+        if (!selectedNode?.id) return null;
+        const ids = new Set([selectedNode.id]);
+        const neigh = adjacency.get(selectedNode.id);
+        if (neigh) for (const id of neigh) ids.add(id);
+        return ids;
+    }, [selectedNode, adjacency]);
+
     const handleSearchChange = (event) => {
         setSearchQuery(event.target.value);
     };
@@ -110,7 +131,6 @@ const KnowledgeGraph = () => {
         }
 
         focusNode(node);
-        if (!showLabels) setShowLabels(true);
     };
 
     const renderNode = (node, ctx, globalScale) => {
@@ -130,27 +150,51 @@ const KnowledgeGraph = () => {
                 : 'rgba(180, 200, 220, 0.75)';
         ctx.fill();
 
-        // Labels (only for highlighted nodes)
-        if (showLabels && isHighlighted) {
+        // Labels
+        // If a node is selected: ONLY show labels for the selected node + its connected nodes.
+        // Otherwise: show labels for nodes with >3 connections (plus highlighted nodes).
+        const degree = nodeDegree.get(node.id) || 0;
+        const shouldLabel = showLabels && (selectionNodeIds
+            ? selectionNodeIds.has(node.id)
+            : (degree > 3 || isHighlighted));
+
+        if (shouldLabel) {
             const label = node.label;
             const fontSize = Math.max(10, 14 / globalScale);
             ctx.font = `${fontSize}px Sans-Serif`;
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
 
+            // Simple collision avoidance: skip labels whose bounding box would overlap
+            // a label already drawn this frame.
+            const boxes = ctx.__labelBoxes || (ctx.__labelBoxes = []);
+            const textWidth = ctx.measureText(label).width;
+            const padX = 6;
+            const padY = 4;
+            const x = node.x;
+            const y = node.y + 16;
+            const box = {
+                x1: x - textWidth / 2 - padX,
+                y1: y - fontSize / 2 - padY,
+                x2: x + textWidth / 2 + padX,
+                y2: y + fontSize / 2 + padY,
+            };
+
+            const overlaps = boxes.some(b => !(box.x2 < b.x1 || box.x1 > b.x2 || box.y2 < b.y1 || box.y1 > b.y2));
+            if (overlaps) return;
+            boxes.push(box);
+
             // White halo for legibility
             ctx.lineWidth = 3;
             ctx.strokeStyle = 'rgba(255,255,255,0.9)';
-            ctx.strokeText(label, node.x, node.y + 16);
+            ctx.strokeText(label, x, y);
 
             ctx.fillStyle = 'rgba(0,0,0,0.9)';
-            ctx.fillText(label, node.x, node.y + 16);
+            ctx.fillText(label, x, y);
         }
     };
 
-    const toggleLabels = () => {
-        setShowLabels(!showLabels);
-    };
+    // labels are always on by default
 
     return (
         <div className={styles.graphContainer}>
@@ -165,9 +209,7 @@ const KnowledgeGraph = () => {
                     onKeyDown={handleSearchKeyDown}
                     className={styles.searchInput}
                 />
-                <button className={styles.button} onClick={toggleLabels}>
-                    {showLabels ? 'Hide Labels' : 'Show Labels'}
-                </button>
+                {/* Labels are always on by default */}
                 <div className={styles.hint}>
                     Tip: tap a node to highlight; tap again to open the note.
                 </div>
@@ -179,6 +221,10 @@ const KnowledgeGraph = () => {
                 nodeAutoColorBy="group"
                 onNodeClick={handleNodeClick}
                 onNodeHover={setHoverNode}
+                onRenderFramePre={(ctx) => {
+                    // Reset label collision state each frame.
+                    ctx.__labelBoxes = [];
+                }}
                 nodeCanvasObject={renderNode}
                 nodeCanvasObjectMode={() => 'before'}
                 linkColor={() => 'rgba(120,120,120,0.35)'}
