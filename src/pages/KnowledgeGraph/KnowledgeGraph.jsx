@@ -83,6 +83,15 @@ const KnowledgeGraph = () => {
         return deg;
     }, [graphData.nodes, graphData.links]);
 
+    const selectionNodeIds = useMemo(() => {
+        // When a node is selected, we only want labels for that node + its 1-hop neighbors.
+        if (!selectedNode?.id) return null;
+        const ids = new Set([selectedNode.id]);
+        const neigh = adjacency.get(selectedNode.id);
+        if (neigh) for (const id of neigh) ids.add(id);
+        return ids;
+    }, [selectedNode, adjacency]);
+
     const handleSearchChange = (event) => {
         setSearchQuery(event.target.value);
     };
@@ -142,10 +151,12 @@ const KnowledgeGraph = () => {
         ctx.fill();
 
         // Labels
-        // Default: only show labels for nodes with >3 connections.
-        // Always allow highlighted nodes (search/hover/selected) so the UI still feels responsive.
+        // If a node is selected: ONLY show labels for the selected node + its connected nodes.
+        // Otherwise: show labels for nodes with >3 connections (plus highlighted nodes).
         const degree = nodeDegree.get(node.id) || 0;
-        const shouldLabel = showLabels && (degree > 3 || isHighlighted);
+        const shouldLabel = showLabels && (selectionNodeIds
+            ? selectionNodeIds.has(node.id)
+            : (degree > 3 || isHighlighted));
 
         if (shouldLabel) {
             const label = node.label;
