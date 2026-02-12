@@ -552,5 +552,10 @@
     "author": "Peter Thiel",
     "genre": ["Business"],
     "image": "/images/Zero_to_One_Cover.jpg"
+  }, 
+  { "title":"Strategy",
+    "author": "B. H. Liddell Hart",
+    "genre": ["History", "Warfare"],
+    "image": "/images/Strategy_Cover.jpg"
   }
 ]
