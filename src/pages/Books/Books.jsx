@@ -8,9 +8,7 @@ import ReactMarkdown from 'react-markdown'; // Import the library
 const Books = () => {
     const [books, setBooks] = useState([]);
     const [filteredBooks, setFilteredBooks] = useState([]);
-    const [toReadBooks, setToReadBooks] = useState([]); // New state for To Read books
     const [selectedGenres, setSelectedGenres] = useState([]);
-    const [showReadBooks, setShowReadBooks] = useState(true); // New state for toggling visibility
     const [showWithSummary, setShowWithSummary] = useState(false); // New state for filtering books with summaries
     const [bookOfTheDay, setBookOfTheDay] = useState(null);
 
@@ -66,11 +64,6 @@ const Books = () => {
             setFilteredBooks(filtered);
         }
     }, [selectedGenres, books]);
-
-    // Function to toggle the visibility of the read books
-    const toggleReadBooks = () => {
-        setShowReadBooks(!showReadBooks);
-    };
 
     // Function to handle the summary filter
     const handleSummaryFilter = () => {
@@ -149,49 +142,27 @@ const Books = () => {
                     Show only books with summaries
                 </label>
             </div>
-            <h2 onClick={toggleReadBooks} style={{ cursor: 'pointer' }}>
-                Books I've Read {showReadBooks ? '▲' : '▼'}
-            </h2>
-            {showReadBooks && ( // Conditionally render the bookshelf
-                <div className={styles.bookshelf}>
-                    {filteredBooks
-                        .filter(book => !showWithSummary || book.summaryLink) // Filter based on summary
-                        .map((book, index) => (
-                            <div key={index} className={styles.bookItem}>
-                                <Link to={book.summaryLink}>
-                                    <img src={book.image} alt={book.title} className={styles.bookImage} />
-                                    <div className={styles.bookInfo}>
-                                        <strong>Title:</strong> {book.title} <br />
-                                        <strong>Author:</strong> {book.author} <br />
-                                        <strong>Genres:</strong> {book.genre.join(', ')} <br />
-                                        {book.summaryLink && <span className={styles.summaryFlag}>📖</span>} {/* Flag for summary */}
-                                    </div>
-                                </Link>
-                                {book.summary && ( // Render the summary if it exists
-                                    <div className={styles.summary}>
-                                        {renderSummary(book.summary)} {/* Render Markdown summary with links */}
-                                    </div>
-                                )}
-                            </div>
-                        ))}
-                </div>
-            )}
-            <h2>Books I'm planning to read</h2>
-
             <div className={styles.bookshelf}>
-                {toReadBooks.map((book, index) => (
-                    <div key={index} className={styles.bookItem}>
-                        <Link to={book.summaryLink}>
-                            <img src={book.image} alt={book.title} className={styles.bookImage} />
-                            <div className={styles.bookInfo}>
-                                <strong>Title:</strong> {book.title} <br />
-                                <strong>Author:</strong> {book.author} <br />
-                                <strong>Genres:</strong> {book.genre.join(', ')} <br />
-                                {book.summaryLink && <span className={styles.summaryFlag}>📖</span>} {/* Flag for summary */}
-                            </div>
-                        </Link>
-                    </div>
-                ))}
+                {filteredBooks
+                    .filter(book => !showWithSummary || book.summaryLink)
+                    .map((book, index) => (
+                        <div key={index} className={styles.bookItem}>
+                            <Link to={book.summaryLink}>
+                                <img src={book.image} alt={book.title} className={styles.bookImage} />
+                                <div className={styles.bookInfo}>
+                                    <strong>Title:</strong> {book.title} <br />
+                                    <strong>Author:</strong> {book.author} <br />
+                                    <strong>Genres:</strong> {book.genre.join(', ')} <br />
+                                    {book.summaryLink && <span className={styles.summaryFlag}>📖</span>}
+                                </div>
+                            </Link>
+                            {book.summary && (
+                                <div className={styles.summary}>
+                                    {renderSummary(book.summary)}
+                                </div>
+                            )}
+                        </div>
+                    ))}
             </div>
         </div>
     );
