@@ -8,6 +8,7 @@ const Home = () => {
             <Navigation />
             <section className={styles.recentUpdates}>
                 <h2>Updates</h2>
+                <p>12/02/2026: <b>Shipped</b> <a href="https://tracker.jamesoleary.xyz">Tracker</a> for tracking habits and metrics</p>
                 <p>23/01/2026: <b>Shipped</b> Updated the books page with a book of the day</p>
                 <p>15/05/2025: <b>Article:</b> <a href="/Managerial-Ethics">Managerial Ethics & Ethical Micro-Management</a></p>
                 <p>10/05/2025: <b>Article:</b> <a href="/Who_set_the_prices_Who_Who">Who set the prices? Who. Who.</a></p>
