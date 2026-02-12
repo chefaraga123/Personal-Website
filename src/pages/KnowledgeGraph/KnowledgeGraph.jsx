@@ -138,8 +138,8 @@ const KnowledgeGraph = () => {
         const isSelected = selectedNode?.id === node.id;
 
         // Node dot
-        const baseR = 4;
-        const r = isSelected ? 7 : isHighlighted ? 5.5 : baseR;
+        const baseR = 6;
+        const r = isSelected ? 9 : isHighlighted ? 7.5 : baseR;
 
         ctx.beginPath();
         ctx.arc(node.x, node.y, r, 0, 2 * Math.PI, false);
