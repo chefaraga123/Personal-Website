@@ -85,15 +85,39 @@
     height: auto; /* Maintain aspect ratio */
 }
 
-.genreList {
-    display: flex; /* Use flexbox for horizontal layout */
-    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
-    list-style-type: none; /* Remove default list styling */
-    padding: 0; /* Remove default padding */
+.filterPills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
 }
 
-.genreList li {
-    margin-right: 15px; /* Space between checkboxes */
+.pill {
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1.5px solid #999;
+    background: transparent;
+    color: #555;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.pill:hover {
+    border-color: #333;
+    color: #333;
+}
+
+.pillActive {
+    background: #1a4480;
+    border-color: #1a4480;
+    color: #fff;
+}
+
+.pillActive:hover {
+    background: #143a6b;
+    border-color: #143a6b;
+    color: #fff;
 }
 
 /* Book of the Day styles */

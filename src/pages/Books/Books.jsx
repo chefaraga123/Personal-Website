@@ -113,34 +113,25 @@ const Books = () => {
                 </div>
             )}
 
-            <div>
-                <h2>Filter by Genre:</h2>
-                <ul className={styles.genreList}>
-                    {["Biography", "History", "Politics", 
-                    "Warfare", "Technology", "Philosophy", 
-                    "Economics", "Management", "Mathematics", 
-                    "Engineering", "Sociology", "Fiction"].map((genre) => (
-                        <li key={genre}>
-                            <label>
-                                <input
-                                    type="checkbox"
-                                    value={genre}
-                                    checked={selectedGenres.includes(genre)}
-                                    onChange={() => handleGenreSelect(genre)}
-                                />
-                                {genre}
-                            </label>
-                        </li>
-                    ))}
-                </ul>
-                <label>
-                    <input
-                        type="checkbox"
-                        checked={showWithSummary}
-                        onChange={handleSummaryFilter}
-                    />
-                    Show only books with summaries
-                </label>
+            <div className={styles.filterPills}>
+                {["Biography", "History", "Politics",
+                "Warfare", "Technology", "Philosophy",
+                "Economics", "Management", "Mathematics",
+                "Engineering", "Sociology", "Fiction"].map((genre) => (
+                    <button
+                        key={genre}
+                        className={`${styles.pill} ${selectedGenres.includes(genre) ? styles.pillActive : ''}`}
+                        onClick={() => handleGenreSelect(genre)}
+                    >
+                        {genre}
+                    </button>
+                ))}
+                <button
+                    className={`${styles.pill} ${showWithSummary ? styles.pillActive : ''}`}
+                    onClick={handleSummaryFilter}
+                >
+                    Has summary
+                </button>
             </div>
             <div className={styles.bookshelf}>
                 {filteredBooks
