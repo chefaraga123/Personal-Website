@@ -30,12 +30,6 @@ const Navigation = () => {
             >
                 Knowledge Graph
             </NavLink>
-            <NavLink
-                to="/world-map"
-                className={({ isActive }) => isActive ? `${styles.navLink} ${styles.active}` : styles.navLink}
-            >
-                World Map
-            </NavLink>
             <a
                 href="https://tracker.jamesoleary.xyz"
                 className={styles.navLink}
