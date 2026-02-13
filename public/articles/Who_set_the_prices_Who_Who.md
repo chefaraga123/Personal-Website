@@ -1,6 +1,8 @@
 
 # Introduction 
-The 3G Auctions were the great success of applied economics, The Biggest Auction Ever, the sale of the British 3G Telecom Licences generated over £22bn in revenue for the British Treasury over 2% of British GDP at the time. At the heart of this was the Simultaneous Multiple Round Ascending Auction (SMRA), an auction format designed to generate revenue for the Treasury whilst allocating spectrum to those firms that would most effectively develop advanced telecoms for the general public. 
+In 2000 the British government auctioned off 3G telecom licences. This sale produced over £22 billion in revenue, over 2% of British GDP at the time. Called The Biggest Auction Ever, amongst economists it was heralded as a great success for the discipline. 
+
+This auction didn't follow a typical format like an English or Dutch Auction, it was the Simultaneous Multiple Round Ascending Auction. This auction was designed for purpose, taking into account the incentives of this particular group of bidders, and the longer-term social welfare objectives of the government.
 
 Whilst not representative of the general success of auction theory, mechanism design or one of a number of potential discipline names, it's the most high profile example of the use of synthetic markets for a particular end. These markets are synthetic because they are deliberately constructed by policy makers for a specific purpose - in (perhaps superficial!) contrast to the reified market signified when one generically refers to ‘the market’ 
 
