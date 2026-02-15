@@ -1,28 +1,13 @@
-.homeContainer {
+.page {
     padding: 20px;
     text-align: center;
-}
-
-h1 {
-    color: #333;
-    font-size: 2.5rem;
-}
-
-p {
-    color: #666;
-    font-size: 1.2rem;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
 }
 
-section {
+.page section {
     padding: 50px 20px;
     margin: 20px auto;
     max-width: 900px;
@@ -31,31 +16,41 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
+/* Section hooks (kept for clarity / future tweaks) */
+.intro {}
+.languages {}
+.progress {}
+
+.page h1,
+.page h2,
+.page h3 {
     color: #0056b3;
     margin-bottom: 20px;
 }
 
-p {
+.page p {
     margin-bottom: 15px;
+    color: #666;
+    font-size: 1.1rem;
 }
 
-a {
+.page section a {
     color: #007bff;
     text-decoration: none;
 }
-a:hover {
+
+.page section a:hover {
     text-decoration: underline;
 }
 
-.language-grid {
+.languageGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     margin-top: 20px;
 }
 
-.language-card {
+.languageCard {
     background: #eef2f7;
     padding: 20px;
     border-radius: 8px;
@@ -63,62 +58,7 @@ a:hover {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.language-card img {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
-}
-
-.language-card h3 {
-    margin: 10px 0;
-    font-size: 1.2em;
-    color: #333;
-}
-
-
-.timeline {
-    position: relative;
-    margin: 20px 0;
-    padding: 0;
-    list-style: none;
-}
-
-.timeline::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    width: 2px;
-    height: 100%;
-    background: #ccc;
-    transform: translateX(-50%);
-}
-
-.timeline-item {
-    position: relative;
-    margin: 20px 0;
-    padding-left: 60px;
-    text-align: left;
-}
-
-.timeline-item:nth-child(odd) {
-    text-align: right;
-    padding-left: 0;
-    padding-right: 60px;
-}
-
-.timeline-item::before {
-    content: '';
-    position: absolute;
-    top: 5px;
-    left: 50%;
-    width: 15px;
-    height: 15px;
-    background: #0056b3;
-    border-radius: 50%;
-    transform: translateX(-50%);
-}
-
-.progress-container {
+.progressContainer {
     background: #f3f3f3;
     border-radius: 20px;
     width: 100%;
@@ -127,28 +67,29 @@ a:hover {
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
 }
 
-.progress-bar {
+.progressBar {
     height: 20px;
     background: linear-gradient(90deg, #007bff, #00d4ff);
-    width: 70%; /* Update this width dynamically with JS */
     transition: width 0.4s ease;
     border-radius: 20px;
 }
+
 .timeline {
     display: flex;
-    justify-content: center; /* Centers the timeline horizontally */
-    align-items: center; /* Centers the content vertically (optional) */
-    flex-direction: column; /* Ensures items stack vertically */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 20px;
-    margin: 0 auto; /* Centers the section on the page */
-    text-align: center; /* Aligns text to the center */
-    max-width: 800px; /* Optional: Adds a fixed width to the section */
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
 }
 
 .timelineList {
     position: relative;
     list-style: none;
     padding: 0;
+    width: 100%;
 }
 
 .timelineList::before {

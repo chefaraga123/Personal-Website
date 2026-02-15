@@ -53,6 +53,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/writing" element={<Writing />} /> 
+          <Route path="/languages" element={<Languages />} />
 
           
           <Route path="/Emergence" element={<Emergence />} />
@@ -71,6 +72,7 @@ const App = () => {
           <Route path="/Managerial-Ethics" element={<Managerial_Ethics />} />
           <Route path="/MDX-Example" element={<MDXExample />} />
 
+          <Route path="/books" element={<Books />} />
           <Route path="/Books" element={<Books />} />
 
           <Route path="/knowledge-graph" element={<KnowledgeGraph />} />
