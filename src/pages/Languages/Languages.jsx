@@ -6,7 +6,7 @@ import Navigation from '../../components/Navigation/Navigation';
 
 const Home = () => {
     return (
-        <div>
+        <div className={styles.page}>
             <Navigation />
             <section className={styles.intro}>
                 <h1>My Language Learning Journey</h1>
