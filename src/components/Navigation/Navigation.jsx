@@ -31,12 +31,6 @@ const Navigation = () => {
                 Knowledge Graph
             </NavLink>
             <NavLink
-                to="/world-map"
-                className={({ isActive }) => isActive ? `${styles.navLink} ${styles.active}` : styles.navLink}
-            >
-                World Map
-            </NavLink>
-            <NavLink
                 to="/languages"
                 className={({ isActive }) => isActive ? `${styles.navLink} ${styles.active}` : styles.navLink}
             >
