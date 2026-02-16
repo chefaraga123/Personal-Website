@@ -19,7 +19,6 @@ import Urbanisation from './pages/Writing/Articles/Urbanisation_Virtual_Worlds';
 import ZkGaming from './pages/Writing/Articles/Zks_Gaming';
 import ZKIntroduction from './pages/Writing/Articles/ZKs_Introduction';
 import Non_Custodial_Accounts from './pages/Writing/Articles/Non__Custodial_Accounts';
-import Reason_For_Footium from './pages/Writing/Articles/Reason_For_Footium';
 import Recapping_2024 from './pages/Writing/Articles/Recapping_2024';
 import Footium_Biggest_IP from './pages/Writing/Articles/Footium_Biggest_IP';
 import Marketplace_of_Ideas from './pages/Writing/Articles/Marketplace_of_Ideas';
@@ -61,7 +60,6 @@ const App = () => {
           <Route path="/introduction-zks-gaming" element={<ZkGaming />} />
           <Route path="/introduction-zks" element={<ZKIntroduction />} />
           <Route path="/Non-custodial-account" element={<Non_Custodial_Accounts />} />
-          <Route path="/Reason-For-Footium" element={<Reason_For_Footium />} />
           <Route path="/Recapping-2024" element={<Recapping_2024 />} />
           <Route path="/Footium-Biggest-IP" element={<Footium_Biggest_IP />} />
           <Route path="/Marketplace-of-Ideas" element={<Marketplace_of_Ideas />} />
