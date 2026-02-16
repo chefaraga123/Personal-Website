@@ -70,6 +70,20 @@ const Books = () => {
         setShowWithSummary(!showWithSummary);
     };
 
+    // Compute the final displayed books (genre + summary filters applied)
+    const displayedBooks = filteredBooks.filter(book => !showWithSummary || book.summaryLink);
+
+    // Count books per genre within the displayed set
+    const genreCountMap = {};
+    const genres = ["Biography", "History", "Politics", "Warfare", "Technology", "Philosophy",
+        "Economics", "Management", "Mathematics", "Engineering", "Sociology", "Fiction"];
+    genres.forEach(genre => {
+        genreCountMap[genre] = displayedBooks.filter(book => book.genre.includes(genre)).length;
+    });
+
+    // Count books with summaries within the genre-filtered set
+    const summaryCount = filteredBooks.filter(book => book.summaryLink).length;
+
     const renderSummary = (summary) => {
         // Replace note links with actual links to the public notes
         const regex = /\[(.*?)\]\((notes\/.*?\.md)\)/g; // Regex to match [text](notes/filename.md)
@@ -114,28 +128,25 @@ const Books = () => {
             )}
 
             <div className={styles.filterPills}>
-                {["Biography", "History", "Politics",
-                "Warfare", "Technology", "Philosophy",
-                "Economics", "Management", "Mathematics",
-                "Engineering", "Sociology", "Fiction"].map((genre) => (
+                {genres.map((genre) => (
                     <button
                         key={genre}
                         className={`${styles.pill} ${selectedGenres.includes(genre) ? styles.pillActive : ''}`}
                         onClick={() => handleGenreSelect(genre)}
                     >
-                        {genre}
+                        {genre} <span className={styles.pillCount}>{genreCountMap[genre]}</span>
                     </button>
                 ))}
                 <button
                     className={`${styles.pill} ${showWithSummary ? styles.pillActive : ''}`}
                     onClick={handleSummaryFilter}
                 >
-                    Has summary
+                    Has summary <span className={styles.pillCount}>{summaryCount}</span>
                 </button>
             </div>
+            <p className={styles.resultCount}>Showing {displayedBooks.length} {displayedBooks.length === 1 ? 'book' : 'books'}</p>
             <div className={styles.bookshelf}>
-                {filteredBooks
-                    .filter(book => !showWithSummary || book.summaryLink)
+                {displayedBooks
                     .map((book, index) => (
                         <div key={index} className={styles.bookItem}>
                             <Link to={book.summaryLink}>
