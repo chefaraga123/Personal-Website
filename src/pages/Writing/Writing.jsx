@@ -31,7 +31,6 @@ const Writing = () => {
                 <link rel="canonical" href={typeof window !== 'undefined' ? window.location.href : 'https://yourwebsite.com/writing'} />
             </Helmet>
             <Navigation />
-            <h1>My Writings</h1>
 
             <div className={styles.filterBar}>
                 <button
