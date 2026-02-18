@@ -64,5 +64,9 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
+  },
+  "overrides": {
+    "3d-force-graph": "1.73.0",
+    "three-render-objects": "1.29.0"
   }
 }
