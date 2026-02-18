@@ -6,13 +6,17 @@ import styles from './NoteViewer.module.css';
 const NoteViewer = ({ noteName }) => {
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
+    const [notFound, setNotFound] = useState(false);
     const [prevNote, setPrevNote] = useState(null);
     const [nextNote, setNextNote] = useState(null);
 
     useEffect(() => {
         fetch(`/notes/${noteName}.md`)
             .then(response => {
-                if (!response.ok) throw new Error('Network response was not ok');
+                if (!response.ok) throw new Error('Not found');
+                // SPA servers return index.html (text/html, 200) for missing files
+                const ct = response.headers.get('Content-Type') || '';
+                if (ct.includes('text/html')) throw new Error('Not found');
                 return response.text();
             })
             .then(data => {
@@ -26,7 +30,11 @@ const NoteViewer = ({ noteName }) => {
                     setBody(data);
                 }
             })
-            .catch(error => console.error('Error fetching note:', error));
+            .catch(error => {
+                console.error('Error fetching note:', error);
+                setNotFound(true);
+                setTitle(noteName.replace(/_/g, ' '));
+            });
     }, [noteName]);
 
     useEffect(() => {
@@ -55,7 +63,11 @@ const NoteViewer = ({ noteName }) => {
         <div className={styles.noteWrapper}>
             <h1 className={styles.noteTitle}>{title}</h1>
             <div className={styles.noteContainer}>
-                <ReactMarkdown
+                {notFound ? (
+                    <p style={{ color: 'rgba(0,0,0,0.45)', fontStyle: 'italic' }}>
+                        Note not found.
+                    </p>
+                ) : <ReactMarkdown
                     components={{
                         a: ({ href, children }) =>
                             href?.startsWith('/') ? (
@@ -66,7 +78,7 @@ const NoteViewer = ({ noteName }) => {
                     }}
                 >
                     {parseWikilinks(body)}
-                </ReactMarkdown>
+                </ReactMarkdown>}
             </div>
             <div className={styles.noteNav}>
                 <div className={styles.noteNavPrev}>
