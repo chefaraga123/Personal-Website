@@ -2,5 +2,5 @@
 - Openness means that an exchange with the environment takes place 
 - A meaning system obtains information from its environment 
 - The exchange relationship between system and environment is what is designated by the term open systems. 
-- We can see a difference between **[System-to-system relations](../notes/System-to-system_relations)** and the **[System-Environment Paradigm](../notes/System-Environment_Paradigm)**
+- We can see a difference between [[System-to-system relations]] and the [[System-Environment Paradigm]]
 - 

@@ -1,1 +1,1 @@
-- **[Economic Rationality](../notes/Economic_Rationality)** is a weak epistemology, a strong epistemological theory of decision making depends on our ability to specify ways in which inputs of the past determine the present images of the future. 
+- [[Economic Rationality]] is a weak epistemology, a strong epistemological theory of decision making depends on our ability to specify ways in which inputs of the past determine the present images of the future. 

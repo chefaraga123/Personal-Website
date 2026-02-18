@@ -1,0 +1,11 @@
+- [[market design]], [[mechanism design]]
+- As mentioned by Phil Mirowski, there is little discussion of the central institution that underlines neoclassical economics - the market.. 
+- [[Neoclassical Economics]] has been far more concerned with the status and nature agents than the structure and composition of markets
+- Marker was sometimes treated as a general synonym for the phenomenon of exchange itself 
+- Discussions of specific market mechanisms such as [[Leon Walras]]' tatonnement, or Edgeworth's recontracting process bear trivial resemblance to actual contemporary market processes
+- Acknowledged differences in market structured where agents congregated would be treated as second order complications 
+	- Perfect Competition vs Monopoly 
+- Or collapsible to commodity definitions
+	- The labour market vs the car market 
+- The market in [[Neoclassical Economics]] thus took on a relatively monolithic existence. 
+- Since roughly 1980, the [[Economics]] profession has started to acknowledge that market formats do differ in significant ways. 

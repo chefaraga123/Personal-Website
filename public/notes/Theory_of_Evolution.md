@@ -3,5 +3,5 @@
 - More generally how does the variety of types come about on the basis of a simple one-time invention of evolution - the biochemistry of life & communication 
 - The theory explains how environmental stimuli effect systems which hence change their structure. 
 	- How does an event that was merely contingent to begin with generate structural change 
-- The Darwinian distinction between variation, selection (structural change) and stabilisation/restabilisation rests on a theory of **[open systems](../notes/open_systems)**
-- The theory of evolution showed that plants & animals weren't manifestations of eternal essences but incremental historical constructions, slow accumulations of adaptive traits cemented via **[reproductive isolation](../notes/reproductive_isolation)**
+- The Darwinian distinction between variation, selection (structural change) and stabilisation/restabilisation rests on a theory of [[open systems]]
+- The theory of evolution showed that plants & animals weren't manifestations of eternal essences but incremental historical constructions, slow accumulations of adaptive traits cemented via [[reproductive isolation]]

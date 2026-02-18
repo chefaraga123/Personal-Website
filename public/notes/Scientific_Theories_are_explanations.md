@@ -1,18 +1,18 @@
-- Tags: **[Philosophy](../notes/Philosophy)**
+- Tags: [[Philosophy]]
 - assertions about what is out there and how it behaves?
-- Where do these theories come from? The philosophical doctrine of **[empiricism](../notes/empiricism)** was the believe that theories are derived from sense impressions 
-- Deutsch argues that scientific theories are conjectures, "bold guesses", i.e. **[Conjecture as the source of our theories](../notes/Conjecture_as_the_source_of_our_theories)**
+- Where do these theories come from? The philosophical doctrine of [[empiricism]] was the believe that theories are derived from sense impressions 
+- Deutsch argues that scientific theories are conjectures, "bold guesses", i.e. [[Conjecture as the source of our theories]]
 - Empiricist philosophers were some of the first to attack traditional approaches to knowledge 
 - How can knowledge of what has not been experienced be derived from what has?
-- Logical **[deduction](../notes/deduction)** doesn't work, as no amount of deduction applied to statements describing a set of experiences can reach a conclusion about anything other than those experiences. The maximum height of deduction is the **[syllogism](../notes/syllogism)**
-- The conventional wisdom is that repeated observation, and thus **[induction](../notes/induction)** is what is key. 
+- Logical [[deduction]] doesn't work, as no amount of deduction applied to statements describing a set of experiences can reach a conclusion about anything other than those experiences. The maximum height of deduction is the [[syllogism]]
+- The conventional wisdom is that repeated observation, and thus [[induction]] is what is key. 
 - We are tacitly relying on explanatory theories to tell us which combination of variables in our experience we should interpret as being repeated phenomena in the underlying reality and which are local or irrelevant 
 - The quest for good explanations is the basic regulating principle of science 
 - Prediction alone is insufficient 
 - We need a "Criterion for reality"
 - **In a good explanation, all the details of the explanation play a functional role** 
 	- The capacity to vary the internal mechanics of the explanation suggest an explanation is weak. 
-- Explanations can typically be made better through the removal of superfluity. this gave rise to the **[misconception known as Occams razor](../notes/misconception_known_as_Occams_razor)**
+- Explanations can typically be made better through the removal of superfluity. this gave rise to the [[misconception known as Occams razor]]
 - A good explanation has an autonomous meaning and an autonomous domain of application. Its predictions cannot be confined to what one chooses 
 - Every additional layer of physical separation requires further levels of theory to relate the resulting perceptions to reality. 
 -  Within the domains of particular sciences we use **intra-level productive explanations** to understand specific phenomena using other entities at this level. 

@@ -1,3 +1,3 @@
 - What constitutes an appearance of design and why? Do crystals and rainbows have it? Why not? What distinguishes biological adaptations?
 - The evidence of apparent design for a purpose is not only that the parts all serve that purpose, but that if they were slightly altered they would serve it less well or not at all. **A Good design is hard to vary** 
-- Merely being useful for a purpose without being hard to vary while still serving that purpose, is not a sign of **[Adaptations](../notes/Adaptations)** or design.
+- Merely being useful for a purpose without being hard to vary while still serving that purpose, is not a sign of [[Adaptations]] or design.

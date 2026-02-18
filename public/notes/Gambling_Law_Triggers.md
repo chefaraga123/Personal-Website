@@ -1,4 +1,0 @@
-- **Prize**: Anything of tangible value awarded to winner(s)
-- **Chance**: the mechanism used to determine winners 
-- **Consideration**: Entry cost 
-- **AMOE = Alternate Methods of Entry** 

@@ -1,1 +1,1 @@
-- Tag: **[Emergence](../notes/Emergence)**
+- Tag: [[Emergence]]

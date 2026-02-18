@@ -1,0 +1,1 @@
+- CROs (Contract Research Organizations): Conduct preclinical testing – in vitro (cell-based) and in vivo (animal) studies – to assess safety and efficacy.

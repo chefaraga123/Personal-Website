@@ -1,4 +1,4 @@
-- tag: **[Ontology](../notes/Ontology)**
+- tag: [[Ontology]]
 - **types of entity | compositional relation **
 	- properties | lower level properties **realise** higher-level properties
 	- individuals | lower level individuals **constitute** higher-level individuals 

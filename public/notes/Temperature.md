@@ -1,4 +1,4 @@
 - Defined as the average energy that a molecular population has attributable to its movement, the more violent the motion the greater the temperature 
 - Where Temperature is proportional to kinetic energy 
-- To illustrate why temperature is not simply reducible to kinetic energy, consider two bodies of water sat next to each other. If those bodies of water are of different temperatures then energy will flow from the higher temperature body to the lower temperature body. The flow continues until they are both the same temperature. The temperature **[Gradients](../notes/Gradients)** has a tendency to self-dissipate. 
+- To illustrate why temperature is not simply reducible to kinetic energy, consider two bodies of water sat next to each other. If those bodies of water are of different temperatures then energy will flow from the higher temperature body to the lower temperature body. The flow continues until they are both the same temperature. The temperature [[Gradients]] has a tendency to self-dissipate. 
 -

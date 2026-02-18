@@ -1,1 +1,0 @@
-- The theory that animals are generated from non-living precursors

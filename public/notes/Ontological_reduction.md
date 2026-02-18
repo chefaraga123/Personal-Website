@@ -1,2 +1,2 @@
-- tag: **[Ontology](../notes/Ontology)**
+- tag: [[Ontology]]
 - 

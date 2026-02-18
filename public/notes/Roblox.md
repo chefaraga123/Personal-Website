@@ -1,5 +1,0 @@
-- **[Games](../notes/Games)**
-- Roblox is a UGC-platform with a focus on enabling its users to easily make in-game experiences 
-- Users can develop in-game experiences with 'Lua', the programming language used to script games and create interactive experiences. 
-- Roblox is composed of a number of discrete world and mini-games with their own in-game 
-- Property, independent of individual mini-games is limited 

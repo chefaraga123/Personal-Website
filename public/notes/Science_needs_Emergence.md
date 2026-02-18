@@ -1,4 +1,4 @@
-- tag: **[Emergence](../notes/Emergence)**
+- tag: [[Emergence]]
 - The partial success of each theory in a sequence of improving theories is tantamount to the existence of a layer of a phenomena that each theory explains partly successfully. 
 - Successive scientific explanations are occasionally dissimilar in the way they explain their predictions, 
 - Theories are able to make more accurate predictions because they are closer with the underlying reality of the situation. 

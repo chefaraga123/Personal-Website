@@ -1,2 +1,2 @@
-- tag: **[defence definition](../notes/defence_definition)**
+- tag: [[defence definition]]
 - Such as Ajax, Boxer 

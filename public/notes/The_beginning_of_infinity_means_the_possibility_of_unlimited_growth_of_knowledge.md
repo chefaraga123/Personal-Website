@@ -1,4 +1,4 @@
 - This includes many things 
-	- **[Process of RNA self-replication](../notes/Process_of_RNA_self-replication)**
-	- **[universality](../notes/universality)**
+	- [[Process of RNA self-replication]]
+	- [[universality]]
 	- 

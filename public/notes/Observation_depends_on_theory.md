@@ -1,3 +1,3 @@
-- **[Science as a system](../notes/Science_as_a_system)**
+- [[Science as a system]]
 - data is interpreted through theory 
 - theory guides the way in which we interpret our sense impressions

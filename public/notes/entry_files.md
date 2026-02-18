@@ -1,3 +1,0 @@
-- initial files that are loaded and executed by the **[runtime environment](../notes/runtime_environment)**
-- In a javascript web project the entry file is usually an HTML file that the browser loads first
-- in a Node.js project the entry file would be the main javascript file specified in the `package.json` file under the `main` field, which is executed when the package is run 

@@ -1,3 +1,3 @@
 - a position that holds that the lower sciences studying components can perform all explanatory and other semantic tasks, thus including all the work of higher sciences 
-- Greedy **[reductionism](../notes/reductionism)** takes the higher sciences to be dispensable, and that the lower sciences are semantically and explanatorily omnipotent 
+- Greedy [[reductionism]] takes the higher sciences to be dispensable, and that the lower sciences are semantically and explanatorily omnipotent 
 - Basis of arguments that the lower sciences should have priority over funding vis-a-vis lower sciences as they necessarily closer to the frontier of fundamental research. 

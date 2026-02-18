@@ -1,2 +1,2 @@
 - The Naval Discipline Act was established by William Penn & Samuel Pepys
-- **[Winston Churchill](../notes/Winston_Churchill)** was the First Lord of the Admiralty 
+- [[Winston Churchill]] was the First Lord of the Admiralty 

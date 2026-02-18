@@ -1,1 +1,1 @@
-- Chemical compounds may switch from stable state to stable state at critical points in the intensity of **[Temperature](../notes/Temperature)**, it can serve as a more general analogy 
+- Chemical compounds may switch from stable state to stable state at critical points in the intensity of [[Temperature]], it can serve as a more general analogy 

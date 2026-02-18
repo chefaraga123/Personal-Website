@@ -1,0 +1,3 @@
+- **MoD Procurement Executive**, formed in **1971** to coordinate the different branches of the armed forces bringing weapons into service, 
+- **1997 Smart Procurement Initiative (SPI**), introduced by New Labour with the intention of improving procurement processes, 
+- 

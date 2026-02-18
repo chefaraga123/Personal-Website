@@ -1,3 +1,0 @@
-- Superuser Do
-	- allows a permitted user to execute a command as the super user. 
-	- It gives the command administrative privileges which are often necessary for installing software system-wide 

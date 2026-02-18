@@ -1,3 +1,3 @@
 - A philosophical system that recognises things which can be scientifically verified or are capable of being derived from logical/mathematical proof. 
-- The **[deductive-nomological account of scientific explanation](../notes/deductive-nomological_account_of_scientific_explanation)**
+- The [[deductive-nomological account of scientific explanation]]
 - 

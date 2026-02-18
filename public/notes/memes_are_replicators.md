@@ -1,2 +1,2 @@
-- Ideas can be **[replicator](../notes/replicator)**s, Dawkins coined the term memes to describe those that ideas that are replicators. 
+- Ideas can be [[replicator]]s, Dawkins coined the term memes to describe those that ideas that are replicators. 
 - In the case of memes, the real replicators is abstract - it is the knowledge itself 

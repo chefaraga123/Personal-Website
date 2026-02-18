@@ -1,2 +1,2 @@
 - Conjecture, or bold guesses, are the source of theories as they represent a pluralistic approach to the generation of new knowledge. 
-- This pluralism is aligned with a philosophy of **[Fallibilism](../notes/Fallibilism)** because of the tacit recognition that existing models embed certain misconceptions, for which new modes of explanation need to be generated in order to improve or replace 
+- This pluralism is aligned with a philosophy of [[Fallibilism]] because of the tacit recognition that existing models embed certain misconceptions, for which new modes of explanation need to be generated in order to improve or replace 

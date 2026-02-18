@@ -1,7 +1,7 @@
-- a theory of Evolution that precedes Darwin's **[Theory of Evolution](../notes/Theory_of_Evolution)**
+- a theory of Evolution that precedes Darwin's [[Theory of Evolution]]
 - The key idea is that improvements acquired by an organism during its lifetime can be inherited by its offspring. 
 - Lamarck proposed that improvements were driven by a tendency, built into the laws of nature towards ever greater complexity 
-- This theory effectively just invokes ideas equivalent to the **[Spontaneous Generation of organisms](../notes/Spontaneous_Generation_of_organisms)**
-- the fundamental error of Lamarckism has the same logic as **[induction](../notes/induction)**/inductivism. Both assume that new knowledge (adaptations & scientific theories) are somehow already present in experience, or can be mechanically derived from experience. 
+- This theory effectively just invokes ideas equivalent to the [[Spontaneous Generation of organisms]]
+- the fundamental error of Lamarckism has the same logic as [[induction]]/inductivism. Both assume that new knowledge (adaptations & scientific theories) are somehow already present in experience, or can be mechanically derived from experience. 
 - Knowledge must be first conjectured and then tested.
-- Darwin's theory says: first random mutations occur, then natural selection discards the variant genes of lower **[fitness](../notes/fitness)**
+- Darwin's theory says: first random mutations occur, then natural selection discards the variant genes of lower [[fitness]]

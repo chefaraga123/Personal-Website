@@ -1,0 +1,5 @@
+- tags: [[Economic Rationality]]
+- An idea attributed to a 1920s paper by [[Ludwig von Mises]], in which he argues that socialism had to fail because dispensing with market valuations would render all rational calculation impossible 
+- Beginning in the 1920s various economists argued either for/against the proposition that social planning was impossible in principle due to primarily epistemic considerations 
+- In ~1935 [[Friedrich von Hayek]] shifted the terms of this debate, proposing that under socialism it would be impossible to collate and deploy all that knowledge required to coordinate the economy as successfully as the market managed to do in practise 
+- In this he proposed that markets didn't exist to allocate given physical resource as much to *integrate and disseminate something called knowledge*

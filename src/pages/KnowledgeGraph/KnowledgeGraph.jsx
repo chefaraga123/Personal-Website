@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { ForceGraph2D } from 'react-force-graph';
+import { Link } from 'react-router-dom';
 import styles from './KnowledgeGraph.module.css';
 import Navigation from '../../components/Navigation/Navigation';
 import { useNavigate } from 'react-router-dom';
@@ -8,6 +9,8 @@ const KnowledgeGraph = () => {
     const navigate = useNavigate();
 
     const [graphData, setGraphData] = useState({ nodes: [], links: [] });
+    const [allNodes, setAllNodes] = useState([]);
+    const [viewMode, setViewMode] = useState('graph'); // 'graph' | 'list'
 
     // When enabled, we render labels, but only for "important" nodes (selected, hovered, search matches, neighbors).
     // Rendering every label makes the graph unusable on mobile.
@@ -24,7 +27,22 @@ const KnowledgeGraph = () => {
         fetch('/obsidianGraph.json')
             .then(response => response.json())
             .then(data => {
-                setGraphData(data);
+                // All nodes for the list view
+                const sorted = [...data.nodes].sort((a, b) =>
+                    (a.label || a.id).localeCompare(b.label || b.id)
+                );
+                setAllNodes(sorted);
+
+                // Filter orphan nodes from the graph view
+                const linkedIds = new Set();
+                for (const l of data.links) {
+                    linkedIds.add(typeof l.source === 'object' ? l.source.id : l.source);
+                    linkedIds.add(typeof l.target === 'object' ? l.target.id : l.target);
+                }
+                setGraphData({
+                    nodes: data.nodes.filter(n => linkedIds.has(n.id)),
+                    links: data.links,
+                });
             })
             .catch(error => {
                 console.error('Error fetching graph data:', error);
@@ -196,6 +214,11 @@ const KnowledgeGraph = () => {
 
     // labels are always on by default
 
+    const listQuery = searchQuery.trim().toLowerCase();
+    const filteredList = listQuery
+        ? allNodes.filter(n => (n.label || n.id).toLowerCase().includes(listQuery))
+        : allNodes;
+
     return (
         <div className={styles.graphContainer}>
             <Navigation />
@@ -203,36 +226,57 @@ const KnowledgeGraph = () => {
             <div className={styles.controls}>
                 <input
                     type="text"
-                    placeholder="Search nodes (Enter to focus)…"
+                    placeholder={viewMode === 'graph' ? 'Search nodes (Enter to focus)…' : 'Search notes…'}
                     value={searchQuery}
                     onChange={handleSearchChange}
                     onKeyDown={handleSearchKeyDown}
                     className={styles.searchInput}
                 />
-                {/* Labels are always on by default */}
-                <div className={styles.hint}>
-                    Tip: tap a node to highlight; tap again to open the note.
-                </div>
+                <button
+                    className={styles.toggleButton}
+                    onClick={() => setViewMode(v => v === 'graph' ? 'list' : 'graph')}
+                >
+                    {viewMode === 'graph' ? 'List view' : 'Graph view'}
+                </button>
+                {viewMode === 'graph' && (
+                    <div className={styles.hint}>
+                        Tip: tap a node to highlight; tap again to open the note.
+                    </div>
+                )}
             </div>
 
-            <ForceGraph2D
-                ref={fgRef}
-                graphData={graphData}
-                nodeAutoColorBy="group"
-                onNodeClick={handleNodeClick}
-                onNodeHover={setHoverNode}
-                onRenderFramePre={(ctx) => {
-                    // Reset label collision state each frame.
-                    ctx.__labelBoxes = [];
-                }}
-                nodeCanvasObject={renderNode}
-                nodeCanvasObjectMode={() => 'before'}
-                linkColor={() => 'rgba(120,120,120,0.35)'}
-                onNodeDragEnd={(node) => {
-                    node.fx = null;
-                    node.fy = null;
-                }}
-            />
+            {viewMode === 'graph' ? (
+                <ForceGraph2D
+                    ref={fgRef}
+                    graphData={graphData}
+                    nodeAutoColorBy="group"
+                    onNodeClick={handleNodeClick}
+                    onNodeHover={setHoverNode}
+                    onRenderFramePre={(ctx) => {
+                        ctx.__labelBoxes = [];
+                    }}
+                    nodeCanvasObject={renderNode}
+                    nodeCanvasObjectMode={() => 'before'}
+                    linkColor={() => 'rgba(120,120,120,0.35)'}
+                    onNodeDragEnd={(node) => {
+                        node.fx = null;
+                        node.fy = null;
+                    }}
+                />
+            ) : (
+                <div className={styles.listView}>
+                    <p className={styles.listCount}>{filteredList.length} notes</p>
+                    <ul className={styles.noteList}>
+                        {filteredList.map(node => (
+                            <li key={node.id}>
+                                <Link to={`/notes/${node.id}`} className={styles.noteLink}>
+                                    {node.label || node.id}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            )}
         </div>
     );
 };

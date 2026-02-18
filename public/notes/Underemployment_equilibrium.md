@@ -1,0 +1,6 @@
+- [[Economics]]
+- **Keynes' main contribution** 
+- The rigorous illustration that underemployment can exist as an equilibrium. This contradicts the Keynes' framing of the classical economist as assuming that unemployment only exists outside of equilibrium
+- It was assumed that some force prevails to drive the economy towards full employment 
+- Keynes departs from classical orthodoxy by maintaining that the failure of the system to return to full activity is not due to friction, rigidity or phenomena connected with the trade cycle. 
+- If the level of interest does not align with fully activity, no mobility in other parts of the system will compel the system to return to full activity 

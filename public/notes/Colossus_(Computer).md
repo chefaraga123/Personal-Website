@@ -1,1 +1,0 @@
-- One of the first computers with **[universality](../notes/universality)**

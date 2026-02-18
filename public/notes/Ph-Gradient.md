@@ -1,3 +1,3 @@
-- related to **[Concentration Gradients](../notes/Concentration_Gradients)**
-- AKA as an **[Acids](../notes/Acids)**-**[Bases](../notes/Bases)**
-- When concentrations of substances with opposing tendencies come in to contact, forming an acid-base or Ph gradient a spontaneous flow of **[protons](../notes/protons)** from one type of substance to the other occurs which is the means by which the gradient cancels itself out. 
+- related to [[Concentration Gradients]]
+- AKA as an [[Acids]]-[[Bases]]
+- When concentrations of substances with opposing tendencies come in to contact, forming an acid-base or Ph gradient a spontaneous flow of [[protons]] from one type of substance to the other occurs which is the means by which the gradient cancels itself out. 

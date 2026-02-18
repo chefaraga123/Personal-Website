@@ -1,3 +1,3 @@
-- **[Games](../notes/Games)**
+- [[Games]]
 - Known as *spreadsheets in space*
 - 

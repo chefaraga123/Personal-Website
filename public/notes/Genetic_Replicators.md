@@ -1,2 +1,2 @@
-- Tag: **[replicator](../notes/replicator)**
+- Tag: [[replicator]]
 - For instance a gene conferring the ability to digest a certain type of food causes the organism to remain healthy in some situations where it would have otherwise weakened/died 

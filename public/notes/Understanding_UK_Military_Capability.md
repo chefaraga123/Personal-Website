@@ -1,0 +1,22 @@
+- [[Defence decision makers UK]]
+- The book investigates the interrelation between strategic direction (provided by politicians), and the subsequent military capability decisions made within defence -> hence forth *the translation of strategic direction into [[military capability]]* 
+- [[Ministry of Defence]]
+- There is a strategy-to-capability gap, which is attributed to the inability to procure equipment on a cost-effective and timely basis. 
+- [[untimely changes in government policy]]
+- [[Thomas Hobbes]] articulated in 1651 that the government's inherent responsibility is to protect the citizens of the state. 
+- UK is the 5th largest defence spender globally, behind: USA, Russia, China, India. 
+- [[the problem space for translating strategy to capability]]
+
+- The UK has fielded military capability for as long as it has existed, the [[Royal Navy]] was founded by statute in 1661, 47 years before the 1707 Act of Union  
+- the interpretation of strategic direction and subsequent resource allocation always occurs against a baseline of capability 
+- [[Strategic Direction and Military Capability]]
+- [[UK Military Procurement]]
+- [[iA study on 21st century defence policy]]
+- Defence policy is either conducted on a Cost/Benefit Analysis basis or through incrementalism 
+- The MoD was unified in 1964
+- The MoD maintains an outcome delivery plan
+- The strategic shock of the Suez Crisis is attributed as the motivation for a 1957 defence review, [[Harold Macmillan]] also became PM in 1957
+- 
+- [[Defence Operating Model]]
+- [[UK approach to strategy]]
+- [[Introduction a national, UK, security strategy]]

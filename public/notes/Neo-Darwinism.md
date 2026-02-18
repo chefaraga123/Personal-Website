@@ -1,6 +1,6 @@
-- Tag: **[Theory of Evolution](../notes/Theory_of_Evolution)**
+- Tag: [[Theory of Evolution]]
 - The central idea of neo-Darwinism is that evolution favours the genes that spread best through the population
 - A common misconception of Darwinism is that it maximises the "good of the species"
 - Whilst genes may at some point be optimally adapted for maximising the population, it is not a stable situation. There will be evolutionary pressure that may make those genes become less well adapted to that function 
-- Neo-Darwinism doesn't refer necessarily to anything biological. It is based on the idea of a **[replicator](../notes/replicator)**.
+- Neo-Darwinism doesn't refer necessarily to anything biological. It is based on the idea of a [[replicator]].
 - 

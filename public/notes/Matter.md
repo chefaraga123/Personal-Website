@@ -1,4 +1,4 @@
 - Two types
-	- **[Ordinary matter](../notes/Ordinary_matter)** 
-	- **[Dark matter](../notes/Dark_matter)**
+	- [[Ordinary matter]] 
+	- [[Dark matter]]
 - 

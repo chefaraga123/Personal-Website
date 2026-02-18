@@ -1,3 +1,3 @@
-- following from the **[observation problem in systems](../notes/observation_problem_in_systems)**
+- following from the [[observation problem in systems]]
 - If science is conceived as an observer. How is it possible to think of science as capable of observation without itself being a system: namely a system with a network of communication, a system with certain institutional arrangements, a system with certain value preferences, a system with individual careers, a system that depends on society 
 - 

@@ -1,3 +1,3 @@
-- tag: **[open systems](../notes/open_systems)**
+- tag: [[open systems]]
 - Questions concerning a level of dependence on ecological conditions, or a certain dependence with a social order on certain other systems (for instance, the dependence of a political system on a functioning economy in relation to the submission of taxes and willingness of the population to elect a certain government)
 - 

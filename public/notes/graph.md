@@ -1,0 +1,2 @@
+- A connected set of vertices and edges of $P$
+- 

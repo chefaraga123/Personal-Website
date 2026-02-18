@@ -1,0 +1,2 @@
+- According to Plato, the physical world that we perceive through our senses is just a shadow or imperfect reflection of a higher reality he denotes *the world of forms*
+- In this realm, everything exists as perfect, unchanging essences of that which exists in the physical world. Physical objects are thus imperfect copies from this world of forms 

@@ -1,3 +1,3 @@
-- A core basis of **[Creationism](../notes/Creationism)**
-- Some aspects of the world appear to be designed, '**[the appearance of design](../notes/the_appearance_of_design)**', but weren't designed by humans, since "design requires a designer" there must therefore be a God
+- A core basis of [[Creationism]]
+- Some aspects of the world appear to be designed, '[[the appearance of design]]', but weren't designed by humans, since "design requires a designer" there must therefore be a God
 - `This is a bad explanation as it doesn't address how to create such designs could possibly have been created`

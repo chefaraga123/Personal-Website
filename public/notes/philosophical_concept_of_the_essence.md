@@ -1,0 +1,2 @@
+- The essence of a thing is that which explains its identity. 
+- that is, those fundamental traits, without which an object would not be what it is. If such an essence were shared by many objects then that would explain how those objects resemble each other and form a distinct kind of things. 

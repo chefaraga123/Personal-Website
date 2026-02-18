@@ -8,4 +8,4 @@
 	- transnational crime 
 - There was a broadening of securitised issues beyond hard power concerns and into civil and environmental dimensions.
 - The way that that we measure national security has changed since the end of the cold wawr 
-- **[National Risk Assessment](../notes/National_Risk_Assessment)** and the **[National Risk Register](../notes/National_Risk_Register)**
+- [[National Risk Assessment]] and the [[National Risk Register]]

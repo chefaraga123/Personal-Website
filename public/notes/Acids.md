@@ -1,1 +1,1 @@
-- Substances that have a tendency to export or donate some of their **[protons](../notes/protons)**
+- Substances that have a tendency to export or donate some of their [[protons]]

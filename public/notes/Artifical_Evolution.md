@@ -1,3 +1,3 @@
-- **[Machine Learning](../notes/Machine_Learning)**
-- **[evolutionary algorithm](../notes/evolutionary_algorithm)**
+- [[Machine Learning]]
+- [[evolutionary algorithm]]
 - 

@@ -1,2 +1,2 @@
-- **[English Civil War](../notes/English_Civil_War)**
+- [[English Civil War]]
 - An English Parliamentary session that lasted only three weeks 

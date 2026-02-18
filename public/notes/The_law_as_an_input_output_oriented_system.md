@@ -1,7 +1,7 @@
 Related topics: 
-- **[the political system as an input output model](../notes/the_political_system_as_an_input_output_model)**
-- **[Mathematical Input Output Models of Systems](../notes/Mathematical_Input_Output_Models_of_Systems)**
-- **[Smart Contract](../notes/Smart_Contract)**
+- [[the political system as an input output model]]
+- [[Mathematical Input Output Models of Systems]]
+- [[Smart Contract]]
 
 - the law is in principle an input-oriented system 
 	- given certain information, certain decisions must be made 

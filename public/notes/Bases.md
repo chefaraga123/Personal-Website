@@ -1,1 +1,1 @@
-- Substances that have a tendency to important / import **[protons](../notes/protons)**
+- Substances that have a tendency to important / import [[protons]]

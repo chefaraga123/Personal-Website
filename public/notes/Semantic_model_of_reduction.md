@@ -1,4 +1,4 @@
 - typically followed by the positivists
-	- tag: **[Positivism](../notes/Positivism)**
-- Uses an account of scientific explanation excluding **[Compositional Explanation](../notes/Compositional_Explanation)**, focuses on the relations of semantic entities like statements, entails that higher sciences are dispensable and lower sciences are semantically omnipotent, with the implication that there is no macro world. 
+	- tag: [[Positivism]]
+- Uses an account of scientific explanation excluding [[Compositional Explanation]], focuses on the relations of semantic entities like statements, entails that higher sciences are dispensable and lower sciences are semantically omnipotent, with the implication that there is no macro world. 
 - 

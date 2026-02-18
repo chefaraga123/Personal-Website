@@ -1,3 +1,0 @@
-- **[Winston Churchill](../notes/Winston_Churchill)**
-- **[Oliver Cromwell](../notes/Oliver_Cromwell)**
-- **[Clement Atlee](../notes/Clement_Atlee)**

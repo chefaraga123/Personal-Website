@@ -1,1 +1,0 @@
-- a compression of all entities in the world 

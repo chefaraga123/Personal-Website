@@ -1,1 +1,0 @@
-- a pure **[EVM](../notes/EVM)** chain 

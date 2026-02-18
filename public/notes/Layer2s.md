@@ -1,1 +1,0 @@
-A Blockchain Layer 2 is a secondary framework or protocol that is built on top of an existing blockchain system (the primary layer, or Layer 1)

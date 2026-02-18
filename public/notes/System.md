@@ -8,10 +8,10 @@
 `This I found very confusing, I don't think Luhmann did a great job of setting up the idea that a system is composed of a number of discrete operators which themselves have to distinguish amongst themselves their difference from the environment  `
 
 - How can an operation recognise internally that certain operations belong to the system and that others don't 
-- This problem has become important for say **[immunology](../notes/immunology)** 
+- This problem has become important for say [[immunology]] 
 
 `Should make a seperate doc on the role of the observer?`
-- There is an **[observation problem in systems](../notes/observation_problem_in_systems)**
+- There is an [[observation problem in systems]]
 -
 - Historically the scientist was tacitly assumed to play the role of observer 
-- Types of systems theories are: **[analytic systems theory](../notes/analytic_systems_theory)** and **[concrete systems theory](../notes/concrete_systems_theory)**
+- Types of systems theories are: [[analytic systems theory]] and [[concrete systems theory]]

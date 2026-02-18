@@ -1,1 +1,1 @@
-- Tags:**[sociology](../notes/sociology)**, **[Foundations of a General Systems Theory](../notes/Foundations_of_a_General_Systems_Theory)**, **[System](../notes/System)**
+- Tags:[[sociology]], [[Foundations of a General Systems Theory]], [[System]]

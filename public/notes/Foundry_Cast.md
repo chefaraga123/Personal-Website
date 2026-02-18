@@ -1,2 +1,0 @@
-- Interact with the blockchain over **[rpc](../notes/rpc)**. you can make **[Smart Contract](../notes/Smart_Contract)** calls, send transactions or retrieve any type of chain data
--

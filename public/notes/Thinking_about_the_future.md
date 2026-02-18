@@ -1,4 +1,4 @@
-- **[Scientific Theories are explanations](../notes/Scientific_Theories_are_explanations)**
+- [[Scientific Theories are explanations]]
 - *predictions* correspond to conclusions about future events that follow from good explanations 
 - *prophecy* corresponds to anything that purports to know what is not yet knowable
 - When the determinants of future events are unknowable how does one prepare for them?
@@ -8,4 +8,4 @@
 - A pessimist sees an assymetry between good and bad consequences
 -  both blind pessimism and blind optimism are the same at the level of explanation 
 - Many natural disasters of famine were actually due to a lack of knowledge, of irrigation and farming 
-- **[the principle of optimism](../notes/the_principle_of_optimism)**
+- [[the principle of optimism]]

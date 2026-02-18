@@ -1,8 +1,0 @@
-- Syntax & Structure
-	- Defined using plain Js functions
-	- can also be arrow functions e.g. 
-	- !**[Pasted image 20240125101222.png](../notes/Pasted_image_20240125101222.png)**
-- **State Management w/ Hooks**
-	- Use of react Hooks `useState`, `useEffect`, allows functional components to have state and side effects
-	- !**[Pasted image 20240125101333.png](../notes/Pasted_image_20240125101333.png)**
-	- 

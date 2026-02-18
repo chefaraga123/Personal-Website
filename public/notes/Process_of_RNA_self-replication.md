@@ -1,4 +1,4 @@
-- An **[RNA](../notes/RNA)** molecule can serve as a template for the creation of a copy of itself
-- A population of replicators introduces a new type of **[Gradients](../notes/Gradients)**, a **[fitness](../notes/fitness)** gradient
+- An [[RNA]] molecule can serve as a template for the creation of a copy of itself
+- A population of replicators introduces a new type of [[Gradients]], a [[fitness]] gradient
 - This is a gradient, because fitness differences are analogous to temperature differences. As long as differences exist they fuel a process of selection favouring the replication of one kind of a polymer over another. 
-- **[Genes](../notes/Genes)** are replicators that can be interpreted as instructions in a genetic code. 
+- [[Genes]] are replicators that can be interpreted as instructions in a genetic code. 

@@ -1,4 +1,4 @@
-- tag: **[Theory of Evolution](../notes/Theory_of_Evolution)**
+- tag: [[Theory of Evolution]]
 - using a computer simulation you can run many trails, each with a slight random variation the first program 
 - An evolutionary algorithm subjects a simulated agent to a battery of tests. 
 - At the end of each test run, the program that performed best is retained at the reset a re discarded 

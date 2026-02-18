@@ -1,4 +1,4 @@
-- Tag: **[English Civil War](../notes/English_Civil_War)**
+- Tag: [[English Civil War]]
 - A 17th century English legal battle concerning the imposition of a tax called ship money. A medieval tax levied for the purpose of financing naval defense in times of iminent danger. 
  - A man, John Hampden refused to pay tax,  
  - Became the most famous man in England as a result of the trial 

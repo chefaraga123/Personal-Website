@@ -1,2 +1,0 @@
-- Tag: **[database](../notes/database)**
-- 

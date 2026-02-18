@@ -1,2 +1,6 @@
-- the self-reproduction of life by those elements that have in turn been produced in and by the living **[System](../notes/System)**
+- the self-reproduction of life by those elements that have in turn been produced in and by the living [[System]]
+- Structures are expectations in relation to the connectivity of operations 
+- *Autopoiesis means that a system can generate its own operations only by means of the network of its own operations*, the network of its own operations is generated in turn by these operations. 
+- *The system generates itself. Not only does it produce its own structures, like certain computers that are able to develop programs for themselves*
+- *Wherein lies the difference between production and causality*
 - 

@@ -1,4 +1,4 @@
-- tag **[Scientific Theories are explanations](../notes/Scientific_Theories_are_explanations)**
+- tag [[Scientific Theories are explanations]]
 - Myths although false, do constitute an explanatory theory 
 - However when myths are altered or superseded they are barely any closer to the truth of the situation 
 - The Gods have some power to affect large-scale phenomena 

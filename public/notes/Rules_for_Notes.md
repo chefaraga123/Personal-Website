@@ -1,4 +1,0 @@
-- each note should be very small, >1 sentence | <2 paragraphs
-- each note should be atomic 
-- e.g. *waking up early AND taking a cold shower is good for you SHOULD be split up into 2 notes*
-- The title of the note should be an argument 

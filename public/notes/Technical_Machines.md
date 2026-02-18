@@ -1,4 +1,4 @@
-- tag: **[Operational Closure](../notes/Operational_Closure)**
+- tag: [[Operational Closure]]
 - In essence technical machines are causally closed. They react to environmental irritations only under specific conditions, 
 - The advantage of such technical/causal closure is the ease with which one can recognise errors. 
 - In the case of such systems it is possible to plan ahead with regard to the necessary resources. However certain novel technologies we have broached the technological limit for technically closed systems. 

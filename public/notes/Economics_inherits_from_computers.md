@@ -1,4 +1,4 @@
-- tags: **[Economics](../notes/Economics)**, **[Economics inherits from physics](../notes/Economics_inherits_from_physics)**
+- tags: [[Economics]], [[Economics inherits from physics]]
 
 - Shift from the object of study being the choice rather than the chooser 
 - The reification of information independent of the cognizer 

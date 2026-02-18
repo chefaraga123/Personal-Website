@@ -1,2 +1,2 @@
-Tag: **[English Civil War](../notes/English_Civil_War)**
+Tag: [[English Civil War]]
 - He was headquartered in Oxford during the English Civil War 

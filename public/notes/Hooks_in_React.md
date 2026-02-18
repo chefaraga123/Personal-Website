@@ -1,5 +1,0 @@
-- Hooks allow you to use state and other React features without writing a class
-- !**[Pasted image 20240128162623.png](../notes/Pasted_image_20240128162623.png)**
-- `  const [count, setCount] = useState(0);`
-	- this function `useState(0)` is a hook
-- 

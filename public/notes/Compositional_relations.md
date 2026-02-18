@@ -1,1 +1,1 @@
-- when we have collectives of entities with certain roles whose relations to each other allow them to jointly fill the qualitatively distinct productive role individuative of the relevant composed entity 
+When we have collectives of entities with certain roles whose relations to each other allow them to jointly fill the qualitatively distinct productive role individuative of the relevant composed entity 
