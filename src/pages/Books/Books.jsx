@@ -119,7 +119,6 @@ const Books = () => {
                             <div className={styles.bookOfTheDayInfo}>
                                 <h3>{bookOfTheDay.title}</h3>
                                 <p className={styles.bookOfTheDayAuthor}>by {bookOfTheDay.author}</p>
-                                <p className={styles.bookOfTheDayGenres}>{bookOfTheDay.genre.join(', ')}</p>
                                 <span className={styles.readReviewLink}>Read Review →</span>
                             </div>
                         </Link>
@@ -157,10 +156,8 @@ const Books = () => {
                             <Link to={book.summaryLink}>
                                 <img src={book.image} alt={book.title} className={styles.bookImage} />
                                 <div className={styles.bookInfo}>
-                                    <strong>Title:</strong> {book.title} <br />
-                                    <strong>Author:</strong> {book.author} <br />
-                                    <strong>Genres:</strong> {book.genre.join(', ')} <br />
-                                    {book.summaryLink && <span className={styles.summaryFlag}>📖</span>}
+                                    <span className={styles.bookTitle}>{book.title}</span>
+                                    <span className={styles.bookAuthor}>{book.author}</span>
                                 </div>
                             </Link>
                             {book.summary && (
