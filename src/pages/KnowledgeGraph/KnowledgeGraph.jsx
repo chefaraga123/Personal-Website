@@ -8,9 +8,11 @@ import { useNavigate } from 'react-router-dom';
 const KnowledgeGraph = () => {
     const navigate = useNavigate();
 
+    const isMobile = window.innerWidth <= 768;
+
     const [graphData, setGraphData] = useState({ nodes: [], links: [] });
     const [allNodes, setAllNodes] = useState([]);
-    const [viewMode, setViewMode] = useState('graph'); // 'graph' | 'list'
+    const [viewMode, setViewMode] = useState(isMobile ? 'list' : 'graph'); // 'graph' | 'list'
 
     // When enabled, we render labels, but only for "important" nodes (selected, hovered, search matches, neighbors).
     // Rendering every label makes the graph unusable on mobile.
@@ -155,9 +157,9 @@ const KnowledgeGraph = () => {
         const isHighlighted = highlightedNodeIds.has(node.id);
         const isSelected = selectedNode?.id === node.id;
 
-        // Node dot
-        const baseR = 6;
-        const r = isSelected ? 9 : isHighlighted ? 7.5 : baseR;
+        // Node dot — larger on mobile for easier tapping
+        const baseR = isMobile ? 9 : 6;
+        const r = isSelected ? baseR + 3 : isHighlighted ? baseR + 1.5 : baseR;
 
         ctx.beginPath();
         ctx.arc(node.x, node.y, r, 0, 2 * Math.PI, false);
@@ -251,13 +253,14 @@ const KnowledgeGraph = () => {
                     graphData={graphData}
                     nodeAutoColorBy="group"
                     onNodeClick={handleNodeClick}
-                    onNodeHover={setHoverNode}
+                    onNodeHover={isMobile ? undefined : setHoverNode}
                     onRenderFramePre={(ctx) => {
                         ctx.__labelBoxes = [];
                     }}
                     nodeCanvasObject={renderNode}
                     nodeCanvasObjectMode={() => 'before'}
                     linkColor={() => 'rgba(120,120,120,0.35)'}
+                    enableNodeDrag={!isMobile}
                     onNodeDragEnd={(node) => {
                         node.fx = null;
                         node.fy = null;
