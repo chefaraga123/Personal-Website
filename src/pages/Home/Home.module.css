@@ -5,15 +5,6 @@
     margin: 0 auto;
 }
 
-h1 {
-    color: #333;
-    font-size: 2.5rem;
-}
-
-p {
-    color: #666;
-    font-size: 1.2rem;
-}
 
 .recentUpdates {
     margin-top: 20px; /* Adjust spacing as needed */
@@ -23,11 +14,11 @@ p {
 }
 
 .recentUpdates h2 {
-    font-size: 1.5em; /* Example styling for h2 */
+    font-size: 1.75rem;
     color: #333; /* Example color for h2 */
 }
 
 .recentUpdates p {
-    font-size: 1em; /* Example styling for p */
+    font-size: 1rem;
     color: #666; /* Example color for p */
 }

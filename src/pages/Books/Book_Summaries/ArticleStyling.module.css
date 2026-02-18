@@ -1,9 +1,9 @@
 /* MarkdownComponent.module.css */
 
 .markdownContainer {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1rem;
+    line-height: 1.6;
     padding: 100px;
   }
   
