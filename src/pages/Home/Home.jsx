@@ -2,7 +2,8 @@ import React from 'react';
 import styles from './Home.module.css';
 import Navigation from '../../components/Navigation/Navigation';
 
-const Tag = ({ label }) => <span className={styles.tag}>{label}</span>;
+const tagTypeClass = { Shipped: styles.tagShipped, Article: styles.tagArticle, Notes: styles.tagNotes };
+const Tag = ({ label }) => <span className={`${styles.tag} ${tagTypeClass[label] || ''}`}>{label}</span>;
 
 const Home = () => {
     return (

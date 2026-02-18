@@ -38,10 +38,29 @@
     font-weight: 500;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.45);
-    border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 999px;
     padding: 1px 7px;
     white-space: nowrap;
     flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.tagShipped {
+    background-color: #d4f0e0;
+    border-color: #a8dbbe;
+    color: #2d6a4f;
+}
+
+.tagArticle {
+    background-color: #dce8fb;
+    border-color: #aec6f0;
+    color: #2a4d8f;
+}
+
+.tagNotes {
+    background-color: #fef3cd;
+    border-color: #f5d87e;
+    color: #7a5c00;
 }
