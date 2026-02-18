@@ -43,11 +43,30 @@ const NoteViewer = ({ noteName }) => {
 
     const noteUrl = (url) => `/notes/${url.replace('notes/', '').replace('.md', '')}`;
 
+    // Convert Obsidian [[wikilinks]] and [[Note|Alias]] to markdown links
+    const parseWikilinks = (text) =>
+        text.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, target, alias) => {
+            const display = alias || target;
+            const path = target.trim().replace(/ /g, '_');
+            return `[${display}](/notes/${path})`;
+        });
+
     return (
         <div className={styles.noteWrapper}>
             <h1 className={styles.noteTitle}>{title}</h1>
             <div className={styles.noteContainer}>
-                <ReactMarkdown>{body}</ReactMarkdown>
+                <ReactMarkdown
+                    components={{
+                        a: ({ href, children }) =>
+                            href?.startsWith('/') ? (
+                                <Link to={href}>{children}</Link>
+                            ) : (
+                                <a href={href} target="_blank" rel="noreferrer">{children}</a>
+                            ),
+                    }}
+                >
+                    {parseWikilinks(body)}
+                </ReactMarkdown>
             </div>
             <div className={styles.noteNav}>
                 <div className={styles.noteNavPrev}>
