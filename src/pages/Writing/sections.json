@@ -1,5 +1,21 @@
 [
     {
+      "id": "section15",
+      "title": "The Evolution of Monetary Standards in the Early Modern Period",
+      "date": "26/04/2022",
+      "url": "/Early_Modern_Monetary_Standards",
+      "markdownUrl": "/articles/Early_Modern_Monetary_Standards.md",
+      "category": "Economics"
+    },
+    {
+      "id": "section16",
+      "title": "Crypto gaming: An Incremental Innovation",
+      "date": "28/04/2022",
+      "url": "/Crypto_Gaming_Thoughts",
+      "markdownUrl": "/articles/Crypto_Gaming_Thoughts.md",
+      "category": "Technology"
+    },
+    {
       "id": "section2",
       "title": "The Urbanisation of Virtual Worlds",
       "date": "23/01/2024",

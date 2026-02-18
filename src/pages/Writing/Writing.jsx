@@ -27,6 +27,8 @@ const Writing = () => {
             </Helmet>
             <Navigation />
 
+            <ContentsComponent sections={[...sections].reverse()} filter={filter} />
+
             <div className={styles.filterBar}>
                 <button
                     className={`${styles.filterButton} ${filter === 'all' ? styles.filterButtonActive : ''}`}
@@ -59,8 +61,6 @@ const Writing = () => {
                     Economics
                 </button>
             </div>
-
-            <ContentsComponent sections={[...sections].reverse()} filter={filter} />
 
         </div>
     );
