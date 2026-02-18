@@ -2,7 +2,7 @@
     {
       "id": "section2",
       "title": "The Urbanisation of Virtual Worlds",
-      "date": "  | 23/01/2024",
+      "date": "23/01/2024",
       "url": "/Urbanisation-Virtual-Worlds",
       "markdownUrl": "/articles/Urbanisation_Of_Virtual_worlds.md",
       "category": "Footium"
@@ -10,7 +10,7 @@
     {
       "id": "section1",
       "title": "The Definitive Introduction to Emergence",
-      "date": "  | 07/02/2024",
+      "date": "07/02/2024",
       "url": "/Emergence",
       "markdownUrl": "/articles/Emergence.md",
       "category": "Philosophy"
@@ -19,7 +19,7 @@
     {
       "id": "section3",
       "title": "An introduction to ZKs",
-      "date": "  | 15/02/2024",
+      "date": "15/02/2024",
       "url": "/introduction-zks",
       "markdownUrl": "/articles/Introduction_Zks.md",
       "category": "Computer-Science"
@@ -28,7 +28,7 @@
     {
       "id": "section4",
       "title": "Applying ZK to Gaming",
-      "date": "  | 21/02/2024",
+      "date": "21/02/2024",
       "url": "/introduction-zks-gaming",
       "markdownUrl": "/articles/Introduction_Zks_Gaming.md",
       "category": "Computer-Science"
@@ -36,7 +36,7 @@
     {
       "id": "section7",
       "title": "Recapping 2024",
-      "date": "  | 14/11/2024",
+      "date": "14/11/2024",
       "url": "/Recapping-2024",
       "markdownUrl": "/articles/Recapping_2024.md",
       "category": "Personal"
@@ -45,7 +45,7 @@
     {
       "id": "section8",
       "title": "Footium is the Biggest IP in Football",
-      "date": "  | 03/03/2024",
+      "date": "03/03/2024",
       "url": "/Footium-Biggest-IP",
       "markdownUrl": "/articles/Footium_Biggest_IP.md",
       "category": "Footium"
@@ -53,7 +53,7 @@
     {
       "id": "section9",
       "title": "What Is the Marketplace of Ideas?",
-      "date": "  | 06/02/2025",
+      "date": "06/02/2025",
       "url": "/Marketplace-of-Ideas",
       "markdownUrl": "/articles/What_Is_the_Marketplace_of_Ideas.md",
       "category": "Philosophy"
@@ -61,7 +61,7 @@
     {
       "id": "section10",
       "title": "Markets Think Like AI",
-      "date": "  | 15/03/2025",
+      "date": "15/03/2025",
       "url": "/AI_Thinks_Like_The_Market",
       "markdownUrl": "/articles/AI_Thinks_Like_The_Market.md",
       "category": "Philosophy"
@@ -69,7 +69,7 @@
     {
       "id": "section11",
       "title": "The weapons were always autonomous",
-      "date": "  | 14/04/2025",
+      "date": "14/04/2025",
       "url": "/Autonomous_Weapons", 
       "markdownUrl": "/articles/Autonomous_Weapons.md",
       "category": "Technology"
@@ -77,7 +77,7 @@
     {
       "id": "section12",
       "title": "Who set the prices? Who. Who.",
-      "date": "  | 10/05/2025",
+      "date": "10/05/2025",
       "url": "/Who_set_the_prices_Who_Who",
       "markdownUrl": "/articles/Who_set_the_prices_Who_Who.md",
       "category": "Economics"
@@ -85,17 +85,9 @@
     {
       "id": "section13",
       "title": "Managerial Ethics & Ethical Micro-Management",
-      "date": "  | 15/05/2025",
+      "date": "15/05/2025",
       "url": "/Managerial-Ethics",
       "markdownUrl": "/articles/Managerial_Ethics_Ethical_Micro_Management.md",
       "category": "Philosophy"
-    },
-    {
-      "id": "section14",
-      "title": "Interactive Articles with MDX",
-      "date": "  | 23/01/2026",
-      "url": "/MDX-Example",
-      "markdownUrl": "/articles/MDX_Example.mdx",
-      "category": "Technology"
     }
 ]

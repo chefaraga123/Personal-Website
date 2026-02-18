@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import styles from './Writing.module.css';
 import Navigation from '../../components/Navigation/Navigation';
@@ -12,11 +12,6 @@ const Writing = () => {
     const handleFilterChange = (category) => {
         setFilter(category);
     };
-
-    // Calculate the number of qualifying articles
-    const qualifyingArticles = filter === 'all' 
-        ? sections.length 
-        : sections.filter(section => section.category === filter).length;
 
     return (
         <div className={styles.writingContainer}>
@@ -65,12 +60,7 @@ const Writing = () => {
                 </button>
             </div>
 
-            <p>{qualifyingArticles} articles found.</p>
             <ContentsComponent sections={[...sections].reverse()} filter={filter} />
-
-
-            <div>
-          </div>
 
         </div>
     );

@@ -1,76 +1,35 @@
 .contents {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.contents h2 {
-    margin-bottom: 10px;
+  width: 100%;
 }
 
 .panel {
-    display: block; /* Make the anchor tag a block element */
-    background-color: #ffffff; /* Panel background color */
-    padding: 15px; /* Padding inside the panel */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-    margin-bottom: 15px; /* Space between panels */
-    text-decoration: none; /* Remove underline from the link */
-    color: inherit; /* Inherit text color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 120ms ease;
+}
+
+.panel:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .panel:hover {
-    background-color: #f9f9f9; /* Change background on hover for better UX */
+  opacity: 0.6;
 }
 
-.panel h3 {
-    margin: 0; /* Remove default margin */
+.title {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
 }
 
-.panel p {
-    margin: 0; /* Remove default margin */
+.date {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.45);
+  white-space: nowrap;
+  margin-left: 16px;
 }
-
-.contents ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.contents li {
-    margin-bottom: 5px;
-}
-
-.contents a {
-    text-decoration: none;
-    color: #333;
-}
-
-.contents ul ul {
-    list-style-type: none;
-    padding-left: 20px;
-    margin: 0;
-}
-
-.contents ul ul li {
-    margin-bottom: 3px;
-}
-
-.contents ul ul a {
-    color: #666;
-}
-
-.contents button {
-    margin-right: 10px; /* Space between buttons */
-    padding: 5px 10px; /* Button padding */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    background-color: #007bff; /* Button background color */
-    color: white; /* Button text color */
-}
-
-.contents button:hover {
-    background-color: #0056b3; /* Darker background on hover */
-}
-  
