@@ -18,7 +18,6 @@ p {
 .recentUpdates {
     margin-top: 20px; /* Adjust spacing as needed */
     padding: 10px;
-    background-color: #f9f9f9; /* Light background for contrast */
     border-radius: 5px; /* Rounded corners */
     text-align: left; /* Align text to the left */
 }
