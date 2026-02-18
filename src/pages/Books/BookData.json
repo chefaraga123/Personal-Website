@@ -948,5 +948,84 @@
       "Politics"
     ],
     "image": "/images/Bismarck_Cover.jpg"
+  },
+  {
+    "title": "The Opium War",
+    "author": "Julia Lovell",
+    "genre": [
+      "History",
+      "Warfare",
+      "Politics"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
+  },
+  {
+    "title": "The Complete Robot",
+    "author": "Isaac Asimov",
+    "genre": [
+      "Science Fiction"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
+  },
+  {
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "genre": [
+      "Fiction",
+      "Literature"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
+  },
+  {
+    "title": "A Scanner Darkly",
+    "author": "Philip K. Dick",
+    "genre": [
+      "Science Fiction"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genre": [
+      "Science Fiction"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
+  },
+  {
+    "title": "The Hustler",
+    "author": "Walter Tevis",
+    "genre": [
+      "Fiction"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
+  },
+  {
+    "title": "Catch-22",
+    "author": "Joseph Heller",
+    "genre": [
+      "Fiction",
+      "Warfare",
+      "Satire"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
+  },
+  {
+    "title": "Metro 2033",
+    "author": "Dmitry Glukhovsky",
+    "genre": [
+      "Science Fiction",
+      "Post-Apocalyptic"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
+  },
+  {
+    "title": "Metro 2034",
+    "author": "Dmitry Glukhovsky",
+    "genre": [
+      "Science Fiction",
+      "Post-Apocalyptic"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
   }
 ]
