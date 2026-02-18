@@ -1,24 +1,29 @@
 .homeContainer {
-    padding: 50px;
-    text-align: center;
+    padding: 24px 50px 50px;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-
 .recentUpdates {
-    margin-top: 20px; /* Adjust spacing as needed */
-    padding: 10px;
-    border-radius: 5px; /* Rounded corners */
-    text-align: left; /* Align text to the left */
+    width: 100%;
 }
 
 .recentUpdates h2 {
-    font-size: 1.75rem;
-    color: #333; /* Example color for h2 */
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.45);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .recentUpdates p {
-    font-size: 1rem;
-    color: #666; /* Example color for p */
+    font-size: 0.9375rem;
+    color: inherit;
+    margin: 0;
+    padding: 14px 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    line-height: 1.5;
 }
