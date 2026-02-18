@@ -5,7 +5,8 @@
       "date": "26/04/2022",
       "url": "/Early_Modern_Monetary_Standards",
       "markdownUrl": "/articles/Early_Modern_Monetary_Standards.md",
-      "category": "Economics"
+      "category": "Economics",
+      "readingTime": 24
     },
     {
       "id": "section16",
@@ -13,7 +14,8 @@
       "date": "28/04/2022",
       "url": "/Crypto_Gaming_Thoughts",
       "markdownUrl": "/articles/Crypto_Gaming_Thoughts.md",
-      "category": "Technology"
+      "category": "Technology",
+      "readingTime": 15
     },
     {
       "id": "section2",
@@ -21,7 +23,8 @@
       "date": "23/01/2024",
       "url": "/Urbanisation-Virtual-Worlds",
       "markdownUrl": "/articles/Urbanisation_Of_Virtual_worlds.md",
-      "category": "Footium"
+      "category": "Footium",
+      "readingTime": 14
     },
     {
       "id": "section1",
@@ -29,8 +32,8 @@
       "date": "07/02/2024",
       "url": "/Emergence",
       "markdownUrl": "/articles/Emergence.md",
-      "category": "Philosophy"
-
+      "category": "Philosophy",
+      "readingTime": 7
     },
     {
       "id": "section3",
@@ -38,8 +41,8 @@
       "date": "15/02/2024",
       "url": "/introduction-zks",
       "markdownUrl": "/articles/Introduction_Zks.md",
-      "category": "Computer-Science"
-
+      "category": "Computer-Science",
+      "readingTime": 12
     },
     {
       "id": "section4",
@@ -47,7 +50,8 @@
       "date": "21/02/2024",
       "url": "/introduction-zks-gaming",
       "markdownUrl": "/articles/Introduction_Zks_Gaming.md",
-      "category": "Computer-Science"
+      "category": "Computer-Science",
+      "readingTime": 5
     },
     {
       "id": "section7",
@@ -55,8 +59,8 @@
       "date": "14/11/2024",
       "url": "/Recapping-2024",
       "markdownUrl": "/articles/Recapping_2024.md",
-      "category": "Personal"
-
+      "category": "Personal",
+      "readingTime": 2
     },
     {
       "id": "section8",
@@ -64,7 +68,8 @@
       "date": "03/03/2024",
       "url": "/Footium-Biggest-IP",
       "markdownUrl": "/articles/Footium_Biggest_IP.md",
-      "category": "Footium"
+      "category": "Footium",
+      "readingTime": 3
     },
     {
       "id": "section9",
@@ -72,7 +77,8 @@
       "date": "06/02/2025",
       "url": "/Marketplace-of-Ideas",
       "markdownUrl": "/articles/What_Is_the_Marketplace_of_Ideas.md",
-      "category": "Philosophy"
+      "category": "Philosophy",
+      "readingTime": 9
     },
     {
       "id": "section10",
@@ -80,15 +86,17 @@
       "date": "15/03/2025",
       "url": "/AI_Thinks_Like_The_Market",
       "markdownUrl": "/articles/AI_Thinks_Like_The_Market.md",
-      "category": "Philosophy"
+      "category": "Philosophy",
+      "readingTime": 12
     },
     {
       "id": "section11",
       "title": "The weapons were always autonomous",
       "date": "14/04/2025",
-      "url": "/Autonomous_Weapons", 
+      "url": "/Autonomous_Weapons",
       "markdownUrl": "/articles/Autonomous_Weapons.md",
-      "category": "Technology"
+      "category": "Technology",
+      "readingTime": 12
     },
     {
       "id": "section12",
@@ -96,7 +104,8 @@
       "date": "10/05/2025",
       "url": "/Who_set_the_prices_Who_Who",
       "markdownUrl": "/articles/Who_set_the_prices_Who_Who.md",
-      "category": "Economics"
+      "category": "Economics",
+      "readingTime": 7
     },
     {
       "id": "section13",
@@ -104,6 +113,7 @@
       "date": "15/05/2025",
       "url": "/Managerial-Ethics",
       "markdownUrl": "/articles/Managerial_Ethics_Ethical_Micro_Management.md",
-      "category": "Philosophy"
+      "category": "Philosophy",
+      "readingTime": 4
     }
 ]

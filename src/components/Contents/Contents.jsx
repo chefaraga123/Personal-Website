@@ -11,7 +11,12 @@ const ContentsComponent = ({ sections, filter }) => {
       {filteredSections.map((section) => (
         <a key={section.id} href={section.url} className={styles.panel}>
           <span className={styles.title}>{section.title}</span>
-          <span className={styles.date}>{section.date}</span>
+          <div className={styles.meta}>
+            {section.readingTime && (
+              <span className={styles.readingTime}>{section.readingTime} min</span>
+            )}
+            <span className={styles.date}>{section.date}</span>
+          </div>
         </a>
       ))}
     </div>

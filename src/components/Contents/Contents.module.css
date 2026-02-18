@@ -23,9 +23,22 @@
   text-align: left;
 }
 
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+
+.readingTime {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+}
+
 .date {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.45);
   white-space: nowrap;
-  margin-left: 16px;
 }
