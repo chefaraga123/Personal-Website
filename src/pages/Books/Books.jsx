@@ -128,21 +128,26 @@ const Books = () => {
             )}
 
             <div className={styles.filterPills}>
-                {genres.map((genre) => (
+                {genres.map((genre) => {
+                    if (genreCountMap[genre] === 0 && !selectedGenres.includes(genre)) return null;
+                    return (
+                        <button
+                            key={genre}
+                            className={`${styles.pill} ${selectedGenres.includes(genre) ? styles.pillActive : ''}`}
+                            onClick={() => handleGenreSelect(genre)}
+                        >
+                            {genre} <span className={styles.pillCount}>{genreCountMap[genre]}</span>
+                        </button>
+                    );
+                })}
+                {(summaryCount > 0 || showWithSummary) && (
                     <button
-                        key={genre}
-                        className={`${styles.pill} ${selectedGenres.includes(genre) ? styles.pillActive : ''}`}
-                        onClick={() => handleGenreSelect(genre)}
+                        className={`${styles.pill} ${showWithSummary ? styles.pillActive : ''}`}
+                        onClick={handleSummaryFilter}
                     >
-                        {genre} <span className={styles.pillCount}>{genreCountMap[genre]}</span>
+                        Has summary <span className={styles.pillCount}>{summaryCount}</span>
                     </button>
-                ))}
-                <button
-                    className={`${styles.pill} ${showWithSummary ? styles.pillActive : ''}`}
-                    onClick={handleSummaryFilter}
-                >
-                    Has summary <span className={styles.pillCount}>{summaryCount}</span>
-                </button>
+                )}
             </div>
             <p className={styles.resultCount}>Showing {displayedBooks.length} {displayedBooks.length === 1 ? 'book' : 'books'}</p>
             <div className={styles.bookshelf}>
