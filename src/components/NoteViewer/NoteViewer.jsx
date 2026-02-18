@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import { Link } from 'react-router-dom';
 import styles from './NoteViewer.module.css';
 
 const NoteViewer = ({ noteName }) => {
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
+    const [prevNote, setPrevNote] = useState(null);
+    const [nextNote, setNextNote] = useState(null);
 
     useEffect(() => {
         fetch(`/notes/${noteName}.md`)
             .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
+                if (!response.ok) throw new Error('Network response was not ok');
                 return response.text();
             })
             .then(data => {
@@ -25,16 +26,46 @@ const NoteViewer = ({ noteName }) => {
                     setBody(data);
                 }
             })
-            .catch(error => {
-                console.error('Error fetching note:', error);
-            });
+            .catch(error => console.error('Error fetching note:', error));
     }, [noteName]);
+
+    useEffect(() => {
+        fetch('/obsidianGraph.json')
+            .then(r => r.json())
+            .then(({ nodes }) => {
+                const idx = nodes.findIndex(n => n.url === `notes/${noteName}.md`);
+                if (idx === -1) return;
+                setPrevNote(idx > 0 ? nodes[idx - 1] : null);
+                setNextNote(idx < nodes.length - 1 ? nodes[idx + 1] : null);
+            })
+            .catch(error => console.error('Error fetching graph:', error));
+    }, [noteName]);
+
+    const noteUrl = (url) => `/notes/${url.replace('notes/', '').replace('.md', '')}`;
 
     return (
         <div className={styles.noteWrapper}>
             <h1 className={styles.noteTitle}>{title}</h1>
             <div className={styles.noteContainer}>
                 <ReactMarkdown>{body}</ReactMarkdown>
+            </div>
+            <div className={styles.noteNav}>
+                <div className={styles.noteNavPrev}>
+                    {prevNote && (
+                        <Link to={noteUrl(prevNote.url)}>
+                            <span className={styles.noteNavLabel}>← Previous</span>
+                            <span className={styles.noteNavTitle}>{prevNote.label}</span>
+                        </Link>
+                    )}
+                </div>
+                <div className={styles.noteNavNext}>
+                    {nextNote && (
+                        <Link to={noteUrl(nextNote.url)}>
+                            <span className={styles.noteNavLabel}>Next →</span>
+                            <span className={styles.noteNavTitle}>{nextNote.label}</span>
+                        </Link>
+                    )}
+                </div>
             </div>
         </div>
     );

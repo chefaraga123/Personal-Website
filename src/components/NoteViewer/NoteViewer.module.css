@@ -34,5 +34,51 @@
 }
 
 .noteContainer a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
+}
+
+.noteNav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.noteNavPrev,
+.noteNavNext {
+    max-width: 45%;
+}
+
+.noteNavNext {
+    text-align: right;
+    margin-left: auto;
+}
+
+.noteNavPrev a,
+.noteNavNext a {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 120ms ease;
+}
+
+.noteNavPrev a:hover,
+.noteNavNext a:hover {
+    opacity: 0.6;
+}
+
+.noteNavLabel {
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.noteNavTitle {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: #111;
 }
