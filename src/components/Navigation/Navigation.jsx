@@ -30,22 +30,12 @@ const Navigation = () => {
             >
                 Knowledge Graph
             </NavLink>
-            <a
-                href="https://languages.jamesoleary.xyz"
-                className={styles.navLink}
-                target="_blank"
-                rel="noopener noreferrer"
+            <NavLink
+                to="/projects"
+                className={({ isActive }) => isActive ? `${styles.navLink} ${styles.active}` : styles.navLink}
             >
-                Languages
-            </a>
-            <a
-                href="https://tracker.jamesoleary.xyz"
-                className={styles.navLink}
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Tracker
-            </a>
+                Projects
+            </NavLink>
         </div>
     );
 };
