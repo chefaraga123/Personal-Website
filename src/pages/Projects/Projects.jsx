@@ -39,6 +39,12 @@ const projects = [
         url: 'https://flowcharts.jamesoleary.xyz',
         tags: ['Productivity', 'AI', 'Tool'],
     },
+    {
+        title: 'GitPlan',
+        description: 'A self-hosted GitBook for planning and documentation.',
+        url: 'https://design.jamesoleary.xyz',
+        tags: ['Documentation', 'Tool'],
+    },
 ];
 
 const Projects = () => {
