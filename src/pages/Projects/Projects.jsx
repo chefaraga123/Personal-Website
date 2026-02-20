@@ -33,6 +33,12 @@ const projects = [
         url: 'https://www.footiumchat.com/',
         tags: ['Footium', 'AI'],
     },
+    {
+        title: 'LifeFlow',
+        description: 'AI-assisted flowchart tool for personal goal setting — break down ambitions into structured, actionable steps.',
+        url: 'https://flowcharts.jamesoleary.xyz',
+        tags: ['Productivity', 'AI', 'Tool'],
+    },
 ];
 
 const Projects = () => {
