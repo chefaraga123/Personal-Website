@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import Navigation from '../../components/Navigation/Navigation';
-import BookData from './BookData.json'; // Import your JSON data
-import { Link, Link as RouterLink } from 'react-router-dom';
-import styles from './Books.module.css'; // Import your CSS module
-import ReactMarkdown from 'react-markdown'; // Import the library
+import BookData from './BookData.json';
+import { Link } from 'react-router-dom';
+import styles from './Books.module.css';
 
 const Books = () => {
     const [books, setBooks] = useState([]);
     const [filteredBooks, setFilteredBooks] = useState([]);
     const [selectedGenres, setSelectedGenres] = useState([]);
-    const [showWithSummary, setShowWithSummary] = useState(false); // New state for filtering books with summaries
+    const [showWithSummary, setShowWithSummary] = useState(false);
     const [bookOfTheDay, setBookOfTheDay] = useState(null);
 
     // Function to get a deterministic "random" book based on the current date
@@ -31,33 +30,25 @@ const Books = () => {
     };
 
     useEffect(() => {
-        // Set the fetched data to state
         setBooks(BookData);
-        setFilteredBooks(BookData); // Initialize filtered books with all books
+        setFilteredBooks(BookData);
 
-        // Set book of the day from books with summaries
         const booksWithSummaries = BookData.filter(book => book.summaryLink);
         setBookOfTheDay(getBookOfTheDay(booksWithSummaries));
     }, []);
 
-    // Function to handle genre selection
     const handleGenreSelect = (genre) => {
         if (selectedGenres.includes(genre)) {
-            // If the genre is already selected, remove it
             setSelectedGenres(selectedGenres.filter((g) => g !== genre));
         } else {
-            // If the genre is not selected, add it
             setSelectedGenres([...selectedGenres, genre]);
         }
     };
 
-    // Function to filter books based on selected genres
     useEffect(() => {
         if (selectedGenres.length === 0) {
-            // If no genres are selected, show all books
             setFilteredBooks(books);
         } else {
-            // Filter books based on selected genres
             const filtered = books.filter((book) =>
                 selectedGenres.every((genre) => book.genre.includes(genre))
             );
@@ -65,7 +56,6 @@ const Books = () => {
         }
     }, [selectedGenres, books]);
 
-    // Function to handle the summary filter
     const handleSummaryFilter = () => {
         setShowWithSummary(!showWithSummary);
     };
@@ -75,8 +65,21 @@ const Books = () => {
 
     // Count books per genre within the displayed set
     const genreCountMap = {};
-    const genres = ["Biography", "History", "Politics", "Warfare", "Technology", "Philosophy",
-        "Economics", "Management", "Mathematics", "Engineering", "Sociology", "Fiction"];
+    const genres = [
+        "Biography",
+        "History",
+        "Politics",
+        "Warfare",
+        "Technology",
+        "Philosophy",
+        "Economics",
+        "Management",
+        "Mathematics",
+        "Engineering",
+        "Sociology",
+        "Fiction"
+    ];
+
     genres.forEach(genre => {
         genreCountMap[genre] = displayedBooks.filter(book => book.genre.includes(genre)).length;
     });
@@ -85,27 +88,26 @@ const Books = () => {
     const summaryCount = filteredBooks.filter(book => book.summaryLink).length;
 
     const renderSummary = (summary) => {
-        // Replace note links with actual links to the public notes
-        const regex = /\[(.*?)\]\((notes\/.*?\.md)\)/g; // Regex to match [text](notes/filename.md)
+        const regex = /\[(.*?)\]\((notes\/.*?\.md)\)/g;
         const parts = summary.split(regex);
         return parts.map((part, index) => {
             if (index % 3 === 1) {
-                // This is the link text
                 const linkText = part;
-                const linkUrl = `../${parts[index + 1]}`; // Move up one directory and then to notes
+                const linkUrl = `../${parts[index + 1]}`;
                 return (
                     <a key={index} href={linkUrl} target="_blank" rel="noopener noreferrer">
                         {linkText}
                     </a>
                 );
             }
-            return part; // Return the text as is
+            return part;
         });
     };
 
     return (
         <div className={styles.booksContainer}>
             <Navigation />
+
             {bookOfTheDay && (
                 <div className={styles.bookOfTheDay}>
                     <h2>Book of the Day</h2>
@@ -119,6 +121,9 @@ const Books = () => {
                             <div className={styles.bookOfTheDayInfo}>
                                 <h3>{bookOfTheDay.title}</h3>
                                 <p className={styles.bookOfTheDayAuthor}>by {bookOfTheDay.author}</p>
+                                {bookOfTheDay.genre && (
+                                    <p className={styles.bookOfTheDayGenres}>{bookOfTheDay.genre.join(', ')}</p>
+                                )}
                                 <span className={styles.readReviewLink}>Read Review →</span>
                             </div>
                         </Link>
@@ -126,47 +131,68 @@ const Books = () => {
                 </div>
             )}
 
-            <div className={styles.filterPills}>
-                {genres.map((genre) => {
-                    if (genreCountMap[genre] === 0 && !selectedGenres.includes(genre)) return null;
-                    return (
+            <div className={styles.filterBar}>
+                <div className={styles.filterPills}>
+                    {genres.map((genre) => {
+                        if (genreCountMap[genre] === 0 && !selectedGenres.includes(genre)) return null;
+
+                        return (
+                            <button
+                                key={genre}
+                                className={`${styles.pill} ${selectedGenres.includes(genre) ? styles.pillActive : ''}`}
+                                onClick={() => handleGenreSelect(genre)}
+                            >
+                                {genre} <span className={styles.pillCount}>{genreCountMap[genre]}</span>
+                            </button>
+                        );
+                    })}
+
+                    {(summaryCount > 0 || showWithSummary) && (
                         <button
-                            key={genre}
-                            className={`${styles.pill} ${selectedGenres.includes(genre) ? styles.pillActive : ''}`}
-                            onClick={() => handleGenreSelect(genre)}
+                            className={`${styles.pill} ${showWithSummary ? styles.pillActive : ''}`}
+                            onClick={handleSummaryFilter}
                         >
-                            {genre} <span className={styles.pillCount}>{genreCountMap[genre]}</span>
+                            Has summary <span className={styles.pillCount}>{summaryCount}</span>
                         </button>
-                    );
-                })}
-                {(summaryCount > 0 || showWithSummary) && (
-                    <button
-                        className={`${styles.pill} ${showWithSummary ? styles.pillActive : ''}`}
-                        onClick={handleSummaryFilter}
-                    >
-                        Has summary <span className={styles.pillCount}>{summaryCount}</span>
-                    </button>
-                )}
+                    )}
+                </div>
+
+                <p className={styles.resultCount}>
+                    Showing {displayedBooks.length} {displayedBooks.length === 1 ? 'book' : 'books'}
+                </p>
             </div>
-            <p className={styles.resultCount}>Showing {displayedBooks.length} {displayedBooks.length === 1 ? 'book' : 'books'}</p>
+
             <div className={styles.bookshelf}>
-                {displayedBooks
-                    .map((book, index) => (
+                {displayedBooks.map((book, index) => {
+                    const cardInner = (
+                        <>
+                            <img src={book.image} alt={book.title} className={styles.bookImage} loading="lazy" />
+                            <div className={styles.bookMeta}>
+                                <div className={styles.bookTitle}>{book.title}</div>
+                                {book.author && <div className={styles.bookAuthor}>{book.author}</div>}
+                            </div>
+                            {book.summaryLink && <div className={styles.readReview}>Read review →</div>}
+                        </>
+                    );
+
+                    return (
                         <div key={index} className={styles.bookItem}>
-                            <Link to={book.summaryLink}>
-                                <img src={book.image} alt={book.title} className={styles.bookImage} />
-                                <div className={styles.bookInfo}>
-                                    <span className={styles.bookTitle}>{book.title}</span>
-                                    <span className={styles.bookAuthor}>{book.author}</span>
-                                </div>
-                            </Link>
+                            {book.summaryLink ? (
+                                <Link to={book.summaryLink} className={styles.bookCard}>
+                                    {cardInner}
+                                </Link>
+                            ) : (
+                                <div className={`${styles.bookCard} ${styles.bookCardDisabled}`}> {cardInner} </div>
+                            )}
+
                             {book.summary && (
                                 <div className={styles.summary}>
                                     {renderSummary(book.summary)}
                                 </div>
                             )}
                         </div>
-                    ))}
+                    );
+                })}
             </div>
         </div>
     );
