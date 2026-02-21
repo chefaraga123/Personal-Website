@@ -1027,5 +1027,13 @@
       "Post-Apocalyptic"
     ],
     "image": "/images/Placeholder_Book_Cover.svg"
+  },
+  {
+    "title": "The Dark Fields",
+    "author": "Alan Glynn",
+    "genre": [
+      "Fiction"
+    ],
+    "image": "/images/The_Dark_Fields_Cover.jpg"
   }
 ]
