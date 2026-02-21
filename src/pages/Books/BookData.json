@@ -1035,5 +1035,37 @@
       "Fiction"
     ],
     "image": "/images/The_Dark_Fields_Cover.jpg"
+  },
+  {
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "genre": [
+      "Science Fiction"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
+  },
+  {
+    "title": "Foundation and Empire",
+    "author": "Isaac Asimov",
+    "genre": [
+      "Science Fiction"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
+  },
+  {
+    "title": "Second Foundation",
+    "author": "Isaac Asimov",
+    "genre": [
+      "Science Fiction"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
+  },
+  {
+    "title": "The Cyberiad",
+    "author": "Stanislaw Lem",
+    "genre": [
+      "Science Fiction"
+    ],
+    "image": "/images/Placeholder_Book_Cover.svg"
   }
 ]
