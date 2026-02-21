@@ -127,44 +127,61 @@ const Books = () => {
                 </div>
             )}
 
-            <div className={styles.filterPills}>
-                {genres.map((genre) => (
+            <div className={styles.filterBar}>
+                <div className={styles.filterPills}>
+                    {genres.map((genre) => (
+                        <button
+                            key={genre}
+                            className={`${styles.pill} ${selectedGenres.includes(genre) ? styles.pillActive : ''}`}
+                            onClick={() => handleGenreSelect(genre)}
+                        >
+                            {genre} <span className={styles.pillCount}>{genreCountMap[genre]}</span>
+                        </button>
+                    ))}
                     <button
-                        key={genre}
-                        className={`${styles.pill} ${selectedGenres.includes(genre) ? styles.pillActive : ''}`}
-                        onClick={() => handleGenreSelect(genre)}
+                        className={`${styles.pill} ${showWithSummary ? styles.pillActive : ''}`}
+                        onClick={handleSummaryFilter}
                     >
-                        {genre} <span className={styles.pillCount}>{genreCountMap[genre]}</span>
+                        Has summary <span className={styles.pillCount}>{summaryCount}</span>
                     </button>
-                ))}
-                <button
-                    className={`${styles.pill} ${showWithSummary ? styles.pillActive : ''}`}
-                    onClick={handleSummaryFilter}
-                >
-                    Has summary <span className={styles.pillCount}>{summaryCount}</span>
-                </button>
+                </div>
+
+                <p className={styles.resultCount}>Showing {displayedBooks.length} {displayedBooks.length === 1 ? 'book' : 'books'}</p>
             </div>
-            <p className={styles.resultCount}>Showing {displayedBooks.length} {displayedBooks.length === 1 ? 'book' : 'books'}</p>
+
             <div className={styles.bookshelf}>
-                {displayedBooks
-                    .map((book, index) => (
+                {displayedBooks.map((book, index) => {
+                    const cardInner = (
+                        <>
+                            <img src={book.image} alt={book.title} className={styles.bookImage} loading="lazy" />
+                            <div className={styles.bookMeta}>
+                                <div className={styles.bookTitle}>{book.title}</div>
+                                {book.author && <div className={styles.bookAuthor}>{book.author}</div>}
+                            </div>
+                            {book.summaryLink && <div className={styles.readReview}>Read review →</div>}
+                        </>
+                    );
+
+                    return (
                         <div key={index} className={styles.bookItem}>
-                            <Link to={book.summaryLink}>
-                                <img src={book.image} alt={book.title} className={styles.bookImage} />
-                                <div className={styles.bookInfo}>
-                                    <strong>Title:</strong> {book.title} <br />
-                                    <strong>Author:</strong> {book.author} <br />
-                                    <strong>Genres:</strong> {book.genre.join(', ')} <br />
-                                    {book.summaryLink && <span className={styles.summaryFlag}>📖</span>}
+                            {book.summaryLink ? (
+                                <Link to={book.summaryLink} className={styles.bookCard}>
+                                    {cardInner}
+                                </Link>
+                            ) : (
+                                <div className={`${styles.bookCard} ${styles.bookCardDisabled}`}>
+                                    {cardInner}
                                 </div>
-                            </Link>
+                            )}
+
                             {book.summary && (
                                 <div className={styles.summary}>
                                     {renderSummary(book.summary)}
                                 </div>
                             )}
                         </div>
-                    ))}
+                    );
+                })}
             </div>
         </div>
     );
