@@ -13,58 +13,107 @@
 
 .subheading {
     color: #666;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 1.25rem;
+/* Diagram */
+
+.diagramWrapper {
+    overflow-x: auto;
 }
 
-.card {
-    display: block;
+.diagram {
+    position: relative;
+    min-width: 560px;
+    height: 420px;
+    margin-bottom: 0.5rem;
+}
+
+.diagramSvg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.line {
+    stroke: #e0e0e0;
+    stroke-width: 1.5;
+    transition: stroke 0.2s, opacity 0.2s;
+}
+
+.lineHighlighted {
+    stroke: #333;
+}
+
+.lineDimmed {
+    opacity: 0.15;
+}
+
+.node {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    padding: 0.75rem 1rem;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
-    padding: 1.25rem;
+    background: white;
     text-decoration: none;
     color: inherit;
-    transition: border-color 0.15s, box-shadow 0.15s;
+    text-align: center;
+    transition: border-color 0.15s, box-shadow 0.15s, opacity 0.2s;
 }
 
-.card:hover {
+.node:hover {
     border-color: #aaa;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.cardTitle {
-    font-size: 1.05rem;
-    font-weight: 600;
-    margin: 0 0 0.5rem;
+.nodeHovered {
+    border-color: #333;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.cardDescription {
-    font-size: 0.9rem;
-    color: #555;
-    margin: 0 0 0.75rem;
-    line-height: 1.5;
+.nodeDimmed {
+    opacity: 0.25;
 }
 
-.tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-}
-
-.tag {
-    font-size: 0.75rem;
-    background: #f0f0f0;
-    border-radius: 4px;
-    padding: 0.2rem 0.5rem;
-    color: #444;
-}
-
-.empty {
+.nodeRole {
+    font-size: 0.65rem;
     color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.3rem;
+}
+
+.nodeTitle {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #111;
+}
+
+/* Info panel */
+
+.infoPanel {
+    min-height: 3rem;
+    padding: 1.25rem 0;
+    border-top: 1px solid #ebebeb;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.infoPanelTitle {
+    font-weight: 600;
+    color: #111;
+}
+
+.infoPanelDescription {
+    color: #555;
+}
+
+.infoPanelHint {
+    color: #bbb;
     font-style: italic;
 }

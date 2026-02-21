@@ -1,80 +1,129 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navigation from '../../components/Navigation/Navigation';
 import styles from './Projects.module.css';
 
-const projects = [
+const nodes = [
     {
-        title: 'Languages',
-        description: 'Tracking my German and Danish language learning journey — flashcard progress, timelines, and strategies.',
-        url: 'https://languages.jamesoleary.xyz',
-        tags: ['Language Learning'],
-    },
-    {
-        title: 'Tracker',
-        description: 'Personal habit tracking — wakeup times and gym attendance visualised over time.',
-        url: 'https://tracker.jamesoleary.xyz',
-        tags: ['Data', 'Habits'],
-    },
-    {
-        title: 'Report Generator',
-        description: 'A tool for generating post-match reports for Footium.',
-        url: 'https://report-generator-front-end.vercel.app/',
-        tags: ['Footium', 'Tool'],
-    },
-    {
-        title: 'Your Personal Accountant',
-        description: 'Classify transactions from bank statements automatically.',
-        url: 'https://www.yourpersonalaccountant.today/',
-        tags: ['Finance', 'AI'],
-    },
-    {
-        title: 'Footium Chat',
-        description: 'Post-match interviews with your Footium players.',
-        url: 'https://www.footiumchat.com/',
-        tags: ['Footium', 'AI'],
-    },
-    {
-        title: 'LifeFlow',
-        description: 'AI-assisted flowchart tool for personal goal setting — break down ambitions into structured, actionable steps.',
-        url: 'https://flowcharts.jamesoleary.xyz',
-        tags: ['Productivity', 'AI', 'Tool'],
-    },
-    {
+        id: 'gitplan',
         title: 'GitPlan',
-        description: 'A self-hosted GitBook for planning and documentation.',
+        role: 'Design Layer',
+        description: 'Plans and documents the system — version-controlling design decisions, feature specs, and architecture across all apps.',
         url: 'https://design.jamesoleary.xyz',
-        tags: ['Documentation', 'Tool'],
+        cx: 50, cy: 14,
+    },
+    {
+        id: 'lifeflow',
+        title: 'LifeFlow',
+        role: 'Planning Layer',
+        description: 'Breaks down goals into structured, actionable steps — determines what to track and what to learn.',
+        url: 'https://flowcharts.jamesoleary.xyz',
+        cx: 22, cy: 50,
+    },
+    {
+        id: 'languages',
+        title: 'Languages',
+        role: 'Learning Layer',
+        description: 'Tracks German and Danish language learning — flashcard progress, timelines, and study strategies. Study habits feed into Tracker.',
+        url: 'https://languages.jamesoleary.xyz',
+        cx: 78, cy: 50,
+    },
+    {
+        id: 'tracker',
+        title: 'Tracker',
+        role: 'Data Layer',
+        description: 'The data foundation — captures daily habits, wakeup times, and gym attendance. All other apps will eventually surface data here.',
+        url: 'https://tracker.jamesoleary.xyz',
+        cx: 50, cy: 86,
     },
 ];
 
+const connections = [
+    { from: 'gitplan', to: 'lifeflow' },
+    { from: 'gitplan', to: 'languages' },
+    { from: 'lifeflow', to: 'tracker' },
+    { from: 'languages', to: 'tracker' },
+    { from: 'lifeflow', to: 'languages' },
+];
+
 const Projects = () => {
+    const [hoveredId, setHoveredId] = useState(null);
+
+    const getConnectedIds = (id) => {
+        if (!id) return new Set();
+        const connected = new Set();
+        connections.forEach(({ from, to }) => {
+            if (from === id) connected.add(to);
+            if (to === id) connected.add(from);
+        });
+        return connected;
+    };
+
+    const connectedIds = getConnectedIds(hoveredId);
+    const hoveredNode = nodes.find(n => n.id === hoveredId);
+    const getNodeById = (id) => nodes.find(n => n.id === id);
+
     return (
         <div className={styles.container}>
             <Navigation />
             <h1 className={styles.heading}>Projects</h1>
-            <p className={styles.subheading}>A directory of mini-apps and experiments.</p>
-            <div className={styles.grid}>
-                {projects.map((project, i) => (
-                    <a
-                        key={i}
-                        href={project.url}
-                        className={styles.card}
-                        target="_blank"
-                        rel="noopener noreferrer"
+            <p className={styles.subheading}>A system of mini-apps designed to work together.</p>
+
+            <div className={styles.diagramWrapper}>
+                <div className={styles.diagram}>
+                    <svg
+                        className={styles.diagramSvg}
+                        viewBox="0 0 100 100"
+                        preserveAspectRatio="none"
+                        aria-hidden="true"
                     >
-                        <h2 className={styles.cardTitle}>{project.title}</h2>
-                        <p className={styles.cardDescription}>{project.description}</p>
-                        {project.tags && (
-                            <div className={styles.tags}>
-                                {project.tags.map((tag, j) => (
-                                    <span key={j} className={styles.tag}>{tag}</span>
-                                ))}
-                            </div>
-                        )}
-                    </a>
-                ))}
-                {projects.length === 0 && (
-                    <p className={styles.empty}>Nothing here yet.</p>
+                        {connections.map((conn, i) => {
+                            const from = getNodeById(conn.from);
+                            const to = getNodeById(conn.to);
+                            const isHighlighted = hoveredId && (conn.from === hoveredId || conn.to === hoveredId);
+                            const isDimmed = hoveredId && !isHighlighted;
+                            return (
+                                <line
+                                    key={i}
+                                    x1={from.cx} y1={from.cy}
+                                    x2={to.cx} y2={to.cy}
+                                    className={`${styles.line} ${isHighlighted ? styles.lineHighlighted : ''} ${isDimmed ? styles.lineDimmed : ''}`}
+                                    vectorEffect="non-scaling-stroke"
+                                />
+                            );
+                        })}
+                    </svg>
+
+                    {nodes.map((node) => {
+                        const isHovered = hoveredId === node.id;
+                        const isConnected = connectedIds.has(node.id);
+                        const isDimmed = hoveredId && !isHovered && !isConnected;
+                        return (
+                            <a
+                                key={node.id}
+                                href={node.url}
+                                className={`${styles.node} ${isHovered ? styles.nodeHovered : ''} ${isDimmed ? styles.nodeDimmed : ''}`}
+                                style={{ left: `${node.cx}%`, top: `${node.cy}%` }}
+                                onMouseEnter={() => setHoveredId(node.id)}
+                                onMouseLeave={() => setHoveredId(null)}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <div className={styles.nodeRole}>{node.role}</div>
+                                <div className={styles.nodeTitle}>{node.title}</div>
+                            </a>
+                        );
+                    })}
+                </div>
+            </div>
+
+            <div className={styles.infoPanel}>
+                {hoveredNode ? (
+                    <>
+                        <span className={styles.infoPanelTitle}>{hoveredNode.title} — </span>
+                        <span className={styles.infoPanelDescription}>{hoveredNode.description}</span>
+                    </>
+                ) : (
+                    <span className={styles.infoPanelHint}>Hover an app to learn more</span>
                 )}
             </div>
         </div>
