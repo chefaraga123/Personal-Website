@@ -399,7 +399,9 @@
       "Psychology",
       "Linguistics"
     ],
-    "image": "/images/Course_in_General_Linguists_Cover.jpg"
+    "image": "/images/Course_in_General_Linguists_Cover.jpg",
+    "summaryLink": "/books/Course_in_General_Linguistics",
+    "id": "Course_in_General_Linguistics"
   },
   {
     "title": "Fear and Loathing in Las Vegas",
