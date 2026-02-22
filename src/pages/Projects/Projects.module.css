@@ -39,8 +39,9 @@
 }
 
 .line {
-    stroke: #e0e0e0;
+    stroke: #ccc;
     stroke-width: 1.5;
+    stroke-dasharray: 5 4;
     transition: stroke 0.2s, opacity 0.2s;
 }
 
@@ -116,4 +117,24 @@
 .infoPanelHint {
     color: #bbb;
     font-style: italic;
+}
+
+/* Legend */
+
+.legend {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.legendLine {
+    display: inline-block;
+    width: 28px;
+    border-top: 1.5px dashed #ccc;
+}
+
+.legendLabel {
+    font-size: 0.75rem;
+    color: #aaa;
 }

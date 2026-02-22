@@ -1,6 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useLayoutEffect } from 'react';
 import Navigation from '../../components/Navigation/Navigation';
 import styles from './Projects.module.css';
+
+const NODE_W = 140;
+const NODE_H = 60;
 
 const nodes = [
     {
@@ -38,15 +41,44 @@ const nodes = [
 ];
 
 const connections = [
-    { from: 'gitplan', to: 'lifeflow' },
-    { from: 'gitplan', to: 'languages' },
-    { from: 'lifeflow', to: 'tracker' },
-    { from: 'languages', to: 'tracker' },
-    { from: 'lifeflow', to: 'languages' },
+    { from: 'gitplan',   to: 'lifeflow'  },
+    { from: 'gitplan',   to: 'languages' },
+    { from: 'lifeflow',  to: 'tracker'   },
+    { from: 'languages', to: 'tracker'   },
+    { from: 'lifeflow',  to: 'languages' },
 ];
+
+const getEdgePoints = (fromNode, toNode, dims) => {
+    const hw = NODE_W / 2;
+    const hh = NODE_H / 2;
+    const fx = fromNode.cx / 100 * dims.width;
+    const fy = fromNode.cy / 100 * dims.height;
+    const tx = toNode.cx / 100 * dims.width;
+    const ty = toNode.cy / 100 * dims.height;
+    const dx = tx - fx, dy = ty - fy;
+    const len = Math.sqrt(dx * dx + dy * dy);
+    if (len === 0) return { x1: fx, y1: fy, x2: tx, y2: ty };
+    const nx = dx / len, ny = dy / len;
+    const d = nx === 0 ? hh / Math.abs(ny)
+            : ny === 0 ? hw / Math.abs(nx)
+            : Math.min(hw / Math.abs(nx), hh / Math.abs(ny));
+    return { x1: fx + nx * d, y1: fy + ny * d, x2: tx - nx * d, y2: ty - ny * d };
+};
 
 const Projects = () => {
     const [hoveredId, setHoveredId] = useState(null);
+    const diagramRef = useRef(null);
+    const [dims, setDims] = useState({ width: 560, height: 420 });
+
+    useLayoutEffect(() => {
+        if (!diagramRef.current) return;
+        const ro = new ResizeObserver(entries => {
+            const { width, height } = entries[0].contentRect;
+            setDims({ width, height });
+        });
+        ro.observe(diagramRef.current);
+        return () => ro.disconnect();
+    }, []);
 
     const getConnectedIds = (id) => {
         if (!id) return new Set();
@@ -69,25 +101,34 @@ const Projects = () => {
             <p className={styles.subheading}>A system of mini-apps designed to work together.</p>
 
             <div className={styles.diagramWrapper}>
-                <div className={styles.diagram}>
+                <div className={styles.diagram} ref={diagramRef}>
                     <svg
                         className={styles.diagramSvg}
-                        viewBox="0 0 100 100"
-                        preserveAspectRatio="none"
+                        viewBox={`0 0 ${dims.width} ${dims.height}`}
                         aria-hidden="true"
                     >
+                        <defs>
+                            <marker id="arrow-default" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+                                <path d="M0,1 L10,4 L0,7 Z" fill="#ccc" />
+                            </marker>
+                            <marker id="arrow-highlighted" markerWidth="10" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+                                <path d="M0,1 L10,4 L0,7 Z" fill="#333" />
+                            </marker>
+                        </defs>
+
                         {connections.map((conn, i) => {
                             const from = getNodeById(conn.from);
                             const to = getNodeById(conn.to);
                             const isHighlighted = hoveredId && (conn.from === hoveredId || conn.to === hoveredId);
                             const isDimmed = hoveredId && !isHighlighted;
+                            const { x1, y1, x2, y2 } = getEdgePoints(from, to, dims);
                             return (
                                 <line
                                     key={i}
-                                    x1={from.cx} y1={from.cy}
-                                    x2={to.cx} y2={to.cy}
+                                    x1={x1} y1={y1}
+                                    x2={x2} y2={y2}
                                     className={`${styles.line} ${isHighlighted ? styles.lineHighlighted : ''} ${isDimmed ? styles.lineDimmed : ''}`}
-                                    vectorEffect="non-scaling-stroke"
+                                    markerEnd={isHighlighted ? 'url(#arrow-highlighted)' : 'url(#arrow-default)'}
                                 />
                             );
                         })}
@@ -125,6 +166,11 @@ const Projects = () => {
                 ) : (
                     <span className={styles.infoPanelHint}>Hover an app to learn more</span>
                 )}
+            </div>
+
+            <div className={styles.legend}>
+                <span className={styles.legendLine} />
+                <span className={styles.legendLabel}>planned integration</span>
             </div>
         </div>
     );
