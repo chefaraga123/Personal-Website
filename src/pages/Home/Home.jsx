@@ -11,6 +11,7 @@ const Home = () => {
             <Navigation />
             <section className={styles.recentUpdates}>
                 <h2>Updates</h2>
+                <p><span>07/05/2026: <a href="https://visualisations.jamesoleary.xyz">Visualisations</a> for interactive data visualisations and charts</span><Tag label="Shipped" /></p>
                 <p><span>16/02/2026: <a href="https://languages.jamesoleary.xyz">Languages</a> producing a spaced repetition tool</span><Tag label="Shipped" /></p>
                 <p><span>12/02/2026: <a href="https://tracker.jamesoleary.xyz">Tracker</a> for tracking habits and metrics</span><Tag label="Shipped" /></p>
                 <p><span>23/01/2026: Updated the books page with a book of the day</span><Tag label="Shipped" /></p>
