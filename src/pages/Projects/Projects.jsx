@@ -12,15 +12,7 @@ const nodes = [
         role: 'Design Layer',
         description: 'Plans and documents the system — version-controlling design decisions, feature specs, and architecture across all apps.',
         url: 'https://design.jamesoleary.xyz',
-        cx: 50, cy: 14,
-    },
-    {
-        id: 'lifeflow',
-        title: 'LifeFlow',
-        role: 'Planning Layer',
-        description: 'Breaks down goals into structured, actionable steps — determines what to track and what to learn.',
-        url: 'https://flowcharts.jamesoleary.xyz',
-        cx: 22, cy: 50,
+        cx: 50, cy: 10,
     },
     {
         id: 'languages',
@@ -28,7 +20,15 @@ const nodes = [
         role: 'Learning Layer',
         description: 'Tracks German and Danish language learning — flashcard progress, timelines, and study strategies. Study habits feed into Tracker.',
         url: 'https://languages.jamesoleary.xyz',
-        cx: 78, cy: 50,
+        cx: 83, cy: 36,
+    },
+    {
+        id: 'visualisations',
+        title: 'Visualisations',
+        role: 'Visualisation Layer',
+        description: 'Interactive data visualisations and charts.',
+        url: 'https://visualisations.jamesoleary.xyz',
+        cx: 70, cy: 78,
     },
     {
         id: 'tracker',
@@ -36,16 +36,25 @@ const nodes = [
         role: 'Data Layer',
         description: 'The data foundation — captures daily habits, wakeup times, and gym attendance. All other apps will eventually surface data here.',
         url: 'https://tracker.jamesoleary.xyz',
-        cx: 50, cy: 86,
+        cx: 30, cy: 78,
+    },
+    {
+        id: 'lifeflow',
+        title: 'LifeFlow',
+        role: 'Planning Layer',
+        description: 'Breaks down goals into structured, actionable steps — determines what to track and what to learn.',
+        url: 'https://flowcharts.jamesoleary.xyz',
+        cx: 17, cy: 36,
     },
 ];
 
 const connections = [
-    { from: 'gitplan',   to: 'lifeflow'  },
-    { from: 'gitplan',   to: 'languages' },
-    { from: 'lifeflow',  to: 'tracker'   },
-    { from: 'languages', to: 'tracker'   },
-    { from: 'lifeflow',  to: 'languages' },
+    { from: 'gitplan',   to: 'lifeflow'        },
+    { from: 'gitplan',   to: 'languages'       },
+    { from: 'lifeflow',  to: 'tracker'         },
+    { from: 'languages', to: 'tracker'         },
+    { from: 'lifeflow',  to: 'languages'       },
+    { from: 'tracker',   to: 'visualisations'  },
 ];
 
 const getEdgePoints = (fromNode, toNode, dims) => {
