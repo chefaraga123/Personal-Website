@@ -5,6 +5,11 @@ import Navigation from '../../components/Navigation/Navigation';
 import ContentsComponent from '../../components/Contents/Contents';
 import sections from './sections.json'; // Adjust the path if the JSON file is in a different location
 
+const parseDate = (d) => {
+    const [day, month, year] = d.split('/').map(Number);
+    return new Date(year, month - 1, day);
+};
+
 const Writing = () => {
     return (
         <div className={styles.writingContainer}>
@@ -20,7 +25,7 @@ const Writing = () => {
             </Helmet>
             <Navigation />
 
-            <ContentsComponent sections={[...sections].filter(s => s.published !== false).reverse()} />
+            <ContentsComponent sections={[...sections].filter(s => s.published !== false).sort((a, b) => parseDate(b.date) - parseDate(a.date))} />
 
         </div>
     );
